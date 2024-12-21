@@ -25,7 +25,7 @@ weapons: [
     type: LightningBulletType
           lightningColor: F7E97EFF
           lightningLength: 15
-          lightningDamage: 875
+          lightningDamage: 6875
           hitSound: spark
           lifetime: 3
           hiteffect: [
