@@ -52,7 +52,7 @@
         "damage": 600,
         "hitEffect": "lightningShoot",
         "shootEffect": "lightningShoot",
-        "effect": {
+        "shooteffect": {
           "type": "WaveEffect",
           "lifetime": 20,
           "sizeFrom": 0,
