@@ -28,7 +28,9 @@ weapons: [
     shootSound: flame
     continuous: true
     loopSoundVolume: 0.5
+    shoot: {
     shootDuration: 230
+    }
     bullet: {
       type: ContinuousLaserBulletType
       colors: [
