@@ -4,9 +4,9 @@ legCount: 6
 legLength: 13
 legSpeed: 0.5
 legExtension: -33.5
-legForwardScl: 1.2
+legForwardScl: 4.2
 legMoveSpace: 1.5
-legPairOffset: 1
+legPairOffset: 3
 hovering: false
 groundLayer: 50
 name: Thunder beetle
