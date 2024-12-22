@@ -35,6 +35,16 @@ height: 13.5
 width: 13.5
 speed: 4.5
 lifetime: 75
+shooteffect: {
+  type: WaveEffect
+  lifetime: 20
+  sizeFrom: 0
+  sizeTo: 8
+  strokeFrom: 8
+  strokeTo: 0
+  colorFrom: FFFFFF
+  colorTo: F7E97EFF
+}
 shrinkX: 0
 shrinkY: 0
       trailChance: 2
