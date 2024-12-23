@@ -101,4 +101,5 @@ weapons: [
         sideLength: 30
         sideWidth: 3.4
     }
+}
 researchCostMultiplier: 2.5
