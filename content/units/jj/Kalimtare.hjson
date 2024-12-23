@@ -1,12 +1,12 @@
 type: mech
 name: Kalimtare
 description: Fires a small surge of electricity.
-speed: 0.2
+speed: 0.5
 template: ErekirUnitType
 flying: false
-health: 7600
-armor: 9
-hitSize: 14
+health: 20600
+armor: 25
+hitSize: 34
 outlineColor: 2d2f39
 mechLegColor: 2d2f39
 weapons: [
@@ -36,6 +36,21 @@ width: 13.5
 speed: 4.5
 lifetime: 75
 shrinkX: 0
+trailEffect: {
+          type: ParticleEffect
+          particles: 3
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 1
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 4
+          sizeTo: 0
+          }
 shrinkY: 0
       trailChance: 2
       trailParam: 10
@@ -67,6 +82,21 @@ shrinkY: 0
       backColor: ffffff
       lifetime: 60
       damage: 20.5
+trailEffect: {
+          type: ParticleEffect
+          particles: 3
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 1
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 4
+          sizeTo: 0
+          }
       width: 23
       height: 38
       pierce: false
