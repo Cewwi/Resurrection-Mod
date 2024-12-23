@@ -15,20 +15,18 @@ weapons: [
     y: 0
     x: 5
     shooty: 3
-    reload: 14
+    reload: 24
     alternate: true
     mirror: true
     rotate: false
     inaccuracy: 0
-    shootSound: spark
+    shootSound: lazer
     bullet: {
-    type: LightningBulletType
-          lightningColor: F7E97EFF
-          lightningLength: 15
-          lightningDamage: 6875
-          hitSound: spark
-          lifetime: 3
-          hiteffect: [
+      type: LaserBulletType
+        length: 150
+        width: 6
+        damage: 60
+        hiteffect: [
 {
           type: ParticleEffect
           line: true
@@ -61,7 +59,46 @@ weapons: [
           sizeTo: 0
           }
 ]
-    }
-  }
+        shootEffect: [
+{
+          type: ParticleEffect
+          line: true
+          particles: 4
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 0
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 4
+          sizeTo: 0
+          }
+{
+          type: ParticleEffect
+          particles: 4
+          length: 2
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 1
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 5
+          sizeTo: 0
+          }
 ]
+        colors: [
+          F7E97EFF
+          F7E97EFF
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
+    }
 researchCostMultiplier: 2.5
