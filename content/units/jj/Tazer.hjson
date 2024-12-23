@@ -49,12 +49,77 @@ weapons: [
     rotate: false
     shootSound: laser
     bullet: {
+      bullet: {
       type: LaserBulletType
         length: 150
         width: 6
         damage: 60
-        hitEffect: lightningShoot
-        shootEffect: lightningShoot
+        hitEffect: [
+{
+          type: ParticleEffect
+          line: true
+          particles: 4
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 0
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 4
+          sizeTo: 0
+          }
+{
+          type: ParticleEffect
+          particles: 4
+          length: 2
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 1
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 5
+          sizeTo: 0
+          }
+]
+        shootEffect: [
+{
+          type: ParticleEffect
+          line: true
+          particles: 4
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 0
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 4
+          sizeTo: 0
+          }
+{
+          type: ParticleEffect
+          particles: 4
+          length: 2
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 1
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 5
+          sizeTo: 0
+          }
+]
         colors: [
           F7E97EFF
           F7E97EFF
@@ -64,5 +129,3 @@ weapons: [
         sideLength: 30
         sideWidth: 3.4
     }
-}
-]
