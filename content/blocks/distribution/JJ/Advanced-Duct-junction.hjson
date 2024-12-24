@@ -1,4 +1,4 @@
-type: OverflowDuct
+type: Junction
 name: Advanced Duct Junction
 description: Advanced Junction duct. Faster and stronger than the normal duct junction.
 category: distribution
