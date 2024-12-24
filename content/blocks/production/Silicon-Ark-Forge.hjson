@@ -1,0 +1,49 @@
+type: GenericCrafter
+name: Silicon Arc Forge
+description: An upgraded version of the Silicon Arc Furnace. Produces much more silicon
+size: 5
+craftTime: 75
+consumes: {
+  items: [
+    sand/12
+    graphite/3
+  ]
+power: 8
+}
+ignoreLiquidFullness: true
+ambientSound: extractLoop
+researchCostMultiplier: 0.5
+ambientSoundVolume: 0.09
+drawer: [
+{
+  type: DrawRegion
+  suffix: -bottom
+}
+{
+  type: DrawArcSmelt
+}
+{
+  type: DrawCrucibleFlame
+}
+{
+  type: DrawDefault
+}
+{
+  type: DrawGlowRegion
+    color: FEB380FF
+    glowIntensity: 0.5
+}
+]
+outputItems: [
+  silicon/12
+]
+category: crafting
+research: carbideCrucible
+requirements: [
+  tungsten/200
+  silicon/300
+  carbide/50
+  beryllium/500
+  graphite/400
+]
+itemCapacity: 40
