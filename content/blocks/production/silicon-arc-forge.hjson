@@ -24,14 +24,14 @@ drawer: [
 }
 {
   type: DrawCrucibleFlame
+      flameRad: 1.5
+      circleSpace: 2
+      particles: 80
+      particleRad: 14
+      particleLen: 4
 }
 {
   type: DrawDefault
-}
-{
-  type: DrawGlowRegion
-    color: FEB380FF
-    glowIntensity: 0.5
 }
 ]
 outputItems: [
