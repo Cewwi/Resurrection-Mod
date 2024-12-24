@@ -8,6 +8,9 @@ consumes: {
     sand/12
     graphite/3
   ]
+liquids: [
+   cyanogen/0.3
+]
 power: 14
 }
 ignoreLiquidFullness: true
