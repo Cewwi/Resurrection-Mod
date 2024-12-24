@@ -4,6 +4,7 @@ description: Advanced Router duct. Can now output/imput from every side.
 category: distribution
 alwaysUnlocked: false
 research: Advanced-Duct
+solid: false
 researchCost: [
   tungsten/250
   graphite/400
