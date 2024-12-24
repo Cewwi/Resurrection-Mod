@@ -1,0 +1,16 @@
+type: Router
+name: Advanced Duct Router
+description: Advanced Router duct. Can now output/imput from every side.
+category: distribution
+alwaysUnlocked: false
+research: Advanced-Duct
+researchCost: [
+  tungsten/250
+  graphite/400
+]
+speed: 50
+health: 150
+requirements: [
+  graphite/10
+  tungsten/5
+]
