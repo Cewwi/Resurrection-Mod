@@ -4,6 +4,7 @@ description: Advanced transport duct.
 category: distribution
 alwaysUnlocked: false
 research: armored-duct
+bridgeReplacement: Advanced-Duct-bridge
 researchCost: [
   tungsten/250
   graphite/400
