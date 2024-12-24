@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Silicon Arc Forge
 description: An upgraded version of the Silicon Arc Furnace. Produces much more silicon
 size: 5
-craftTime: 75
+craftTime: 50
 consumes: {
   items: [
     sand/12
@@ -14,6 +14,7 @@ ignoreLiquidFullness: true
 ambientSound: smelter
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.3
+heatRequirement: 20
 drawer: [
 {
   type: DrawRegion
