@@ -8,7 +8,7 @@ researchCost: [
   tungsten/250
   graphite/400
 ]
-speed: 50
+speed: 3
 health: 150
 requirements: [
   graphite/10
