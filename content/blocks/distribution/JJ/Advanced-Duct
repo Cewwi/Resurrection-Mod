@@ -1,0 +1,16 @@
+type: Duct
+name: Advanced Duct
+description: Advanced transport duct.
+category: distribution
+alwaysUnlocked: false
+research: armored-duct
+researchCost: [
+  tungsten/250
+  graphite/400
+]
+speed: 50
+health: 125
+requirements: [
+  graphite/2
+  tungsten/1
+]
