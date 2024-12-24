@@ -1,0 +1,18 @@
+type: OverflowDuct
+name: Advanced Underflow Duct
+description: Advanced Overflow duct. Faster and stronger than the normal overflow duct.
+category: distribution
+alwaysUnlocked: false
+research: Advanced-Duct-router
+solid: false
+researchCost: [
+  tungsten/250
+  graphite/400
+]
+speed: 50
+health: 150
+invert: true
+requirements: [
+  graphite/20
+  tungsten/10
+]
