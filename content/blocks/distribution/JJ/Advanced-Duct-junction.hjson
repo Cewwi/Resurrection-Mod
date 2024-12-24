@@ -3,7 +3,7 @@ name: Advanced Duct Junction
 description: Advanced Junction duct. Faster and stronger than the normal duct junction.
 category: distribution
 alwaysUnlocked: false
-research: Advanced-Duct-router
+research: Advanced-Duct
 solid: false
 researchCost: [
   tungsten/250
