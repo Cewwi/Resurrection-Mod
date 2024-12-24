@@ -1,6 +1,6 @@
-type: Router
-name: Advanced Duct Router
-description: Advanced Router duct. Can now output/imput from every side.
+type: OverflowDuct
+name: Advanced Overflow Duct
+description: Advanced Overflow duct.
 category: distribution
 alwaysUnlocked: false
 research: Advanced-Duct-router
