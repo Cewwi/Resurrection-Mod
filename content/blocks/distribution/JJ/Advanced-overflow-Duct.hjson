@@ -1,6 +1,6 @@
 type: OverflowDuct
 name: Advanced Overflow Duct
-description: Advanced Overflow duct.
+description: Advanced Overflow duct. Faster and stronger than the normal overflow duct.
 category: distribution
 alwaysUnlocked: false
 research: Advanced-Duct-router
