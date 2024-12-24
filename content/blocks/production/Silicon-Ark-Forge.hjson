@@ -8,12 +8,12 @@ consumes: {
     sand/12
     graphite/3
   ]
-power: 8
+power: 14
 }
 ignoreLiquidFullness: true
-ambientSound: extractLoop
+ambientSound: smelter
 researchCostMultiplier: 0.5
-ambientSoundVolume: 0.09
+ambientSoundVolume: 0.3
 drawer: [
 {
   type: DrawRegion
