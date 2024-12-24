@@ -3,7 +3,7 @@ name: Advanced Underflow Duct
 description: Advanced Overflow duct. Faster and stronger than the normal overflow duct.
 category: distribution
 alwaysUnlocked: false
-research: Advanced-Duct-router
+research: Advanced-overflow-Duct
 solid: false
 researchCost: [
   tungsten/250
