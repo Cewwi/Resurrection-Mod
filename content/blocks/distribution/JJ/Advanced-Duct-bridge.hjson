@@ -1,6 +1,6 @@
 type: DuctBridge
 name: Advanced Duct Bridge
-description: Advanced Bridge duct.
+description: Advanced Bridge duct. Faster and stronger than the normal duct bridge.
 category: distribution
 alwaysUnlocked: false
 research: Advanced-Duct-router
