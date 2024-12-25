@@ -24,9 +24,18 @@ abilities: [
     type: ForceFieldAbility
     max: 100
     radius: 48
-    regen: 0.1
+    regen: 0.5
     cooldown: 360
     sides: 4
+  }
+{
+    type: ForceFieldAbility
+    max: 100
+    radius: 48
+    regen: 0.5
+    cooldown: 360
+    sides: 4
+    rotation: 90
   }
 ]
 engines: [
