@@ -38,6 +38,34 @@ abilities: [
     rotation: 90
   }
 ]
+parts: [
+{
+type: shapePart
+y: -2
+x: 0
+hollow: true
+sides: 4
+layer: 110
+color: ffffff
+stroke: 2
+strokeTo: 2
+radiusTo: 2
+radius: 2
+}
+{
+type: shapePart
+y: -2
+x: 0
+hollow: false
+sides: 4
+layer: 110
+color: ffffff
+stroke: 2
+strokeTo: 2
+radiusTo: 2
+radius: 2
+}
+]
 engines: [
   {
     x: 0
