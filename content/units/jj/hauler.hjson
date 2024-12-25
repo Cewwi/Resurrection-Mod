@@ -1,6 +1,6 @@
 type: flying
 name: Hauler
-description: Upgraded version og the Manifold unit. Has less health but is faster, can carry more resources, and have a shield that protects it from most attacks.
+description: Upgraded version original the Manifold unit. Has less health but is faster, can carry more resources, and have a shield that protects it from most attacks.
 flying: true
 controller: CargoAI
 allowedInPayloads: false
