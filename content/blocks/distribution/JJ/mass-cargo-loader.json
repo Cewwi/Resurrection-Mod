@@ -1,0 +1,16 @@
+type: unitCargoLoader
+name: Advanced Duct
+description: Upgraded version of the Unit cargo loader. Holds more items and has more health
+category: distribution
+alwaysUnlocked: false
+research: armored-duct
+bridgeReplacement: unit-cargo-loader
+size: 4
+buildTime: 150
+consumeLiquid: [
+
+]
+researchCost: [
+  tungsten/250
+  graphite/400
+]
