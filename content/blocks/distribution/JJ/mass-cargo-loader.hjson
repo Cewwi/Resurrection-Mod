@@ -7,10 +7,16 @@ research: armored-duct
 bridgeReplacement: unit-cargo-loader
 size: 4
 buildTime: 150
-consumeLiquid: [
-
-]
+consumes: {
+  liquid: [
+    cyanogen/10
+  ]
+power: 10
+}
 researchCost: [
-  tungsten/250
-  graphite/400
+  tungsten/2500
+  silicon/4000
+  thorium/1850
+  surgeAlloy/1000
+  carbide/ 250
 ]
