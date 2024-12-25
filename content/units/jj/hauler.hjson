@@ -44,6 +44,7 @@ type: shapePart
 y: -2
 x: 0
 hollow: true
+top: ture
 sides: 4
 layer: 110
 color: ffffff
@@ -57,13 +58,14 @@ type: shapePart
 y: -2
 x: 0
 hollow: false
+top: ture
 sides: 4
 layer: 110
 color: ffffff
 stroke: 2
 strokeTo: 2
-radiusTo: 2
-radius: 2
+radiusTo: 8
+radius: 8
 }
 ]
 engines: [
