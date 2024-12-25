@@ -17,6 +17,6 @@ researchCost: [
   tungsten/2500
   silicon/4000
   thorium/1850
-  surgeAlloy/1000
+  surge-alloy/1000
   carbide/ 250
 ]
