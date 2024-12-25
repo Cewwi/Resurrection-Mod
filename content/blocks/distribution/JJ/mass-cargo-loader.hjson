@@ -8,7 +8,7 @@ bridgeReplacement: unit-cargo-loader
 size: 4
 buildTime: 150
 consumes: {
-  liquid: [
+  liquids: [
     cyanogen/10
   ]
 power: 10
