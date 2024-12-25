@@ -1,0 +1,24 @@
+type: flying
+name: Galva
+description: Upgraded version og the Manifold unit. Has less health but is faster, can carry more resources, and have a shield that protects it from most attacks.
+flying: true
+shadowElevation: 1
+drag: 0.06
+outlineColor: 1d1c1a
+speed: 1.5
+rotateSpeed: 4
+hitSize: 22
+accel: 0.095
+groundLayer: 60
+isEnemy: true
+health: 3800
+armor: 1
+engines: [
+  {
+    x: 0
+    y: -12.6
+    radius: 2.5
+  }
+]
+useEngineElevation: false
+lowAltitude: false
