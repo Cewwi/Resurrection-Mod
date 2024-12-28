@@ -14,7 +14,7 @@ weapons: [
     x: 12.2
     top: true
     shooty: 43
-    reload: 5
+    reload: 40
     rotateSpeed: 0
     mirror: true
     alternate: true
@@ -34,10 +34,10 @@ weapons: [
         FF7436FF
         ffffff
       ]
-      splashDamage: 100
+      splashDamage: 40
       splashDamageRadius: 15
-      speed: 20
-      damage: 5
+      speed: 5
+      damage: 10
       layer: 110
       groundLayer: 61
       intervalBullets: 4
@@ -46,7 +46,7 @@ weapons: [
       pierce: true
       pierceBuilding: true
       pierceCap: 3
-      lifetime: 100
+      lifetime: 20
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
       width: 4
