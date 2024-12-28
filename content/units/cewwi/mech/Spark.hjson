@@ -32,7 +32,7 @@ weapons: [
         FF7436FF
         ffffff
       ]
-      homingPower: 1
+      homingPower: 10
       splashDamage: 40
       splashDamageRadius: 15
       speed: 3
