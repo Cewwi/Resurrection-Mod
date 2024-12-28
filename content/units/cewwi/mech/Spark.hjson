@@ -11,21 +11,7 @@ weapons: [
   {
     name: Spark-gun
     y: 0
-    x: 12.2
-    top: true
-    shooty: 43
-    reload: 20
-    mirror: true
-    alternate: true
-    cooldownTime: 1
-    rotate: false
-    shootCone: 20
-    layerOffset: -0.00001
-}
-{
-  Name: Spark-invisible-weapon
-    y: 5
-    x: 12.2
+     x: 12.2
     top: false
     shooty: 43
     reload: 20
@@ -68,7 +54,6 @@ weapons: [
       pierceArmor: false
       status: blasted
       statusDuration: 20
-}
 }
 ]
 researchCostMultiplier: 3
