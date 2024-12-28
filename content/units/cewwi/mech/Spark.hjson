@@ -11,13 +11,13 @@ weapons: [
   {
     name: Spark-gun
     y: 0
-    x: 2.5
+    x: 1.7
     top: true
     shooty: 43
     reload: 5
     rotateSpeed: 0
     mirror: true
-    alternate: false
+    alternate: true
     cooldownTime: 0
     rotationLimit: 0
     rotate: true
@@ -39,12 +39,13 @@ weapons: [
       damage: 5
       layer: 110
       groundLayer: 61
-      intervalBullets: 2
-      intervalRandomSpread: 1
+      intervalBullets: 4
+      intervalRandomSpread: 7
       bulletInterval: 2.7
       pierce: true
       pierceBuilding: true
       pierceCap: 3
+      lifetime: 100
       hitEffect: {
 type: ParticleEffect
             line: true
