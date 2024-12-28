@@ -30,13 +30,15 @@ weapons: [
     alwaysContinuous: true
     continuous: true
     bullet: {
-      type: ContinuousFlameBulletType
+      type: BasicBulletType
       colors: [
         ad3500
         ff4f01
         FF7436FF
         ffffff
       ]
+      splashDamage: 100
+      splashDamageRadius: 100
       damage: 5
       layer: 110
       groundLayer: 61
