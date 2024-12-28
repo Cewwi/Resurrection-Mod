@@ -44,10 +44,10 @@ outputItems: [
 category: crafting
 research: carbideCrucible
 requirements: [
-  tungsten/200
-  silicon/300
-  carbide/50
-  beryllium/500
-  graphite/400
+  tungsten/600
+  silicon/800
+  carbide/500
+  beryllium/1000
+  graphite/1000
 ]
 itemCapacity: 40
