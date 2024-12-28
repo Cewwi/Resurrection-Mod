@@ -46,7 +46,7 @@ weapons: [
       pierceBuilding: true
       pierceCap: 3
       hitEffect: {
-type: ParticleEffect
+type: multiEffect
 particles: 7
 lifetime: 15
 length: 65
