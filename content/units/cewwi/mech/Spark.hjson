@@ -13,7 +13,7 @@ weapons: [
     y: 0
     x: 0
     top: true
-    shooty: 1000
+    shooty: 43
     reload: 5
     rotateSpeed: 0
     mirror: true
