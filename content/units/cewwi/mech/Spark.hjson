@@ -21,7 +21,7 @@ weapons: [
     cooldownTime: 0
     rotationLimit: 0
     rotate: true
-    shootCone: 10
+    shootCone: 100
     loopSound: factory
     layerOffset: -0.00001
     shootSound: factory
