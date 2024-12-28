@@ -11,7 +11,7 @@ weapons: [
   {
     name: Spark-gun
     y: 0
-     x: 12.2
+    x: 12.2
     top: false
     shooty: 43
     reload: 20
