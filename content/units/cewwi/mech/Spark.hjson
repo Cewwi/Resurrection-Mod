@@ -14,7 +14,7 @@ weapons: [
     x: 12.2
     top: true
     shooty: 43
-    reload: 40
+    reload: 20
     rotateSpeed: 0
     mirror: true
     alternate: true
@@ -36,7 +36,7 @@ weapons: [
       ]
       splashDamage: 40
       splashDamageRadius: 15
-      speed: 5
+      speed: 3
       damage: 10
       layer: 110
       groundLayer: 61
@@ -49,6 +49,7 @@ weapons: [
       lifetime: 20
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
+      height: 6
       width: 4
       pierceArmor: false
 }
