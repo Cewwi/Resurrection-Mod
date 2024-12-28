@@ -27,7 +27,7 @@ weapons: [
     shootSound: factory
     incendAmount: 4
     bullet: {
-      type: BasicBulletType
+      type: MissileBulletType
       colors: [
         ad3500
         ff4f01
