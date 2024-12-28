@@ -49,19 +49,19 @@ weapons: [
       hitEffect: {
 type: ParticleEffect
             line: true
-            particles: 16
-            lifetime: 75
+            particles: 7
+            lifetime: 30
             offset: 60
             interp: "circleOut"
-            length: 20
+            length: 5
             cone: -360
             strokeTo: 0
             strokeFrom: 3
             sizeFrom: 24
             sizeTo: 24
-            lightColor: 000000FF
-            colorFrom: BF92F900
-            colorTo: BF92F9FF
+            lightColor: ff785e
+            colorFrom: ff785e
+            colorTo: c85c51
 }
       drawFlare: false
       width: 3
