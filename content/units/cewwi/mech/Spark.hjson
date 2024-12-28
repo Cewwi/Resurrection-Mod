@@ -23,7 +23,7 @@ weapons: [
     layerOffset: -0.00001
 }
 {
-  Name: invisible-weapon
+  Name: Spark-invisible-weapon
     y: 5
     x: 12.2
     top: false
@@ -66,6 +66,8 @@ weapons: [
       height: 10
       width: 10
       pierceArmor: false
+      status: blasted
+      statusDuration: 20
 }
 }
 ]
