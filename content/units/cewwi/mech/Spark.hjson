@@ -13,7 +13,7 @@ weapons: [
     y: 0
     x: 0
     top: true
-    shooty: 1
+    shooty: 1000
     reload: 5
     rotateSpeed: 0
     mirror: true
@@ -21,7 +21,7 @@ weapons: [
     cooldownTime: 0
     rotationLimit: 0
     rotate: true
-    shootCone: 100
+    shootCone: 10
     loopSound: factory
     layerOffset: -0.00001
     shootSound: factory
