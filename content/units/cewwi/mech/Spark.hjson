@@ -55,5 +55,6 @@ weapons: [
       status: blasted
       statusDuration: 20
 }
+}
 ]
 researchCostMultiplier: 3
