@@ -18,9 +18,9 @@ weapons: [
     mirror: true
     alternate: true
     cooldownTime: 1
-    rotate: true
-    rotateSpeed: 10
-    rotationLimit: 25
+    rotate: false
+    //rotateSpeed: 10
+    //rotationLimit: 25
     shootCone: 20
     loopSound: factory
     layerOffset: -0.00001
