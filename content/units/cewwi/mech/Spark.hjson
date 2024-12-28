@@ -15,12 +15,24 @@ weapons: [
     top: true
     shooty: 43
     reload: 20
-    rotateSpeed: 0
     mirror: true
     alternate: true
-    cooldownTime: 0
-    rotationLimit: 0
-    rotate: true
+    cooldownTime: 1
+    rotate: false
+    shootCone: 20
+    layerOffset: -0.00001
+}
+{
+  Name: invisible-weapon
+    y: 5
+    x: 12.2
+    top: false
+    shooty: 43
+    reload: 20
+    mirror: true
+    alternate: true
+    cooldownTime: 1
+    rotate: false
     shootCone: 20
     loopSound: factory
     layerOffset: -0.00001
@@ -49,8 +61,8 @@ weapons: [
       lifetime: 90
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
-      height: 6
-      width: 4
+      height: 10
+      width: 10
       pierceArmor: false
 }
 }
