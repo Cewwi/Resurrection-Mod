@@ -64,7 +64,7 @@ type: ParticleEffect
             colorTo: c85c51
 }
       drawFlare: false
-      width: 3
+      width: 10
       pierceArmor: false
       divisions: 20
       length: 80
