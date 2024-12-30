@@ -27,7 +27,7 @@
   expanded: true
   requirements: [
     blast-powder/10
-    Isocite/20
+    isocite/20
   ]
   category: production
   research: core-iridescence
