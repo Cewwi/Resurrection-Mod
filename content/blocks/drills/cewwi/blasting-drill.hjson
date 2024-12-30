@@ -1,0 +1,33 @@
+ name: Blasting Drill
+  description: Uses blast powder to mine tougher ores
+  type: Drill
+  size: 2
+  tier: 2
+  rotateSpeed: 2
+  drillTime: 300
+  liquidBoostIntensity: 2.1
+  itemCapacity: 20
+  warmupSpeed: 0.3
+  updateEffect: {
+    type: ParticleEffect
+    particles: 3
+    lifetime: 20
+    length: 4
+    width: 4
+    cone: -360
+    strokeFrom: 2
+    lenFrom: 4
+    lenTo: 0
+    colorFrom: a04553
+    colorTo: e46b58
+  }
+  updateEffectChance: 0.4
+  heatColor: f15454
+  hardnessDrillMultiplier: 5
+  expanded: true
+  requirements: [
+    blast-powder/10
+    Isocite/20
+  ]
+  category: production
+  research: core-iridescence
