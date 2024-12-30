@@ -76,7 +76,7 @@ shrinkY: 0
       sprite: bullet
       lightRadius: 12
       lightColor: C6FF6BFF
-      speed: 7
+      speed: 14
       trailColor: F7E97EFF
       frontColor: F7E97EFF
       backColor: ffffff
@@ -84,7 +84,7 @@ shrinkY: 0
       damage: 20.5
       width: 23
       height: 38
-      pierce: false
+      pierce: true
       shrinkX: 0
       shrinkY: 0
 }
