@@ -10,7 +10,7 @@
   warmupSpeed: 0.3
   updateEffect: {
     type: ParticleEffect
-    particles: 3
+    particles: 1
     lifetime: 20
     length: 4
     width: 4
@@ -21,7 +21,7 @@
     colorFrom: a04553
     colorTo: e46b58
   }
-  updateEffectChance: 0.4
+  updateEffectChance: 0.2
   heatColor: f15454
   hardnessDrillMultiplier: 5
   expanded: true
