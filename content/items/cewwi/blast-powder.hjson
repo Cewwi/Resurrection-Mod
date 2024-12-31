@@ -8,5 +8,5 @@ radioactivity: 0
 charge: 0.1
 alwaysUnlocked: true
 color: c85c51
-research: iridescence
+research: sulphur
 hiddenOnPlanets: [serpulo, erekir]
