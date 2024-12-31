@@ -10,7 +10,7 @@
   unitType: iris
  requirements: [
     silicon/1000
-    potatssium/1000
+    potassium/1000
     graphite/800
   ],
   alwaysUnlocked: true
