@@ -1,0 +1,5 @@
+type: StaticWall
+name: Potassium Wall
+description: "Contains an abundance of potassium that is ready to be harvested."
+itemDrop: potassium
+variants: 2
