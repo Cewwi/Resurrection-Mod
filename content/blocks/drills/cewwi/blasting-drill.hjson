@@ -11,9 +11,9 @@
   updateEffect: {
     type: ParticleEffect
     particles: 1
-    lifetime: 20
-    length: 4
-    width: 4
+    lifetime: 5
+    length: 2
+    width: 2
     cone: -360
     strokeFrom: 2
     lenFrom: 4
@@ -21,7 +21,7 @@
     colorFrom: a04553
     colorTo: e46b58
   }
-  updateEffectChance: 0.2
+  updateEffectChance: 1
   heatColor: f15454
   hardnessDrillMultiplier: 5
   expanded: true
