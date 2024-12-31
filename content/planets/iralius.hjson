@@ -107,5 +107,5 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [ //items you want on the planet go here
-  "potatssium"
+  "potassium"
 ]
