@@ -3,7 +3,7 @@ name: Advanced Duct Router
 description: Advanced Router duct. Can now output/imput from every side. Faster and stronger than the normal duct router.
 category: distribution
 alwaysUnlocked: false
-research: Advanced-Duct
+research: advanced-duct
 solid: false
 researchCost: [
   tungsten/250
