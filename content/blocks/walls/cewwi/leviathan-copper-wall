@@ -1,11 +1,11 @@
 type: Wall
 name: Leviathan Copper Wall
-description: A humongous copper wall. Surely now you'll be happy? (yes, it's properly scaled stats)
+description: A humongous copper wall. Surely now you'll be happy?
 size: 7
 health: 15680
 category: defense
-research: iridescence
+research: copper-wall
 requirements: [
-  isocite/294
+  copper/294
 ] 
 researchCostMultiplier: 2
