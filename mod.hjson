@@ -1,4 +1,3 @@
-{
 name: "resurrection"
 displayName: "[[]#ff5300]Cataclysm[[]]"
 author: "[[]#0c6ed1]cewwi[[]] & [[]#df00ff]JJ[[]]"
@@ -21,4 +20,3 @@ main: "resurrection.Resurrection"
 hidden: false
 subtitle: "in the making"
 repo: https://github.com/Cewwi/Resurrection-Mod
-}
