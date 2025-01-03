@@ -20,5 +20,5 @@ dependencies: [ ]
 main: "resurrection.Resurrection"
 hidden: false
 subtitle: "in the making"
-repo: "https://github.com/Cewwi/Resurrection-Mod"
+repo: https://github.com/Cewwi/Resurrection-Mod
 }
