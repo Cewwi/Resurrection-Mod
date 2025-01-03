@@ -1,28 +1,5 @@
-type: GenericCrafter
-name: New Order
-description: The symbol of a dystopia long beyond recovery.
-size: 2
-craftTime: 50
-power: 14
-}
-researchCostMultiplier: 0.5
-drawer: [
-/*{
-  type: DrawRegion
-  suffix: -glow
-  blending: additive
-  color: e0e0e0
-  colorTo: e0e0e0
-}*/
-{
-  type: DrawDefault
-}
-]
-outputItems: [
-]
-category: crafting
-research: potassium
-requirements: [
-  potatssium/1
-]
-itemCapacity: 99
+type: OreBlock
+  description: the symbol of a faction fallen from glory.
+  wallOre: true
+  oreScale: 25
+  variants: 1
