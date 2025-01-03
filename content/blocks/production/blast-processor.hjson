@@ -1,0 +1,41 @@
+type: GenericCrafter
+name: Blast Processor
+description: Produces blast powder. A very basic, and inefficient machine.
+size: 2
+craftTime: 50
+consumes: {
+  items: [
+    potassium/2
+    sulphur/4
+  ]
+}
+ambientSound: factory
+researchCostMultiplier: 0.5
+ambientSoundVolume: 0.3
+drawer: [
+{
+  type: DrawArcSmelt
+}
+{
+  type: DrawCrucibleFlame
+      flameRad: 1.5
+      circleSpace: 2
+      particles: 80
+      particleRad: 14
+      particleLen: 4
+}
+{
+  type: DrawDefault
+}
+]
+outputItems: [
+  blast-powder/2
+]
+category: crafting
+research: iridescence
+requirements: [
+  isocite/20
+  potassium/10
+  sulphur/5
+]
+itemCapacity: 40
