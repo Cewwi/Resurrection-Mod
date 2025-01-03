@@ -1,0 +1,10 @@
+{
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "ff0000AA",
+      "colorTo": "ff0000AA",
+      "outline": false
+    }
