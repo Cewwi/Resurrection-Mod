@@ -1,10 +1,29 @@
+type: GenericCrafter
+name: New Order
+description: The symbol of a dystopia long beyond recovery.
+size: 2
+craftTime: 50
+power: 14
+}
+researchCostMultiplier: 0.5
+drawer: [
 {
-      "type": "RegionPart",
-      "suffix": "-glow",
-      "layer": -1,
-      "mirror": true,
-      "blending": "additive",
-      "color": "ff0000AA",
-      "colorTo": "ff0000AA",
-      "outline": false
-    }
+  type: DrawRegion
+  suffix: -glow
+  blending: additive
+  color: e0e0e0
+  colorTo: e0e0e0
+}
+{
+  type: DrawDefault
+}
+]
+outputItems: [
+  silicon/12
+]
+category: crafting
+research: potassium
+requirements: [
+  potatssium/1
+]
+itemCapacity: 99
