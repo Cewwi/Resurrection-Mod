@@ -7,19 +7,18 @@ power: 14
 }
 researchCostMultiplier: 0.5
 drawer: [
-{
+/*{
   type: DrawRegion
   suffix: -glow
   blending: additive
   color: e0e0e0
   colorTo: e0e0e0
-}
+}*/
 {
   type: DrawDefault
 }
 ]
 outputItems: [
-  silicon/12
 ]
 category: crafting
 research: potassium
