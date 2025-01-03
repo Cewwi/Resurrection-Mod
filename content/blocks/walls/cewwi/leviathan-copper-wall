@@ -4,8 +4,8 @@ description: A humongous copper wall. Surely now you'll be happy? (yes, it's pro
 size: 7
 health: 15680
 category: defense
-research: large-copper-wall
+research: iridescence
 requirements: [
-  copper/294
+  isocite/294
 ] 
 researchCostMultiplier: 2
