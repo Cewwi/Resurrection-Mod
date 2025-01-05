@@ -33,12 +33,11 @@ ammoTypes: {
 	bulletInterval: 5
 	intervalRandomSpread: 20
      	buildingDamageMultiplier: 0.75
-	colors: [73d188,62ae7f]
 	intervalBullet: {
       type: LightningBulletType
       buildingDamageMultiplier: 0.75
       lightningLength: 20
-      lightningColor: 73d188
+      lightningColor: da6b68
       damage: 100
       intervalSpread: 5
       shootSound: spark
