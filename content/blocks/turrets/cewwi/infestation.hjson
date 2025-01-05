@@ -19,18 +19,17 @@ consumes: {
     amount: 0.5
   }
 }
-shootType: {
+ammoTypes: {
+	blast-compound: {
 	type: missileBulletType
 	ammoMultiplier: 5
-	ammoPerShot: 
 	damage: 1000
 	width: 2
-	length: 210
+	length: 4
 	hitEffect: instHit
 	smokeEffect: shootSmallSmoke
 	lifetime: 20
 	bulletInterval: 5
-	ammoMultiplier: 2
 	intervalRandomSpread: 20
      	buildingDamageMultiplier: 0.75
 	colors: [73d188,62ae7f]
@@ -50,6 +49,7 @@ shootType: {
           }
       }
 }	
+}
 
 shoot: {
 	type: ShootAlternate
@@ -65,29 +65,5 @@ graphite/100
 plastanium/50
 metaglass/20
 ]
-drawer: {
-  type: DrawTurret
-  basePrefix: cewwi-
-  parts: [
-    {
-      type: RegionPart
-      suffix: -left
-      progress: recoil
-      moveY: 0
-      heatProgress: recoil
-      mirror: false
-      under: true
-    }
-    {
-      type: RegionPart
-      suffix: -right
-      progress: recoil
-      moveY: 0
-      heatProgress: recoil
-      mirror: false
-      under: true
-    }
-  ]
-}
 category: turret
-research: duo
+research: swarmer
