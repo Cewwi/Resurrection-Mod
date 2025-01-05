@@ -1,4 +1,3 @@
-
 type: ItemTurret
 localizedName: Infestation
 description: An upgrade to the swarmer. Can now use all sorts of ammo.
@@ -8,22 +7,17 @@ size: 3
 reload: 75
 range: 210
 shootY: 14
-ammoUseEffect: casing2 
+ammoUseEffect: casing2
 inaccuracy: 0
 rotateSpeed: 3
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
-moveWhileCharging: false
-continuous: true
-consumes: {
-  power: 100
-}
-hasPower: true
 shootType: {
-	type: continuousLaserBulletType
-	ammoPerShot: 4
+	type: missileBulletType
+	ammoMultiplier: 5
+	ammoPerShot: 
 	damage: 1000
 	width: 2
 	length: 210
