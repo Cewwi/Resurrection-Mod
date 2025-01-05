@@ -32,19 +32,19 @@ ammoTypes: {
 	hitEffect: instHit
 	smokeEffect: shootSmallSmoke
 	lifetime: 100
-	speed: 10
+	speed: 6
 	bulletInterval: 5
-	intervalRandomSpread: 20
+	intervalRandomSpread: 360
      	buildingDamageMultiplier: 0.75
 	intervalBullet: {
       type: LightningBulletType
       buildingDamageMultiplier: 0.75
-      lightningLength: 20
+      lightningLength: 4
       lightningColor: da6b68
-      damage: 100
-      intervalSpread: 5
+      damage: 10
+      intervalSpread: 360
       shootSound: spark
-      intervalAngle: 5
+      intervalAngle: 360
       shoot: {
       shots: 5
           }
