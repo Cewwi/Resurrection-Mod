@@ -108,6 +108,30 @@
   "despawnEffect": "hitBulletColor",
   "buildingDamageMultiplier": 0.5
 }
+"carbide": {
+"type": "BasicBulletType",
+  "speed": 10,
+  "lifetime": 48,
+  "width": 15,
+  "hitSize": 7.5,
+  "height": 26,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 3,
+  "damage": 300,
+  "pierce": true
+  "pierceBuilding": true
+  "trailColor": "89769a",
+  "backColor": "89769a",
+  "hitColor": "89769a",
+  "frontColor": "FFFFFF"
+  "trailWidth": 2.1
+  "trailLength": 10
+  "hitEffect": "hitBulletColor"
+  "despawnEffect": "hitBulletColor",
+  "buildingDamageMultiplier": 0.5
+}
 }
 "research": {
 "parent": "breach",
