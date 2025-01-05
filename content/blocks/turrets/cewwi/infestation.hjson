@@ -4,16 +4,15 @@ description: An upgrade to the swarmer. Can now use all sorts of ammo.
 detail: pew
 health: 550
 size: 3
-reload: 9
+reload: 6
 range: 210
-shootY: 14
+shootY: 10
 ammoUseEffect: casing2
 inaccuracy: 0
 rotateSpeed: 3
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
-weaveMag: 2
 researchCostMultiplier: 1.5
 consumes: {
   coolant: {
@@ -28,12 +27,18 @@ ammoTypes: {
 	splashDamageRadius: 29.6
 	splashDamage: 45
 	weaveMag: 2
-	width: 8
-	length: 15
-	hitEffect: instHit
+        splashDamageRadius: 30
+        splashDamage: 35
+	width: 7
+	length: 23
+	hitEffect: blastExplosion
+        despawnEffect: blastExplosion
 	smokeEffect: shootSmallSmoke
-	lifetime: 100
+        statusDuration: 80
+        status: blasted
+	lifetime: 60
 	speed: 6
+        weaveScale: 8
         weaveMag: 2
 	bulletInterval: 5
 	intervalRandomSpread: 360
@@ -44,7 +49,8 @@ ammoTypes: {
 shoot: {
     type: ShootAlternate
     barrels: 5
-    spread: 13.4
+    spread: 7.4
+    weaveMag: 2
     shots: 1
   },
 requirements: [
