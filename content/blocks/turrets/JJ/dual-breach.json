@@ -13,7 +13,7 @@
   "targetUnderBlocks": false,
   "shootY": -1,
   "shootX": -6,
- " alternate": true,
+  "alternate": true,
   "mirror": true,
   "research": "sublimate",
   "shake": 2,
