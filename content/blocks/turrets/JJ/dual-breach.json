@@ -3,7 +3,7 @@
   "coolantMultiplier": 2,
   "name": "Dual Breach",
   "ammoPerShot": 2,
-  "reload": 100,
+  "reload": 50,
   "range": 232,
   "outlineColor": "2d2f39",
   "recoil": 2,
