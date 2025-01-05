@@ -12,9 +12,6 @@
   "category": "turret",
   "targetUnderBlocks": false,
   "shootY": -1,
-  "shootX": -6,
-  "alternate": true,
-  "mirror": true,
   "research": "sublimate",
   "shake": 2,
   "requirements": [
@@ -24,9 +21,10 @@
   "tungsten/300",
   ]
   "shoot": {
-        "type": "shootPattern",
-        "shots": 1,
-        "shotDelay": 1,
+    "type": "ShootAlternate",
+    "barrels": 2,
+    "spread": 7,
+    "shots": 1
   },
   "coolant": {
     "type": "ConsumeLiquid",
