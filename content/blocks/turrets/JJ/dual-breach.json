@@ -12,7 +12,8 @@
   "category": "turret",
   "targetUnderBlocks": false,
   "shootY": -1,
-  "research": "sublimate",
+  "shootCone": 3,
+  "research": "disperse",
   "shake": 2,
   "requirements": [
   "carbide/200",
@@ -62,7 +63,7 @@
   "lifetime": 28,
   "width": 13,
   "hitSize": 7,
-  "damage": 180,
+  "damage": 85,
   "height": 24,
   "shootEffect": "shootBig",
   "smokeEffect": "shootBigSmoke",
@@ -91,7 +92,7 @@
   "smokeEffect": "shootBigSmoke",
   "ammoMultiplier": 1,
   "pierceCap": 5,
-  "damage": 220,
+  "damage": 100,
   "pierce": true
   "pierceBuilding": true
   "trailColor": "768a9a",
