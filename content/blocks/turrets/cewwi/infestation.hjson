@@ -33,6 +33,7 @@ ammoTypes: {
 	smokeEffect: shootSmallSmoke
 	lifetime: 100
 	speed: 6
+        weaveMag: 2
 	bulletInterval: 5
 	intervalRandomSpread: 360
      	buildingDamageMultiplier: 0.75
