@@ -5,7 +5,7 @@ detail: pew
 health: 550
 size: 3
 reload: 4
-range: 210
+range: 360
 shootY: 10
 ammoUseEffect: casing2
 inaccuracy: 0
