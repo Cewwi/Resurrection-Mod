@@ -49,7 +49,7 @@ ammoTypes: {
 shoot: {
     type: ShootAlternate
     barrels: 5
-    spread: 7.4
+    spread: 6.4
     weaveMag: 2
     shots: 1
   },
