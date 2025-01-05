@@ -41,9 +41,9 @@
       {
         "type": "RegionPart",
         "suffix": "-powercell",
-        "moveX": 5,
+        "moveX": 3,
         "under": true,
-        "moveY": -5,
+        "moveY": -3,
         "progress": {
           "type": "warmup",
           "op": "blend",
