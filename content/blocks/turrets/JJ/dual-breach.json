@@ -45,7 +45,7 @@
         "suffix": "-powercell",
         "moveX": 5,
         "under": true,
-        "moveY": 5,
+        "moveY": -5,
         "progress": {
           "type": "warmup",
           "op": "blend",
