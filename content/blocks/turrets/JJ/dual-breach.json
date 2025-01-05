@@ -57,6 +57,7 @@
 "type": "BasicBulletType",
   "width": 13,
   "hitSize": 7,
+  "damage": 180,
   "height": 24,
   "shootEffect": "sfe",
   "smokeEffect": "shootBigSmoke",
@@ -83,6 +84,7 @@
   "smokeEffect": "shootBigSmoke",
   "ammoMultiplier": 1,
   "pierceCap": 5,
+  "damage": 220,
   "pierce": true
   "pierceBuilding": true
   "trailColor": "768a9a",
