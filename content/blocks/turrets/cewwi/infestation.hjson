@@ -4,7 +4,7 @@ description: An upgrade to the swarmer. Can now use all sorts of ammo.
 detail: pew
 health: 550
 size: 3
-reload: 5
+reload: 9
 range: 210
 shootY: 14
 ammoUseEffect: casing2
@@ -13,6 +13,7 @@ rotateSpeed: 3
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
+weaveMag: 2
 researchCostMultiplier: 1.5
 consumes: {
   coolant: {
@@ -55,9 +56,9 @@ ammoTypes: {
 
 shoot: {
 	type: ShootAlternate
-	shots: 6
+	shots: 5
 	shotDelay: 1
-	spread: 10.2
+	spread: 0
 }
 requirements: [
 silicon/300
