@@ -147,9 +147,9 @@
   "damage": 300,
   "pierce": true
   "pierceBuilding": true
-  "trailColor": "89769a",
-  "backColor": "89769a",
-  "hitColor": "89769a",
+  "trailColor": "53565c",
+  "backColor": "53565c",
+  "hitColor": "53565c",
   "frontColor": "FFFFFF"
   "trailWidth": 2.1
   "trailLength": 10
