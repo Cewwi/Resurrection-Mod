@@ -1,10 +1,10 @@
 
-type: itemTurret
-localizedName: Flurry
-description: Fires 2 lasers, using the static discharge byproduct as a secondary
-detail: cewwi
+type: ItemTurret
+localizedName: Infestation
+description: An upgrade to the swarmer. Can now use all sorts of ammo.
+detail: pew
 health: 550
-size: 2
+size: 3
 reload: 75
 range: 210
 shootY: 14
