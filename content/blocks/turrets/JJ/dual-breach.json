@@ -24,13 +24,16 @@
   "shoot": {
     "type": "ShootAlternate",
     "barrels": 2,
-    "spread": 13,
+    "spread": 13.4,
     "shots": 1
   },
   "coolant": {
     "type": "ConsumeLiquid",
     "liquid": "water",
     "amount": 1
+  },
+   "consumes": {
+    "power": 4,
   },
   "size": 4,
   "health": 9000,
