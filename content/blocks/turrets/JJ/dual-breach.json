@@ -23,7 +23,7 @@
   "shoot": {
     "type": "ShootAlternate",
     "barrels": 2,
-    "spread": 7,
+    "spread": 13,
     "shots": 1
   },
   "coolant": {
