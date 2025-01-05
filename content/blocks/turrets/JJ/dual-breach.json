@@ -2,6 +2,7 @@
   "type": "ItemTurret",
   "coolantMultiplier": 2,
   "name": "Dual Breach",
+  "description": "An upgraded version of the breach turret. Has many more ammo choices.",
   "ammoPerShot": 2,
   "reload": 50,
   "range": 232,
@@ -36,7 +37,7 @@
     "power": 4,
   },
   "size": 4,
-  "health": 9000,
+  "health": 900,
   "armor": 5,
   "drawer": {
     "type": "drawTurret",
@@ -109,6 +110,30 @@
   "buildingDamageMultiplier": 0.5
 }
 "carbide": {
+"type": "BasicBulletType",
+  "speed": 10,
+  "lifetime": 48,
+  "width": 15,
+  "hitSize": 7.5,
+  "height": 26,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 3,
+  "damage": 300,
+  "pierce": true
+  "pierceBuilding": true
+  "trailColor": "89769a",
+  "backColor": "89769a",
+  "hitColor": "89769a",
+  "frontColor": "FFFFFF"
+  "trailWidth": 2.1
+  "trailLength": 10
+  "hitEffect": "hitBulletColor"
+  "despawnEffect": "hitBulletColor",
+  "buildingDamageMultiplier": 0.5
+}
+"silicon": {
 "type": "BasicBulletType",
   "speed": 10,
   "lifetime": 48,
