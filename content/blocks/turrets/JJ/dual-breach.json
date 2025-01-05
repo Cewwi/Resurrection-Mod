@@ -1,0 +1,105 @@
+{
+  "type": "ItemTurret",
+  "coolantMultiplier": 2,
+  "name": "Dual Breach",
+  "ammoPerShot": 2,
+  "reload": 20,
+  "range": 232,
+  "outlineColor": "2d2f39",
+  "recoil": 2,
+  "shootY": 2,
+  "shake": 1,
+  "inaccuracy": 0,
+  "category": "turret",
+  "targetUnderBlocks": false,
+  "shootY": -2,
+  "shootX": -4,
+  "mirror": true,
+  "research": "sublimate",
+  "shake": 2,
+  "requirements": [
+  "carbide/200",
+  "beryllium/1500",
+  "silicon/500",
+  "tungsten/300",
+  ]
+  "shoot": {
+        "type": "shootPattern",
+        "shots": 1,
+        "shotDelay": 1,
+  },
+  "size": 4,
+  "health": 9000,
+  "armor": 5,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "reinforced-"
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-powercell",
+        "moveX": 5,
+        "under": true,
+        "moveY": 5,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2,
+        },
+        "mirror": true
+      },
+]
+},
+"shootSound": "shootAlt",
+  "ammoTypes": {
+"beryllium": {
+"type": "BasicBulletType",
+  "width": 13,
+  "hitSize": 7,
+  "height": 24,
+  "shootEffect": "sfe",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 2,
+  "pierce": true
+  "pierceBuilding": true
+  "trailColor": "b1dd7e",
+  "backColor": "b1dd7e",
+  "hitColor": "b1dd7e",
+  "frontColor": "FFFFFF"
+  "trailWidth": 2.1
+  "trailLength": 10
+  "hitEffect": "hitBulletColor"
+  "despawnEffect": "hitBulletColor",
+  "buildingDamageMultiplier": 0.5
+}
+"tungsten": {
+"type": "BasicBulletType",
+  "width": 15,
+  "hitSize": 7.5,
+  "height": 26,
+  "shootEffect": "sfe",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 5,
+  "pierce": true
+  "pierceBuilding": true
+  "trailColor": "768a9a",
+  "backColor": "768a9a",
+  "hitColor": "768a9a",
+  "frontColor": "FFFFFF"
+  "trailWidth": 2.1
+  "trailLength": 10
+  "hitEffect": "hitBulletColor"
+  "despawnEffect": "hitBulletColor",
+  "buildingDamageMultiplier": 0.5
+}
+}
+"research": {
+"parent": "breach",
+"objectives": [
+"sublimate"
+]
+}
+}
