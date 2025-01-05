@@ -11,7 +11,7 @@
   "shake": 1,
   "inaccuracy": 0,
   "category": "turret"
-  "research": "sublimate"
+  "research": "none"
   "requirements": [
   "carbide/200",
   "oxide/1500",
