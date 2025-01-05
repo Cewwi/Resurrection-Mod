@@ -7,6 +7,6 @@ explosiveness: 0.1
 radioactivity: 0
 charge: 0
 alwaysUnlocked: true
-color: #d99f6b
+color: d99f6b
 research: iridescence
 hiddenOnPlanets: [serpulo, erekir]
