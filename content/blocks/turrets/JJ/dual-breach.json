@@ -144,7 +144,7 @@
   "smokeEffect": "shootBigSmoke",
   "ammoMultiplier": 1,
   "pierceCap": 3,
-  "damage": 300,
+  "damage": 100,
   "pierce": true
   "pierceBuilding": true
   "trailColor": "53565c",
@@ -156,6 +156,18 @@
   "hitEffect": "hitBulletColor"
   "despawnEffect": "hitBulletColor",
   "buildingDamageMultiplier": 0.5
+  "fragBullet": {
+            "speed": 5,
+            "lifetime": 10,
+            "pierce": true,
+            "damage": 5,
+            "width": 1,
+            "height": 10,
+      },
+      "fragBullets": 5,
+      "fragSpread": 360,
+      "fragRandomSpread": 30,
+      "fragVelocityMin": 0.8,
 }
 }
 "research": {
