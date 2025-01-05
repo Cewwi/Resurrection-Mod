@@ -3,7 +3,7 @@
   "coolantMultiplier": 2,
   "name": "Dual Breach",
   "ammoPerShot": 2,
-  "reload": 20,
+  "reload": 100,
   "range": 232,
   "outlineColor": "2d2f39",
   "recoil": 2,
@@ -60,6 +60,8 @@
   "ammoTypes": {
 "beryllium": {
 "type": "BasicBulletType",
+  "speed": 10,
+  "lifetime": 28,
   "width": 13,
   "hitSize": 7,
   "damage": 180,
@@ -82,6 +84,8 @@
 }
 "tungsten": {
 "type": "BasicBulletType",
+  "speed": 10,
+  "lifetime": 28,
   "width": 15,
   "hitSize": 7.5,
   "height": 26,
