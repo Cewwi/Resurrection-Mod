@@ -14,6 +14,11 @@ targetGround: true
 targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
+consumes: {
+  coolant: {
+    amount: 0.5
+  }
+}
 shootType: {
 	type: missileBulletType
 	ammoMultiplier: 5
