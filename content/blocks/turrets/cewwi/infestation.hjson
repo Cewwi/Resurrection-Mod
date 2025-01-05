@@ -1,0 +1,94 @@
+
+type: Turret
+localizedName: Flurry
+description: Fires 2 lasers, using the static discharge byproduct as a secondary
+detail: cewwi
+health: 550
+size: 2
+reload: 75
+range: 210
+shootY: 14
+ammoUseEffect: casing2 
+inaccuracy: 0
+rotateSpeed: 3
+targetGround: true
+targetAir: true
+coolantMultiplier: 2
+researchCostMultiplier: 1.5
+moveWhileCharging: false
+continuous: true
+consumes: {
+  power: 100
+}
+hasPower: true
+shootType: {
+	type: continuousLaserBulletType
+	ammoPerShot: 4
+	damage: 1000
+	width: 2
+	length: 210
+	hitEffect: instHit
+	smokeEffect: shootSmallSmoke
+	lifetime: 20
+	bulletInterval: 5
+	ammoMultiplier: 2
+	intervalRandomSpread: 20
+     	buildingDamageMultiplier: 0.75
+	colors: [73d188,62ae7f]
+	followParent: true
+      	rotWithParent: true
+	intervalBullet: {
+      type: LightningBulletType
+      buildingDamageMultiplier: 0.75
+      lightningLength: 20
+      lightningColor: 73d188
+      damage: 100
+      intervalSpread: 5
+      shootSound: spark
+      intervalAngle: 5
+      shoot: {
+      shots: 5
+          }
+      }
+}	
+
+shoot: {
+	type: ShootAlternate
+	shots: 2
+	shotDelay: 1
+	spread: 10.2
+}
+requirements: [
+silicon/300
+titanium/200
+thorium/200
+graphite/100
+plastanium/50
+metaglass/20
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: cewwi-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -left
+      progress: recoil
+      moveY: 0
+      heatProgress: recoil
+      mirror: false
+      under: true
+    }
+    {
+      type: RegionPart
+      suffix: -right
+      progress: recoil
+      moveY: 0
+      heatProgress: recoil
+      mirror: false
+      under: true
+    }
+  ]
+}
+category: turret
+research: duo
