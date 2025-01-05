@@ -4,7 +4,7 @@ description: An upgrade to the swarmer. Can now use all sorts of ammo.
 detail: pew
 health: 550
 size: 3
-reload: 75
+reload: 0.11
 range: 210
 shootY: 14
 ammoUseEffect: casing2
@@ -28,13 +28,12 @@ ammoTypes: {
 	length: 4
 	hitEffect: instHit
 	smokeEffect: shootSmallSmoke
-	lifetime: 20
+	lifetime: 100
+	speed: 10
 	bulletInterval: 5
 	intervalRandomSpread: 20
      	buildingDamageMultiplier: 0.75
 	colors: [73d188,62ae7f]
-	followParent: true
-      	rotWithParent: true
 	intervalBullet: {
       type: LightningBulletType
       buildingDamageMultiplier: 0.75
@@ -53,7 +52,7 @@ ammoTypes: {
 
 shoot: {
 	type: ShootAlternate
-	shots: 2
+	shots: 6
 	shotDelay: 1
 	spread: 10.2
 }
