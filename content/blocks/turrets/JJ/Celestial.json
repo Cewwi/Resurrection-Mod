@@ -2,7 +2,7 @@
   "type": "itemTurret",
   "coolantMultiplier": 2,
   "name": "Celestial",
-  "ammoPerShot": 30,
+  "ammoPerShot": 3,
   "reload": 5,
   "ammoUseEffect": "casing4",
   "range": 464,
