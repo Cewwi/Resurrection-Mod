@@ -23,7 +23,10 @@ ammoTypes: {
 	blast-compound: {
 	type: missileBulletType
 	ammoMultiplier: 5
-	damage: 1000
+	damage: 10
+	splashDamageRadius: 29.6
+	splashDamage: 45
+	weaveMag: 2
 	width: 2
 	length: 4
 	hitEffect: instHit
