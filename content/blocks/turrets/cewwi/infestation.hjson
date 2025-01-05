@@ -28,8 +28,8 @@ ammoTypes: {
 	splashDamageRadius: 29.6
 	splashDamage: 45
 	weaveMag: 2
-	width: 2
-	length: 4
+	width: 8
+	length: 15
 	hitEffect: instHit
 	smokeEffect: shootSmallSmoke
 	lifetime: 100
@@ -38,28 +38,15 @@ ammoTypes: {
 	bulletInterval: 5
 	intervalRandomSpread: 360
      	buildingDamageMultiplier: 0.75
-	intervalBullet: {
-      type: LightningBulletType
-      buildingDamageMultiplier: 0.75
-      lightningLength: 4
-      lightningColor: da6b68
-      damage: 10
-      intervalSpread: 360
-      shootSound: spark
-      intervalAngle: 360
-      shoot: {
-      shots: 5
-          }
       }
-}	
 }
 
 shoot: {
-	type: ShootAlternate
-	shots: 5
-	shotDelay: 1
-	spread: 0
-}
+    type: ShootAlternate
+    barrels: 5
+    spread: 13.4
+    shots: 1
+  },
 requirements: [
 silicon/300
 titanium/200
