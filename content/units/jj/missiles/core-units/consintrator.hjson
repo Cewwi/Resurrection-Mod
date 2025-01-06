@@ -30,25 +30,25 @@ alwaysUnlocked: true
 outlineColor: 1d1c1a
 weapons: [
 {
-  widthSinMag: 0.11
-  reload: 20
-  rotate: false
-  shootY: 0
-  beamWidth: 0.7
-  repairSpeed: 4.1
-  fractionRepairSpeed: 0.12
-  aimDst: 0
-  shootCone: 15
-  mirror: false
-  targetUnits: false
-  targetBuildings: true
-  autoTarget: false
-  controllable: true
-  laserColor: 95c6f8
-  healColor: 95c6f8
-    bullet: {
-      type: RepairBeamWeapon
-      maxRange: 80,
+  type: RepairBeamWeapon
+x: 0
+y: 9.75
+shootY: 0
+reload: 20
+rotate: false
+beamWidth: 0.7
+shootCone: 40
+mirror: false
+repairSpeed: 4
+fractionRepairSpeed: 0.04
+targetUnits: true
+targetBuildings: true
+autoTarget: false
+controllable: true
+laserColor: ffd37f
+healColor: ffd37f
+bullet: {
+maxRange: 140
     }
 }
 ]
