@@ -156,7 +156,7 @@
   "hitEffect": "hitBulletColor"
   "despawnEffect": "hitBulletColor",
   "buildingDamageMultiplier": 0.5
-  "lightningLength": 5,
+  "lightningLength": 16,
   "lightningDamage": 25,
   "lightningCone": 360,
   "lightning": 3,
