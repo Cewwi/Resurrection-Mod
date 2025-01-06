@@ -1,12 +1,13 @@
 type: legs
-legCount: 8
-legLength: 60
+legCount: 6
+legLength: 40
 legSpeed: 0.5
 legExtension: -13.5
 legForwardScl: 0.2
 envDisabled: 0
 legMoveSpace: 0.9
 legPairOffset: 2
+fogRadius: 0
 hovering: false
 faceTarget: true
 targetPriority: -2
