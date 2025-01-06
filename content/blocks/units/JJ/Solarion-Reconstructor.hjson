@@ -11,10 +11,7 @@
       ]
   }
   requirements: [
-    Kiperite/150
-    Ion/200
-    Volcanite/50
-    Steel/50
+    copper/150
     ]
   upgrades: [
     [
