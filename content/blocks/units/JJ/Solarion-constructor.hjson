@@ -18,8 +18,7 @@ plans: [
   {
     unit: rock
     requirements: [
-      Kiperite/25
-      Ion/15
+      copper/25
     ]
     time: 600
   }
