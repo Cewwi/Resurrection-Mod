@@ -1,8 +1,0 @@
-name: Ion
-description: "A strong, easly mendable material. Used in most structures."
-hardness: 2
-cost: 0.5
-alwaysUnlocked: true
-color: 628b9d
-research: Kiperite
-hiddenOnPlanets: [serpulo, erekir]
