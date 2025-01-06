@@ -1,0 +1,53 @@
+type: legs
+legCount: 8
+legLength: 60
+legSpeed: 0.5
+legExtension: -13.5
+legForwardScl: 0.2
+envDisabled: 0
+legMoveSpace: 0.9
+legPairOffset: 2
+hovering: false
+faceTarget: true
+targetPriority: -2
+groundLayer: 60
+name: bore
+description: Defends the Plasma core. Builds structures and mines ores. 
+health: 500
+armor: 4
+speed: 3
+hitSize: 9
+isEnemy: false
+mineSpeed: 7.5
+mineFloor: true
+mineWalls: true
+mineTier: 1
+buildSpeed: 1.2
+drag: 0.4
+itemCapacity: 90
+alwaysUnlocked: true
+outlineColor: 1d1c1a
+weapons: [
+{
+  widthSinMag: 0.11
+  reload: 20
+  rotate: false
+  shootY: 0
+  beamWidth: 0.7
+  repairSpeed: 4.1
+  fractionRepairSpeed: 0.12
+  aimDst: 0
+  shootCone: 15
+  mirror: false
+  targetUnits: false
+  targetBuildings: true
+  autoTarget: false
+  controllable: true
+  laserColor: 95c6f8
+  healColor: 95c6f8
+    bullet: {
+      type: RepairBeamWeapon
+      maxRange: 80,
+    }
+}
+]
