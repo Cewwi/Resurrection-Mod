@@ -4,5 +4,5 @@ hardness: 5
 cost: 0.5
 alwaysUnlocked: true
 color: 628b9d
-research: Kiperite
+research: Cavern-core
 hiddenOnPlanets: [serpulo, erekir]
