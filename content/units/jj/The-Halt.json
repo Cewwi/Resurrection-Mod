@@ -44,28 +44,12 @@
     "electrified",
     "spore-slowed"
   ],
-  "abilities": [
-    {
-      "type": "UnitSpawnAbility",
-      "spawnX": 30,
-      "spawnY": -25,
-      "unit": "Galva",
-      "spawnTime": 500
-    },
-    {
-      "type": "UnitSpawnAbility",
-      "spawnX": -30,
-      "spawnY": -25,
-      "unit": "Galva",
-      "spawnTime": 500
-    },
-  ]
   "weapons": [
     {
       "name": "The-Halt-Halter",
       "x": 75,
       "y": 1,
-      "reload": 330,
+      "reload": 30,
       "mirror": true,
       "alternate": true,
       "rotate": false,
