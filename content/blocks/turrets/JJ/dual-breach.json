@@ -133,7 +133,7 @@
   "despawnEffect": "hitBulletColor",
   "buildingDamageMultiplier": 0.5
 }
-"silicon": {
+"surge-alloy": {
 "type": "BasicBulletType",
   "speed": 10,
   "lifetime": 48,
@@ -156,18 +156,15 @@
   "hitEffect": "hitBulletColor"
   "despawnEffect": "hitBulletColor",
   "buildingDamageMultiplier": 0.5
-  "fragBullet": {
-            "speed": 5,
-            "lifetime": 10,
-            "pierce": true,
-            "damage": 5,
-            "width": 1,
-            "height": 10,
-      },
-      "fragBullets": 5,
-      "fragSpread": 360,
-      "fragRandomSpread": 30,
-      "fragVelocityMin": 0.8,
+  "intervalBullet": {
+      "type: LightningBulletType",
+      "buildingDamageMultiplier": 0.75,
+      "lightningLength": 4,
+      "lightningColor": "da6b68",
+      "damage": 10,
+      "intervalSpread": 360,
+      "shootSound": "spark",
+      "intervalAngle": 360,
 }
 }
 "research": {
