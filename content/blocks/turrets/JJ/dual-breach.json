@@ -72,7 +72,7 @@
   "shootEffect": "shootBig",
   "smokeEffect": "shootBigSmoke",
   "ammoMultiplier": 1,
-  "pierceCap": 2,
+  "pierceCap": 5,
   "pierce": true
   "pierceBuilding": true
   "trailColor": "b1dd7e",
@@ -136,7 +136,7 @@
 "surge-alloy": {
 "type": "BasicBulletType",
   "speed": 10,
-  "lifetime": 48,
+  "lifetime": 28,
   "width": 15,
   "hitSize": 7.5,
   "height": 26,
@@ -156,15 +156,9 @@
   "hitEffect": "hitBulletColor"
   "despawnEffect": "hitBulletColor",
   "buildingDamageMultiplier": 0.5
-  "intervalBullet": {
-      "type: LightningBulletType",
-      "buildingDamageMultiplier": 0.75,
-      "lightningLength": 4,
-      "lightningColor": "da6b68",
-      "damage": 10,
-      "intervalSpread": 360,
-      "shootSound": "spark",
-      "intervalAngle": 360,
+  "lightningLength": 5,
+  "lightningDamage": 25,
+  "lightning": 3,
 }
 }
 "research": {
