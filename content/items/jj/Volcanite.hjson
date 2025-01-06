@@ -1,8 +1,0 @@
-name: Volcanite
-description: "A hard rock with a magma-like core. Produces power, but highly volatile."
-hardness: 1
-cost: 0.5
-alwaysUnlocked: true
-color: FF7436FF
-research: Kiperite
-hiddenOnPlanets: [serpulo, erekir]
