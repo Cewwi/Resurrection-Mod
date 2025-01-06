@@ -16,19 +16,17 @@ coolantMultiplier: 2
 researchCostMultiplier: 1.5
 consumes: {
   coolant: {
-    amount: 0.5
+    amount: 36 //0.5
   }
 }
 ammoTypes: {
 	blast-compound: {
 	type: missileBulletType
-	ammoMultiplier: 5
-	damage: 10
-	splashDamageRadius: 29.6
-	splashDamage: 45
+	ammoMultiplier: 2
+	damage: 20
+	splashDamageRadius: 30
+	splashDamage: 90
 	weaveMag: 2
-        splashDamageRadius: 30
-        splashDamage: 35
 	width: 7
 	length: 23
 	shootCone: 20
