@@ -42,6 +42,32 @@ ammoTypes: {
 	bulletInterval: 5
 	intervalRandomSpread: 360
      	buildingDamageMultiplier: 0.75
+	color: fc7c5c
+      }
+	pyratite: {
+	type: missileBulletType
+	ammoMultiplier: 2
+	damage: 24
+	splashDamageRadius: 20
+	splashDamage: 90
+	weaveMag: 2
+	width: 7
+	length: 23
+	shootCone: 20
+	hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+	smokeEffect: shootSmallSmoke
+        statusDuration: 80
+        status: burning
+	lifetime: 60
+	speed: 6
+        weaveScale: 8
+        weaveMag: 2
+	bulletInterval: 5
+	intervalRandomSpread: 360
+     	buildingDamageMultiplier: 1
+	makeFire = true
+	color: fcac5c
       }
 }
 
