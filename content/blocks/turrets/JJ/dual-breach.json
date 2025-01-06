@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "coolantMultiplier": 2,
-  "name": "Dual Breach",
+  "name": "Rupture",
   "description": "An upgraded version of the breach turret. Has many more ammo choices.",
   "ammoPerShot": 2,
   "reload": 50,
