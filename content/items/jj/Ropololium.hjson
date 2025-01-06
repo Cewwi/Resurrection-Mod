@@ -1,8 +1,0 @@
-name: Ion
-description: "Simple alloy sde by the Galux."
-hardness: 2
-cost: 0.5
-alwaysUnlocked: true
-color: C6FF6BFF
-research: Plasma-Core
-hiddenOnPlanets: [serpulo, erekir]
