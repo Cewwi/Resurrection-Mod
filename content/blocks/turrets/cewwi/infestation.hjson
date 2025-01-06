@@ -31,6 +31,7 @@ ammoTypes: {
         splashDamage: 35
 	width: 7
 	length: 23
+	shootCone: 20
 	hitEffect: blastExplosion
         despawnEffect: blastExplosion
 	smokeEffect: shootSmallSmoke
