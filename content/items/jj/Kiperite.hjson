@@ -1,8 +1,0 @@
-name: Kiperite
-description: "Produces a small amount of power, enough to power small blocks."
-hardness: 1
-cost: 0.5
-alwaysUnlocked: true
-color: e4881b
-research: Ropololium
-hiddenOnPlanets: [serpulo, erekir]
