@@ -4,7 +4,7 @@ description: An upgrade to the swarmer. Can now use all sorts of ammo.
 detail: pew
 health: 550
 size: 3
-reload: 6.6
+reload: 6.56
 range: 360
 shootY: 10
 ammoUseEffect: casing2
