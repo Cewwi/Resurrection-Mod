@@ -13,7 +13,7 @@ faceTarget: true
 targetPriority: -2
 groundLayer: 60
 name: bore
-description: Defends the Plasma core. Builds structures and mines ores. 
+description: Defends the Cavern core. Builds structures and mines ores. 
 health: 500
 armor: 4
 speed: 3
