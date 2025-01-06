@@ -18,8 +18,7 @@ plans: [
   {
     unit: seer
     requirements: [
-      Ropololium/25
-      Ion/15
+      copper/25
     ]
     time: 500
   }
