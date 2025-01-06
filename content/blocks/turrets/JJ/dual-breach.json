@@ -147,9 +147,9 @@
   "damage": 100,
   "pierce": true
   "pierceBuilding": true
-  "trailColor": "53565c",
-  "backColor": "53565c",
-  "hitColor": "53565c",
+  "trailColor": "ECD36FFF",
+  "backColor": "ECD36FFF",
+  "hitColor": "ECD36FFF",
   "frontColor": "FFFFFF"
   "trailWidth": 2.1
   "trailLength": 10
@@ -158,6 +158,7 @@
   "buildingDamageMultiplier": 0.5
   "lightningLength": 5,
   "lightningDamage": 25,
+  "lightningCone": 360,
   "lightning": 3,
 }
 }
