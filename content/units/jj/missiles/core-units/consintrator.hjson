@@ -40,7 +40,7 @@ beamWidth: 0.7
 shootCone: 40
 mirror: false
 repairSpeed: 4
-fractionRepairSpeed: 0.04
+fractionRepairSpeed: 0.12
 targetUnits: true
 targetBuildings: true
 autoTarget: false
