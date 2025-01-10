@@ -3,3 +3,4 @@ name: Phase Pillar
 variants: 2
 clipSize: 300
 shadowOffset: -2.5
+shadowAlpha: 0.3
