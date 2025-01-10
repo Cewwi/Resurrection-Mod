@@ -1,0 +1,5 @@
+type: TallBlock
+name: Phase Pillar
+variants: 2
+clipSize: 300
+shadowOffset: -2.5
