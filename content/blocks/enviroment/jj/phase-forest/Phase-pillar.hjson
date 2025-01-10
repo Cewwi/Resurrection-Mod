@@ -5,3 +5,5 @@ clipSize: 300
 shadowOffset: -2.5
 shadowAlpha: 0.3
 emitLight: true
+lightRadius: 100
+lightColor: F7E97EFF
