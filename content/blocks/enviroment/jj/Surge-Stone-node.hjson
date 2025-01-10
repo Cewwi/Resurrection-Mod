@@ -3,3 +3,4 @@ name: Surge Stone Node
 variants: 2
 lightRadius: 100
 lightColor: F7E97EFF
+emitLight: true
