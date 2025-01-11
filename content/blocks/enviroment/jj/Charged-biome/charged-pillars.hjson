@@ -1,1 +1,9 @@
-htbdf
+type: TallBlock
+name: Charged Pillar
+variants: 2
+clipSize: 300
+shadowOffset: 0
+shadowAlpha: 0
+emitLight: true
+lightRadius: 20
+lightColor: F7E97EFF
