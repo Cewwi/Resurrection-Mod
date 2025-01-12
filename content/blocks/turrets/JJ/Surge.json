@@ -2,7 +2,7 @@
   "type": "ItemTurret",
   "coolantMultiplier": 2,
   "name": "Surge",
-  "description": "Fires 3 bullets in quick succession.",
+  "description": "Fires 3 bullets in quick succession. Overcharges with Charged Plasma.",
   "ammoPerShot": 2,
   "reload": 50,
   "range": 232,
@@ -14,7 +14,7 @@
   "targetUnderBlocks": false,
   "shootY": -1,
   "shootCone": 3,
-  "research": "disperse",
+  "research": "Cavern-core",
   "shake": 2,
   "requirements": [
   "carborundum/100",
@@ -30,7 +30,7 @@
   },
   "coolant": {
     "type": "ConsumeLiquid",
-    "liquid": "water",
+    "liquid": "Charged-Plasma",
     "amount": 1
   },
   "size": 3,
