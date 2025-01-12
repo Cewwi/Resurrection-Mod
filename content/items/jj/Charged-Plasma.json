@@ -1,0 +1,9 @@
+{
+  "temperature": 54,
+  "viscosity": -5,
+  "gas": true,
+  "lightColor": "A9D8FFFF",
+  "effect": "freezing",
+  "color": "A9D8FFFF",
+  "research": "ChargeStone"
+}
