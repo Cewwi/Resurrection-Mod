@@ -13,6 +13,6 @@ density: 3200
 baseSpeed: 14.4
 opacityMultiplier: 0.45
 force: 0.4
-sound: wind
+sound: none
 soundVol: 0.8
-duration: 4200
+duration: 42000000000000000000
