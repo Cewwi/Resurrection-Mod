@@ -1,0 +1,115 @@
+{
+  "type": "ItemTurret",
+  "coolantMultiplier": 2,
+  "name": "Surge",
+  "description": "Fires 3 bullets in quick succession.",
+  "ammoPerShot": 2,
+  "reload": 50,
+  "range": 232,
+  "outlineColor": "2d2f39",
+  "recoil": 2,
+  "shake": 1,
+  "inaccuracy": 0,
+  "category": "turret",
+  "targetUnderBlocks": false,
+  "shootY": -1,
+  "shootCone": 3,
+  "research": "disperse",
+  "shake": 2,
+  "requirements": [
+  "carborundum/100",
+  "ChargeStone/125",
+  "schelite/200",
+  ]
+  "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 2,
+    "spread": 0,
+    "shots": 3
+  },
+  "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "water",
+    "amount": 1
+  },
+   "consumes": {
+    "power": 4,
+  },
+  "size": 4,
+  "health": 900,
+  "armor": 5,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "reinforced-"
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-blade",
+        "moveX": 1,
+        "under": true,
+        "moveY": 6,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2,
+        },
+        "mirror": true
+      },
+]
+},
+"shootSound": "shootAlt",
+  "ammoTypes": {
+"ChargeStone": {
+"type": "BasicBulletType",
+  "speed": 10,
+  "lifetime": 28,
+  "width": 13,
+  "hitSize": 7,
+  "damage": 85,
+  "height": 24,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 5,
+  "pierce": true
+  "pierceBuilding": true
+  "trailColor": "D1EFFFFF",
+  "backColor": "D1EFFFFF",
+  "hitColor": "D1EFFFFF",
+  "frontColor": "FFFFFF"
+  "trailWidth": 2.1
+  "trailLength": 10
+  "hitEffect": "hitBulletColor"
+  "despawnEffect": "hitBulletColor",
+  "buildingDamageMultiplier": 0.5
+}
+"schelite": {
+"type": "BasicBulletType",
+  "speed": 10,
+  "lifetime": 28,
+  "width": 15,
+  "hitSize": 7.5,
+  "height": 26,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 5,
+  "damage": 100,
+  "pierce": true
+  "pierceBuilding": true
+  "trailColor": "6E7080FF",
+  "backColor": "6E7080FF",
+  "hitColor": "6E7080FF",
+  "frontColor": "FFFFFF"
+  "trailWidth": 2.1
+  "trailLength": 10
+  "hitEffect": "hitBulletColor"
+  "despawnEffect": "hitBulletColor",
+  "buildingDamageMultiplier": 0.5
+}
+}
+"research": {
+"parent": "Cavern-core",
+}
+}
