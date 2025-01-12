@@ -16,3 +16,6 @@ force: 0.4
 sound: none
 soundVol: 0.8
 duration: 42000000000000000000
+lightRadius: 10
+lightColor: F7E97EFF
+emitLight: true
