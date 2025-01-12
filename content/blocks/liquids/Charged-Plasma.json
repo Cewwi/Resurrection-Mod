@@ -2,7 +2,7 @@
   "name": "Charged Plasma",
   "temperature": 54,
   "viscosity": -5,
-  "gas": false,
+  "gas": true,
   "lightColor": "A9D8FFFF",
   "effect": "shocked",
   "color": "A9D8FFFF",
