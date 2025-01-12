@@ -2,7 +2,7 @@
   "singleTarget": true,
   "template": "ErekirUnitType",
   "localizedName": "Dominique",
-  "description": "Fires a devastating surge of energy out of the main cannon. Has a secondary laser chaingun."
+  "description": "Fires a devastating surge of energy out of the main cannon. Has 2 secondary laser chainguns."
   "drawShields": false,
   "research": {
   "requirements": [
