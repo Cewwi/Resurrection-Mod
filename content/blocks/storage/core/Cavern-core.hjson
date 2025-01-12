@@ -12,6 +12,12 @@
  requirements: [
     copper/1000
   ],
+research: {
+  planet: tronoe
+  root: true
+  name: Tronoe
+  requiresUnlock: false
+}
   alwaysUnlocked: true
   drawCracks: true
   createRubble: true
