@@ -1,0 +1,15 @@
+type: DuctRouter
+name: Charged Router
+description: Advanced Router duct. Can now output/imput from every side. Faster and stronger than the normal duct router.
+category: distribution
+alwaysUnlocked: false
+research: charged-duct
+solid: false
+researchCost: [
+  ChargeStone/300
+]
+speed: 6
+health: 150
+requirements: [
+  ChargeStone/10
+]
