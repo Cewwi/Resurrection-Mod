@@ -9,7 +9,7 @@
   "outlineColor": "2d2f39",
   "recoil": 2,
   "shake": 1,
-  "inaccuracy": 0,
+  "inaccuracy": 3,
   "category": "turret",
   "targetUnderBlocks": false,
   "shootY": -1,
