@@ -1,6 +1,6 @@
 type: Duct
 name: Charged Duct
-description: Advanced transport duct.
+description: Can be boosted with power.
 category: distribution
 alwaysUnlocked: false
 research: Cavern-core
