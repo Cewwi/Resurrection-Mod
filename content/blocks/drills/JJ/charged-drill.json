@@ -1,0 +1,35 @@
+
+{
+  "type": "Drill",
+  "size": 3,
+  "tier": 14,
+  "rotateSpeed": 5.5,
+  "drillTime": 40,
+  "liquidBoostIntensity": 1.5,
+  "drawRim": true,
+  "itemCapacity": 30,
+  "warmupSpeed": 0.0878,
+  "heatColor": "73FFAEFF",
+  "hardnessDrillMultiplier": 10,
+  "liquidCapacity": 25,
+  "expanded": true,
+  "consumes": {
+    "power": 5,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.31,
+      "booster": true,
+      "optional": true
+    }
+  },
+  "requirements": [
+    "thorium/600",
+    "plastanium/500",
+    "gamma-green/800",
+    "metaglass/500",
+    "silicon/1000",
+    "lead/1000"
+  ],
+  "category": "production",
+  "research": "blast-drill"
+}
