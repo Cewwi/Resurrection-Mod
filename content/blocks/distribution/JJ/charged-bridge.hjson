@@ -1,10 +1,11 @@
 type: DuctBridge
   name: Charged Bridge
-description: Can be boosted with power.
+description: Can be boosted with power. Carries items over terrain
 category: distribution
 alwaysUnlocked: false
 research: charged-duct
 solid: false
+range: 6
 researchCost: [
   ChargeStone/250
 ]
