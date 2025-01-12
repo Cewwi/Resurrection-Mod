@@ -1,6 +1,6 @@
 type: Duct
 name: Charged Duct
-description: Can be boosted with power. Transports items
+description: Can be boosted with power. Transports items.
 category: distribution
 alwaysUnlocked: false
 research: Cavern-core
