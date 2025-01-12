@@ -20,8 +20,8 @@ layer: 109
  ]
  }
 isEnemy: true
-health: 30000
-armor: 1
+health: 36800
+armor: 5
 mineSpeed: 10
 faceTarget: true
 mineFloor: true
