@@ -19,9 +19,26 @@
       "liquid": "water",
       "amount": 0.31,
       "booster": true,
-      "optional": true
-    }
+      "optional": true,
+    },
   },
+  "drawer": [
+{
+  "type": "DrawRegion",
+  "suffix": "-bottom",
+},
+{
+  "type": "DrawRegion",
+  "suffix": "-rotator"
+},
+{
+  "type": "DrawDefault"
+},
+{
+  "type": "DrawRegion",
+  "suffix": "-top",
+},
+],
   "requirements": [
     "thorium/600",
     "plastanium/500",
@@ -31,5 +48,5 @@
     "lead/1000"
   ],
   "category": "production",
-  "research": "blast-drill"
-}
+  "research": "blast-drill",
+};
