@@ -1,6 +1,6 @@
 type: DuctRouter
 name: Charged Router
-description: Advanced Router duct. Can now output/imput from every side. Faster and stronger than the normal duct router.
+description: Advanced transport duct.
 category: distribution
 alwaysUnlocked: false
 research: charged-duct
