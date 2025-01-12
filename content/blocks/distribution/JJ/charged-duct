@@ -1,0 +1,15 @@
+type: Duct
+name: Charged Duct
+description: Advanced transport duct.
+category: distribution
+alwaysUnlocked: false
+research: Cavern-core
+bridgeReplacement: charged-bridge
+researchCost: [
+  ChargeStone/250
+]
+speed: 6
+health: 125
+requirements: [
+  ChargeStone/1
+]
