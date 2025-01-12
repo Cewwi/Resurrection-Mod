@@ -1,5 +1,5 @@
 type: ParticleWeather
-name: Ropo Storm
+name: Crystal Storm
 color: b0ec3f
 noiseColor: b0ec3f
 drawNoise: true
