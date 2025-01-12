@@ -2,9 +2,9 @@
 {
   "type": "Drill",
   "size": 3,
-  "tier": 14,
-  "rotateSpeed": 5.5,
-  "drillTime": 40,
+  "tier": 1,
+  "rotateSpeed": 3.5,
+  "drillTime": 80,
   "liquidBoostIntensity": 1.5,
   "drawRim": true,
   "itemCapacity": 30,
@@ -22,30 +22,8 @@
       "optional": true,
     },
   },
-  "drawer": [
-{
-  "type": "DrawRegion",
-  "suffix": "-bottom",
-},
-{
-  "type": "DrawRegion",
-  "suffix": "-rotator"
-},
-{
-  "type": "DrawDefault"
-},
-{
-  "type": "DrawRegion",
-  "suffix": "-top",
-},
-],
   "requirements": [
-    "thorium/600",
-    "plastanium/500",
-    "gamma-green/800",
-    "metaglass/500",
-    "silicon/1000",
-    "lead/1000"
+    "ChargeStone/50",
   ],
   "category": "production",
   "research": "Cavern-core",
