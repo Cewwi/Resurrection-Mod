@@ -33,15 +33,12 @@
     "liquid": "water",
     "amount": 1
   },
-   "consumes": {
-    "power": 4,
-  },
-  "size": 4,
+  "size": 3,
   "health": 900,
   "armor": 5,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "reinforced-"
+    "basePrefix": "charged-"
     "parts": [
       {
         "type": "RegionPart",
