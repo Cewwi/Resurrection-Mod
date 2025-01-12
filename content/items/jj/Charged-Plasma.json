@@ -4,7 +4,7 @@
   "viscosity": -5,
   "gas": true,
   "lightColor": "A9D8FFFF",
-  "effect": "freezing",
+  "effect": "shocked",
   "color": "A9D8FFFF",
   "research": "ChargeStone"
 }
