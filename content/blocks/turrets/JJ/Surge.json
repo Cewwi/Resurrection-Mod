@@ -2,7 +2,7 @@
   "type": "ItemTurret",
   "coolantMultiplier": 2,
   "name": "Surge",
-  "description": "Fires 3 bullets in quick succession. Overcharges with Charged Plasma.",
+  "description": "Fires 3 bullets in quick succession. Overcharges with a large amount of Cryofluid.",
   "ammoPerShot": 2,
   "reload": 50,
   "range": 232,
@@ -30,8 +30,8 @@
   },
   "coolant": {
     "type": "ConsumeLiquid",
-    "liquid": "slag",
-    "amount": 1
+    "liquid": "cryofluid",
+    "amount": 5
   },
   "size": 3,
   "health": 900,
