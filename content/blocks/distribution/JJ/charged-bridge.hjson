@@ -1,2 +1,15 @@
 type: DuctBridge
   name: Charged Bridge
+description: Can be boosted with power.
+category: distribution
+alwaysUnlocked: false
+research: charged-duct
+solid: false
+researchCost: [
+  ChargeStone/250
+]
+speed: 2
+health: 150
+requirements: [
+  ChargeStone/2
+]
