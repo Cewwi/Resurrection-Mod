@@ -1,6 +1,6 @@
 type: DuctBridge
   name: Charged Bridge
-description: Can be boosted with power. Carries items over terrain
+description: Can be boosted with power. Carries items over terrain.
 category: distribution
 alwaysUnlocked: false
 research: charged-duct
