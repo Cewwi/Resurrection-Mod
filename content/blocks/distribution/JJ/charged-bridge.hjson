@@ -8,8 +8,8 @@ solid: false
 researchCost: [
   ChargeStone/250
 ]
-speed: 2
+speed: 6
 health: 150
 requirements: [
-  ChargeStone/2
+  ChargeStone/20
 ]
