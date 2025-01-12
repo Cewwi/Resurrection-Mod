@@ -1,6 +1,6 @@
 type: Floor
 name: Surge Stone Node
 variants: 2
-lightRadius: 10
+lightRadius: 25
 lightColor: F7E97EFF
 emitLight: true
