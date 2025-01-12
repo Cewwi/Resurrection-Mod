@@ -9,7 +9,6 @@
   "itemCapacity": 100,
   "warmupSpeed": 0.0878,
   "hasLiquids": true,
-  "heatColor": "73FFAEFF",
   "hardnessDrillMultiplier": 10,
   "liquidCapacity": 25,
   "expanded": true,
