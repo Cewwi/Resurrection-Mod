@@ -11,7 +11,6 @@ fogRadius: 0
 hovering: false
 faceTarget: true
 targetPriority: -2
-groundLayer: 60
 name: concentrator
 description: Defends the Cavern core. Builds structures and mines ores. 
 health: 500
