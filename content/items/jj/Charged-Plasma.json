@@ -1,4 +1,5 @@
 {
+  "name": "Charged Plasma",
   "temperature": 54,
   "viscosity": -5,
   "gas": true,
