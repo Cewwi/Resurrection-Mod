@@ -1,30 +1,33 @@
-
 {
   "type": "Drill",
   "size": 3,
   "tier": 1,
   "rotateSpeed": 3.5,
-  "drillTime": 80,
+  "drillTime": 120,
   "liquidBoostIntensity": 1.5,
   "drawRim": true,
-  "itemCapacity": 30,
+  "itemCapacity": 100,
   "warmupSpeed": 0.0878,
+  "hasLiquids": true,
   "heatColor": "73FFAEFF",
   "hardnessDrillMultiplier": 10,
   "liquidCapacity": 25,
   "expanded": true,
   "consumes": {
-    "power": 5,
+    "power": 45,
     "liquid": {
       "liquid": "water",
       "amount": 0.31,
       "booster": true,
-      "optional": true,
-    },
+      "optional": true
+    }
   },
-  "requirements": [
-    "ChargeStone/50",
+ "requirements": [
+     "ChargeStone/50",
   ],
-  "category": "production",
+  ]
+   "category": "production",
+   "category": "production",
   "research": "Cavern-core",
+  "research": "blast-drill"
 },
