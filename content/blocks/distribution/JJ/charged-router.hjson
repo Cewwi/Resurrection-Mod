@@ -1,6 +1,6 @@
 type: DuctRouter
 name: Charged Router
-description: Advanced transport duct.
+description: Can be boosted with power. Outputs items in 3 equal directions.
 category: distribution
 alwaysUnlocked: false
 research: charged-duct
