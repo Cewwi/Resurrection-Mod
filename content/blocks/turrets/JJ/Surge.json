@@ -30,7 +30,7 @@
   },
   "coolant": {
     "type": "ConsumeLiquid",
-    "liquid": "Charged-Plasma",
+    "gas": "Charged-Plasma",
     "amount": 1
   },
   "size": 3,
