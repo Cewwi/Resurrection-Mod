@@ -10,12 +10,12 @@
   "drownTimeMultiplier": 2,
   "canDrown": true,
   "groundLayer": 50,
-  "legPairOffset": 15,
+  "legPairOffset": 35,
   "outlineColor": "1d1c1a",
   "legLength": 6,
   "legBaseOffset": 5,
   "legExtension": 8,
-  "legSpeed": 1,
+  "legSpeed": 0.5,
   "legLengthScl": 1,
   "rippleScale": 1,
   "legSplashDamage": 0,
@@ -82,12 +82,12 @@
         },
         "trailChance": 1,
         "trailParam": 5,
-        "trailLength": 19,
+        "trailLength": 5,
         "trailColor": "FFD59EFF",
-        "trailWidth": 9,
+        "trailWidth": 2,
         "smokeEffect": "none",
-        "frontColor": "ffffff",
-        "backColor": "C6FF6BFF"
+        "frontColor": "FFF3D6FF",
+        "backColor": "FFD59EFF"
         },
       }
     ]
