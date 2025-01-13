@@ -1,4 +1,4 @@
-{
+d{
   "singleTarget": true,
   "name": "Twister",
   "lightRadius": 80,
@@ -13,9 +13,9 @@
   "legPairOffset": 35,
   "outlineColor": "1d1c1a",
   "legLength": 6,
-  "legBaseOffset": 5,
+  "legBaseOffset": 9,
   "legExtension": 14,
-  "legSpeed": 0.5,
+  "legSpeed": 0.2,
   "legLengthScl": 1,
   "rippleScale": 1,
   "legSplashDamage": 0,
