@@ -43,7 +43,7 @@
       "shots": 1,
       "recoil": 3.5,
       "shake": 0,
-      "shootSound": "sapper",
+      "shootSound": "sap",
       "ejectEffect": "none",
       "bullet": {
         "type": "MissileBulletType",
