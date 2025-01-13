@@ -41,9 +41,9 @@
       "shootY": 3,
       "cooldownTime": 330,
       "shots": 1,
-      "recoil": 10.5,
-      "shake": 8,
-      "shootSound": "laserblast",
+      "recoil": 3.5,
+      "shake": 0,
+      "shootSound": "sapper",
       "ejectEffect": "none",
       "bullet": {
         "type": "MissileBulletType",
