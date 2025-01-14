@@ -1,0 +1,18 @@
+  localizedName: "Core: Spire"
+  type: CoreBlock
+  health: 5000
+  squareSprite: false
+  size: 3
+  armor: 4
+  itemCapacity: 3000
+  unitCapModifier: 0
+  researchCostMultiplier: 0.1
+  requiresCoreZone: true
+  buildCostMultiplier: 1
+  unitType: gamma
+  requirements: [
+    isocite/1000
+    sulphur/500
+    potassium/500
+  ]
+  category: effect
