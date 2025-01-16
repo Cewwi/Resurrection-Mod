@@ -1,0 +1,6 @@
+type: TallBlock
+name: Small Isocite Formation
+variants: 2
+clipSize: 64
+shadowAlpha: 0.5
+shadowOffset: -1.35
