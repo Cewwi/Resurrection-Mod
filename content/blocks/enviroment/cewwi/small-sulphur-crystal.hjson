@@ -1,0 +1,6 @@
+type: TallBlock
+name: Small Sulphur Crystal
+variants: 1
+clipSize: 32
+shadowAlpha: 0.5
+shadowOffset: -1.35
