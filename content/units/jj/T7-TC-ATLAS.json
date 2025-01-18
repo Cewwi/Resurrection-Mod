@@ -17,7 +17,13 @@
 "treadRects": [
 {
 "x": 80,
-"y": -125,
+"y": -165,
+"width": 80,
+"height": 400,
+},
+{
+"x": 80,
+"y": -265,
 "width": 80,
 "height": 400,
 },
@@ -65,37 +71,43 @@
 "shootY": 16,
 "recoil": 3,
 "shootSound": "shootBig",
+  "trailEffect": [
+      {
+      "type": "ParticleEffect",
+      "particles": 3,
+      "length": 3,
+      "baseLength": 3,
+      "lifetime": 55,
+      "interp": "circleOut",
+      "cone": 360,
+      "offset": 12,
+      "lightColor": "ffb98b",
+      "colorFrom": "ffffff",
+      "colorTo": "ffb98b",
+      "sizeFrom": 52,
+      "sizeTo": 0
+    }
+      {
+      "type": "ParticleEffect",
+      "particles": 3,
+      "length": 3,
+      "baseLength": 3,
+      "lifetime": 105,
+      "interp": "circleOut",
+      "cone": 360,
+      "offset": 12,
+      "lightColor": "ffb98b",
+      "colorFrom": "ffffff",
+      "colorTo": "ffb98b",
+      "sizeFrom": 52,
+      "sizeTo": 0
+    }
+    ]
   "parts": [
 {
-"type": "shapePart",
-"y": -9.5,
-"hollow": true,
-"circle": false,
-"sides": 4,
-"layer": 110,
-"color": "ffb98b",
-"stroke": 0,
-"strokeTo": 2,
-"radiusTo": 5,
-"radius": 5
-},
-    {
-"type": "shapePart",
-"y": -9.5,
-"hollow": true,
-"circle": false,
-"sides": 0,
-"layer": 110,
-"color": "ffb98b",
-"stroke": 0,
-"strokeTo": 2,
-"radiusTo": 5,
-"radius": 5
-},
-{
 "type": "HaloPart",
-"y": -9.5,
-"radius": 4.6,
+"y": 0,
+"radius": 12.6,
 "tri": true,
 "shapeRotation": 180,
 "layer": 110,
