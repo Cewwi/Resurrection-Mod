@@ -269,8 +269,8 @@
 "sizeInterp": "pow5In",
 "sizeFrom": 25,
 "sizeTo": 16,
-"colorFrom": "ffb98b",
-"colorTo": "ffb98b"
+"colorFrom": "444759FF",
+"colorTo": "444759FF"
 },
 {
 "type": "ParticleEffect",
