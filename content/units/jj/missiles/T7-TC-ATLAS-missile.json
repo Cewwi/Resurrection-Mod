@@ -21,28 +21,6 @@
 "drawCell": true,
 "maxRange": 10,
 "lifetime": 160,
-"abilities": [
-{
-"type": "MoveEffectAbility",
-"effect": {
-"type": "ParticleEffect",
-"sizeFrom": 2,
-"sizeTo": 0,
-"length": 50,
-"lifetime": 160,
-"lightOpacity": 0.4,
-"interp": "circleOut",
-"sizeInterp": "pow5In",
-"colorFrom": "FEB380FF",
-"colorTo": "FEB380FF",
-"cone": 15
-},
-"interval": 3,
-"y": -12,
-"rotateEffect": true,
-"rotation": 180
-}
-]
 "weapons": [
  {
 "shootCone": 360,
