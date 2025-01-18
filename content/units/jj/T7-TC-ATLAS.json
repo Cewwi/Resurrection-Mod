@@ -1,6 +1,6 @@
 {
 "localizedName": "Dominate",
-"description": "Fires a large flame out of the front cannon. Has extreamly powerful rebar punchers."
+"description": "T7-TC-ATLAS."
 "template": "ErekirUnitType",
 "research": {
 "requirements": [
@@ -26,9 +26,9 @@
 "outlineColor": "2d2f39",
 "speed": 0.35,
 "hitSize": 70,
-"health": 50000,
+"health": 250000,
 "fogRadius": 80,
-"crushDamage": 1,
+"crushDamage": 3,
 "armor": 26,
 "singleTarget": true,
 "flying": false,
