@@ -1,0 +1,64 @@
+{
+"type": "missile",
+"controller": "MissileAI",
+"template": "MissileUnitType", 
+"lowAltitude": true,
+"speed": 5.6,
+"rotateSpeed": 1.7,
+"physics": false,
+"flying": true,
+"trailLength": 3,
+"hidden": true,
+"health": 20,
+"hitSize": 3,
+"engineLayer": 110,
+"outlineColor": "36363c",
+"engineColor": "9681fb",
+"trailColor": "9681fb",
+"missileAccelTime": 45,
+"engineOffset": 19,
+"engineSize": 5.3,
+"drawCell": true,
+"maxRange": 10,
+"lifetime": 160,
+"abilities": [
+{
+"type": "MoveEffectAbility",
+"effect": {
+"type": "ParticleEffect",
+"sizeFrom": 8,
+"sizeTo": 0,
+"length": 50,
+"lifetime": 160,
+"lightOpacity": 0.4,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"colorFrom": "FEB380FF",
+"colorTo": "FEB380FF",
+"cone": 15
+},
+"interval": 3,
+"y": -12,
+"rotateEffect": true,
+"rotation": 180
+}
+]
+"weapons": [
+ {
+"shootCone": 360,
+"shootOnDeath": true,
+"controllable": true,
+"bullet": {
+"type": "ArtilleryBulletType",
+"killShooter": true,
+"hitEffect": "massiveExplosion",
+"instantDisappear": true,
+"hitSoundVolume": 5,
+"splashDamage": 30,
+"splashDamageRadius": 70,
+"hitSound": "bang",
+"buildingDamageMultiplier": 0.8,
+}
+}
+ ],
+}
