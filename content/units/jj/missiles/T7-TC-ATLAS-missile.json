@@ -26,7 +26,7 @@
 "type": "MoveEffectAbility",
 "effect": {
 "type": "ParticleEffect",
-"sizeFrom": 8,
+"sizeFrom": 2,
 "sizeTo": 0,
 "length": 50,
 "lifetime": 160,
