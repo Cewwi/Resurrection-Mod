@@ -218,17 +218,17 @@
   "name": "T7-TC-ATLAS-MISSILE-SILO",
     "x": "20",
     "y": "15",
-    "shooty": "8",
+    "shooty": "10",
     "top": true,
-    "reload": "200",
+    "reload": "150",
     "alternate": "true",
     "xRand": 5,
     "mirror": "true",
     "rotate": "true",
     "shootSound": "missileLaunch",
     "shoot": {
-    "shots": 20,
-    "shotDelay": 1,
+    "shots": 15,
+    "shotDelay": 2,
     }  
     "bullet": {
       "type": "BasicBulletType",
