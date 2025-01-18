@@ -54,7 +54,7 @@
 "colorTo": "ffb98b"
         }
 "instantDisappear": true,
-"hitSoundVolume": 15,
+"hitSoundVolume": 55,
 "splashDamage": 30,
 "splashDamageRadius": 70,
 "hitSound": "bang",
