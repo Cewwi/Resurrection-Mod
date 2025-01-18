@@ -78,7 +78,6 @@
       "length": 3,
       "baseLength": 3,
       "lifetime": 55,
-      "interp": "circleOut",
       "cone": 360,
       "offset": 12,
       "lightColor": "ffb98b",
@@ -93,7 +92,6 @@
       "length": 3,
       "baseLength": 3,
       "lifetime": 105,
-      "interp": "circleOut",
       "cone": 360,
       "offset": 12,
       "lightColor": "ffb98b",
@@ -240,9 +238,9 @@
 "sizeInterp": "pow5In",
 "sizeFrom": 35,
 "sizeTo": 0,
-"lightColor": "C6FF6BFF",
-"colorFrom": "C6FF6BFF",
-"colorTo": "C6FF6BFF"
+"lightColor": "ffb98b",
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b"
 },
 {
 "type": "ParticleEffect",
