@@ -113,30 +113,30 @@
 "layer": 110,
 "color": "ffb98b",
 "haloRotateSpeed": 2.7,
-"haloRadius": 12,
-"haloRadiusTo": 12,
+"haloRadius": 52,
+"haloRadiusTo": 52,
 "stroke": 0,
 "strokeTo": 2,
 "shapes": 4,
 "triLengthTo": 7,
-"triLength": 0
+"triLength": 7,
 }
     {
 "type": "HaloPart",
 "y": 0,
-"radius": -62.6,
+"radius": 62.6,
 "tri": true,
 "shapeRotation": 180,
 "layer": 110,
 "color": "ffb98b",
 "haloRotateSpeed": 2.7,
-"haloRadius": 12,
-"haloRadiusTo": 12,
+"haloRadius": 52,
+"haloRadiusTo": 52,
 "stroke": 0,
 "strokeTo": 2,
 "shapes": 4,
-"triLengthTo": 7,
-"triLength": 0
+"triLengthTo": -7,
+"triLength": -7,
 }
     {
       "type": "RegionPart",
