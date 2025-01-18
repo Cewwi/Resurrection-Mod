@@ -135,6 +135,34 @@
     "lifetime": 75,
     "backColor": "ffb98b",
     "frontColor": "000000",
+  "parts": [
+{
+"type": "shapePart",
+"y": 0,
+"hollow": true,
+"circle": false,
+"sides": 6,
+"layer": 110,
+"color": "000000",
+"stroke": 2,
+"strokeTo": 2,
+"radiusTo": 5,
+"radius": 5
+},
+    {
+"type": "shapePart",
+"y": 0,
+"hollow": true,
+"circle": false,
+"sides": 6,
+"layer": 110,
+"color": "ffb98b",
+"stroke": 2,
+"strokeTo": 2,
+"radiusTo": 8,
+"radius": 8
+},
+  ]
     "despawnEffect": [
       {
       "type": "ParticleEffect",
@@ -194,38 +222,6 @@
     "trailLength": 19,
     "trailColor": "ffb98b",
     "trailWidth": 3,
-    "trailEffect": [
-      {
-      "type": "ParticleEffect",
-      "particles": 3,
-      "length": 3,
-      "baseLength": 3,
-      "lifetime": 55,
-      "interp": "circleOut",
-      "cone": 360,
-      "offset": 5,
-      "lightColor": "ffb98b",
-      "colorFrom": "ffffff",
-      "colorTo": "ffb98b",
-      "sizeFrom": 22,
-      "sizeTo": 0
-    }
-      {
-      "type": "ParticleEffect",
-      "particles": 3,
-      "length": 3,
-      "baseLength": 3,
-      "lifetime": 105,
-      "interp": "circleOut",
-      "cone": 360,
-      "offset": 2,
-      "lightColor": "ffb98b",
-      "colorFrom": "ffffff",
-      "colorTo": "ffb98b",
-      "sizeFrom": 22,
-      "sizeTo": 0
-    }
-    ]
     "bulletInterval": 2,
     "intervalRandomSpread": 360,
     "intervalSpread": 300,
@@ -238,7 +234,7 @@
         "hitSize": 5.0,
         "height": 15.0,
         "pierce": true,
-        "lifetime": 35.0,
+        "lifetime": 125.0,
         "pierceBuilding": true,
         "hitColor": "ffb98b",
         "backColor": "ffb98b",
@@ -265,7 +261,7 @@
         "buildingDamageMultiplier": 0.3,
         "homingPower": 0.2
         "bulletInterval": 2,
-        "fragBullets": 20,
+        "fragBullets": 1,
       "fragVelocityMin": 0.5,
       "fragVelocityMax": 1.5,
       "fragLifeMin": 0.5
