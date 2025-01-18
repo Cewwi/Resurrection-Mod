@@ -324,10 +324,12 @@
         "buildingDamageMultiplier": 0.3,
         "homingPower": 0.2
         "bulletInterval": 2,
-    "intervalRandomSpread": 360,
-    "intervalSpread": 300,
-    "intervalBullet": {
-      "damage": 200,
+        "fragBullets": 20,
+      "fragVelocityMin": 0.5,
+      "fragVelocityMax": 1.5,
+      "fragLifeMin": 0.5
+    "fragBullet": {
+        "damage": 500,
       "status": "slow",
       "statusDuration": "120",
       "width": 25,
@@ -341,7 +343,6 @@
       "ammoMultiplier": 5,
       "shootEffect": "thoriumShoot",
       "hitEffect": "thoriumShoot"
-    }
       },
   }
 }
