@@ -16,8 +16,8 @@
 "treadPullOffset": 5,
 "treadRects": [
 {
-"x": 50,
-"y": -85,
+"x": 80,
+"y": -125,
 "width": 80,
 "height": 400,
 },
