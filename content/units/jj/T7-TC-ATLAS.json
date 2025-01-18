@@ -242,6 +242,38 @@
         "frontColor": "ffffff",
         "trailWidth": 2.1,
         "trailLength": 5,
+        "trailEffect": [
+      {
+      "type": "ParticleEffect",
+      "particles": 3,
+      "length": 3,
+      "baseLength": 3,
+      "lifetime": 55,
+      "interp": "circleOut",
+      "cone": 360,
+      "offset": 5,
+      "lightColor": "ffb98b",
+      "colorFrom": "ffffff",
+      "colorTo": "ffb98b",
+      "sizeFrom": 22,
+      "sizeTo": 0
+    }
+      {
+      "type": "ParticleEffect",
+      "particles": 3,
+      "length": 3,
+      "baseLength": 3,
+      "lifetime": 105,
+      "interp": "circleOut",
+      "cone": 360,
+      "offset": 2,
+      "lightColor": "ffb98b",
+      "colorFrom": "ffffff",
+      "colorTo": "ffb98b",
+      "sizeFrom": 22,
+      "sizeTo": 0
+    }
+    ]
         "hitEffect": {
           "type": "WaveEffect",
           "colorFrom": "ffb98b",
