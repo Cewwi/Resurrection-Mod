@@ -1,5 +1,5 @@
 {
-"localizedName": "Dominate",
+"localizedName": "T7-TC-ATLAS",
 "description": "[#FEB380FF]T7-TC-ATLAS[]. This large war tank has a large assortment of weapons for many unique situations."
 "template": "ErekirUnitType",
 "research": {
@@ -344,9 +344,10 @@
       "toColor": "ffb98b",
       "ammoMultiplier": 5,
       "shootEffect": "thoriumShoot",
-      "hitEffect": "thoriumShoot"
+      "hitEffect": "thoriumShoot",
       },
   }
+}
 }
 {
   "name": "T7-TC-ATLAS-MISSILE-SILO",
@@ -363,7 +364,7 @@
     "shoot": {
     "shots": 15,
     "shotDelay": 2,
-    }  
+    }
     "bullet": {
       "type": "BasicBulletType",
         "spawnUnit": "T7-TC-ATLAS-missile",
