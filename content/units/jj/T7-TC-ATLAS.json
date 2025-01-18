@@ -218,7 +218,7 @@
     "x": "20",
     "y": "3",
     "shooty": "8",
-    "reload": "200",
+    "reload": "50",
     "alternate": "false",
     "xRand": 80,
     "mirror": "true",
