@@ -215,15 +215,20 @@
         }
 },
 {
-    "x": "10",
+    "x": "20",
     "y": "3",
     "shooty": "8",
     "reload": "200",
     "alternate": "false",
+    "xRand": 80,
     "mirror": "true",
-    "shootCone": "60",
     "rotate": "false",
     "shootSound": "missileLaunch",
+    "baseRotation": 90,
+    "shoot": {
+    "shots": 20,
+    "shotDelay": 1,
+    }  
     "bullet": {
       "type": "BasicBulletType",
         "spawnUnit": "T7-TC-ATLAS-missile",
