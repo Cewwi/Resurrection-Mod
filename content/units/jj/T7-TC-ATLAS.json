@@ -288,23 +288,6 @@
     "bulletInterval": 2,
     "intervalRandomSpread": 360,
     "intervalSpread": 300,
-    "intervalBullet":
-      {
-      "damage": 200,
-      "status": "slow",
-      "statusDuration": "120",
-      "width": 25,
-      "pierce": "true",
-      "type": "ShrapnelBulletType",
-      "lifetime": 18,
-      "length": 160,
-      "serrations": 8,
-      "fromColor": "ffb98b",
-      "toColor": "ffb98b",
-      "ammoMultiplier": 5,
-      "shootEffect": "thoriumShoot",
-      "hitEffect": "thoriumShoot"
-    }
   "intervalBullet":
       {
         "type": "BasicBulletType",
@@ -340,6 +323,25 @@
         },
         "buildingDamageMultiplier": 0.3,
         "homingPower": 0.2
+        "bulletInterval": 2,
+    "intervalRandomSpread": 360,
+    "intervalSpread": 300,
+    "intervalBullet": {
+      "damage": 200,
+      "status": "slow",
+      "statusDuration": "120",
+      "width": 25,
+      "pierce": "true",
+      "type": "ShrapnelBulletType",
+      "lifetime": 18,
+      "length": 160,
+      "serrations": 8,
+      "fromColor": "ffb98b",
+      "toColor": "ffb98b",
+      "ammoMultiplier": 5,
+      "shootEffect": "thoriumShoot",
+      "hitEffect": "thoriumShoot"
+    }
       },
   }
 }
