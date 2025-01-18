@@ -194,6 +194,8 @@
     "width": 73.5,
     "speed": 4.5,
     "lifetime": 75,
+    "backColor": "ffb98b",
+    "frontColor": "000000",
     "despawnEffect": [
       {
       "type": "ParticleEffect",
