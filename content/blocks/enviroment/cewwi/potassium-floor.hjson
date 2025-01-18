@@ -1,8 +1,0 @@
-type: Floor
-name: Potassium Floor
-description: Contains traces of potassium, which can be extracted in small amounts.
-//itemDrop: potatssium
-variants: 3
-attributes: {
-  potassium: 1
-}
