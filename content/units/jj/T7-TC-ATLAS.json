@@ -216,15 +216,14 @@
 },
 {
     "x": "20",
-    "y": "3",
+    "y": "15",
     "shooty": "8",
     "reload": "50",
     "alternate": "false",
-    "xRand": 80,
+    "xRand": 20,
     "mirror": "true",
     "rotate": "false",
     "shootSound": "missileLaunch",
-    "baseRotation": 90,
     "shoot": {
     "shots": 20,
     "shotDelay": 1,
