@@ -38,29 +38,6 @@
 "burning", 
 "melting",
 ],
-  "abilities": [
-    {
-      "type": "UnitSpawnAbility",
-      "spawnX": 30,
-      "spawnY": -25,
-      "unit": "locus",
-      "spawnTime": 1800
-    }
-    {
-      "type": "UnitSpawnAbility",
-      "spawnX": -30,
-      "spawnY": -25,
-      "unit": "locus",
-      "spawnTime": 1800
-    }
-    {
-      "type": "UnitSpawnAbility",
-      "spawnX": 0,
-      "spawnY": -30,
-      "unit": "precept",
-      "spawnTime": 3600
-    }
-  ],
   "parts": [
     {
       "type": "RegionPart",
@@ -75,8 +52,8 @@
   ]
 "weapons": [
   {
-"name": "Dominate-rebarPucher",
-"x": 18,
+"name": "Eradacator-prototype",
+"x": 0,
 "y": -3,
 "mirror": true,
 "top": true,
@@ -238,59 +215,19 @@
         }
 },
 {
-"name": "Dominate-cannon",
-"x": 0,
-"y": 0,
-"top": true,
-  "shooty": 43,
-  "reload": 5,
-  "rotateSpeed": 1.5,
-  "mirror": true,
-  "alternate": false,
-  "cooldownTime": 90,
-  "rotate": true,
-  "shootCone": 45,
-  "loopSound": "torch",
-  "shootSound": "torch",
-  "incendAmount": 4,
-  "alwaysShooting": false,
-  "alwaysContinuous": true,
-  "layerOffset": 1,
-  "continuous": true,
-  "parts": [
-    {
-      "type": "RegionPart",
-      "suffix": "-glow",
-      "layer": -1,
-      "mirror": true,
-      "blending": "additive",
-      "color": "ff0000AA",
-      "colorTo": "ff0000AA",
-      "outline": false
-    }
-  ]
-  "bullet": {
-    "type": "ContinuousFlameBulletType",
-    "colors": [
-      "ff9d5c",
-      "ffb98b",
-      "ffb98b",
-      "ffffff"
-    ],
-    "damage": 30,
-    "lightColor": "ffb98b",
-    "flareColor": "ffb98b",
-    "groundLayer": 61,
-    "intervalBullets": 2,
-    "intervalRandomSpread": 1,
-    "bulletInterval": 2.7,
-    "drawFlare": true,
-    "width": 6,
-    "pierceArmor": true,
-    "divisions": 20,
-    "length": 240,
-    "hitEffect": "shootSmokeTitan",
+    "x": "10",
+    "y": "3",
+    "shooty": "8",
+    "reload": "200",
+    "alternate": "false",
+    "mirror": "true",
+    "shootCone": "60",
+    "rotate": "false",
+    "shootSound": "missileLaunch",
+    "bullet": {
+      "type": "BasicBulletType",
+        "spawnUnit": "T7-TC-ATLAS-missile",
+       }
   }
-}
   ]
 }
