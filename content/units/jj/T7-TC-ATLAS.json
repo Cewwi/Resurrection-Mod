@@ -221,10 +221,10 @@
     "shooty": "8",
     "top": true,
     "reload": "200",
-    "alternate": "false",
-    "xRand": 20,
+    "alternate": "true",
+    "xRand": 5,
     "mirror": "true",
-    "rotate": "trye",
+    "rotate": "true",
     "shootSound": "missileLaunch",
     "shoot": {
     "shots": 20,
