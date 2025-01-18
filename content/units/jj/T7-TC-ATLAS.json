@@ -288,7 +288,43 @@
     "bulletInterval": 2,
     "intervalRandomSpread": 360,
     "intervalSpread": 300,
-    "intervalBullet": {
+    "intervalBullet": [
+      {
+        "type": "BasicBulletType",
+        "speed": 3.0,
+        "damage": 35.0,
+        "width": 9.0,
+        "hitSize": 5.0,
+        "height": 15.0,
+        "pierce": true,
+        "lifetime": 35.0,
+        "pierceBuilding": true,
+        "hitColor": "ffb98b",
+        "backColor": "ffb98b",
+        "trailColor": "ffb98b",
+        "frontColor": "ffffff",
+        "trailWidth": 2.1,
+        "trailLength": 5,
+        "hitEffect": {
+          "type": "WaveEffect",
+          "colorFrom": "ffb98b",
+          "colorTo": "ffb98b",
+          "sizeTo": 4.0,
+          "strokeFrom": 4.0,
+          "lifetime": 10.0
+        },
+        "despawnEffect": {
+          "type": "WaveEffect",
+          "colorFrom": "ffb98b",
+          "colorTo": "ffb98b",
+          "sizeTo": 4.0,
+          "strokeFrom": 4.0,
+          "lifetime": 10.0
+        },
+        "buildingDamageMultiplier": 0.3,
+        "homingPower": 0.2
+      },
+      {
       "damage": 200,
       "status": "slow",
       "statusDuration": "120",
@@ -304,6 +340,7 @@
       "shootEffect": "thoriumShoot",
       "hitEffect": "thoriumShoot"
     }
+    ]
   }
 }
 {
