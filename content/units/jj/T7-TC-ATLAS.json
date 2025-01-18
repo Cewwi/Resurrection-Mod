@@ -1,6 +1,6 @@
 {
 "localizedName": "Dominate",
-"description": "[[]#FEB380FF]T7-TC-ATLAS[[]]. This large war tank has a large assortment of weapons for many unique situations."
+"description": "[#FEB380FF]T7-TC-ATLAS[]. This large war tank has a large assortment of weapons for many unique situations."
 "template": "ErekirUnitType",
 "research": {
 "requirements": [
