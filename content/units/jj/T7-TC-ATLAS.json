@@ -51,14 +51,14 @@
     }
   ]
 "weapons": [
-  {}
+{
 "name": "Eradacator-prototype",
 "x": 0,
 "y": -3,
-"mirror": true,
+"mirror": false,
 "top": true,
 "heatColor": "f9350f",
-"reload": 10,
+"reload": 500,
 "rotate": true,
 "layerOffset": 1,
 "rotateSpeed": 0.6,
@@ -72,13 +72,81 @@
       "layer": -1,
       "mirror": true,
       "blending": "additive",
-      "color": "ff0000AA",
-      "colorTo": "ff0000AA",
+      "color": "ffb98b",
+      "colorTo": "ffb98b",
       "outline": false
     }
   ]
 "bullet": {
-"type": "BasicBulletType",
+    "type": "BasicBulletType",
+    "sprite": "large-orb",
+    "lightRadius": 10,
+    "lightColor": "ffFFFFff",
+    "damage": 970,
+    "scaleVelocity": true,
+    "splashDamage": 700,
+    "splashDamageRadius": 30,
+    "height": 33.5,
+    "width": 33.5,
+    "speed": 4.5,
+    "lifetime": 75,
+    "despawnEffect": [
+      {
+        "type": "WaveEffect",
+        "lifetime": 10,
+        "sizeFrom": 0,
+        "sizeTo": 25,
+        "strokeFrom": 10,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "ffb98b"
+      },
+      {
+        "type": "WaveEffect",
+        "lifetime": 10,
+        "sizeFrom": 0,
+        "sizeTo": 20,
+        "strokeFrom": 8,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "ffb98b"
+      }
+    ],
+    "shrinkX": 0,
+    "shrinkY": 0,
+    "trailChance": 2,
+    "trailParam": 10,
+    "trailLength": 19,
+    "trailColor": "ffb98b",
+    "trailWidth": 3,
+    "trailEffect": {
+      "type": "ParticleEffect",
+      "particles": 3,
+      "length": 3,
+      "baseLength": 3,
+      "lifetime": 25,
+      "interp": "circleOut",
+      "cone": 360,
+      "offset": 2,
+      "lightColor": "ffb98b",
+      "colorFrom": "ffffff",
+      "colorTo": "ffb98b",
+      "sizeFrom": 12,
+      "sizeTo": 0
+    },
+    "bulletInterval": 2,
+    "intervalRandomSpread": 360,
+    "intervalSpread": 300,
+    "intervalBullet": {
+      "type": "LightningBulletType",
+      "lightningColor": "ffb98b",
+      "lightningLength": 8,
+      "lightningDamage": 120,
+      "hitSound": "spark",
+      "lifetime": 1
+    }
+  }
+}
 {
   "name": "T7-TC-ATLAS-MISSILE-SILO",
     "x": "20",
