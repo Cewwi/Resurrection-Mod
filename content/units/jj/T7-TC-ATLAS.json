@@ -70,7 +70,7 @@
 "rotateSpeed": 0.6,
 "shootY": 16,
 "recoil": 3,
-"shootSound": "plasmaboom",
+"shootSound": "laserblast",
 "chargeSound": "lasercharge",
 "shoot": {
 "firstShotDelay": 120
