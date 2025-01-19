@@ -64,13 +64,14 @@
 "mirror": false,
 "top": true,
 "heatColor": "D1EFFFFF",
-"reload": 200,
+"reload": 700,
 "rotate": true,
 "layerOffset": 1,
 "rotateSpeed": 0.6,
 "shootY": 16,
 "recoil": 3,
 "shootSound": "plasmaboom",
+"chargeSound": "lasercharge",
 "shoot": {
 "firstShotDelay": 120
 },
