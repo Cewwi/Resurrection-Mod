@@ -144,6 +144,7 @@
     "lightRadius": 10,
     "lightColor": "ffFFFFff",
     "damage": 970,
+    "hitSound": "plasmaboom",
     "scaleVelocity": true,
     "splashDamage": 700,
     "splashDamageRadius": 30,
@@ -484,7 +485,7 @@
     "y": "15",
     "shooty": "10",
     "top": true,
-    "reload": "150",
+    "reload": "250",
     "alternate": "true",
     "xRand": 5,
     "mirror": "true",
@@ -492,7 +493,7 @@
     "shootSound": "missileLaunch",
     "shoot": {
     "shots": 15,
-    "shotDelay": 2,
+    "shotDelay": 10,
     }
     "bullet": {
       "type": "BasicBulletType",
