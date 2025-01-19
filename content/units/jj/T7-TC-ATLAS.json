@@ -1,6 +1,6 @@
 {
 "localizedName": "T7-TC-ATLAS",
-"description": "[#FEB380FF]T7-TC-ATLAS[]. This large war tank has a large assortment of weapons for many unique situations."
+"description": "[#D1EFFFFF]T7-TC-ATLAS[]. This large war tank has a large assortment of weapons for many unique situations."
 "template": "ErekirUnitType",
 "research": {
 "requirements": [
@@ -63,7 +63,7 @@
 "y": -3,
 "mirror": false,
 "top": true,
-"heatColor": "f9350f",
+"heatColor": "D1EFFFFF",
 "reload": 200,
 "rotate": true,
 "layerOffset": 1,
@@ -71,6 +71,80 @@
 "shootY": 16,
 "recoil": 3,
 "shootSound": "shootBig",
+"shoot": {
+"firstShotDelay": 120
+},
+  {
+  "chargeEffect": {
+    "type": "multiEffect",
+    "lifetime": 120,
+    "effects": [
+      {
+        "type": "WaveEffect",
+        "lifetime": 120,
+        "sizeFrom": 65,
+        "sizeTo": 0,
+        "strokeFrom": 0,
+        "strokeTo": 2,
+        "colorFrom": "ffffff",
+        "colorTo": "D1EFFFFF",
+      },
+      {
+        "type": "WaveEffect",
+        "lifetime": 300,
+        "sizeFrom": 0,
+        "sizeTo": 200,
+        "strokeFrom": 0,
+        "strokeTo": 14,
+        "colorFrom": "ffffff",
+        "colorTo": "D1EFFFFF",
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 20,
+        "startDelay": 120,
+        "offset": 20,
+        "sizeFrom": 50,
+        "sizeTo": 0,
+        "interp": "pow3In",
+        "sizeInterp": "pow5Out",
+        "length": 200,
+        "lightColor": "D1EFFFFF",
+        "lifetime": 300,
+        "colorFrom": "D1EFFFFF",
+        "colorTo": "ffffff",
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 20,
+        "offset": 15,
+        "sizeFrom": 0,
+        "sizeTo": 8,
+        "interp": "pow3In",
+        "sizeInterp": "pow5Out",
+        "length": 80,
+        "lightColor": "D1EFFFFF",
+        "lifetime": 120,
+        "colorFrom": "ffffff",
+        "colorTo": "D1EFFFFF",
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 10,
+        "offset": 15,
+        "sizeFrom": 0,
+        "sizeTo": 8,
+        "interp": "pow5Out",
+        "sizeInterp": "pow5Out",
+        "length": 60,
+        "lightColor": "D1EFFFFF",
+        "lifetime": 120,
+        "colorFrom": "D1EFFFFF",
+        "colorTo": "ffffff",
+      },
+    ],
+  },
+},
   "trailEffect": [
       {
       "type": "ParticleEffect",
@@ -109,7 +183,7 @@
 "tri": true,
 "shapeRotation": 180,
 "layer": 110,
-"color": "ffb98b",
+"color": "D1EFFFFF",
 "haloRotateSpeed": 2.7,
 "haloRadius": 52,
 "haloRadiusTo": 52,
