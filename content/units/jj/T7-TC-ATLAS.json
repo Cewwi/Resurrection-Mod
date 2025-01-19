@@ -184,7 +184,7 @@
 {
 "type": "HaloPart",
 "y": 0,
-"radius": 62.6,
+"radius": 22.6,
 "tri": true,
 "shapeRotation": 180,
 "layer": 110,
@@ -195,13 +195,13 @@
 "stroke": 0,
 "strokeTo": 2,
 "shapes": 6,
-"triLengthTo": 7,
+"triLengthTo": 20,
 "triLength": 7,
 }
 {
 "type": "HaloPart",
 "y": 0,
-"radius": 62.6,
+"radius": 22.6,
 "tri": true,
 "shapeRotation": 180,
 "layer": 110,
@@ -218,7 +218,7 @@
 {
 "type": "HaloPart",
 "y": 0,
-"radius": 62.6,
+"radius": 12.6,
 "tri": true,
 "shapeRotation": 180,
 "layer": 110,
@@ -229,7 +229,7 @@
 "stroke": 0,
 "strokeTo": 2,
 "shapes": 3,
-"triLengthTo": 12,
+"triLengthTo": 18,
 "triLength": 12,
 }
 ]
