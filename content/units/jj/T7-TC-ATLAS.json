@@ -80,9 +80,9 @@
       "lifetime": 55,
       "cone": 360,
       "offset": 12,
-      "lightColor": "ffb98b",
+      "lightColor": "D1EFFFFF",
       "colorFrom": "ffffff",
-      "colorTo": "ffb98b",
+      "colorTo": "D1EFFFFF",
       "sizeFrom": 52,
       "sizeTo": 0
     }
@@ -94,9 +94,9 @@
       "lifetime": 105,
       "cone": 360,
       "offset": 12,
-      "lightColor": "ffb98b",
+      "lightColor": "D1EFFFFF",
       "colorFrom": "ffffff",
-      "colorTo": "ffb98b",
+      "colorTo": "D1EFFFFF",
       "sizeFrom": 52,
       "sizeTo": 0
     }
@@ -142,8 +142,8 @@
       "layer": -1,
       "mirror": true,
       "blending": "additive",
-      "color": "ffb98b",
-      "colorTo": "ffb98b",
+      "color": "D1EFFFFF",
+      "colorTo": "D1EFFFFF",
       "outline": false
     }
   ]
@@ -160,8 +160,8 @@
     "width": 73.5,
     "speed": 4.5,
     "lifetime": 75,
-    "backColor": "ffb98b",
-    "frontColor": "ffb98b",
+    "backColor": "D1EFFFFF",
+    "frontColor": "D1EFFFFF",
   "parts": [
 {
 "type": "HaloPart",
@@ -170,7 +170,7 @@
 "tri": true,
 "shapeRotation": 180,
 "layer": 110,
-"color": "ffb98b",
+"color": "D1EFFFFF",
 "haloRotateSpeed": 2.7,
 "haloRadius": 12,
 "haloRadiusTo": 12,
@@ -193,9 +193,9 @@
 "sizeInterp": "pow5In",
 "sizeFrom": 27,
 "sizeTo": 1,
-"lightColor": "ffb98b",
-"colorFrom": "ffb98b",
-"colorTo": "ffb98b"
+"lightColor": "D1EFFFFF",
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
 },
 {
 "type": "ParticleEffect",
@@ -208,9 +208,9 @@
 "sizeInterp": "pow5In",
 "sizeFrom": 15,
 "sizeTo": 1,
-"lightColor": "ffb98b",
-"colorFrom": "ffb98b",
-"colorTo": "ffb98b"
+"lightColor": "D1EFFFFF",
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
 },
 {
 "type": "ParticleEffect",
@@ -223,9 +223,9 @@
 "sizeInterp": "pow5In",
 "sizeFrom": 20,
 "sizeTo": 1,
-"lightColor": "ffb98b",
-"colorFrom": "ffb98b",
-"colorTo": "ffb98b"
+"lightColor": "D1EFFFFF",
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
 },
 {
 "type": "ParticleEffect",
@@ -238,9 +238,9 @@
 "sizeInterp": "pow5In",
 "sizeFrom": 35,
 "sizeTo": 0,
-"lightColor": "ffb98b",
-"colorFrom": "ffb98b",
-"colorTo": "ffb98b"
+"lightColor": "D1EFFFFF",
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
 },
 {
 "type": "ParticleEffect",
@@ -254,8 +254,8 @@
 "sizeInterp": "pow5In",
 "sizeFrom": 21,
 "sizeTo": 10,
-"colorFrom": "ffb98b",
-"colorTo": "ffb98b"
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
 },
 {
 "type": "ParticleEffect",
@@ -284,9 +284,9 @@
 "cone": -360,
 "lenFrom": 20,
 "lenTo": 10,
-"lightColor": "ffb98b",
-"colorFrom": "ffb98b",
-"colorTo": "ffb98b"
+"lightColor": "D1EFFFFF",
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
 },
       {
         "type": "WaveEffect",
@@ -296,7 +296,7 @@
         "strokeFrom": 10,
         "strokeTo": 0,
         "colorFrom": "FFFFFF",
-        "colorTo": "ffb98b"
+        "colorTo": "D1EFFFFF"
       },
       {
         "type": "WaveEffect",
@@ -306,7 +306,7 @@
         "strokeFrom": 8,
         "strokeTo": 0,
         "colorFrom": "FFFFFF",
-        "colorTo": "ffb98b"
+        "colorTo": "D1EFFFFF"
       }
     ],
     "shrinkX": 0,
@@ -314,7 +314,7 @@
     "trailChance": 2,
     "trailParam": 10,
     "trailLength": 19,
-    "trailColor": "ffb98b",
+    "trailColor": "D1EFFFFF",
     "trailWidth": 3,
     "bulletInterval": 2,
     "intervalRandomSpread": 360,
@@ -330,9 +330,9 @@
         "pierce": true,
         "lifetime": 125.0,
         "pierceBuilding": true,
-        "hitColor": "ffb98b",
-        "backColor": "ffb98b",
-        "trailColor": "ffb98b",
+        "hitColor": "D1EFFFFF",
+        "backColor": "D1EFFFFF",
+        "trailColor": "D1EFFFFF",
         "frontColor": "ffffff",
         "trailWidth": 2.1,
         "trailLength": 5,
@@ -342,12 +342,12 @@
       "particles": 3,
       "length": 3,
       "baseLength": 3,
-      "lifetime": 55,
+      "lifetime": 135,
       "cone": 360,
       "offset": 5,
-      "lightColor": "ffb98b",
+      "lightColor": "D1EFFFFF",
       "colorFrom": "ffffff",
-      "colorTo": "ffb98b",
+      "colorTo": "D1EFFFFF",
       "sizeFrom": 22,
       "sizeTo": 0
     }
@@ -359,25 +359,25 @@
       "lifetime": 105,
       "cone": 360,
       "offset": 2,
-      "lightColor": "ffb98b",
+      "lightColor": "D1EFFFFF",
       "colorFrom": "ffffff",
-      "colorTo": "ffb98b",
+      "colorTo": "D1EFFFFF",
       "sizeFrom": 22,
       "sizeTo": 0
     }
     ]
         "hitEffect": {
           "type": "WaveEffect",
-          "colorFrom": "ffb98b",
-          "colorTo": "ffb98b",
+          "colorFrom": "D1EFFFFF",
+          "colorTo": "D1EFFFFF",
           "sizeTo": 4.0,
           "strokeFrom": 4.0,
           "lifetime": 10.0
         },
         "despawnEffect": {
           "type": "WaveEffect",
-          "colorFrom": "ffb98b",
-          "colorTo": "ffb98b",
+          "colorFrom": "D1EFFFFF",
+          "colorTo": "D1EFFFFF",
           "sizeTo": 4.0,
           "strokeFrom": 4.0,
           "lifetime": 10.0
@@ -399,8 +399,8 @@
       "lifetime": 18,
       "length": 160,
       "serrations": 8,
-      "fromColor": "ffb98b",
-      "toColor": "ffb98b",
+      "fromColor": "D1EFFFFF",
+      "toColor": "D1EFFFFF",
       "ammoMultiplier": 5,
       "shootEffect": "thoriumShoot",
       "hitEffect": "thoriumShoot",
