@@ -75,59 +75,7 @@
 "shoot": {
 "firstShotDelay": 120
 },
-  "parts": [
-{
-"type": "HaloPart",
-"y": 0,
-"radius": 62.6,
-"tri": true,
-"shapeRotation": 180,
-"layer": 110,
-"color": "D1EFFFFF",
-"haloRotateSpeed": 2.7,
-"haloRadius": 52,
-"haloRadiusTo": 52,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 6,
-"triLengthTo": 7,
-"triLength": 7,
-}
-    {
-"type": "HaloPart",
-"y": 0,
-"radius": 62.6,
-"tri": true,
-"shapeRotation": 180,
-"layer": 110,
-"color": "D1EFFFFF",
-"haloRotateSpeed": 2.7,
-"haloRadius": -52,
-"haloRadiusTo": -52,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 6,
-"triLengthTo": 7,
-"triLength": 7,
-}
-     {
-"type": "HaloPart",
-"y": 0,
-"radius": 62.6,
-"tri": true,
-"shapeRotation": 180,
-"layer": 110,
-"color": "D1EFFFFF",
-"haloRotateSpeed": 2.7,
-"haloRadius": -52,
-"haloRadiusTo": -52,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 3,
-"triLengthTo": 12,
-"triLength": 12,
-}
-    {
+  "parts": {
       "type": "RegionPart",
       "suffix": "-glow",
       "layer": -1,
@@ -137,7 +85,6 @@
       "colorTo": "D1EFFFFF",
       "outline": false
     }
-  ]
 "bullet": {
     "type": "BasicBulletType",
     "sprite": "large-orb",
@@ -243,16 +190,50 @@
 "layer": 110,
 "color": "D1EFFFFF",
 "haloRotateSpeed": 2.7,
-"haloRadius": 12,
-"haloRadiusTo": 12,
+"haloRadius": 52,
+"haloRadiusTo": 52,
 "stroke": 0,
 "strokeTo": 2,
-"shapes": 4,
+"shapes": 6,
 "triLengthTo": 7,
-"triLength": 0
+"triLength": 7,
 }
-  ]
-    "despawnEffect": [
+{
+"type": "HaloPart",
+"y": 0,
+"radius": 62.6,
+"tri": true,
+"shapeRotation": 180,
+"layer": 110,
+"color": "D1EFFFFF",
+"haloRotateSpeed": 2.7,
+"haloRadius": -52,
+"haloRadiusTo": -52,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 6,
+"triLengthTo": 7,
+"triLength": 7,
+}
+{
+"type": "HaloPart",
+"y": 0,
+"radius": 62.6,
+"tri": true,
+"shapeRotation": 180,
+"layer": 110,
+"color": "D1EFFFFF",
+"haloRotateSpeed": 2.7,
+"haloRadius": -52,
+"haloRadiusTo": -52,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 3,
+"triLengthTo": 12,
+"triLength": 12,
+}
+]
+ "despawnEffect": [
       {
 "type": "ParticleEffect",
 "lightOpacity": 0.5,
