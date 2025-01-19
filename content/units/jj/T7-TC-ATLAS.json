@@ -74,7 +74,67 @@
 "shoot": {
 "firstShotDelay": 120
 },
-  {
+  "parts": [
+{
+"type": "HaloPart",
+"y": 0,
+"radius": 62.6,
+"tri": true,
+"shapeRotation": 180,
+"layer": 110,
+"color": "D1EFFFFF",
+"haloRotateSpeed": 2.7,
+"haloRadius": 52,
+"haloRadiusTo": 52,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 4,
+"triLengthTo": 7,
+"triLength": 7,
+}
+    {
+"type": "HaloPart",
+"y": 0,
+"radius": 62.6,
+"tri": true,
+"shapeRotation": 180,
+"layer": 110,
+"color": "ffb98b",
+"haloRotateSpeed": 2.7,
+"haloRadius": 52,
+"haloRadiusTo": 52,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 4,
+"triLengthTo": -7,
+"triLength": -7,
+}
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "D1EFFFFF",
+      "colorTo": "D1EFFFFF",
+      "outline": false
+    }
+  ]
+"bullet": {
+    "type": "BasicBulletType",
+    "sprite": "large-orb",
+    "lightRadius": 10,
+    "lightColor": "ffFFFFff",
+    "damage": 970,
+    "scaleVelocity": true,
+    "splashDamage": 700,
+    "splashDamageRadius": 30,
+    "height": 73.5,
+    "width": 73.5,
+    "speed": 4.5,
+    "lifetime": 75,
+    "backColor": "D1EFFFFF",
+    "frontColor": "D1EFFFFF",
   "chargeEffect": {
     "type": "multiEffect",
     "lifetime": 120,
@@ -144,98 +204,6 @@
       },
     ],
   },
-},
-  "trailEffect": [
-      {
-      "type": "ParticleEffect",
-      "particles": 3,
-      "length": 3,
-      "baseLength": 3,
-      "lifetime": 55,
-      "cone": 360,
-      "offset": 12,
-      "lightColor": "D1EFFFFF",
-      "colorFrom": "ffffff",
-      "colorTo": "D1EFFFFF",
-      "sizeFrom": 52,
-      "sizeTo": 0
-    }
-      {
-      "type": "ParticleEffect",
-      "particles": 3,
-      "length": 3,
-      "baseLength": 3,
-      "lifetime": 105,
-      "cone": 360,
-      "offset": 12,
-      "lightColor": "D1EFFFFF",
-      "colorFrom": "ffffff",
-      "colorTo": "D1EFFFFF",
-      "sizeFrom": 52,
-      "sizeTo": 0
-    }
-    ]
-  "parts": [
-{
-"type": "HaloPart",
-"y": 0,
-"radius": 62.6,
-"tri": true,
-"shapeRotation": 180,
-"layer": 110,
-"color": "D1EFFFFF",
-"haloRotateSpeed": 2.7,
-"haloRadius": 52,
-"haloRadiusTo": 52,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 4,
-"triLengthTo": 7,
-"triLength": 7,
-}
-    {
-"type": "HaloPart",
-"y": 0,
-"radius": 62.6,
-"tri": true,
-"shapeRotation": 180,
-"layer": 110,
-"color": "ffb98b",
-"haloRotateSpeed": 2.7,
-"haloRadius": 52,
-"haloRadiusTo": 52,
-"stroke": 0,
-"strokeTo": 2,
-"shapes": 4,
-"triLengthTo": -7,
-"triLength": -7,
-}
-    {
-      "type": "RegionPart",
-      "suffix": "-glow",
-      "layer": -1,
-      "mirror": true,
-      "blending": "additive",
-      "color": "D1EFFFFF",
-      "colorTo": "D1EFFFFF",
-      "outline": false
-    }
-  ]
-"bullet": {
-    "type": "BasicBulletType",
-    "sprite": "large-orb",
-    "lightRadius": 10,
-    "lightColor": "ffFFFFff",
-    "damage": 970,
-    "scaleVelocity": true,
-    "splashDamage": 700,
-    "splashDamageRadius": 30,
-    "height": 73.5,
-    "width": 73.5,
-    "speed": 4.5,
-    "lifetime": 75,
-    "backColor": "D1EFFFFF",
-    "frontColor": "D1EFFFFF",
   "parts": [
 {
 "type": "HaloPart",
