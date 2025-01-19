@@ -12,9 +12,9 @@
 "health": 50,
 "hitSize": 3,
 "engineLayer": 110,
-"outlineColor": "ffb98b",
-"engineColor": "ffb98b",
-"trailColor": "ffb98b",
+"outlineColor": "D1EFFFFF",
+"engineColor": "D1EFFFFF",
+"trailColor": "D1EFFFFF",
 "missileAccelTime": 45,
 "engineOffset": 7,
 "engineSize": 3.3,
@@ -39,7 +39,7 @@
 "lenFrom": 8,
 "lenTo": 8,
 "colorFrom": "FFFFFFF",
-"colorTo": "ffb98b"
+"colorTo": "D1EFFFFF"
 },
 "despawnEffect":[ 
  {
@@ -52,7 +52,7 @@
 "lenFrom": 8,
 "lenTo": 8,
 "colorFrom": "FFFFFFF",
-"colorTo": "ffb98b"
+"colorTo": "D1EFFFFF"
         }
   {
 "type": "ParticleEffect",
@@ -63,7 +63,7 @@
 "lenFrom": 8,
 "lenTo": 8,
 "colorFrom": "FFFFFFF",
-"colorTo": "ffb98b"
+"colorTo": "D1EFFFFFd"
         }
 ]
 "instantDisappear": true,
