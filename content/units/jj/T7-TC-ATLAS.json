@@ -70,7 +70,7 @@
 "rotateSpeed": 0.6,
 "shootY": 16,
 "recoil": 3,
-"shootSound": "shootBig",
+"shootSound": "plasmaboom",
 "shoot": {
 "firstShotDelay": 120
 },
