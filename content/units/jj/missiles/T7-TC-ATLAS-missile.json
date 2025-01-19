@@ -41,10 +41,11 @@
 "colorFrom": "FFFFFFF",
 "colorTo": "ffb98b"
 },
-"despawnEffect": {
+"despawnEffect":[ 
+ {
 "type": "ParticleEffect",
 "line": true,
-"particles": 6,
+"particles": 3,
 "lifetime": 20,
 "length": 75,
 "cone": 360,
@@ -53,10 +54,22 @@
 "colorFrom": "FFFFFFF",
 "colorTo": "ffb98b"
         }
+  {
+"type": "ParticleEffect",
+"particles": 3,
+"lifetime": 20,
+"length": 75,
+"cone": 360,
+"lenFrom": 8,
+"lenTo": 8,
+"colorFrom": "FFFFFFF",
+"colorTo": "ffb98b"
+        }
+]
 "instantDisappear": true,
-"hitSoundVolume": 55,
-"splashDamage": 30,
-"splashDamageRadius": 70,
+"hitSoundVolume": 80,
+"splashDamage": 40,
+"splashDamageRadius": 20,
 "hitSound": "bang",
 "buildingDamageMultiplier": 0.8,
 }
