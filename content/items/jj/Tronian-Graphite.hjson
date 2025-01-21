@@ -2,7 +2,7 @@ name: Refined Graphite
 description: Naturally refined. Used in most structures.
 hardness: 2
 cost: 0.5
-alwaysUnlocked: true
-color: 628b9d
+alwaysUnlocked: false
+color: BAC5DEFF
 research: item-SurgeQuartz
 hiddenOnPlanets: [serpulo]
