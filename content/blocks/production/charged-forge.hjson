@@ -1,0 +1,52 @@
+
+type: GenericCrafter
+name: Carborundum Furnace
+description: Produces carborundum.
+size: 4
+craftTime: 125
+consumes: {
+  items: [
+    scheelite/4
+    Tronian-Graphite/2
+  ]
+power: 14
+}
+ignoreLiquidFullness: true
+ambientSound: smelter
+researchCostMultiplier: 0.5
+ambientSoundVolume: 0.3
+heatRequirement: 20
+drawer: [
+{
+  type: DrawRegion
+  suffix: -bottom
+}
+{
+  type: DrawArcSmelt
+      color: D7FFB8FF
+}
+{
+  type: DrawDefault
+}
+  {
+  type: DrawCrucibleFlame
+      flameRad: 1.5
+      circleSpace: 2
+      particles: 80
+      color: D7FFB8FF
+      particleRad: 14
+      particleLen: 4
+}
+]
+outputItems: [
+  carborundum/6
+]
+category: crafting
+research: cavern-core
+requirements: [
+  scheelite/100
+  carborundum/150
+  Tronian-Graphite/50
+  ChargeStone/200
+]
+itemCapacity: 40
