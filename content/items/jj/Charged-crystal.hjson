@@ -1,0 +1,8 @@
+name: Chargeed Crystal
+description: "Highpower gemstone. Used in any power turrets."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: false
+color: F7E97EFF
+research: ChargeStone
+hiddenOnPlanets: [serpulo]
