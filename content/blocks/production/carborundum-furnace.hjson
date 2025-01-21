@@ -2,7 +2,7 @@
 type: GenericCrafter
 name: Carborundum Furnace
 description: Produces carborundum.
-size: 5
+size: 4
 craftTime: 125
 consumes: {
   items: [
