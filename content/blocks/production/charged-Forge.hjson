@@ -1,6 +1,6 @@
 
 type: GenericCrafter
-name: Carborundum Furnace
+name: Charged Forge
 description: Produces carborundum.
 size: 4
 craftTime: 125
