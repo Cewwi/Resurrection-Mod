@@ -6,8 +6,8 @@ size: 4
 craftTime: 125
 consumes: {
   items: [
-    scheelite/4
-    Tronian-Graphite/2
+    carborundum/4
+    ChargeStone/2
   ]
 power: 14
 }
@@ -39,7 +39,7 @@ drawer: [
 }
 ]
 outputItems: [
-  carborundum/6
+  Charged-crystal/1
 ]
 category: crafting
 research: cavern-core
