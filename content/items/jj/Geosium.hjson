@@ -1,0 +1,8 @@
+name: Geosium
+description: "Geode like mineral."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: false
+color: F7E97EFF
+research: phaseFabric
+hiddenOnPlanets: [serpulo]
