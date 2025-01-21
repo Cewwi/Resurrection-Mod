@@ -6,8 +6,8 @@ size: 5
 craftTime: 50
 consumes: {
   items: [
-    sand/12
-    graphite/3
+    scheelite/4
+    Tronian-Graphite/2
   ]
 power: 14
 }
@@ -26,6 +26,9 @@ drawer: [
       color: D7FFB8FF
 }
 {
+  type: DrawDefault
+}
+  {
   type: DrawCrucibleFlame
       flameRad: 1.5
       circleSpace: 2
@@ -34,9 +37,6 @@ drawer: [
       particleRad: 14
       particleLen: 4
 }
-{
-  type: DrawDefault
-}
 ]
 outputItems: [
   carborundum/6
@@ -44,10 +44,7 @@ outputItems: [
 category: crafting
 research: cavern-core
 requirements: [
-  tungsten/600
-  silicon/800
-  carbide/500
-  beryllium/1000
-  graphite/1000
+  scheelite/100
+  Tronian-Graphite/50
 ]
 itemCapacity: 40
