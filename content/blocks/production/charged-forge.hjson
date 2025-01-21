@@ -6,6 +6,7 @@ size: 4
 craftTime: 125
 consumes: {
   items: [
+    Geosium/2
     carborundum/4
     ChargeStone/2
   ]
@@ -33,7 +34,7 @@ drawer: [
       flameRad: 1.5
       circleSpace: 2
       particles: 80
-      color: D7FFB8FF
+      particleColor: D7FFB8FF
       particleRad: 14
       particleLen: 4
 }
