@@ -1,9 +1,9 @@
 
 type: GenericCrafter
-name: Silicon Arc Forge
-description: An upgraded version of the Silicon Arc Furnace. Produces much more silicon
+name: Carborundum Furnace
+description: Produces carborundum.
 size: 5
-craftTime: 50
+craftTime: 125
 consumes: {
   items: [
     scheelite/4
