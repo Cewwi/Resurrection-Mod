@@ -45,7 +45,7 @@ outputItems: [
 category: crafting
 research: cavern-core
 requirements: [
-  scheelite/100
+  Geosium/100
   carborundum/150
   Tronian-Graphite/50
   ChargeStone/200
