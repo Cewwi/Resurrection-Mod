@@ -1,6 +1,6 @@
 type: flying
 name: Mend
-description: Basic support unit. It can build, mine and repair.
+description: Basic support unit. It can build, mine and repair. Hover unit, cannot fly.
 flying: true
 template: ErekirUnitType
 shadowElevation: 1
@@ -36,85 +36,44 @@ weapons: [
     top: true
     rotate: false
     shootSound: laser
-    bullet: {
-      type: BasicBulletType
-        length: 150
-        width: 6
-        damage: 30
-        weaveScale: 8
-        weaveMag: 2
-        hitEffect: [
-{
-          type: ParticleEffect
-          particles: 4
-          length: 3
-          baseLength: 3
-          lifetime: 25
-          interp: circleOut
-          cone: 360
-          offset: 0
-          lightColor: D7FFB8FF
-          colorFrom: ffffff
-          colorTo: D7FFB8FF
-          sizeFrom: 4
-          sizeTo: 0
-          }
-{
-          type: ParticleEffect
-          particles: 4
-          length: 2
-          baseLength: 3
-          lifetime: 25
-          interp: circleOut
-          cone: 360
-          offset: 1
-          lightColor: D7FFB8FF
-          colorFrom: ffffff
-          colorTo: D7FFB8FF
-          sizeFrom: 5
-          sizeTo: 0
-          }
-]
-        shootEffect: [
-{
-          type: ParticleEffect
-          particles: 4
-          length: 3
-          baseLength: 3
-          lifetime: 25
-          interp: circleOut
-          cone: 360
-          offset: 0
-          lightColor: D7FFB8FF
-          colorFrom: ffffff
-          colorTo: D7FFB8FF
-          sizeFrom: 4
-          sizeTo: 0
-          }
-{
-          type: ParticleEffect
-          particles: 4
-          length: 2
-          baseLength: 3
-          lifetime: 25
-          interp: circleOut
-          cone: 360
-          offset: 1
-          lightColor: D7FFB8FF
-          colorFrom: ffffff
-          colorTo: D7FFB8FF
-          sizeFrom: 5
-          sizeTo: 0
-          }
-]
-        colors: [
-          D7FFB8FF
-          D7FFB8FF
-          FFFFFF
-        ],
-        sideAngle: -45
-        sideLength: 30
-        sideWidth: 3.4
+   bullet: {
+    type: BasicBulletType
+    sprite: large-orb
+lightRadius: 10
+lightColor: D7FFB8FF
+damage: 70
+scaleVelocity: true
+splashDamage: 70
+splashDamageRadius: 30
+height: 13.5
+width: 13.5
+speed: 4.5
+lifetime: 75
+despawnEffect: {
+  type: WaveEffect
+  lifetime: 10
+  sizeFrom: 0
+  sizeTo: 25
+  strokeFrom: 10
+  strokeTo: 0
+  colorFrom: FFFFFF
+  colorTo: D7FFB8FF
+}
+hitEffect: {
+  type: WaveEffect
+  lifetime: 10
+  sizeFrom: 0
+  sizeTo: 20
+  strokeFrom: 8
+  strokeTo: 0
+  colorFrom: FFFFFF
+  colorTo: D7FFB8FF
+}
+shrinkX: 0
+shrinkY: 0
+      trailLength: 19
+      trailColor: D7FFB8FF
+      trailWidth: 3
     }
 }
 ]
