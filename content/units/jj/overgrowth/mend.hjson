@@ -30,9 +30,8 @@ type: HoverPart
 x: 0
 y: 2
 radius: 12
-phas:e 90
+phase: 90
 stroke: 2
-layerOffse: -0.001
 color: D7FFB8FF
 }
 ]
@@ -48,19 +47,13 @@ weapons: [
     top: true
     rotate: false
     shootSound: laser
-shoot: {
-    firstShotDelay: 100
-    type: shootPattern
-    shotDelay: 0
-    shots: 3
-  }
    bullet: {
     type: BasicBulletType
     sprite: circle-bullet
 lightRadius: 10
 lightColor: D7FFB8FF
 damage: 30
-scaleVelocity: true
+scaleVelocity: false
 splashDamage: 50
 healPercent: 2
 collidesTeam: true
