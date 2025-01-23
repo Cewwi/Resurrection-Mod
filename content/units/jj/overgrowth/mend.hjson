@@ -56,6 +56,8 @@ lightColor: D7FFB8FF
 damage: 70
 scaleVelocity: true
 splashDamage: 70
+healPercent: 2
+collidesTeam: true
 frontColor: ffffff
 backColor: D7FFB8FF
 weaveScale: 8
