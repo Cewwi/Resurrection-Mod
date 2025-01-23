@@ -1,7 +1,6 @@
 type: flying
 name: Mend
 description: Basic support unit. It can build, mine and repair. Hover unit, cannot fly.
-flying: true
 template: ErekirUnitType
 shadowElevation: 1
 drag: 0.06
@@ -12,6 +11,7 @@ hitSize: 8
 accel: 0.095
 groundLayer: 60
 layer: 109
+hovering: true
 isEnemy: true
 armor: 1
 mineSpeed: 2
