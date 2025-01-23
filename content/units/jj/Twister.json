@@ -5,7 +5,7 @@
   "type": "legs",
   "speed": 1.20,
   "hitSize": 10,
-  "health": 830,
+  "health": 870,
   "legCount": 6,
   "drownTimeMultiplier": 2,
   "canDrown": true,
