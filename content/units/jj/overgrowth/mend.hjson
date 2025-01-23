@@ -38,11 +38,11 @@ color: D7FFB8FF
 ]
 weapons: [
    {
-    name: mead-weapon
+    name: mend-weapon
     x: 4
     y: 0
     shooty: 10
-    reload: 30
+    reload: 70
     alternate: true
     mirror: true
     top: true
@@ -79,8 +79,8 @@ hitEffect: {
   type: WaveEffect
   lifetime: 10
   sizeFrom: 0
-  sizeTo: 20
-  strokeFrom: 8
+  sizeTo: 25
+  strokeFrom: 10
   strokeTo: 0
   colorFrom: FFFFFF
   colorTo: D7FFB8FF
