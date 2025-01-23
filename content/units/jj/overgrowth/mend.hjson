@@ -18,7 +18,7 @@ mineSpeed: 2
 buildSpeed: 0.5
 groundLayer: 60
 isEnemy: true
-health: 420
+health: 720
 itemCapacity: 20
 mineTier: 1
 alwaysUnlocked: true
@@ -53,9 +53,9 @@ weapons: [
     sprite: large-orb
 lightRadius: 10
 lightColor: D7FFB8FF
-damage: 70
+damage: 30
 scaleVelocity: true
-splashDamage: 70
+splashDamage: 50
 healPercent: 2
 collidesTeam: true
 frontColor: ffffff
