@@ -61,7 +61,7 @@ weaveMag: 2
 splashDamageRadius: 30
 height: 13.5
 width: 13.5
-speed: 4.5
+speed: 1.5
 lifetime: 75
 despawnEffect: {
   type: WaveEffect
