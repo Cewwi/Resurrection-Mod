@@ -1,6 +1,6 @@
 type: flying
-name: Tazer
-description: Defender of the Surge core. Has offensive ability, but cannot repair structures. Cannot pick up blocks.
+name: Mend
+description: Basic support unit. It can build, mine and repair.
 flying: true
 template: ErekirUnitType
 shadowElevation: 1
@@ -37,7 +37,7 @@ weapons: [
     rotate: false
     shootSound: laser
     bullet: {
-      type: LaserBulletType
+      type: BasicBulletType
         length: 150
         width: 6
         damage: 30
