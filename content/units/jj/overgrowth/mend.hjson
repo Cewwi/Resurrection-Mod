@@ -5,8 +5,8 @@ template: ErekirUnitType
 shadowElevation: 1
 drag: 0.06
 outlineColor: 1d1c1a
-speed: 6.4
-rotateSpeed: 10
+speed: 3
+rotateSpeed: 4
 hitSize: 8
 accel: 0.095
 groundLayer: 60
@@ -23,7 +23,7 @@ itemCapacity: 20
 mineTier: 1
 alwaysUnlocked: true
 useEngineElevation: false
-lowAltitude: true
+lowAltitude: false
 parts: [
 {
 type: HoverPart
@@ -61,8 +61,8 @@ backColor: D7FFB8FF
 weaveScale: 8
 weaveMag: 2
 splashDamageRadius: 30
-height: 13.5
-width: 13.5
+height: 6.5
+width: 6.5
 speed: 1.5
 lifetime: 75
 despawnEffect: {
