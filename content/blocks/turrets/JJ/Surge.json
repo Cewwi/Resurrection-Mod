@@ -31,11 +31,11 @@
   "coolant": {
     "type": "ConsumeLiquid",
     "liquid": "cryofluid",
-    "amount": 5
+    "amount": 8
   },
   "size": 3,
   "health": 900,
-  "armor": 5,
+  "armor": 10,
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "charged-"
