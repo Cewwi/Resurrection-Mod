@@ -50,15 +50,15 @@ weapons: [
     rotate: false
     shootSound: laser
     bullet: {
-      bullet: {
       type: LaserBulletType
         length: 150
         width: 6
-        damage: 60
+        damage: 30
+        weaveScale: 8
+        weaveMag: 2
         hitEffect: [
 {
           type: ParticleEffect
-          line: true
           particles: 4
           length: 3
           baseLength: 3
@@ -91,7 +91,6 @@ weapons: [
         shootEffect: [
 {
           type: ParticleEffect
-          line: true
           particles: 4
           length: 3
           baseLength: 3
