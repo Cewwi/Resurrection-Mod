@@ -33,7 +33,7 @@ weapons: [
     rotate: false
     shootSound: laser
     laserColor: 73FFAEFF
-    controllable: false
+    controllable: true
     autoTarget: true
     beamWidth: 0.7
     pulseRadius: 6
@@ -41,7 +41,7 @@ weapons: [
     repairSpeed: 0.25
     bullet: {
       speed: 100
-      maxRange: 20
+      maxRange: 2
     }
   }
 {
