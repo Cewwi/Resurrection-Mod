@@ -13,40 +13,27 @@ accel: 0.095
 groundLayer: 60
 layer: 109
 isEnemy: true
-health: 1100
 armor: 1
-mineSpeed: 10
-mineFloor: true
-mineWalls: false
+mineSpeed: 2
+buildSpeed: 0.5
+groundLayer: 60
+isEnemy: true
+health: 420
+itemCapacity: 20
 mineTier: 1
-buildSpeed: 1.6
-itemCapacity: 175
 alwaysUnlocked: true
 useEngineElevation: false
 lowAltitude: false
-engines: [
-  {
-    x: 11
-    y: 3.2
-    radius: 3
-    rotation: 125
-  }
-  {
-    x: -11
-    y: 3.2
-    radius: 3
-    rotation: 125
-  }
-]
 weapons: [
    {
-    name: mean-weapon
+    name: mead-weapon
     x: 4
     y: 0
     shooty: 10
     reload: 30
     alternate: true
     mirror: true
+    top: true
     rotate: false
     shootSound: laser
     bullet: {
