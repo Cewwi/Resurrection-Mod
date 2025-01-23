@@ -23,7 +23,19 @@ itemCapacity: 20
 mineTier: 1
 alwaysUnlocked: true
 useEngineElevation: false
-lowAltitude: false
+lowAltitude: true
+parts: [
+{
+type: HoverPart
+x: 0
+y: 2
+radius: 12
+phas:e 90
+stroke: 2
+layerOffse: -0.001
+color: D7FFB8FF
+}
+]
 weapons: [
    {
     name: mead-weapon
