@@ -50,7 +50,7 @@ weapons: [
     shootSound: laser
    bullet: {
     type: BasicBulletType
-    sprite: large-orb
+    sprite: circle-bullet
 lightRadius: 10
 lightColor: D7FFB8FF
 damage: 30
