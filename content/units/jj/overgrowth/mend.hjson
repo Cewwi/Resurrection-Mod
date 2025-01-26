@@ -15,7 +15,7 @@ hovering: true
 isEnemy: true
 armor: 1
 mineSpeed: 2
-buildSpeed: 0.5
+buildSpeed: 0.2
 groundLayer: 60
 isEnemy: true
 health: 720
@@ -31,6 +31,7 @@ x: 0
 y: 2
 radius: 12
 phase: 90
+layerOffset: -0.001
 stroke: 2
 color: D7FFB8FF
 }
