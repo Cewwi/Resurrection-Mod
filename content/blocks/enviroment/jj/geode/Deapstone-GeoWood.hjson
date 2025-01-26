@@ -1,0 +1,6 @@
+type: TallBlock
+name: Deapstone GeoWood
+variants: 1
+clipSize: 300
+shadowOffset: -3.5
+shadowAlpha: 0.6
