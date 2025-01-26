@@ -48,6 +48,11 @@ weapons: [
     top: true
     rotate: false
     shootSound: laser
+shoot: {
+    type: shootPattern
+    shotDelay: 5
+    shots: 2
+  }
    bullet: {
     type: BasicBulletType
     sprite: circle-bullet
