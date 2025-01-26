@@ -50,7 +50,7 @@
 "abilities": [
     {
       "type": "mindustry.entities.abilities.RepairFieldAbility",
-      "activeEffect": [
+      "activeEffect": 
         {
         "type": "WaveEffect",
         "lifetime": 35,
@@ -63,7 +63,6 @@
         "colorFrom": "D7FFB8FF",
         "colorTo": "D7FFB8FF"
       },
-      ]
       "healEffect": {
         "type": "WaveEffect",
         "lifetime": 35,
@@ -81,8 +80,7 @@
     }
   {
       "type": "mindustry.entities.abilities.RepairFieldAbility",
-      "activeEffect": [
-        {
+      "activeEffect": {
         "type": "WaveEffect",
         "lifetime": 35,
         "sizeFrom": 0,
@@ -94,7 +92,6 @@
         "colorFrom": "D7FFB8FF",
         "colorTo": "D7FFB8FF"
       },
-      ]
       "healEffect": {
         "type": "WaveEffect",
         "lifetime": 35,
@@ -112,8 +109,7 @@
     }
   {
       "type": "mindustry.entities.abilities.RepairFieldAbility",
-      "activeEffect": [
-        {
+      "activeEffect": {
         "type": "WaveEffect",
         "lifetime": 35,
         "sizeFrom": 0,
@@ -125,7 +121,6 @@
         "colorFrom": "D7FFB8FF",
         "colorTo": "D7FFB8FF"
       },
-      ]
       "healEffect": {
         "type": "WaveEffect",
         "lifetime": 35,
