@@ -59,7 +59,6 @@ shoot: {
 lightRadius: 10
 lightColor: D7FFB8FF
 damage: 30
-scaleVelocity: false
 splashDamage: 50
 healPercent: 2
 collidesTeam: true
