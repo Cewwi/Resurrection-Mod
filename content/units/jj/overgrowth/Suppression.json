@@ -47,93 +47,50 @@
     "spore-slowed"
   ],
 "abilities": [
-    {
-      "type": "mindustry.entities.abilities.RepairFieldAbility",
-      "activeEffect": 
-        {
-        "type": "WaveEffect",
-        "lifetime": 35,
-        "sizeFrom": 0,
-        "sizeTo": 120,
-        "sides": 4,
-        "strokeFrom": 3,
-        "strokeTo": 0,
-        "lightColor": "D7FFB8FF",
-        "colorFrom": "D7FFB8FF",
-        "colorTo": "D7FFB8FF"
-      },
-      "healEffect": {
-        "type": "WaveEffect",
-        "lifetime": 35,
-        "sizeFrom": 0,
-        "sizeTo": 10,
-        "strokeFrom": 2,
-        "strokeTo": 0,
-        "lightColor": "D7FFB8FF",
-        "colorFrom": "D7FFB8FF",
-        "colorTo": "D7FFB8FF"
-      },
-      "range": 120,
-      "amount": 50,
-      "reload": 230
-    }
   {
-      "type": "mindustry.entities.abilities.RepairFieldAbility",
-      "activeEffect": {
-        "type": "WaveEffect",
-        "lifetime": 35,
-        "sizeFrom": 0,
-        "sizeTo": 120,
-        "sides": 4,
-        "strokeFrom": 3,
-        "strokeTo": 0,
-        "lightColor": "D7FFB8FF",
-        "colorFrom": "D7FFB8FF",
-        "colorTo": "D7FFB8FF"
-      },
-      "healEffect": {
-        "type": "WaveEffect",
-        "lifetime": 35,
-        "sizeFrom": 0,
-        "sizeTo": 10,
-        "strokeFrom": 2,
-        "strokeTo": 0,
-        "lightColor": "D7FFB8FF",
-        "colorFrom": "D7FFB8FF",
-        "colorTo": "D7FFB8FF"
-      },
-      "range": 150,
-      "amount": 50,
-      "reload": 230
-    }
-  {
-      "type": "mindustry.entities.abilities.RepairFieldAbility",
-      "activeEffect": {
-        "type": "WaveEffect",
-        "lifetime": 35,
-        "sizeFrom": 0,
-        "sizeTo": 120,
-        "sides": 4,
-        "strokeFrom": 3,
-        "strokeTo": 0,
-        "lightColor": "D7FFB8FF",
-        "colorFrom": "D7FFB8FF",
-        "colorTo": "D7FFB8FF"
-      },
-      "healEffect": {
-        "type": "WaveEffect",
-        "lifetime": 35,
-        "sizeFrom": 0,
-        "sizeTo": 10,
-        "strokeFrom": 2,
-        "strokeTo": 0,
-        "lightColor": "D7FFB8FF",
-        "colorFrom": "D7FFB8FF",
-        "colorTo": "D7FFB8FF"
-      },
-      "range": 200,
-      "amount": 50,
-      "reload": 230
-    }
+      "type": "EnergyFieldAbility",
+      "color": "D7FFB8FF",
+      "maxTargets": 30,
+      "damage": 175,
+      "healPercent": 5,
+      "y": -8,
+      "range": 270,
+      "sectors": 3,
+      "rotateSpeed": 1,
+      "hitBuildings": true,
+      "sectorRad": 0.28,
+      "effectRadius": 11,
+      "reload": 110
+    },
+   {
+      "type": "EnergyFieldAbility",
+      "color": "D7FFB8FF",
+      "maxTargets": 30,
+      "damage": 175,
+      "healPercent": 5,
+      "y": -8,
+      "range": 350,
+      "sectors": 3,
+      "rotateSpeed": 1,
+      "hitBuildings": true,
+      "sectorRad": 0.28,
+      "effectRadius": 11,
+      "reload": 110
+    },
+   {
+      "type": "EnergyFieldAbility",
+      "color": "D7FFB8FF",
+      "maxTargets": 30,
+      "damage": 175,
+      "healPercent": 5,
+      "y": -8,
+      "range": 430,
+      "sectors": 3,
+      "rotateSpeed": 1,
+      "hitBuildings": true,
+      "sectorRad": 0.28,
+      "effectRadius": 11,
+      "reload": 110
+    },
   ]
 }
