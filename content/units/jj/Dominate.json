@@ -15,12 +15,6 @@
 "treadFrames": 18,
 "treadPullOffset": 5,
 "treadRects": [
-{
-"x": 40,
-"y": -355,
-"width": 80,
-"height": 400,
-},
 ],
 "omniMovement": false,
 "outlineColor": "2d2f39",
