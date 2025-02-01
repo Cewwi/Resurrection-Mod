@@ -10,7 +10,7 @@
   "drownTimeMultiplier": 99999999999999,
   "canDrown": false,
   "groundLayer": 87,
-  "legPairOffset": 106,
+  "legPairOffset": -106,
   "outlineColor": "1d1c1a",
   "legLength": 178,
   "legBaseOffset": 20,
