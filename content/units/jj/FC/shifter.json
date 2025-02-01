@@ -15,6 +15,7 @@
 "legForwardScl": 0.2,
 "envDisabled": 0,
 "legMoveSpace": 0.9,
+"legBaseOffset": 8,
 "legPairOffset": 2,
   "groundLayer": 64,
   "outlineColor": "1d1c1a",
