@@ -13,6 +13,7 @@
 "legSpeed": 0.5,
 "legExtension": -13.5,
 "legForwardScl": 0.2,
+"legContinuousMove": true,
 "envDisabled": 0,
 "legMoveSpace": 0.9,
 "legBaseOffset": 8,
