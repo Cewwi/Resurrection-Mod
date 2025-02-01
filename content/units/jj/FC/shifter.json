@@ -106,6 +106,12 @@
       "shake": 0,
       "shootSound": "sap",
       "ejectEffect": "none",
+    "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 2,
+    "spread": 5.4,
+    "shots": 1
+  },
       "bullet": {
         "type": "MissileBulletType",
         "lightRadius": 10,
