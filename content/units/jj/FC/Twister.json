@@ -48,7 +48,7 @@
       "bullet": {
         "type": "MissileBulletType",
         "lightRadius": 10,
-        "lightColor": "C6FF6BFF",
+        "lightColor": "D1EFFFFF",
         "damage": 50,
         "scaleVelocity": "true",
         "splashDamage": 20,
@@ -74,9 +74,9 @@
           "interp": "circleOut",
           "cone": 360,
           "offset": 0.5,
-          "lightColor": "FFD59EFF",
-          "colorFrom": "FFD59EFF",
-          "colorTo": "FFF3D6FF",
+          "lightColor": "D1EFFFFF",
+          "colorFrom": "D1EFFFFF",
+          "colorTo": "D1EFFFFF",
           "sizeFrom": 2,
           "sizeTo": 0
         },
@@ -86,8 +86,8 @@
         "trailColor": "FFD59EFF",
         "trailWidth": 2,
         "smokeEffect": "none",
-        "frontColor": "FFF3D6FF",
-        "backColor": "FFD59EFF"
+        "frontColor": "D1EFFFFF",
+        "backColor": "D1EFFFFF"
         },
       }
     ]
