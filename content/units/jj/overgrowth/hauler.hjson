@@ -1,7 +1,7 @@
 {
 type: hover
 name: Mend
-description: Basic support unit. It can build, mine and repair. Hover unit, cannot fly.
+description: Gathing unit. Excels in mining operations. Hover unit, cannot fly.
 template: ErekirUnitType
 shadowElevation: 1
 drag: 0.06
