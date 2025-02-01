@@ -1,0 +1,131 @@
+type: hover
+name: Mend
+description: Basic support unit. It can build, mine and repair. Hover unit, cannot fly.
+template: ErekirUnitType
+shadowElevation: 1
+drag: 0.06
+outlineColor: 1d1c1a
+speed: 3
+rotateSpeed: 4
+hitSize: 8
+accel: 0.095
+groundLayer: 60
+layer: 109
+hovering: true
+isEnemy: true
+armor: 1
+mineSpeed: 2
+buildSpeed: 0.2
+groundLayer: 60
+isEnemy: true
+health: 720
+itemCapacity: 20
+mineTier: 1
+alwaysUnlocked: true
+useEngineElevation: false
+lowAltitude: false
+parts: [
+{
+type: HoverPart
+x: -8
+y: 8
+radius: 12
+phase: 90
+layerOffset: -0.001
+stroke: 2
+color: D7FFB8FF
+}
+  {
+type: HoverPart
+x: -8
+y: 8
+radius: 12
+phase: 90
+layerOffset: -0.001
+stroke: 2
+color: D7FFB8FF
+}
+  {
+type: HoverPart
+x: -10
+y: -10
+radius: 12
+phase: 90
+layerOffset: -0.001
+stroke: 2
+color: D7FFB8FF
+}
+  {
+type: HoverPart
+x: 10
+y: -10
+radius: 12
+phase: 90
+layerOffset: -0.001
+stroke: 2
+color: D7FFB8FF
+}
+]
+weapons: [
+   {
+    name: mend-weapon
+    x: 4
+    y: 0
+    shooty: 10
+    reload: 60
+    alternate: true
+    mirror: true
+    top: true
+    rotate: false
+    shootSound: laser
+shoot: {
+    type: shootPattern
+    shotDelay: 5
+    shots: 2
+  }
+   bullet: {
+    type: BasicBulletType
+    sprite: circle-bullet
+lightRadius: 10
+lightColor: D7FFB8FF
+damage: 30
+splashDamage: 50
+healPercent: 2
+collidesTeam: true
+frontColor: ffffff
+backColor: D7FFB8FF
+weaveScale: 8
+weaveMag: 2
+splashDamageRadius: 30
+height: 6.5
+width: 6.5
+speed: 1.5
+lifetime: 75
+despawnEffect: {
+  type: WaveEffect
+  lifetime: 10
+  sizeFrom: 0
+  sizeTo: 25
+  strokeFrom: 10
+  strokeTo: 0
+  colorFrom: FFFFFF
+  colorTo: D7FFB8FF
+}
+hitEffect: {
+  type: WaveEffect
+  lifetime: 10
+  sizeFrom: 0
+  sizeTo: 25
+  strokeFrom: 10
+  strokeTo: 0
+  colorFrom: FFFFFF
+  colorTo: D7FFB8FF
+}
+shrinkX: 0
+shrinkY: 0
+      trailLength: 19
+      trailColor: D7FFB8FF
+      trailWidth: 3
+    }
+}
+]
