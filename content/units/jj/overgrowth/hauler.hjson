@@ -3,12 +3,12 @@ type: hover
 name: Mend
 description: Gathing unit. Excels in mining operations. Hover unit, cannot fly.
 template: ErekirUnitType
-shadowElevation: 1
+shadowElevation: 0.3
 drag: 0.06
 outlineColor: 1d1c1a
-speed: 3
-rotateSpeed: 4
-hitSize: 8
+speed: 5
+rotateSpeed: 5
+hitSize: 16
 accel: 0.095
 groundLayer: 60
 layer: 109
@@ -19,9 +19,9 @@ mineSpeed: 2
 buildSpeed: 0.2
 groundLayer: 60
 isEnemy: true
-health: 720
-itemCapacity: 20
-mineTier: 1
+health: 1280
+itemCapacity: 80
+mineTier: 2
 alwaysUnlocked: true
 useEngineElevation: false
 lowAltitude: false
