@@ -30,18 +30,7 @@ parts: [
 type: HoverPart
 x: 0
 y: 2
-radius: 12
-phase: 90
-layerOffset: -0.001
-stroke: 2
-color: D7FFB8FF
-}
-{
-type: HoverPart
-x: 0
-y: 2
-rotation: 45
-radius: 12
+radius: 18
 phase: 90
 layerOffset: -0.001
 stroke: 2
