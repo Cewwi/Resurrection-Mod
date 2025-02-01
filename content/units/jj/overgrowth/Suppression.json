@@ -48,6 +48,42 @@
   ],
 "abilities": [
   {
+    "type": "ShieldArcAbility",
+    "max": 8800,
+    "cooldown": 300,
+    "regen": 0.5,
+    "angle": 360,
+    "whenShooting": true,
+    "width": 6,
+    "x": 0,
+    "y": -22,
+    "radius": 175,
+  }
+  {
+    "type": "ShieldArcAbility",
+    "max": 8800,
+    "cooldown": 300,
+    "regen": 0.5,
+    "angle": 360,
+    "whenShooting": true,
+    "width": 6,
+    "x": 0,
+    "y": -22,
+    "radius": 270,
+  }
+   {
+    "type": "ShieldArcAbility",
+    "max": 8800,
+    "cooldown": 300,
+    "regen": 0.5,
+    "angle": 360,
+    "whenShooting": true,
+    "width": 6,
+    "x": 0,
+    "y": -22,
+    "radius": 350,
+  }
+  {
       "type": "EnergyFieldAbility",
       "color": "D7FFB8FF",
       "maxTargets": 30,
