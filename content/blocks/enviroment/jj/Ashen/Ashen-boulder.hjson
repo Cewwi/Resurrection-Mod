@@ -1,0 +1,4 @@
+type: Prop
+name: Ashen Boulder
+variants: 3
+breakSound: rock-crush
