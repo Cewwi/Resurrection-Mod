@@ -1,0 +1,11 @@
+type: PayloadConveyor
+  name: Payload Transporter
+  requirements: [
+  
+]
+  moveTime: 45
+  canOverdrive: false
+  health: 1500
+  researchCostMultiplier: 4
+  underBullets: true
+  
