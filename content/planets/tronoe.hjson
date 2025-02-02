@@ -95,9 +95,9 @@ cloudMesh: [
    type: HexSkyMesh
    planet: tronoe
    speed: 1.2
-   radius: 1.2
+   radius: 0.4
    divisions: 6
-   color: 4E505FFF
+   color: 9698A8FF
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -107,9 +107,9 @@ cloudMesh: [
    type: HexSkyMesh
    planet: tronoe
    speed: 1
-   radius: 1.8
+   radius: 0.35
    divisions: 6
-   color: 4E505FFF
+   color: 9698A8FF
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -118,10 +118,10 @@ cloudMesh: [
   {
    type: HexSkyMesh
    planet: tronoe
-   speed: 0.8
+   speed: 0.3
    radius: 1.6
    divisions: 6
-   color: 4E505FFF
+   color: 9698A8FF
    octaves: 3
    persistence: 0.5
    scl: 1.1
