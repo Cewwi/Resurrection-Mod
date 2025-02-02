@@ -3,7 +3,7 @@ type: GenericCrafter
 name: Carborundum Smelter
 description: Produces carborundum.
 size: 3
-craftTime: 325
+craftTime: 60
 consumes: {
   items: [
     Tronian-Graphite/1
@@ -19,7 +19,7 @@ drawer: [
 {
   type: DrawDefault
 }
-{
+  {
   type: DrawFlame
       flameColor: BCB6B6FF
 }
