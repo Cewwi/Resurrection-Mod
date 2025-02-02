@@ -1,8 +1,8 @@
 localizedName: Tronoe PO7
-description: A planet undergoing devastation by major corporations from another system.
+description: A strange planet.
 alwaysUnlocked: true
 mesh: [
-{
+  {
 bloom: false
 type: SunMesh
 planet: tronoe
@@ -48,8 +48,8 @@ F7E97E,
   {
     type: NoiseMesh
     planet: tronoe
-    divisions:   
-     seed: 61
+    divisions: 6
+    seed: 61
     radius: 1.248
     color1: F7E97EFF
     color2: E3AE6FFF
@@ -85,13 +85,13 @@ F7E97E,
     seed: 7
     radius: 1.229
     color1: C3C3C3FF
-     color2: E6E6E6FF
+    color2: E6E6E6FF
     octaves: 3.7
     persistence: 1.1
   } 
 ]
-~cloudMesh: [
- {
+cloudMesh: [
+  {
    type: HexSkyMesh
    planet: tronoe
    speed: 1.21
@@ -99,14 +99,14 @@ F7E97E,
    divisions: 6
    color: F7E97EFF
    octaves: 3
-persistence: 0.3
+   persistence: 0.3
    scl: 1
    thresh: 0.6
   }
- {
+  {
    type: HexSkyMesh
    planet: tronoe
-  speed: 1.01
+   speed: 1.01
    radius: 0.11
    divisions: 6
    color: F7E97EFF
@@ -159,6 +159,7 @@ accessible: true
 updateLighting: false
 sectorSeed: 3711
 bloom: false
+bloom: true
 visible: true
 atmosphereColor: F7E97EFF
 iconColor: F7E97EFF
@@ -167,7 +168,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: Cavern-core
+defaultCore: Plasma-Core
 parent: sun
 solarSystem: sun
 launchCandidates: []
