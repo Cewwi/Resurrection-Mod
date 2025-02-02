@@ -1,0 +1,4 @@
+type: Prop
+name: Light Stone Boulder
+variants: 3
+breakSound: rock-crush
