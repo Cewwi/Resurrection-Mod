@@ -41,7 +41,6 @@ powerProduction: 2,
 category: crafting
 research: Cavern-core
 requirements: [
-  Tronian-quartz/100
-  Tronian-Graphite/50
+  Tronian-quartz/50
 ]
 itemCapacity: 10
