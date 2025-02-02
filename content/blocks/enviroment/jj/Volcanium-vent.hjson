@@ -17,7 +17,7 @@ effect: [
     baseLength: 6
     colorFrom: FF7436FF
     colorTo: FF7436FF
-    lifetime: 380
+    lifetime: 3800
     useRotation: false
   }
   {
@@ -33,7 +33,7 @@ effect: [
     baseLength: 8
     colorFrom: FF7436FF
     colorTo: FF7436FF
-    lifetime: 380
+    lifetime: 3800
     useRotation: false
     startDelay: 0
   }
@@ -50,7 +50,7 @@ effect: [
     baseLength: 10
     colorFrom: FF7436FF
     colorTo: FF7436FF
-    lifetime: 380
+    lifetime: 3800
     useRotation: false
     startDelay: 0
   }
@@ -67,7 +67,7 @@ effect: [
     baseLength: 12
     colorFrom: FF7436FF
     colorTo: FF7436FF
-    lifetime: 380
+    lifetime: 3800
     useRotation: false
     startDelay: 0
   }
@@ -84,7 +84,7 @@ effect: [
     baseLength: 16
     colorFrom: FF7436FF
     colorTo: FF7436FF
-    lifetime: 380
+    lifetime: 3800
     useRotation: false
     startDelay: 0
   }
@@ -101,7 +101,7 @@ effect: [
     baseLength: 18
     colorFrom: FF7436FF
     colorTo: FF7436FF
-    lifetime: 380
+    lifetime: 3800
     useRotation: false
     startDelay: 0
   }
@@ -118,7 +118,7 @@ effect: [
     baseLength: 20
     colorFrom: FF7436FF
     colorTo: FF7436FF
-    lifetime: 380
+    lifetime: 3800
     useRotation: false
     startDelay: 0
   }
