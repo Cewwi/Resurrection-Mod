@@ -1,0 +1,4 @@
+type: StaticWall
+name: Nevorian Impure Quartz Wall
+description: "transition wall"
+variants: 3
