@@ -1,5 +1,5 @@
 type: StaticWall
 name: Nevorian Quartz Wall
 description: "Back before the Veil opened, quartz was the most abundant rescouce on Tronoe and Nevorix. Today though, it isn't as common."
-itemDrop: item-quartz
+itemDrop: quartz
 variants: 4
