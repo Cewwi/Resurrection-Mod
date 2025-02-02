@@ -1,0 +1,8 @@
+name: Albino Alloy
+description: "Used by all Harbinger tech."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: false
+color: f6f6f6
+research: Cavern-core
+hiddenOnPlanets: [serpulo]
