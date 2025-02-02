@@ -28,7 +28,6 @@ drawer: [
   type: DrawDefault
 }
 ]
-  },
 outputItems: [
   Tronian-Graphite/2
 ]
