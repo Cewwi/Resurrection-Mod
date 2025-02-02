@@ -12,6 +12,6 @@
   "category": "power",
   "research": "Quartz-Generator"
   "requirements": [
-    "quartz/10"
+    "Tronian-quartz/10"
   ],
 }
