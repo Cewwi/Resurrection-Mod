@@ -33,7 +33,7 @@ outputItems: [
   Tronian-Graphite/2
 ]
 category: crafting
-research: Cavern-core
+research: Quartz-Generator
 requirements: [
   scheelite/50
   Tronian-quartz/100
