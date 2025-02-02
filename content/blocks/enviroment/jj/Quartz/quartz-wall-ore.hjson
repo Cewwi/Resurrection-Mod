@@ -2,5 +2,5 @@
   wallOre: true
   oreScale: 25
   oreThreshold: 1
-  itemDrop: copper
+  itemDrop: Tronian-quartz
   variants: 4
