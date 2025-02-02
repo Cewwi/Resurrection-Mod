@@ -8,7 +8,7 @@ type: SunMesh
 planet: tronoe
 seed: 12
 divisions: 5
-radius: 1.0
+radius: 1.2
 octaves: 1
 persistence: 0.5
 scl: 2
