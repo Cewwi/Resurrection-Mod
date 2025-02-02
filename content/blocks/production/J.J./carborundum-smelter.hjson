@@ -1,0 +1,42 @@
+
+type: GenericCrafter
+name: Carborundum Smelter
+description: Produces carborundum.
+size: 4
+craftTime: 325
+consumes: {
+  items: [
+    Tronian-Graphite/1
+    Tronian-quartz/2
+  ]
+power: 2
+}
+ignoreLiquidFullness: true
+ambientSound: smelter
+researchCostMultiplier: 0.5
+ambientSoundVolume: 0.3
+heatRequirement: 20
+drawer: [
+{
+  type: DrawRegion
+  suffix: -bottom
+}
+{
+  type: DrawFlame
+      flameColor: A9D8FFFF
+}
+{
+  type: DrawDefault
+}
+]
+  },
+outputItems: [
+  carborundum/3
+]
+category: crafting
+research: Quartz-Generator
+requirements: [
+  Tronian-Graphite/50
+  Tronian-quartz/100
+]
+itemCapacity: 10
