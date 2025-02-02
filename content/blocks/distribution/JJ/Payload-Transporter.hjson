@@ -2,6 +2,7 @@ type: PayloadConveyor
   name: Payload Transporter
   requirements: [
   Tronian-quartz/20
+  carborundum/5
 ]
   moveTime: 45
   canOverdrive: false
