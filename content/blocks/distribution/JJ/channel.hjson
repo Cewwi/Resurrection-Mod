@@ -9,7 +9,7 @@ researchCost: [
   tungsten/250
   graphite/400
 ]
-speed: 3
+speed: 6
 health: 125
 requirements: [
   Tronian-quartz/1
