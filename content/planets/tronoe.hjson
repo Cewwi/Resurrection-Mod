@@ -1,5 +1,5 @@
-localizedName: TronowP07
-description: A strange planet.
+localizedName: Tronoe PO7
+description: A planet undergoing devastation by major corporations from another system.
 alwaysUnlocked: true
 mesh: [
 {
@@ -16,35 +16,102 @@ pow: 2.2
 mag: 3
 colorScale: 1
 colors: [
-232535FF,
-232535FF,
-232535FF,
-232535FF,
-232535FF
+353535,
+757575,
+F7E97E,
 ]
 }
-
+  {
+    type: NoiseMesh
+    planet: tronoe
+    seed: 69
+    divisions: 5
+    color1: 5c5c5c
+    color2: 3b3b3b
+    radius: 1.212
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+    mag: 1
+  }
+  {
+    type: NoiseMesh
+    planet: tronoe
+    divisions: 5
+    seed: 19
+    radius: 1.247
+    color1: 5c5c5c
+    color2: 3b3b3b
+    color1: E6E6E6FF
+    color2: C3C3C3FF
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    type: NoiseMesh
+    planet: tronoe
+    divisions:   
+     seed: 61
+    radius: 1.248
+    color1: F7E97EFF
+    color2: E3AE6FFF
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    type: NoiseMesh
+    planet: tronoe
+    divisions: 6
+    seed: 17
+    radius: 1.2514
+    color1: F7E97EFF
+    color2: E3AE6FFF
+    octaves: 5.7
+    persistence: 0.9
+  }
+  {
+    type: NoiseMesh
+    planet: tronoe
+    divisions: 5
+    seed: 7
+    radius: 1.229
+    color1: C3C3C3FF
+    color2: E6E6E6FF
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+    type: NoiseMesh
+    planet: tronoe
+    divisions: 5
+    seed: 7
+    radius: 1.229
+    color1: C3C3C3FF
+     color2: E6E6E6FF
+    octaves: 3.7
+    persistence: 1.1
+  } 
 ]
-cloudMesh: [
+~cloudMesh: [
  {
    type: HexSkyMesh
-   planet: iralius
+   planet: tronoe
    speed: 1.21
    radius: 0.1
    divisions: 6
-   color: "eafffd7e" //buhhuhhuuhuh
-   octaves: "3"
-   persistence: 0.3
+   color: F7E97EFF
+   octaves: 3
+persistence: 0.3
    scl: 1
    thresh: 0.6
   }
-  {
+ {
    type: HexSkyMesh
-   planet: iralius
-   speed: 1.01
+   planet: tronoe
+  speed: 1.01
    radius: 0.11
    divisions: 6
-   color: eafffd7e
+   color: F7E97EFF
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -52,19 +119,19 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: iralius
+   planet: tronoe
    speed: 0.891
    radius: 0.091
    divisions: 6
-   color: eafffd7e
+   color: E6E6E6FF
    octaves: 3
    persistence: 0.5
    scl: 1.1
    thresh: 0.6
   }
 ]
-generator: { //not sure what this part does
-  octaves: 3 
+generator: {
+  octaves: 3
   persistence: 0.52
   scale: 22
   mag: 0.721
@@ -73,12 +140,12 @@ generator: { //not sure what this part does
   max: 100
   radMin: 220
   radMax: 600
-  iceChance: 0
-  carbonChance: 0
+  iceChance: 0.51
+  carbonChance: 0.32
   berylChance: 0
-  ferricChance: 0
+  ferricChance: 0.26
 }
-sectorSize: 1
+sectorSize: 0.5
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
@@ -89,20 +156,21 @@ radius: 1.2
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.3
+atmosphereRadOut: 0.2
 accessible: true
 updateLighting: false
-sectorSeed: 4351 //whatever number you want ig
+sectorSeed: 3711
 bloom: false
 visible: true
-atmosphereColor: 232535FF //change colours
-iconColor: 232535FF //change colours
+atmosphereColor: F7E97EFF
+iconColor: 86eb48
+iconColor: F7E97EFF
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: Cavern-core
+defaultCore: Cavern-Core
 parent: sun
 solarSystem: sun
 launchCandidates: []
