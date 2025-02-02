@@ -6,11 +6,13 @@ alwaysUnlocked: false
 research: Cavern-core
 bridgeReplacement: duct-bridge
 researchCost: [
-  tungsten/250
-  graphite/400
+  Tronian-quartz/50
 ]
 speed: 6
 health: 125
 requirements: [
   Tronian-quartz/1
 ]
+lightRadius: 15
+lightColor: BCB6B6FF
+emitLight: true
