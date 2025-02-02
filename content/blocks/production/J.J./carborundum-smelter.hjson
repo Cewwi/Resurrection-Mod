@@ -9,7 +9,7 @@ consumes: {
     Tronian-Graphite/1
     Tronian-quartz/2
   ]
-power: 2
+power: 3
 }
 ignoreLiquidFullness: true
 ambientSound: smelter
