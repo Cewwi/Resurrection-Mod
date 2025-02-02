@@ -15,18 +15,13 @@ ignoreLiquidFullness: true
 ambientSound: smelter
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.3
-heatRequirement: 20
 drawer: [
 {
-  type: DrawRegion
-  suffix: -bottom
+  type: DrawDefault
 }
 {
   type: DrawFlame
-      flameColor: A9D8FFFF
-}
-{
-  type: DrawDefault
+      flameColor: BCB6B6FF
 }
 ]
 outputItems: [
