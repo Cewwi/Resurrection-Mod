@@ -1,0 +1,6 @@
+type: TallBlock
+name: Quartz Crystal Cluster
+variants: 2
+clipSize: 64
+shadowAlpha: 0.5
+shadowOffset: -1.35
