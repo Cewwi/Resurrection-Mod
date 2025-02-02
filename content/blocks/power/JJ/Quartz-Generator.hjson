@@ -4,12 +4,11 @@ name: Quartz Generator
 description: Extracts fain energy from Tronian quartz.
 size: 4
 minEfficiency: 1
-displayEfficiency: true
+displayEfficiency: false
 consumes: {
   items: [
-    Tronian-quartz/4
+    Tronian-quartz/1
   ]
-power: 14
 }
 ignoreLiquidFullness: true
 ambientSound: hum
@@ -37,8 +36,8 @@ drawer: [
       particleLen: 4
 }
 ]
-powerProduction: 2,
-category: crafting
+powerProduction: 2
+category: power
 research: Cavern-core
 requirements: [
   Tronian-quartz/50
