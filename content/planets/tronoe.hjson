@@ -1,11 +1,11 @@
-localizedName: Iralius
+localizedName: TronoeP07
 description: 
 alwaysUnlocked: true
 mesh: [
 {
 bloom: false
 type: SunMesh
-planet: tronoe
+planet: erekir
 seed: 235
 divisions: 5
 radius: 1.42
@@ -16,11 +16,11 @@ pow: 2.2
 mag: 3
 colorScale: 1
 232535FF: [
-1D2140FF,
 232535FF,
 232535FF,
 232535FF,
-1D2140FF
+232535FF,
+232535FF
 ]
 }
 
