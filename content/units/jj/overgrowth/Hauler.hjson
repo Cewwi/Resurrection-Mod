@@ -5,6 +5,7 @@ description: Gathing unit. Excels in mining operations. Hover unit, cannot fly.
 template: ErekirUnitType
 shadowElevation: 0.3
 drag: 0.06
+defaultController: minerAI
 outlineColor: 1d1c1a
 speed: 5
 rotateSpeed: 5
