@@ -1,0 +1,4 @@
+type: StaticWall
+name: Light Stone Wall
+description: "a slightly lighter shade of stone"
+variants: 3
