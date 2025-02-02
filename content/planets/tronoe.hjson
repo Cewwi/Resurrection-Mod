@@ -174,7 +174,7 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  silicon
+  Tronian-quartz
   item-SurgeQuartz
   surge-alloy
   graphite
