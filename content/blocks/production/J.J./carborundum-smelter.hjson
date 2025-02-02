@@ -29,7 +29,6 @@ drawer: [
   type: DrawDefault
 }
 ]
-  },
 outputItems: [
   carborundum/3
 ]
