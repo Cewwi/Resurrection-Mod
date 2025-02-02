@@ -1,5 +1,5 @@
 localizedName: Iralius
-description: "The moon of Tronoe. For some unknown reason, barely shares any rescources - if at all, with Tronoe."
+description: 
 alwaysUnlocked: true
 mesh: [
 {
@@ -8,14 +8,14 @@ type: SunMesh
 planet: tronoe
 seed: 235
 divisions: 5
-radius: 2.22
+radius: 1.42
 octaves: 1
 persistence: 0.5
 scl: 2
 pow: 2.2
 mag: 3
 colorScale: 1
-1D2140FF: [
+232535FF: [
 1D2140FF,
 232535FF,
 232535FF,
@@ -95,7 +95,7 @@ updateLighting: false
 sectorSeed: 432663243 //whatever number you want ig
 bloom: true
 visible: true
-atmosphereColor: 1D2140FF //change colours
+atmosphereColor: 232535FF //change colours
 iconColor: 1D2140FF //change colours
 hasAtmosphere: true
 allowWaveSimulation: true
