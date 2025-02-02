@@ -1,26 +1,26 @@
-localizedName: TronoeP07
-description: 
+localizedName: Iralius
+description: "The moon of Tronoe. For some unknown reason, barely shares any rescources - if at all, with Tronoe."
 alwaysUnlocked: true
 mesh: [
 {
 bloom: false
 type: SunMesh
-planet: erekir
-seed: 13
+planet: tronoe
+seed: 12
 divisions: 5
-radius: 1.42
-octaves: 3
+radius: 1.22
+octaves: 1
 persistence: 0.5
 scl: 2
 pow: 2.2
 mag: 3
 colorScale: 1
-232535FF: [
-232535FF,
-232535FF,
-232535FF,
-232535FF,
-232535FF
+colors: [
+246569,
+205b5e,
+1c5053,
+184548,
+133a3d
 ]
 }
 
@@ -44,7 +44,7 @@ cloudMesh: [
    speed: 1.01
    radius: 0.11
    divisions: 6
-   color: 1D2140FF
+   color: eafffd7e
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -78,25 +78,25 @@ generator: { //not sure what this part does
   berylChance: 0
   ferricChance: 0.26
 }
-sectorSize: 0.3
+sectorSize: 1
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-orbitSpacing: 3
-radius: 1.8
+orbitSpacing: 1
+radius: 1.2
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
 updateLighting: false
-sectorSeed: 432663243 //whatever number you want ig
+sectorSeed: 14513 //whatever number you want ig
 bloom: true
 visible: true
-atmosphereColor: 232535FF //change colours
-iconColor: 1D2140FF //change colours
+atmosphereColor: 666359 //change colours
+iconColor: 232535FF //change colours
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
@@ -105,7 +105,6 @@ prebuildBase: false
 defaultCore: Cavern-core
 parent: sun
 solarSystem: sun
-launchCandidates: []
 launchCandidates: []
 itemWhitelist: [
 "Tronian-quartz"
