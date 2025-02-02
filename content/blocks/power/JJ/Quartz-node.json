@@ -1,0 +1,17 @@
+{
+  "type": "PowerNode",
+  "name": "Quartz Node",
+  "size": 1,
+  "health": 120,
+  "laserRange": 10,
+  "maxNodes": 5,
+  "hasPower": true,
+  "placeableLiquid": "true",
+  "laserColor1": "FFFFFFFF",
+  "laserColor2": "BCB6B6FF",
+  "category": "power",
+  "research": "Quartz-Generator"
+  "requirements": [
+    "quartz/10"
+  ],
+}
