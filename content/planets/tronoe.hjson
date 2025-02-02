@@ -8,7 +8,7 @@ type: SunMesh
 planet: tronoe
 seed: 12
 divisions: 5
-radius: 1.22
+radius: 1.0
 octaves: 1
 persistence: 0.5
 scl: 2
@@ -95,7 +95,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: tronoe
    speed: 1.2
-   radius: 0.4
+   radius: 0.2
    divisions: 6
    color: 9698A8FF
    octaves: 3
@@ -107,7 +107,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: tronoe
    speed: 1
-   radius: 0.35
+   radius: 0.23
    divisions: 6
    color: 9698A8FF
    octaves: 3
@@ -118,8 +118,8 @@ cloudMesh: [
   {
    type: HexSkyMesh
    planet: tronoe
-   speed: 0.3
-   radius: 1.6
+   speed: 2
+   radius: 0.15
    divisions: 6
    color: 9698A8FF
    octaves: 3
