@@ -1,6 +1,6 @@
 type: Floor
 name: Magma Floor
-variants: 2
+variants: 4
 lightRadius: 25
-lightColor: magma-floor
+lightColor: FC8E6CFF
 emitLight: true
