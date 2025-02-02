@@ -1,5 +1,5 @@
-localizedName: Iralius
-description: "The moon of Tronoe. For some unknown reason, barely shares any rescources - if at all, with Tronoe."
+localizedName: TronowP07
+description: A strange planet.
 alwaysUnlocked: true
 mesh: [
 {
@@ -16,11 +16,11 @@ pow: 2.2
 mag: 3
 colorScale: 1
 colors: [
-246569,
-205b5e,
-1c5053,
-184548,
-133a3d
+232535FF,
+232535FF,
+232535FF,
+232535FF,
+232535FF
 ]
 }
 
@@ -73,10 +73,10 @@ generator: { //not sure what this part does
   max: 100
   radMin: 220
   radMax: 600
-  iceChance: 0.51
-  carbonChance: 0.32
+  iceChance: 0
+  carbonChance: 0
   berylChance: 0
-  ferricChance: 0.26
+  ferricChance: 0
 }
 sectorSize: 1
 allowLaunchSchematics: false
@@ -92,10 +92,10 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
 updateLighting: false
-sectorSeed: 14513 //whatever number you want ig
-bloom: true
+sectorSeed: 4351 //whatever number you want ig
+bloom: false
 visible: true
-atmosphereColor: 666359 //change colours
+atmosphereColor: 232535FF //change colours
 iconColor: 232535FF //change colours
 hasAtmosphere: true
 allowWaveSimulation: true
