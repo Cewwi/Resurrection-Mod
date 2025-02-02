@@ -6,10 +6,10 @@ mesh: [
 bloom: false
 type: SunMesh
 planet: erekir
-seed: 235
+seed: 13
 divisions: 5
 radius: 1.42
-octaves: 1
+octaves: 3
 persistence: 0.5
 scl: 2
 pow: 2.2
