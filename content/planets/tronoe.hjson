@@ -167,7 +167,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: Cavern-Core
+defaultCore: Cavern-core
 parent: sun
 solarSystem: sun
 launchCandidates: []
