@@ -1,1 +1,3 @@
-
+type: StaticWall
+name: Quartz Stone wall
+variants: 3
