@@ -2,8 +2,8 @@ type: TallBlock
 name: Quartz Cluster
 variants: 2
 clipSize: 300
-shadowOffset: 9
-shadowAlpha: 0.3
+shadowOffset: 0
+shadowAlpha: 0
 emitLight: true
 lightRadius: 100
 lightColor: BCB6B6FF
