@@ -1,0 +1,16 @@
+type: Duct
+name: Channel
+description: Directs imput items to the output. Emits light.
+category: distribution
+alwaysUnlocked: false
+research: Cavern-core
+bridgeReplacement: duct-bridge
+researchCost: [
+  tungsten/250
+  graphite/400
+]
+speed: 3
+health: 125
+requirements: [
+  Tronian-quartz/1
+]
