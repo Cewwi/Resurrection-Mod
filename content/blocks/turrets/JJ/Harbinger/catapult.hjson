@@ -14,6 +14,9 @@ targetGround: true
 targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
+drawer: {
+    type": drawTurret,
+    basePrefix: Harbinger-
 ammoTypes: {
 	Tronian-quartz: {
 	type: missileBulletType
