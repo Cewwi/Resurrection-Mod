@@ -2,7 +2,7 @@
 type: ConsumeGenerator
 name: Quartz Generator
 description: Extracts fain energy from Tronian quartz.
-size: 4
+size: 3
 minEfficiency: 1
 displayEfficiency: false
 consumes: {
