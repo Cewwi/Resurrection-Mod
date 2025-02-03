@@ -4,7 +4,7 @@
   "name": "Surge",
   "description": "Fires 3 bullets in quick succession. Overcharges with a large amount of Cryofluid.",
   "ammoPerShot": 2,
-  "reload": 50,
+  "reload": 75,
   "range": 232,
   "outlineColor": "2d2f39",
   "recoil": 2,
