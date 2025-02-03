@@ -15,8 +15,9 @@ ignoreLiquidFullness: true
 ambientSound: smelter
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.3
-drawer: [
+drawer: {
 type: DrawMulti
+drawers: [
 {
   type: DrawDefault
 }
@@ -25,6 +26,7 @@ type: DrawMulti
       flameColor: BCB6B6FF
 }
 ]
+}
 outputItems: [
   carborundum/3
 ]
