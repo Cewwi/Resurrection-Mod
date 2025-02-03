@@ -20,19 +20,20 @@
   "recoilAmount": 2,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "Harbingerblock-"
+    "basePrefix": "Quartzblock-"
   }
   "ammoTypes": {
-    "surge-alloy": {
+    "Tronian-quartz": {
       "damage": 300,
       "width": 25,
+      "ammoMultiplier": 5,
       "pierce": "true",
       "type": "ShrapnelBulletType",
       "lifetime": 18,
       "length": 160,
       "serrations": 8,
-      "fromColor": "FF8E38FF",
-      "toColor": "F3E979FF",
+      "fromColor": "E5E5E5FF",
+      "toColor": "E5E5E5FF",
       "shootEffect": "explosion",
       "hitEffect": {
         "type": "ParticleEffect",
@@ -43,10 +44,9 @@
         "cone": -360,
         "lenFrom": 5,
         "lenTo": 0,
-        "colorFrom": "FFF8AFFF",
-        "colorTo": "F3E979FF"
+        "colorFrom": "E5E5E5FF",
+        "colorTo": "E5E5E5FF"
       },
-      "ammoMultiplier": 5,
     },
   },
   "requirements": [
