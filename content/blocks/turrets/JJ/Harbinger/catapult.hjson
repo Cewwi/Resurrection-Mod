@@ -1,0 +1,48 @@
+type: ItemTurret
+localizedName: Infestation
+description: Fires a missile at enemy targets.
+detail: pew
+health: 750
+size: 3
+reload: 20.56
+range: 360
+shootY: 4
+ammoUseEffect: casing2
+inaccuracy: 0
+rotateSpeed: 3
+targetGround: true
+targetAir: true
+coolantMultiplier: 2
+researchCostMultiplier: 1.5
+ammoTypes: {
+	Tronian-quartz: {
+	type: missileBulletType
+	ammoMultiplier: 1
+	damage: 50
+	splashDamageRadius: 30
+	splashDamage: 90
+	weaveMag: 2
+	width: 7
+	length: 23
+	shootCone: 0
+	hitEffect: blastExplosion
+  despawnEffect: blastExplosion
+	smokeEffect: shootSmallSmoke
+  statusDuration: 80
+  status: blasted
+	lifetime: 60
+	speed: 9
+  weaveScale: 8
+  weaveMag: 2
+	bulletInterval: 5
+	intervalRandomSpread: 360
+  buildingDamageMultiplier: 0.75
+	color: E5E5E5FF
+      }
+}
+requirements: [
+Tronian-quartz/300
+carborundum/200
+]
+category: turret
+research: Cavern-core
