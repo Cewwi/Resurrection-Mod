@@ -1,7 +1,6 @@
 type: ItemTurret
 localizedName: Infestation
 description: Fires a missile at enemy targets.
-detail: pew
 health: 750
 size: 3
 reload: 20.56
@@ -15,8 +14,8 @@ targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
 drawer: {
-    type": drawTurret,
-    basePrefix: Harbinger-
+    type: drawTurret
+    basePrefix: Quartzblock-
 }
 ammoTypes: {
 	Tronian-quartz: {
@@ -27,7 +26,7 @@ ammoTypes: {
 	splashDamage: 90
 	weaveMag: 2
 	width: 7
-	length: 23
+	length: 50
 	shootCone: 0
 	hitEffect: blastExplosion
   despawnEffect: blastExplosion
