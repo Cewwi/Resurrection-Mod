@@ -1,0 +1,57 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Catapult",
+  "reload": 35,
+  "range": 160,
+  "restitution": 0.2,
+  "shootCone": 20,
+  "size": 3,
+  "maxAmmo": 60,
+  "health": 650,
+  "shootShake": 4,
+  "shoot": {
+    "type": "ShootSpread",
+    "spread": 15,
+    "shots": 1
+  },
+  "shootSound": "shotgun",
+  "ammoPerShot": 2,
+  "recoilAmount": 2,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "Harbingerblock-"
+  }
+  "ammoTypes": {
+    "surge-alloy": {
+      "damage": 300,
+      "width": 25,
+      "pierce": "true",
+      "type": "ShrapnelBulletType",
+      "lifetime": 18,
+      "length": 160,
+      "serrations": 8,
+      "fromColor": "FF8E38FF",
+      "toColor": "F3E979FF",
+      "shootEffect": "explosion",
+      "hitEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 7,
+        "lifetime": 10,
+        "length": 25,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "FFF8AFFF",
+        "colorTo": "F3E979FF"
+      },
+      "ammoMultiplier": 5,
+    },
+  },
+  "requirements": [
+    "carborundum/200",
+    "Tronian-quartz/300",
+  ],
+  "category": "turret",
+  "research": "Caven-core"
+}
