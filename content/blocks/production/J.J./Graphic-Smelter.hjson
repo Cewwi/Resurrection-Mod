@@ -14,8 +14,9 @@ ignoreLiquidFullness: true
 ambientSound: smelter
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.3
-heatRequirement: 20
-drawer: [
+drawer: {
+type: DrawMulti
+drawers: [
 {
   type: DrawRegion
   suffix: -bottom
@@ -28,6 +29,7 @@ drawer: [
   type: DrawDefault
 }
 ]
+}
 outputItems: [
   Tronian-Graphite/2
 ]
