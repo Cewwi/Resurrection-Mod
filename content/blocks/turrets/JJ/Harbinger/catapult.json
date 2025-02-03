@@ -1,14 +1,15 @@
 {
   "type": "ItemTurret",
   "localizedName": "Catapult",
+  "description": "Fires a piercing flash of sheated quartz.",
   "reload": 35,
   "range": 160,
   "restitution": 0.2,
   "shootCone": 20,
   "size": 3,
-  "maxAmmo": 60,
+  "maxAmmo": 30,
   "health": 650,
-  "shootShake": 4,
+  "shootShake": 1,
   "shoot": {
     "type": "ShootSpread",
     "spread": 15,
