@@ -1,19 +1,15 @@
 {
   "type": "Drill",
-  "size": 3,
+  "size": 2,
   "tier": 1,
-  "rotateSpeed": 3.5,
-  "drillTime": 300,
+  "rotateSpeed": 2,
+  "drillTime": 800,
   "liquidBoostIntensity": 1.5,
   "drawRim": true,
   "itemCapacity": 40,
   "hasLiquids": true,
   "hardnessDrillMultiplier": 10,
-  "liquidCapacity": 25,
   "expanded": true,
-  "consumes": {
-    "power": 45,
-  },
  "requirements": [
      "Tronian-quartz/50",
   ],
