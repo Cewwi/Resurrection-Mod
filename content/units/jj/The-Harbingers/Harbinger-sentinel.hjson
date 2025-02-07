@@ -1,0 +1,75 @@
+type: legs
+legCount: 6
+legLength: 40
+legSpeed: 0.5
+legExtension: -13.5
+legForwardScl: 0.2
+envDisabled: 0
+legMoveSpace: 0.9
+legPairOffset: 2
+fogRadius: 0
+hovering: false
+faceTarget: true
+targetPriority: -2
+name: concentrator
+description: Defends the Quartz core. Builds structures and mines ores. 
+health: 500
+armor: 4
+speed: 2.5
+hitSize: 8
+isEnemy: false
+mineSpeed: 3.5
+mineFloor: true
+mineWalls: true
+mineTier: 1
+buildSpeed: 1.2
+drag: 0.4
+itemCapacity: 90
+alwaysUnlocked: true
+outlineColor: 1d1c1a
+weapons: [
+{
+  type: RepairBeamWeapon
+x: 0
+y: 9.75
+shootY: 0
+reload: 20
+rotate: false
+beamWidth: 0.7
+shootCone: 40
+mirror: false
+repairSpeed: 2
+fractionRepairSpeed: 0.46
+targetUnits: true
+targetBuildings: true
+autoTarget: false
+controllable: true
+laserColor: E5E5E5FF
+healColor: E5E5E5FF
+bullet: {
+maxRange: 20
+    }
+}
+  {
+  type: RepairBeamWeapon
+x: 5
+y: 5.75
+shootY: 0
+reload: 20
+rotate: false
+beamWidth: 0.7
+shootCone: 40
+mirror: true
+repairSpeed: 1
+fractionRepairSpeed: 0.12
+targetUnits: true
+targetBuildings: true
+autoTarget: false
+controllable: true
+laserColor: E5E5E5FF
+healColor: E5E5E5FF
+bullet: {
+maxRange: 20
+    }
+}
+]
