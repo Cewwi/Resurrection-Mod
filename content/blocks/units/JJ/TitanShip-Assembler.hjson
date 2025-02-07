@@ -2,7 +2,7 @@
 researchCostMultiplier: 0.5
 type: UnitAssembler
 name: Titan Ship Assembler
-description: Creates Titan tank units using many payloads.
+description: Creates Titan shit units using many payloads.
 size: 8
 category: units
 droneType: assembly-drone
