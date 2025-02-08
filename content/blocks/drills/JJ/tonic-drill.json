@@ -7,16 +7,17 @@
   "liquidBoostIntensity": 1.5,
   "drawRim": true,
   "itemCapacity": 40,
-  "warmupSpeed": 0.0878,
   "hasLiquids": true,
   "hardnessDrillMultiplier": 10,
-  "liquidCapacity": 25,
   "expanded": true,
   "consumes": {
-    "power": 45,
+    "power": 5,
   },
  "requirements": [
-     "Tronian-quartz/50",
+   "Tronian-quartz/150",
+   "scheelite/120",
+   "carborundum/80",
+   "Tronian-Graphite/50",
   ],
    "category": "production",
 }
