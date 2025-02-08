@@ -19,6 +19,9 @@ armor: 1
 mineSpeed: 2
 buildSpeed: 0.2
 groundLayer: 60
+ mineItems: [
+    Tronian-Quartz
+  ],
 isEnemy: true
 health: 1280
 itemCapacity: 80
