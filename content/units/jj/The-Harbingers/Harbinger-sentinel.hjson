@@ -28,6 +28,19 @@ drag: 0.4
 itemCapacity: 90
 alwaysUnlocked: true
 outlineColor: 12131FFF
+abilities: [
+  {
+    type: ShieldArcAbility
+    max: 500
+    cooldown: 300
+    regen: 0.5
+    angle: 60
+    whenShooting: false
+    width: 12
+    x: 0
+    y: -22
+    radius: 50
+  }
 weapons: [
 {
     name: T3-Weapon
