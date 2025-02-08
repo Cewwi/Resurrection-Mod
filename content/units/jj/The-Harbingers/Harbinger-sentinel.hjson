@@ -9,7 +9,7 @@ legBaseOffset: 7
 legMoveSpace: 0.9
 legPairOffset: 2
 fogRadius: 0
-flying: false
+hovering: false
 faceTarget: true
 targetPriority: -2
 name: concentrator
