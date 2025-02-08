@@ -26,7 +26,7 @@ buildSpeed: 1.2
 drag: 0.4
 itemCapacity: 90
 alwaysUnlocked: true
-outlineColor: 1d1c1a
+outlineColor: 12131FFF
 weapons: [
 {
   type: RepairBeamWeapon
