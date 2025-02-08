@@ -32,13 +32,13 @@ weapons: [
 {
     name: T3-Weapon
     y: 1
-    x: 20
+    x: 13
     top: true
     shooty: 43
-    reload: 75
+    reload: 100
     rotateSpeed: 1.5
     mirror: true
-    alternate: false
+    alternate: true
     cooldownTime: 90
     restitution: 0.2
     rotationLimit: 52.5
