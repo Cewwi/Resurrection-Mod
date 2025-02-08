@@ -41,6 +41,7 @@ abilities: [
     y: -22
     radius: 50
   }
+]
 weapons: [
 {
     name: T3-Weapon
