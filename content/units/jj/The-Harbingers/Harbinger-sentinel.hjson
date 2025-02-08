@@ -8,11 +8,11 @@ envDisabled: 0
 legMoveSpace: 0.9
 legPairOffset: 2
 fogRadius: 0
-hovering: false
+flying: true
 faceTarget: true
 targetPriority: -2
 name: concentrator
-description: Defends the Quartz core. Builds structures and mines ores. 
+description: A vessel of the great power the harbingers once held. 
 health: 500
 armor: 4
 speed: 2.5
