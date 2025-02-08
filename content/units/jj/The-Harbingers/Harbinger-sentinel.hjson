@@ -46,10 +46,10 @@ weapons: [
 {
     name: T3-Weapon
     y: 1
-    x: 13
+    x: -13
     top: true
     shooty: 43
-    reload: 100
+    reload: 50
     rotateSpeed: 1.5
     mirror: true
     alternate: true
@@ -64,7 +64,7 @@ weapons: [
     shoot: {
     type: ShootSpread
     spread: 5
-    shots: 2
+    shots: 1
   }
     bullet: {
       damage: 120
