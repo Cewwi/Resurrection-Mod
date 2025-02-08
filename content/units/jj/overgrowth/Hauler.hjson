@@ -26,6 +26,8 @@ mineTier: 2
 alwaysUnlocked: true
 useEngineElevation: false
 lowAltitude: false
+mineWalls: true
+mineFloors: true
 parts: [
 {
 type: HoverPart
