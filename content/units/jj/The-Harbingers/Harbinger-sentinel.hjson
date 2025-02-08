@@ -46,31 +46,34 @@ weapons: [
     shootCone: 45
     layerOffset: -0.00001
     shootSound: shotgun
-    incendAmount: 4
     shoot: {
     type: ShootSpread
     spread: 15
     shots: 3
   }
     bullet: {
-      type: ContinuousFlameBulletType
-      colors: [
-        ad3500
-        ff4f01
-        FF7436FF
-        ffffff
-      ]
-      damage: 30
-      layer: 110
-      groundLayer: 61
-      intervalBullets: 2
-      intervalRandomSpread: 1
-      bulletInterval: 2.7
-      drawFlare: false
-      width: 6
-      pierceArmor: true
-      divisions: 20
-      length: 140
+      damage: 300
+  width: 25
+  ammoMultiplier: 5
+  pierce: true
+  type: ShrapnelBulletType
+  lifetime: 18
+  length: 160
+  serrations: 8
+  fromColor: E5E5E5FF
+  toColor: E5E5E5FF
+  shootEffect: explosion
+  hitEffect: {
+    type: ParticleEffect
+    line: true
+    particles: 7
+    lifetime: 10
+    length: 25
+    cone: -360
+    lenFrom: 5
+    lenTo: 0
+    colorFrom: E5E5E5FF
+    colorTo: E5E5E5FF
 }
 }
 {
