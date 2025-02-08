@@ -6,7 +6,7 @@ template: ErekirUnitType
 shadowElevation: 0.3
 drag: 0.06
 defaultController: minerAI
-outlineColor: 1d1c1a
+outlineColor: 12131FFF
 speed: 5
 rotateSpeed: 5
 hitSize: 16
