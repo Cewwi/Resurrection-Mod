@@ -14,8 +14,8 @@ faceTarget: true
 targetPriority: -2
 name: concentrator
 description: A vessel of the great power the harbingers once held. 
-health: 500
-armor: 4
+health: 1500
+armor: 6
 speed: 2.5
 hitSize: 8
 isEnemy: false
