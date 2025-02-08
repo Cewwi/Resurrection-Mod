@@ -20,7 +20,7 @@ mineSpeed: 2
 buildSpeed: 0.2
 groundLayer: 60
  mineItems: [
-    Tronian-Quartz
+    Tronian-quartz
   ],
 isEnemy: true
 health: 1280
