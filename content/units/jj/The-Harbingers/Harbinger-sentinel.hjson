@@ -49,11 +49,11 @@ weapons: [
     shootSound: shotgun
     shoot: {
     type: ShootSpread
-    spread: 15
-    shots: 3
+    spread: 5
+    shots: 2
   }
     bullet: {
-      damage: 300
+      damage: 120
   width: 25
   ammoMultiplier: 5
   pierce: true
