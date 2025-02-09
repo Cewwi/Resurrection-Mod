@@ -1,0 +1,9 @@
+type: TallBlock
+name: Harbinger Powercell
+variants: 1
+clipSize: 300
+shadowOffset: 0
+shadowAlpha: 0
+emitLight: true
+lightRadius: 75
+lightColor: E5E5E5FF
