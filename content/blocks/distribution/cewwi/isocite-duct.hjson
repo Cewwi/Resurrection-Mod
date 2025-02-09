@@ -1,13 +1,13 @@
 type: Duct
 name: Isocite Duct
-description: uses radioactive to move items very kool
+description: dukt
 category: distribution
 alwaysUnlocked: true
 research: iridescence
 researchCost: [
   isocite/5
 ]
-speed: 15
+speed: 3
 health: 35
 //bridgeReplacement: 05e-06-ferrinite-duct-bridge
 requirements: [
