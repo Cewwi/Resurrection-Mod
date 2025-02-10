@@ -1,11 +1,11 @@
 type: legs
 legCount: 4
-legLength: 20
+legLength: 15
 legSpeed: 0.5
 legExtension: -13.5
 legForwardScl: 0.2
 envDisabled: 0
-legBaseOffset: 3
+legBaseOffset: 5
 legMoveSpace: 0.9
 legPairOffset: 2
 fogRadius: 0
@@ -13,13 +13,13 @@ hovering: false
 faceTarget: true
 targetPriority: -2
 name: Signal
-description: Standard unit for the quartz core.
+description: Standard unit for the quartz core. Weaker and slower that most every unit.
 health: 300
 armor: 3
-speed: 2.5
+speed: 1.5
 hitSize: 8
 isEnemy: false
-mineSpeed: 1.5
+mineSpeed: 2
 mineFloor: true
 mineWalls: true
 mineTier: 1
