@@ -5,9 +5,9 @@ legSpeed: 0.5
 legExtension: -13.5
 legForwardScl: 0.2
 envDisabled: 0
-legBaseOffset: 5
+legBaseOffset: 10
 legMoveSpace: 0.9
-legPairOffset: 2
+legPairOffset: 1.4
 fogRadius: 0
 hovering: false
 faceTarget: true
