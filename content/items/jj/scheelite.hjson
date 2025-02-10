@@ -1,8 +1,8 @@
 name: Scheelite
-description: "Base ore for Tronoe P07. Very the creation of alloys. Used in most structures"
+description: "Very useful in the creation of alloys."
 hardness: 1
 cost: 0.5
 alwaysUnlocked: false
 color: F7E97EFF
-research: phaseFabric
+research: Geosium
 hiddenOnPlanets: [serpulo]
