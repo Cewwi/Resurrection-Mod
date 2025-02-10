@@ -1,9 +1,9 @@
 {
-  "localizedName": "Core: Perlude",
+  "localizedName": "Core: [[]#FFDC8FFF]Perlude[[]]",
   "type": "CoreBlock",
-  "health": 50000,
+  "health": 250000,
   "squareSprite": false,
-  "size": 10,
+  "size": 12,
   "armor": 45,
   "itemCapacity": 3800,
   "unitCapModifier": 45,
@@ -12,11 +12,6 @@
   "unitType": "Harbinger-sentinel",
   "requirements": [
     "silicon/5000",
-    "volcanite/2500",
-    "tungsten/2500",
-    "oxide/3000",
-    "primal-red/3000",
-    "beryllium/6000"
   ],
   "category": "effect",
   "research": "bulwark-core"
