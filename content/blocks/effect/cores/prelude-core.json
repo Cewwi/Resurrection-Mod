@@ -1,6 +1,7 @@
 {
   "localizedName": "Core: [[]#BCB6B6FF]Perlude[[]]",
   "type": "CoreBlock",
+  "description": "Know this: [[]#BCB6B6FF]It doesnt disappoint[[]]"
   "health": 250000,
   "squareSprite": false,
   "size": 12,
@@ -14,7 +15,7 @@
     "carborundum/5000",
     "scheelite/7500",
     "Tronian-Graphite/8500",
-    "Tronian-quartz/5750",
+    "Tronian-quartz/15700",
     "Geosium/4000",
     "Albino-Alloy/1500",
   ],
