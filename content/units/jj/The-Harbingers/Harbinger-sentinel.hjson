@@ -31,14 +31,14 @@ outlineColor: 12131FFF
 abilities: [
   {
     type: ShieldArcAbility
-    max: 500
+    max: 2500
     cooldown: 300
     regen: 0.5
-    angle: 75
+    angle: 90
     whenShooting: false
     width: 5
     x: 0
-    y: -22
+    y: -26
     radius: 50
   }
 ]
@@ -64,7 +64,7 @@ weapons: [
     shoot: {
     type: ShootSpread
     spread: 5
-    shots: 1
+    shots: 3
   }
     bullet: {
       damage: 120
@@ -73,7 +73,7 @@ weapons: [
   pierce: true
   type: ShrapnelBulletType
   lifetime: 18
-  length: 160
+  length: 200
   serrations: 8
   fromColor: E5E5E5FF
   toColor: E5E5E5FF
