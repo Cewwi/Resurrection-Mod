@@ -1,0 +1,69 @@
+type: legs
+legCount: 4
+legLength: 20
+legSpeed: 0.5
+legExtension: -13.5
+legForwardScl: 0.2
+envDisabled: 0
+legBaseOffset: 7
+legMoveSpace: 0.9
+legPairOffset: 2
+fogRadius: 0
+hovering: false
+faceTarget: true
+targetPriority: -2
+name: Signal
+description: Standard unit for the quartz core.
+health: 300
+armor: 3
+speed: 2.5
+hitSize: 8
+isEnemy: false
+mineSpeed: 1.5
+mineFloor: true
+mineWalls: true
+mineTier: 1
+buildSpeed: 1.2
+groundLayer: 75
+drag: 0.4
+itemCapacity: 30
+alwaysUnlocked: true
+outlineColor: 12131FFF
+abilities: [
+  {
+    type: ShieldArcAbility
+    max: 500
+    cooldown: 300
+    regen: 0.5
+    angle: 370
+    whenShooting: false
+    width: 5
+    x: 0
+    y: 0
+    radius: 20
+  }
+]
+weapons: [
+{
+  type: RepairBeamWeapon
+x: 0
+y: 6.75
+shootY: 0
+reload: 20
+rotate: false
+beamWidth: 0.7
+shootCone: 40
+mirror: false
+repairSpeed: 0.5
+fractionRepairSpeed: 0.46
+targetUnits: true
+targetBuildings: true
+autoTarget: false
+controllable: true
+laserColor: E5E5E5FF
+healColor: E5E5E5FF
+bullet: {
+maxRange: 50
+    }
+}
+]
