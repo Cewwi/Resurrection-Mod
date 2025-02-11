@@ -2,12 +2,13 @@ type: legs
 legCount: 4
 legLength: 15
 legSpeed: 0.5
-legExtension: -13.5
+legExtension: -4.5
 legForwardScl: 0.2
 envDisabled: 0
 legBaseOffset: 4
 legMoveSpace: 0.9
 legPairOffset: 4
+legContinuousMove: true
 fogRadius: 0
 hovering: false
 faceTarget: true
