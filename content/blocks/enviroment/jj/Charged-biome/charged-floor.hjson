@@ -1,3 +1,6 @@
 type: floor
 name: Charged floor
 Variants: 4
+lightRadius: 25
+lightColor: BCB6B6FF
+emitLight: true
