@@ -7,6 +7,6 @@ squareSprite: false
 requirements: [
   isocite/24
 ]
-research: isocite-wall
+research: small-isocite-wall
 category: defense
 researchCostMultiplier: 0.05
