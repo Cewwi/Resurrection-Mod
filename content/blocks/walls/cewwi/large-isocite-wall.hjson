@@ -1,0 +1,12 @@
+type: Wall
+name: Large Isocite Wall
+description: Protects structures from taking damage
+size: 2
+health: 3400
+squareSprite: false
+requirements: [
+  isocite/24
+]
+research: isocite-wall
+category: defense
+researchCostMultiplier: 0.05
