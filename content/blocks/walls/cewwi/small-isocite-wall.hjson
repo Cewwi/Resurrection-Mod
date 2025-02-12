@@ -1,5 +1,5 @@
 type: Wall
-name: Isocite Wall
+name: Small Isocite Wall
 description: Protects structures from taking damage
 size: 1
 health: 850
