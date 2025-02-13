@@ -7,16 +7,21 @@ size: 6
 reload: 75
 range: 210
 shootY: 27.5
-inaccuracy: 0
 rotateSpeed: 1
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
-researchCostMultiplier: 1.5
+researchCostMultiplier: 1.5	
 moveWhileCharging: true
 continuous: true
 recoil: 0.12
 shake: 2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
 consumes: {
   power: 100
 }
