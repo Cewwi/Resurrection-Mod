@@ -1,4 +1,4 @@
-type: continuousTurret
+type: laserTurret
 localizedName: Contamination
 description: Fires a large laser, using the static discharge as a secondary. 
 detail: cewwi
