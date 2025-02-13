@@ -2,11 +2,11 @@ type: continuousTurret
 localizedName: Contamination
 description: Fires a large laser, using the static discharge as a secondary. 
 detail: cewwi
-health: 550
+health: 10200 //wall health divided by 3
 size: 6
 reload: 75
 range: 210
-shootY: 25
+shootY: 35
 ammoUseEffect: casing2 
 inaccuracy: 0
 rotateSpeed: 3
@@ -14,7 +14,7 @@ targetGround: true
 targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
-moveWhileCharging: false
+moveWhileCharging: true
 continuous: true
 consumes: {
   power: 100
@@ -24,8 +24,8 @@ shootType: {
 	type: continuousLaserBulletType
 	ammoPerShot: 4
 	damage: 1000
-	width: 2
-	length: 210
+	width: 6
+	length: 290
 	hitEffect: instHit
 	smokeEffect: shootSmallSmoke
 	lifetime: 20
@@ -50,13 +50,6 @@ shootType: {
           }
       }
 }	
-
-shoot: {
-	type: ShootAlternate
-	shots: 2
-	shotDelay: 1
-	spread: 10.2
-}
 requirements: [
 isocite/1500
 quartz/1000
