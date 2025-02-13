@@ -17,7 +17,7 @@ researchCostMultiplier: 1.5
 moveWhileCharging: true
 continuous: true
 firingMoveFract: 0.5
-recoil: 4
+recoil: 0.12
 shake: 2
 consumes: {
   power: 100
