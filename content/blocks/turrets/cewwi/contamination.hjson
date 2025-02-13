@@ -28,15 +28,13 @@ consumes: {
 hasPower: true
 shootType: {
 	type: continuousLaserBulletType
-	ammoPerShot: 4
 	damage: 1000
 	width: 6
 	length: 290
 	hitEffect: instHit
-	smokeEffect: shootSmallSmoke
+	smokeEffect: shootBigSmoke2
 	lifetime: 20
 	bulletInterval: 5
-	ammoMultiplier: 2
 	intervalRandomSpread: 20
      	buildingDamageMultiplier: 0.75
 	colors: [73d188,62ae7f]
@@ -64,30 +62,6 @@ potassium/500
 fluoride/500
 xenomolecule/500
 ]
-drawer: {
-  type: DrawTurret
-  basePrefix: cewwi-
-  parts: [
-    {
-      type: RegionPart
-      suffix: -whar
-      progress: recoil
-      moveY: 0
-      heatProgress: recoil
-      mirror: false
-      under: true
-    }
-    {
-      type: RegionPart
-      suffix: -whar
-      progress: recoil
-      moveY: 0
-      heatProgress: recoil
-      mirror: false
-      under: true
-    }
-  ]
-}
 category: turret
-research: duo
+research: xenomolecule
 
