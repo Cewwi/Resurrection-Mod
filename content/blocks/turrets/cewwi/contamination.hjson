@@ -6,16 +6,19 @@ health: 10200 //wall health divided by 3
 size: 6
 reload: 75
 range: 210
-shootY: 35
-ammoUseEffect: casing2 
+shootY: 27.5
+shootEffect: shootBigSmoke2
 inaccuracy: 0
-rotateSpeed: 3
+rotateSpeed: 1
 targetGround: true
 targetAir: true
 coolantMultiplier: 2
 researchCostMultiplier: 1.5
 moveWhileCharging: true
 continuous: true
+firingMoveFract: 0.5
+recoil: 4
+shake: 2
 consumes: {
   power: 100
 }
