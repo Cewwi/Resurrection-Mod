@@ -7,7 +7,6 @@ size: 6
 reload: 75
 range: 210
 shootY: 27.5
-shootEffect: shootBigSmoke2
 inaccuracy: 0
 rotateSpeed: 1
 targetGround: true
@@ -16,7 +15,6 @@ coolantMultiplier: 2
 researchCostMultiplier: 1.5
 moveWhileCharging: true
 continuous: true
-firingMoveFract: 0.5
 recoil: 0.12
 shake: 2
 consumes: {
