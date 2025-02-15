@@ -7,9 +7,10 @@ research: iridescence
 researchCost: [
   isocite/5
 ]
-speed: 3
+speed: 6.5
 health: 35
-//bridgeReplacement: 05e-06-ferrinite-duct-bridge
+//bridgeReplacement: 
+//junctionReplacement: 
 requirements: [
   isocite/1
 ]
