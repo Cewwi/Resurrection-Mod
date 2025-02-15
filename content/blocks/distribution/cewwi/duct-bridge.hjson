@@ -1,0 +1,14 @@
+type: DuctBridge
+name: Isocite Bridge
+description: wut
+category: distribution
+alwaysUnlocked: true
+research: isocite-duct
+researchCost: [
+  isocite/50
+]
+speed: 6
+health: 250
+requirements: [
+  isocite/1
+]
