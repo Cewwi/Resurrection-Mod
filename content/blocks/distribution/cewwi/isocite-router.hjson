@@ -1,0 +1,15 @@
+type: DuctRouter
+name: Isocite Router
+description: ooooah
+category: distribution
+alwaysUnlocked: true
+research: isocite-duct
+researchCost: [
+  isocite/30
+]
+regionRotated1: 1
+speed: 6
+health: 250
+requirements: [
+  isocite/1
+]
