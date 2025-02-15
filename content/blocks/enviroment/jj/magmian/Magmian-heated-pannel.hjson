@@ -1,0 +1,6 @@
+type: Floor
+name: Magmian Heated Panel
+variants: 1
+lightRadius: 10
+lightColor: D1EFFFFF
+emitLight: true
