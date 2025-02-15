@@ -4,6 +4,7 @@ description: wut
 category: distribution
 alwaysUnlocked: true
 research: isocite-duct
+range: 5
 researchCost: [
   isocite/50
 ]
