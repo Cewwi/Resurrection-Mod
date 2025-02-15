@@ -1,5 +1,5 @@
 type: Floor
-name: FC Charged Pannel
+name: FC Charged Panel
 variants: 1
 lightRadius: 10
 lightColor: D1EFFFFF
