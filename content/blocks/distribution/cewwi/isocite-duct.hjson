@@ -9,7 +9,7 @@ researchCost: [
 ]
 speed: 6
 health: 125
-//bridgeReplacement: 
+bridgeReplacement: isocite-duct-bridge
 junctionReplacement: isocite-junction
 requirements: [
   isocite/1
