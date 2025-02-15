@@ -7,7 +7,7 @@ research: iridescence
 researchCost: [
   isocite/5
 ]
-speed: 6.5
+speed: 6
 health: 35
 //bridgeReplacement: 
 //junctionReplacement: 
