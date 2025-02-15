@@ -8,7 +8,7 @@ researchCost: [
   isocite/5
 ]
 speed: 6
-health: 35
+health: 125
 //bridgeReplacement: 
 //junctionReplacement: 
 requirements: [
