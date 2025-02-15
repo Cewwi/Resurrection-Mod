@@ -4,6 +4,7 @@ description: ooooah
 category: distribution
 alwaysUnlocked: true
 research: isocite-duct
+solid: false
 researchCost: [
   isocite/30
 ]
