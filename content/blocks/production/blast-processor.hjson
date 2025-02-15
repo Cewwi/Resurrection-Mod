@@ -5,8 +5,8 @@ size: 2
 craftTime: 50
 consumes: {
   items: [
-    potassium/2
-    sulphur/4
+    isocite/3
+    sulphur/3
   ]
 }
 ambientSound: factory
@@ -34,8 +34,11 @@ outputItems: [
 category: crafting
 research: iridescence
 requirements: [
-  isocite/20
-  potassium/10
-  sulphur/5
+  isocite/30
+  sulphur/30
+]
+researchCost: [
+isocite/100
+sulphur/100
 ]
 itemCapacity: 40
