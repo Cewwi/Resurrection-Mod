@@ -49,14 +49,19 @@ weapons: [
     cooldownTime: 90
     rotationLimit: 52.5
     rotate: true
-    shootCone: 45
-    loopSound: torch
+    shootCone: 360
+    loopSound: laserbeam
     layerOffset: -0.00001
     shootSound: torch
     incendAmount: 4
     alwaysShooting: false
     alwaysContinuous: true
     continuous: true
+    aimChangeSpeed: 0.9
+    rotateSpeed: 0.9
+    shootWarmupSpeed: 0.8
+    shootCone: 360
+    collideTerrain: true
     parts: [
         {
           type: RegionPart
@@ -71,25 +76,16 @@ weapons: [
         },
      ]
     bullet: {
-      type: ContinuousFlameBulletType
+      type: PointLaserBulletType
       colors: [
         ad3500
         ff4f01
         FF7436FF
         ffffff
       ]
-      collideTerrain: true
-      damage: 170
-      layer: 110
-      groundLayer: 61
-      intervalBullets: 2
-      intervalRandomSpread: 1
-      bulletInterval: 2.7
-      drawFlare: false
-      width: 6
-      pierceArmor: true
-      divisions: 20
-      length: 140
+     damage: 250
+     buildingDamageMultiplier: 0.8
+     hitColor: FFB570FF
 }
 }
 {
