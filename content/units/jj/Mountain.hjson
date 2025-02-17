@@ -57,7 +57,6 @@ weapons: [
     alwaysShooting: false
     alwaysContinuous: true
     continuous: true
-    bullet: {
     parts: [
         {
           type: RegionPart
@@ -70,6 +69,8 @@ weapons: [
           outline: false
           progress: warmup
         },
+     ]
+    bullet: {
       type: ContinuousFlameBulletType
       colors: [
         ad3500
