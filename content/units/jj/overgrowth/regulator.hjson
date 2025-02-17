@@ -4,7 +4,7 @@ description: Basic support unit. It can build, mine and repair. Hover unit, cann
 template: ErekirUnitType
 shadowElevation: 0.3
 drag: 0.06
-outlineColor: 12131FFF
+outlineColor: 0C0D1BFF
 speed: 3
 rotateSpeed: 4
 hitSize: 8
