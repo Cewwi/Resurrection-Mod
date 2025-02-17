@@ -6,7 +6,7 @@ legExtension: -2
 legForwardScl: 0.1
 envDisabled: 0
 legBaseOffset: 3
-legMoveSpace: 0.9
+legMoveSpace: 0.5
 legPairOffset: 0
 legContinuousMove: true
 fogRadius: 0
