@@ -41,7 +41,7 @@ weapons: [
     y: 1
     x: 20
     top: true
-    shootY: 8
+    shootY: 14
     rotateSpeed: 1.5
     mirror: true
     loopSound: laserbeam
@@ -64,16 +64,10 @@ weapons: [
           colorTo": ff2302
           outline: false
           progress: warmup
-        },
+        }
      ]
     bullet: {
       type: PointLaserBulletType
-      colors: [
-        ad3500
-        ff4f01
-        FF7436FF
-        ffffff
-      ]
     damage: 200
     removeAfterPierce: false
     speed: 0
