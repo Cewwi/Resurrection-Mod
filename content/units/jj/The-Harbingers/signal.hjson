@@ -7,14 +7,14 @@ legForwardScl: 0.1
 envDisabled: 0
 legBaseOffset: 3
 legMoveSpace: 0.9
-legPairOffset: 4
+legPairOffset: 0
 legContinuousMove: true
 fogRadius: 0
 hovering: false
 faceTarget: true
 targetPriority: -2
 name: Signal
-description: Standard unit for the quartz core. Weaker and slower that most every unit.
+description: Standard unit for the quartz core. Weaker and slower that the average core every unit.
 health: 300
 armor: 3
 speed: 1.5
