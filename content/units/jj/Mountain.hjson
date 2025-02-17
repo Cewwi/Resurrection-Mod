@@ -78,7 +78,8 @@ weapons: [
         FF7436FF
         ffffff
       ]
-      damage: 30
+      collideTerrain: true
+      damage: 170
       layer: 110
       groundLayer: 61
       intervalBullets: 2
@@ -102,8 +103,8 @@ weapons: [
     cooldownTime: 120
     inaccuracy: 2
     rotationLimit: 120
-    reload: 10
-    shootSound: machine-gun
+    reload: 3
+    shootSound: Machine-gun
     ejectEffect: casing1
 parts: [
 {
