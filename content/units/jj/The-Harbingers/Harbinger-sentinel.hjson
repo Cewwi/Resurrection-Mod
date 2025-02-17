@@ -28,7 +28,7 @@ groundLayer: 75
 drag: 0.4
 itemCapacity: 90
 alwaysUnlocked: true
-outlineColor: 12131FFF
+outlineColor: 0C0D1BFF
 abilities: [
   {
     type: ShieldArcAbility
