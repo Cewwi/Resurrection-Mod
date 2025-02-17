@@ -16,7 +16,7 @@ abilities: [
     cooldown: 300
     regen: 0.5
     angle: 100
-    whenShooting: true
+    whenShooting: false
     width: 6
     x: 0
     y: -22
@@ -28,7 +28,7 @@ abilities: [
     cooldown: 300
     regen: 0.5
     angle: 100
-    whenShooting: true
+    whenShooting: false
     width: 6
     x: 0
     y: -22
@@ -42,19 +42,10 @@ weapons: [
     x: 20
     top: true
     shooty: 43
-    reload: 5
     rotateSpeed: 1.5
     mirror: true
-    alternate: false
-    cooldownTime: 90
-    rotationLimit: 52.5
-    rotate: true
-    shootCone: 360
     loopSound: laserbeam
     layerOffset: -0.00001
-    shootSound: torch
-    incendAmount: 4
-    alwaysShooting: false
     alwaysContinuous: true
     continuous: true
     aimChangeSpeed: 0.9
