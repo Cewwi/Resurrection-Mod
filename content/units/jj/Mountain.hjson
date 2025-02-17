@@ -109,7 +109,7 @@ parts: [
     type: RegionPart
     suffix: -berl
     progress: recoil
-    outline: false
+    outline: true
     mirror: false
     moveY: -1
     under: true
