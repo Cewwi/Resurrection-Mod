@@ -6,9 +6,9 @@ flying: false
 health: 57000
 armor: 9
 hitSize: 25
-outlineColor: 1d1c1a
+outlineColor: 0C0D1BFF
 rotateSpeed: 2
-mechLegColor: 1d1c1a
+mechLegColor: 0C0D1BFF
 abilities: [
    {
     type: ShieldArcAbility
