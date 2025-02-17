@@ -37,7 +37,7 @@ abilities: [
 ]
 weapons: [
   {
-    name: Mountain-gun
+    name: Mountain-weapon
     y: 1
     x: 20
     top: true
@@ -58,6 +58,18 @@ weapons: [
     alwaysContinuous: true
     continuous: true
     bullet: {
+    parts: [
+        {
+          type: RegionPart
+          suffix: -glow
+          layer: -1
+          mirror: true
+          blending: additive
+          color: ff2302
+          colorTo": ff2302
+          outline: false
+          progress: warmup
+        },
       type: ContinuousFlameBulletType
       colors: [
         ad3500
