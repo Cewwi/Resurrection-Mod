@@ -62,7 +62,7 @@ weapons: [
           type: RegionPart
           suffix: -glow
           layer: -1
-          mirror: true
+          mirror: false
           blending: additive
           color: ff2302
           colorTo": ff2302
