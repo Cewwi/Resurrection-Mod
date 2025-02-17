@@ -41,7 +41,7 @@ weapons: [
     y: 1
     x: 20
     top: true
-    shooty: 43
+    shootY: 8
     rotateSpeed: 1.5
     mirror: true
     loopSound: laserbeam
@@ -74,9 +74,20 @@ weapons: [
         FF7436FF
         ffffff
       ]
-     damage: 250
-     buildingDamageMultiplier: 0.8
-     hitColor: FFB570FF
+    damage: 200
+    removeAfterPierce: false
+    speed: 0
+    despawnEffect: none
+    lifetime: 20
+    impact: true
+    keepVelocity: false
+    collides: false
+    pierce: true
+    hittable: false
+    absorbable: false
+    optimalLifeFract: 0.5
+    shootEffect: none
+    smokeEffect: none
 }
 }
 {
