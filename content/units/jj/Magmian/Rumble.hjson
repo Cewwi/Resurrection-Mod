@@ -1,0 +1,13 @@
+type: naval
+  name: Rumble
+  speed: 0.9
+  drag: 0.14
+  hitSize: 14
+  health: 1200
+  accel: 0.4
+  rotateSpeed: 3
+  trailLength: 20
+  waveTrailX: 6
+  trailScl: 1.5
+  faceTarget: false
+  range: 100
