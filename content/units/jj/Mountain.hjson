@@ -41,48 +41,41 @@ weapons: [
     y: 1
     x: 20
     top: true
-    shootY: 14
+    shooty: 43
+    reload: 5
     rotateSpeed: 1.5
     mirror: true
-    loopSound: laserbeam
+    alternate: false
+    cooldownTime: 90
+    rotationLimit: 52.5
+    rotate: true
+    shootCone: 45
+    loopSound: torch
     layerOffset: -0.00001
+    shootSound: torch
+    incendAmount: 4
+    alwaysShooting: false
     alwaysContinuous: true
     continuous: true
-    aimChangeSpeed: 0.9
-    alternate: false
-    rotateSpeed: 0.9
-    shootWarmupSpeed: 0.8
-    shootCone: 360
-    collideTerrain: true
-    parts: [
-        {
-          type: RegionPart
-          suffix: -glow
-          layer: -1
-          mirror: false
-          blending: additive
-          color: ff2302
-          colorTo": ff2302
-          outline: false
-          progress: warmup
-        }
-     ]
     bullet: {
-      type: PointLaserBulletType
-    damage: 200
-    removeAfterPierce: false
-    speed: 0
-    despawnEffect: none
-    lifetime: 20
-    impact: true
-    keepVelocity: false
-    collides: false
-    pierce: true
-    hittable: false
-    absorbable: false
-    optimalLifeFract: 0.5
-    shootEffect: none
-    smokeEffect: none
+      type: ContinuousFlameBulletType
+     colors: [
+       ad3500
+       ff4f01
+       FF7436FF
+       ffffff
+     ]
+      damage: 30
+      layer: 110
+      groundLayer: 61
+      intervalBullets: 2
+      intervalRandomSpread: 1
+      bulletInterval: 2.7
+      drawFlare: false
+      width: 6
+      pierceArmor: true
+      divisions: 20
+      length: 140
 }
 }
 {
