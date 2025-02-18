@@ -11,6 +11,12 @@ type: naval
   trailScl: 1.5
   faceTarget: false
   range: 100
+ immunities: [
+    melting
+    freezing
+    burning
+    wet
+  ],
 weapons: [
 {
     name: Magmian-machineGun
