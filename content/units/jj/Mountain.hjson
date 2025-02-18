@@ -9,6 +9,12 @@ hitSize: 25
 outlineColor: 0C0D1BFF
 rotateSpeed: 2
 mechLegColor: 0C0D1BFF
+ immunities: [
+    melting
+    freezing
+    burning
+    wet
+  ],
 abilities: [
    {
     type: ShieldArcAbility
