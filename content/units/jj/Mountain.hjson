@@ -49,6 +49,7 @@ weapons: [
     alwaysContinuous: true
     continuous: true
     aimChangeSpeed: 0.9
+    alternate: false
     rotateSpeed: 0.9
     shootWarmupSpeed: 0.8
     shootCone: 360
