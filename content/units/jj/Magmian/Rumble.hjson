@@ -31,7 +31,7 @@ weapons: [
     rotationLimit: 120
     reload: 6
     shootSound: Machine-gun
-    ejectEffect: casing1
+    ejectEffect: 360
 parts: [
 {
     type: RegionPart
@@ -75,7 +75,7 @@ bullet: {
     shootY: 4
     cooldownTime: 120
     inaccuracy: 2
-    rotationLimit: 120
+    rotationLimit: 360
     reload: 6
     shootSound: Machine-gun
     ejectEffect: casing1
