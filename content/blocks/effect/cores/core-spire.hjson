@@ -1,9 +1,9 @@
   localizedName: "Core: Spire"
   type: CoreBlock
-  health: 5000
+  health: 15000
   squareSprite: false
-  size: 3
-  armor: 4
+  size: 4
+  armor: 10
   itemCapacity: 3000
   unitCapModifier: 0
   researchCostMultiplier: 0.1
