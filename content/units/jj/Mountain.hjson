@@ -94,7 +94,7 @@ weapons: [
     shootY: 4
     cooldownTime: 120
     inaccuracy: 2
-    rotationLimit: 120
+    rotationLimit: 180
     reload: 6
     shootSound: Machine-gun
     ejectEffect: casing1
@@ -121,7 +121,7 @@ bullet: {
     pierceDamageFactor: 0.8
     pierceCap: 3
     lifetime: 53
-    damage: 10
+    damage: 45
     speed: 8.5
     lightColor: FFB570FF
     lightOpacity: 0.7
