@@ -38,7 +38,7 @@ parts: [
     type: RegionPart
     suffix: -berl
     progress: recoil
-    outline: true
+    outline: false
     mirror: false
     moveY: -1
     under: true
@@ -85,7 +85,7 @@ parts: [
     type: RegionPart
     suffix: -berl
     progress: recoil
-    outline: true
+    outline: false
     mirror: false
     moveY: -1
     under: true
