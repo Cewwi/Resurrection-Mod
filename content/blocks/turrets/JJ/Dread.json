@@ -47,8 +47,8 @@
       "layer": -1,
       "mirror": true,
       "blending": "additive",
-      "color": "ff0000AA",
-      "colorTo": "ff0000AA",
+      "color": "FFB570FF",
+      "colorTo": "FFB570FF",
       "outline": false,
     },
    ]
@@ -89,12 +89,26 @@
   "pierceCap": 5,
   "pierce": true
   "pierceBuilding": true
-  "trailColor": "b1dd7e",
-  "backColor": "b1dd7e",
-  "hitColor": "b1dd7e",
-  "frontColor": "FFFFFF"
-  "trailWidth": 2.1
-  "trailLength": 10
+   "trailEffect": {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "length": 9,
+          "baseLength": 9,
+          "lifetime": 25,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 5,
+          "lightColor": "FFB570FF",
+          "colorFrom": "FFB570FF",
+          "colorTo": "505050FF",
+          "sizeFrom": 7,
+          "sizeTo": 0
+        },
+        "trailChance": 1,
+        "trailParam": 5,
+        "trailLength": 9,
+        "trailColor": "FFB570FF",
+        "trailWidth": 9,
   "hitEffect": "hitBulletColor"
   "despawnEffect": "hitBulletColor",
   "buildingDamageMultiplier": 0.5
