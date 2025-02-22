@@ -41,6 +41,17 @@ abilities: [
     radius: 75
   }
 ]
+ parts: [
+    {
+      type: RegionPart
+      suffix: -glow
+      layer: -1
+      mirror: true
+      blending: additive
+      color: ff0000AA
+      colorTo: ff0000AA
+      outline: false
+    }
 weapons: [
   {
     name: Mountain-weapon
