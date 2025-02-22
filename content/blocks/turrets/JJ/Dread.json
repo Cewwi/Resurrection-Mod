@@ -4,7 +4,7 @@
   "name": "Dread",
   "description": "An upgraded version of the breach turret. Has many more ammo choices.",
   "ammoPerShot": 1,
-  "reload": 50,
+  "reload": 10,
   "range": 232,
   "outlineColor": "2d2f39",
   "recoil": 2,
@@ -15,7 +15,7 @@
   "shootY": 5,
   "shootCone": 3,
   "research": "disperse",
-  "shake": 2,
+  "shake": 3,
   "requirements": [
   "carbide/200",
   "beryllium/1500",
@@ -27,7 +27,7 @@
     "barrels": 2,
     "spread": 40,
     "shotDelay": 5
-    "shots": 4
+    "shots": 1
   },
   "coolant": {
     "type": "ConsumeLiquid",
@@ -40,18 +40,6 @@
   "size": 8,
   "health": 55250,
   "armor": 5,
-   "parts": [
-    {
-      "type": "RegionPart",
-      "suffix": "-glow",
-      "layer": -1,
-      "mirror": true,
-      "blending": "additive",
-      "color": "FFB570FF",
-      "colorTo": "FFB570FF",
-      "outline": false,
-    },
-   ]
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "reinforced-"
@@ -71,6 +59,16 @@
         },
         "mirror": true
       },
+      {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "FFB570FF",
+      "colorTo": "FFB570FF",
+      "outline": false,
+    },
 ]
 },
 "shootSound": "shootAlt",
@@ -83,9 +81,9 @@
   "lightRadius": 80,
   "lightColor": "FFB570FF",
   "speed": 15,
-  "lifetime": 28,
+  "lifetime": 38,
   "width": 15,
-  "hitSize": 7,
+  "hitSize": 20,
   "damage": 85,
   "height": 15,
   "shootEffect": "shootBig",
