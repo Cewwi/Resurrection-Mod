@@ -38,6 +38,17 @@
   "size": 4,
   "health": 900,
   "armor": 5,
+   "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "ff0000AA",
+      "colorTo": "ff0000AA",
+      "outline": false,
+    },
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "reinforced-"
