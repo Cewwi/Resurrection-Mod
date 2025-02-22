@@ -1,0 +1,8 @@
+name: |Magma Stone
+description: A stone of solidified slag
+hardness: 2
+cost: 0.5
+alwaysUnlocked: false
+color: ff9a5f
+research: item-SurgeQuartz
+hiddenOnPlanets: [serpulo]
