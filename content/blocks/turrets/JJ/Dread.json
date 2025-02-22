@@ -15,6 +15,7 @@
   "shootY": 5,
   "shootCone": 3,
   "research": "disperse",
+  "shootSound": "shootTitan",
   "shake": 3,
   "requirements": [
   "carbide/200",
