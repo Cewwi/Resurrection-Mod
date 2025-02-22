@@ -51,6 +51,7 @@
       "colorTo": "ff0000AA",
       "outline": false,
     },
+   ]
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "reinforced-"
