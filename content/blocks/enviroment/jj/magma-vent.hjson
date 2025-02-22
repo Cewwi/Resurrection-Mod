@@ -1,7 +1,7 @@
 name: Volcanite Vent
 type: SteamVent
-blendGroup: Volcanium-floor
-parent: Volcanium-floor
+blendGroup: slag
+parent: slag
 effectSpacing: 10
 effect: [ 
   {
