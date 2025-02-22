@@ -42,7 +42,7 @@
   "armor": 5,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "reinforced-"
+    "basePrefix": "Magmian-"
     "parts": [
       {
         "type": "RegionPart",
