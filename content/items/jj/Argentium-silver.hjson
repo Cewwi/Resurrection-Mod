@@ -3,6 +3,6 @@ description: Doesnt have many uses in this state, but good at holding large obje
 hardness: 2
 cost: 0.5
 alwaysUnlocked: false
-color: BAC5DEFF
+color: eefbfd
 research: item-SurgeQuartz
 hiddenOnPlanets: [serpulo]
