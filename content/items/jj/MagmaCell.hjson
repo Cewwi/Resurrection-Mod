@@ -1,0 +1,8 @@
+name: Molten Cell
+description: A small Capsule containing an immense amount of energy in the form of heat and magma
+hardness: 2
+cost: 0.5
+alwaysUnlocked: false
+color: FFB570FF
+research: item-SurgeQuartz
+hiddenOnPlanets: [serpulo]
