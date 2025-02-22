@@ -61,7 +61,7 @@
 },
 "shootSound": "shootAlt",
   "ammoTypes": {
-"beryllium": {
+"MagmaCell": {
 "type": "BasicBulletType",
   "speed": 10,
   "lifetime": 28,
