@@ -1,0 +1,8 @@
+name: Cataclysmium
+description: An ancient rune with power beyond comprehension. Handling rgis resource improperly could lead to cataclysmic Consequences.
+hardness: 2
+cost: 0.5
+alwaysUnlocked: false
+color: BAC5DEFF
+research: item-SurgeQuartz
+hiddenOnPlanets: [serpulo]
