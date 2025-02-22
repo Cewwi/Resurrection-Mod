@@ -25,6 +25,8 @@
   "shoot": {
     "type": "ShootAlternate",
     "barrels": 2,
+    "spread": 40,
+    "shotDelay": 0
     "shots": 3
   },
   "coolant": {
