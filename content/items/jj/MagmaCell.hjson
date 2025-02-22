@@ -3,6 +3,6 @@ description: A small Capsule containing an immense amount of energy in the form 
 hardness: 2
 cost: 0.5
 alwaysUnlocked: false
-color: FFB570FF
+color: ff9a5f
 research: item-SurgeQuartz
 hiddenOnPlanets: [serpulo]
