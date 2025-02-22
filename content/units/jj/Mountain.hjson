@@ -52,6 +52,7 @@ abilities: [
       colorTo: ff0000AA
       outline: false
     }
+]
 weapons: [
   {
     name: Mountain-weapon
