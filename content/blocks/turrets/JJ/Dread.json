@@ -27,7 +27,7 @@
     "barrels": 2,
     "spread": 40,
     "shotDelay": 5
-    "shots": 3
+    "shots": 4
   },
   "coolant": {
     "type": "ConsumeLiquid",
@@ -37,8 +37,8 @@
    "consumes": {
     "power": 4,
   },
-  "size": 4,
-  "health": 900,
+  "size": 8,
+  "health": 55250,
   "armor": 5,
    "parts": [
     {
