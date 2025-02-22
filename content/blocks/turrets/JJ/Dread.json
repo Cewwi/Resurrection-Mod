@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "coolantMultiplier": 2,
-  "name": "Rupture",
+  "name": "Dread",
   "description": "An upgraded version of the breach turret. Has many more ammo choices.",
   "ammoPerShot": 2,
   "reload": 50,
@@ -12,7 +12,7 @@
   "inaccuracy": 0,
   "category": "turret",
   "targetUnderBlocks": false,
-  "shootY": -1,
+  "shootY": 5,
   "shootCone": 3,
   "research": "disperse",
   "shake": 2,
@@ -25,8 +25,7 @@
   "shoot": {
     "type": "ShootAlternate",
     "barrels": 2,
-    "spread": 13.4,
-    "shots": 1
+    "shots": 3
   },
   "coolant": {
     "type": "ConsumeLiquid",
@@ -48,6 +47,7 @@
         "suffix": "-cannon",
         "moveX": 0,
         "under": true,
+        "alternate": true,
         "moveY": -5,
         "progress": {
           "type": "recoil",
