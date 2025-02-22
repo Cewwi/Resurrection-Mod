@@ -26,7 +26,7 @@
     "type": "ShootAlternate",
     "barrels": 2,
     "spread": 40,
-    "shotDelay": 0
+    "shotDelay": 5
     "shots": 3
   },
   "coolant": {
@@ -77,12 +77,17 @@
   "ammoTypes": {
 "MagmaCell": {
 "type": "BasicBulletType",
-  "speed": 10,
+  "sprite": "circle-bullet",
+  "status": "melting",
+  "statusDuration": 200,
+  "lightRadius": 80,
+  "lightColor": "FFB570FF",
+  "speed": 40,
   "lifetime": 28,
-  "width": 13,
+  "width": 40,
   "hitSize": 7,
   "damage": 85,
-  "height": 24,
+  "height": 40,
   "shootEffect": "shootBig",
   "smokeEffect": "shootBigSmoke",
   "ammoMultiplier": 1,
