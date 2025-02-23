@@ -4,7 +4,7 @@
   "name": "Dread",
   "description": "An upgraded version of the breach turret. Has many more ammo choices.",
   "ammoPerShot": 1,
-  "reload": 10,
+  "reload": 50,
   "range": 232,
   "outlineColor": "0C0D1BFF",
   "recoil": 2,
@@ -32,7 +32,7 @@
   "coolant": {
     "type": "ConsumeLiquid",
     "liquid": "slag",
-    "amount": 1
+    "amount": 5
   },
    "consumes": {
     "power": 4,
