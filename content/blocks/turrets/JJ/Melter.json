@@ -18,6 +18,10 @@
   "scaledHealth": 210,
   "unitSort": "strongest"
   "consumeLiquid": "slag",
+  },
+   "consumes": {
+    "power": 4,
+  },
   "requirements": [
   "Silver/650",
   "carborundum/550",
