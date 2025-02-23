@@ -41,7 +41,7 @@
   "hitColor": "FFB570FF",
   "removeAfterPierce": false,
   "speed": 0.0,
-  "despawnEffect": "Fx.none",
+  "despawnEffect": "none",
   "lifetime": 20.0,
   "impact": true,
   "keepVelocity": false,
