@@ -14,8 +14,7 @@
   "targetUnderBlocks": false,
   "shootY": 5,
   "shootCone": 3,
-  "research": "disperse",
-  "shootSound": "shootTitan",
+  "research": "",
   "shake": 3,
   "requirements": [
   "carbide/200",
