@@ -31,7 +31,7 @@
   },
   "coolant": {
     "type": "ConsumeLiquid",
-    "liquid": "water",
+    "liquid": "slag",
     "amount": 1
   },
    "consumes": {
