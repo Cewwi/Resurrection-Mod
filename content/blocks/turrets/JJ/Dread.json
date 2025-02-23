@@ -84,7 +84,7 @@
   "lifetime": 48,
   "width": 15,
   "hitSize": 20,
-  "damage": 85,
+  "damage": 1250,
   "height": 15,
   "shootEffect": "shootBig",
   "smokeEffect": "shootBigSmoke",
