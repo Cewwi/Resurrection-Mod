@@ -18,7 +18,6 @@
   "scaledHealth": 210,
   "unitSort": "strongest"
   "consumeLiquid": "slag",
-  },
    "consumes": {
     "power": 4,
   },
