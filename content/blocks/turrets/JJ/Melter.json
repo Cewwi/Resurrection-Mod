@@ -1,0 +1,63 @@
+{
+  "type": "ContinuousTurret",
+  "coolantMultiplier": 0,
+  "name": "Melter",
+  "description": "Fires 5 artillery shells at enemy units.",
+  "scaleDamageEfficiency": true,
+  "shootSound": "none",
+  "loopSoundVolume": 1.0,
+  "loopSound": "laserbeam",
+  "shootWarmupSpeed": 0.08,
+  "shootCone": 360.0,
+  "aimChangeSpeed": 0.9,
+  "rotateSpeed": 0.9,
+  "shootY": 0.5,
+  "outlineColor": "darkOutline",
+  "size": 2,
+  "envEnabled": "space",
+  "range": 250.0,
+  "scaledHealth": 210,
+  "unitSort": "strongest"
+  "consumeLiquid": "slag",
+  "requirements": [
+  "Silver/650",
+  "carborundum/550",
+  "Thoralius/300",
+  "Ordanium/300",
+  "Magma-stone/200",
+  ]
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "Magmian-"
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-cannon",
+        "moveX": 0,
+        "under": true,
+        "alternate": true,
+        "moveY": -5,
+        "progress": {
+          "type": "recoil",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2,
+        },
+        "mirror": false
+      },
+]
+},
+  "shootType ": {
+"slag": {
+"type": "PointLaserBulletType",
+  "damage": 210,
+  "buildingDamageMultiplier": 0.3,
+  "hitColor": "FFB570FF",
+}
+}
+"research": {
+"objectives": [
+"sublimate"
+]
+}
+}
