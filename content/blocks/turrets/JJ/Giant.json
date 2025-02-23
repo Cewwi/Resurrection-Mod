@@ -1,0 +1,107 @@
+{
+  "type": "ItemTurret",
+  "coolantMultiplier": 0.2,
+  "name": "Giant",
+  "description": "Fires 5 artillery shells at enemy units.",
+  "ammoPerShot": 5,
+  "reload": 150,
+  "range": 232,
+  "outlineColor": "0C0D1BFF",
+  "recoil": 2,
+  "shake": 1,
+  "inaccuracy": 5,
+  "category": "turret",
+  "targetUnderBlocks": false,
+  "shootY": 5,
+  "shootCone": 3,
+  "research": "",
+  "shake": 3,
+  "requirements": [
+  "Silver/650",
+  "carborundum/550",
+  "Thoralius/300",
+  "Ordanium/300",
+  "Magma-stone/200",
+  ]
+  "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 1,
+    "spread": 0,
+    "shotDelay": 8
+    "shots": 5
+  },
+  "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "slag",
+    "amount": 5
+  },
+  "size": 4,
+  "health": 6550,
+  "armor": 4,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "Magmian-"
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-cannon",
+        "moveX": 0,
+        "under": true,
+        "alternate": true,
+        "moveY": -5,
+        "progress": {
+          "type": "recoil",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2,
+        },
+        "mirror": false
+      },
+]
+},
+"shootSound": "mediumCannon",
+  "ammoTypes": {
+"MagmaCell": {
+"type": "ArtilleryBulletType",
+  "sprite": "circle-bullet",
+  "status": "blasted",
+  "shrinkX:" 0.2,
+  "shrinkY": 0.1,
+  "statusDuration": 100,
+  "lightRadius": 80,
+  "lightColor": "FFB570FF",
+  "speed": 9,
+  "lifetime": 138,
+  "width": 15,
+  "hitSize": 20,
+  "damage": 250,
+  "height": 15,
+  "shootEffect": "shootTitan",
+  "smokeEffect": "shootSmokeTitan",
+  "ammoMultiplier": 1,
+  "despawnShake": 6,
+  "backColor": "FFB570FF",
+  "frontColor": "FFFFFFFF",
+  "pierce": false,
+  "hitSound": "titanExplosion",
+  "scaledSplashDamage": true,
+  "buildingDamageMultiplier": 0.5,
+  "splashDamage": 120,
+  "splashDamageRadius": 30,
+  "pierceBuilding": true
+        "trailParam": 5,
+        "trailLength": 9,
+        "trailColor": "FFB570FF",
+        "trailWidth": 9,
+  "buildingDamageMultiplier": 0.5
+  "hitEffect": "titanExplosion",
+  "despawnEffect": "titanExplosion",
+  "hitColor": "FFB570FF",
+}
+}
+"research": {
+"objectives": [
+"sublimate"
+]
+}
+}
