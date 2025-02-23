@@ -72,7 +72,7 @@
     },
 ]
 },
-"shootSound": "shootAlt",
+"shootSound": "shootTitan",
   "ammoTypes": {
 "MagmaCell": {
 "type": "BasicBulletType",
