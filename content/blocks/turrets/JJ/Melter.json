@@ -14,7 +14,6 @@
   "shootY": 0.5,
   "outlineColor": "darkOutline",
   "size": 2,
-  "envEnabled": "space",
   "range": 250.0,
   "scaledHealth": 210,
   "unitSort": "strongest"
