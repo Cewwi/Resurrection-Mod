@@ -12,7 +12,7 @@
   "aimChangeSpeed": 0.9,
   "rotateSpeed": 0.9,
   "shootY": 0.5,
-  "outlineColor": "darkOutline",
+  "outlineColor": "0C0D1BFF",
   "size": 2,
   "range": 250.0,
   "scaledHealth": 210,
@@ -28,23 +28,6 @@
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "Magmian-"
-    "parts": [
-      {
-        "type": "RegionPart",
-        "suffix": "-cannon",
-        "moveX": 0,
-        "under": true,
-        "alternate": true,
-        "moveY": -5,
-        "progress": {
-          "type": "recoil",
-          "op": "blend",
-          "other": "heat",
-          "amount": 0.2,
-        },
-        "mirror": false
-      },
-]
 },
   "shootType ": {
 "slag": {
@@ -52,6 +35,18 @@
   "damage": 210,
   "buildingDamageMultiplier": 0.3,
   "hitColor": "FFB570FF",
+  "removeAfterPierce": false,
+  "speed": 0.0,
+  "despawnEffect": "Fx.none",
+  "lifetime": 20.0,
+  "impact": true,
+  "keepVelocity": false,
+  "collides": false,
+  "pierce": true,
+  "hittable": false,
+  "absorbable": false,
+  "optimalLifeFract": 0.5
+  "drawSize": 10,
 }
 }
 "research": {
