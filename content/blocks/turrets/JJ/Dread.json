@@ -114,7 +114,8 @@
         "trailWidth": 9,
   "buildingDamageMultiplier": 0.5
   "hitEffect": "scatheExplosion",
-        "despawnEffect": "scatheExplosion",
+  "despawnEffect": "scatheExplosion",
+  "hitColor": "FFB570FF",
 }
 }
 "research": {
