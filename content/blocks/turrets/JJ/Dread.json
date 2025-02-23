@@ -113,9 +113,31 @@
         "trailLength": 9,
         "trailColor": "FFB570FF",
         "trailWidth": 9,
-  "hitEffect": "hitBulletColor"
-  "despawnEffect": "hitBulletColor",
   "buildingDamageMultiplier": 0.5
+  "hitEffect": {
+          "type": "ParticleEffect",
+          "particles": 6,
+          "shape": 4,
+          "lifetime": 120,
+          "length": 75,
+          "cone": -80,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFB570FF",
+          "colorTo": "505050FF"
+        },
+        "despawnEffect": {
+          "type": "ParticleEffect",
+          "particles": 6,
+          "lifetime": 120,
+          "length": 75,
+          "shape": 4,
+          "cone": -80,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFB570FF",
+          "colorTo": "505050FF"
+    },
 }
 }
 "research": {
