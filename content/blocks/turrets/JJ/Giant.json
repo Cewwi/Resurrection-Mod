@@ -65,7 +65,7 @@
 "type": "ArtilleryBulletType",
   "sprite": "circle-bullet",
   "status": "blasted",
-  "shrinkX:" 0.2,
+  "shrinkX": 0.2,
   "shrinkY": 0.1,
   "statusDuration": 100,
   "lightRadius": 80,
