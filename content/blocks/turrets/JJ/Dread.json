@@ -6,10 +6,10 @@
   "ammoPerShot": 1,
   "reload": 10,
   "range": 232,
-  "outlineColor": "2d2f39",
+  "outlineColor": "0C0D1BFF",
   "recoil": 2,
   "shake": 1,
-  "inaccuracy": 0,
+  "inaccuracy": 5,
   "category": "turret",
   "targetUnderBlocks": false,
   "shootY": 5,
@@ -27,8 +27,8 @@
     "type": "ShootAlternate",
     "barrels": 2,
     "spread": 40,
-    "shotDelay": 5
-    "shots": 1
+    "shotDelay": 0
+    "shots": 2
   },
   "coolant": {
     "type": "ConsumeLiquid",
