@@ -1,8 +1,8 @@
 {
   "type": "ItemTurret",
-  "coolantMultiplier": 2,
+  "coolantMultiplier": 1.2,
   "name": "Dread",
-  "description": "An upgraded version of the breach turret. Has many more ammo choices.",
+  "description": "A large turret that uses 2 very powerful cannon to annihilate foes.",
   "ammoPerShot": 1,
   "reload": 50,
   "range": 232,
