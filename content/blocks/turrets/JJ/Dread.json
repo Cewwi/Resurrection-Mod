@@ -82,7 +82,7 @@
   "lightRadius": 80,
   "lightColor": "FFB570FF",
   "speed": 15,
-  "lifetime": 38,
+  "lifetime": 48,
   "width": 15,
   "hitSize": 20,
   "damage": 85,
@@ -141,7 +141,6 @@
 }
 }
 "research": {
-"parent": "breach",
 "objectives": [
 "sublimate"
 ]
