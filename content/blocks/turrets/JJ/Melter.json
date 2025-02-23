@@ -40,7 +40,7 @@
   "buildingDamageMultiplier": 0.3,
   "hitColor": "FFB570FF",
   "removeAfterPierce": false,
-  "speed": 0.0,
+  "speed": 5.0,
   "despawnEffect": "none",
   "lifetime": 20.0,
   "impact": true,
