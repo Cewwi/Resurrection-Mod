@@ -17,10 +17,13 @@
   "research": "",
   "shake": 3,
   "requirements": [
-  "carbide/200",
-  "beryllium/1500",
-  "silicon/500",
-  "tungsten/300",
+  "Silver/1250",
+  "carborundum/750",
+  "Thoralius/800",
+  "Ordanium/300",
+  "MagmaCell/50",
+  "Magma-stone/1500",
+  "Geode-catalyst/500",
   ]
   "shoot": {
     "type": "ShootAlternate",
