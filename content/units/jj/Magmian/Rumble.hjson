@@ -32,7 +32,7 @@ weapons: [
     rotationLimit: 360
     reload: 6
     shootSound: Machine-gun
-    ejectEffect: 360
+    ejectEffect: casing1
 parts: [
 {
     type: RegionPart
