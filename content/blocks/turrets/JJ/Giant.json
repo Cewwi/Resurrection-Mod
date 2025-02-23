@@ -93,7 +93,7 @@
         "trailParam": 5,
         "trailLength": 9,
         "trailColor": "FFB570FF",
-        "trailWidth": 9,
+        "trailWidth": 8,
   "buildingDamageMultiplier": 0.5
   "hitEffect": "titanExplosion",
   "despawnEffect": "titanExplosion",
