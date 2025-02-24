@@ -7,7 +7,7 @@
   "range": 232,
   "outlineColor": "2d2f39",
   "recoil": 0,
-  "shootY": 2,
+  "shootY": 5,
   "shake": 1,
   "inaccuracy": 0,
   "category": "turret"
@@ -39,7 +39,7 @@
 "width": 2.5,
 "drawFlare": true,
 "lifetime": 60,
-"flareColor": "8ca9e8",
+"flareColor": "FF9166FF",
 "hitEffect": {
 "type": "ParticleEffect",
 "line": true,
@@ -51,8 +51,8 @@
 "strokeTo": 0,
 "lenFrom": 8,
 "lenTo": 0,
-"colorFrom": "8ca9e8",
-"colorTo": "6a8ef6"
+"colorFrom": "FF9166FF",
+"colorTo": "EB564BFF"
 },
 "length": 50,
 }
