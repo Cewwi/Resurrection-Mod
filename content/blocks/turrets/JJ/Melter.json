@@ -2,21 +2,14 @@
   "type": "ContinuousTurret",
   "coolantMultiplier": 0,
   "name": "Melter",
-  "description": "Fires 5 artillery shells at enemy units.",
-  "scaleDamageEfficiency": true,
-  "shootSound": "none",
-  "loopSoundVolume": 1.0,
-  "loopSound": "laserbeam",
-  "shootWarmupSpeed": 0.08,
+  "description": "Realeases a small slag flair.",
   "shootCone": 360.0,
-  "aimChangeSpeed": 0.9,
   "rotateSpeed": 0.9,
-  "shootY": 0.5,
+  "shootY": 2
   "outlineColor": "0C0D1BFF",
   "size": 2,
   "range": 250.0,
   "scaledHealth": 210,
-  "unitSort": "strongest"
   "consumeLiquid": "slag",
    "consumes": {
     "power": 4,
@@ -32,24 +25,33 @@
     "type": "drawTurret",
     "basePrefix": "Magmian-"
 },
-  "shootType ": {
+ "loopSound": "torch",
+  "ammoTypes": {
 "slag": {
-"type": "PointLaserBulletType",
-  "damage": 210,
-  "buildingDamageMultiplier": 0.3,
-  "hitColor": "FFB570FF",
-  "removeAfterPierce": false,
-  "speed": 5.0,
-  "despawnEffect": "none",
-  "lifetime": 20.0,
-  "impact": true,
-  "keepVelocity": false,
-  "collides": false,
-  "pierce": true,
-  "hittable": false,
-  "absorbable": false,
-  "optimalLifeFract": 0.5
-  "drawSize": 10,
+"type": "ContinuousFlameBulletType",
+"colors": ["EB564BFF", "FF9166FF", "FFB570FF", "ffffff"],
+"damage": 50,
+"knockback": 3,
+"buildingDamageMultiplier": 0.24
+"width": 2.5,
+"drawFlare": true,
+"lifetime": 60,
+"flareColor": "FFB570FF",
+"hitEffect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 7,
+"lifetime": 15,
+"length": 65,
+"cone": -360,
+"strokeFrom": 2.5,
+"strokeTo": 0,
+"lenFrom": 8,
+"lenTo": 0,
+"colorFrom": "FFB570FF",
+"colorTo": "EB564BFF"
+},
+"length": 100,
 }
 }
 "research": {
