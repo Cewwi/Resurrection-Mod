@@ -1,6 +1,6 @@
 {
   "type": "ContinuousLiquidTurret",
-  "coolantMultiplier": 2,
+  "coolantMultiplier": 0,
   "name": "Surpassing",
   "ammoPerShot": 40,
   "reload": 5,
