@@ -11,15 +11,13 @@
   "range": 250.0,
   "scaledHealth": 210,
   "ammoPerShot": 40,
+  "category": "turret"
    "consumes": {
     "power": 4,
   },
   "requirements": [
-  "Silver/650",
-  "carborundum/550",
-  "Thoralius/300",
-  "Ordanium/300",
-  "Magma-stone/200",
+  "Ordanium/200",
+  "Magma-stone/150",
   ]
   "drawer": {
     "type": "drawTurret",
