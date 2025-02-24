@@ -4,7 +4,7 @@
   "name": "Melter",
   "ammoPerShot": 40,
   "reload": 5,
-  "range": 72,
+  "range": 62,
   "outlineColor": "2d2f39",
   "recoil": 0,
   "shootY": 5,
