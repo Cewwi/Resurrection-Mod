@@ -21,7 +21,7 @@
         "shots": 1,
         "shotDelay": 1,
   },
-  "size": 5,
+  "size": 2,
   "health": 500,
   "armor": 5,
   "drawer": {
@@ -36,7 +36,7 @@
 "damage": 200,
 "knockback": 3,
 "buildingDamageMultiplier": 0.24
-"width": 6.5,
+"width": 2.5,
 "drawFlare": true,
 "lifetime": 60,
 "flareColor": "8ca9e8",
@@ -54,7 +54,7 @@
 "colorFrom": "8ca9e8",
 "colorTo": "6a8ef6"
 },
-"length": 200,
+"length": 50,
 }
 }
 "research": {
