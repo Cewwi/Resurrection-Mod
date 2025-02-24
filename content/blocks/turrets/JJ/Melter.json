@@ -26,7 +26,7 @@
   "armor": 5,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "magmian-"
+    "basePrefix": "Magmian-"
   },
   "loopSound": "torch",
   "ammoTypes": {
