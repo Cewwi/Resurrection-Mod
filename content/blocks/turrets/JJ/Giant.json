@@ -23,12 +23,10 @@
   "Ordanium/300",
   "Magma-stone/200",
   ]
-  "shoot": {
-    "type": "ShootAlternate",
-    "barrels": 1,
-    "spread": 0,
-    "shotDelay": 8
-    "shots": 5
+ "shoot": {
+        "type": "shootPattern",
+        "shots": 1,
+        "shotDelay": 1,
   },
   "coolant": {
     "type": "ConsumeLiquid",
@@ -101,7 +99,8 @@
 }
 }
 "research": {
-"objectives": [
+  "parent": "sublimate",
+  "objectives": [
 "sublimate"
 ]
 }
