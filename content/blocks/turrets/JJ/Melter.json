@@ -1,45 +1,45 @@
 {
-  "type": "ContinuousTurret",
+  "type": "ContinuousLiquidTurret",
   "coolantMultiplier": 0,
   "name": "Melter",
-  "description": "Realeases a small slag flair.",
-  "shootCone": 360.0,
-  "rotateSpeed": 0.9,
-  "shootY": 2
-  "outlineColor": "0C0D1BFF",
-  "size": 2,
-  "range": 250.0,
-  "scaledHealth": 210,
   "ammoPerShot": 40,
+  "reload": 5,
+  "range": 232,
+  "outlineColor": "2d2f39",
+  "recoil": 0,
+  "shootY": 2,
+  "shake": 1,
+  "inaccuracy": 0,
   "category": "turret"
+  "research": "none"
+  "requirements": [
+  "Magme-stone/75",
+  "Ordanium/120",
+  ]
   "shoot": {
         "type": "shootPattern",
         "shots": 1,
         "shotDelay": 1,
   },
-   "consumes": {
-    "power": 4,
-  },
-  "requirements": [
-  "Ordanium/200",
-  "Magma-stone/150",
-  ]
+  "size": 5,
+  "health": 500,
+  "armor": 5,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "Magmian-"
-},
- "loopSound": "torch",
+    "basePrefix": "magmian-"
+  },
+  "loopSound": "torch",
   "ammoTypes": {
 "slag": {
 "type": "ContinuousFlameBulletType",
-"colors": ["EB564BFF", "FF9166FF", "FFB570FF", "ffffff"],
-"damage": 50,
+"colors": ["EB564BFF", "FFB570FF", "FF9166FF", "ffffff"],
+"damage": 200,
 "knockback": 3,
 "buildingDamageMultiplier": 0.24
-"width": 2.5,
+"width": 6.5,
 "drawFlare": true,
 "lifetime": 60,
-"flareColor": "FFB570FF",
+"flareColor": "8ca9e8",
 "hitEffect": {
 "type": "ParticleEffect",
 "line": true,
@@ -51,14 +51,14 @@
 "strokeTo": 0,
 "lenFrom": 8,
 "lenTo": 0,
-"colorFrom": "FFB570FF",
-"colorTo": "EB564BFF"
+"colorFrom": "8ca9e8",
+"colorTo": "6a8ef6"
 },
-"length": 100,
+"length": 200,
 }
 }
 "research": {
-  "parent": "sublimate",
+"parent": "sublimate",
 "objectives": [
 "sublimate"
 ]
