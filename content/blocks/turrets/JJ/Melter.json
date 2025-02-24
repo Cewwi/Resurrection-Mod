@@ -13,7 +13,7 @@
   "category": "turret"
   "research": "none"
   "requirements": [
-  "Magme-stone/75",
+  "Magma-stone/75",
   "Ordanium/120",
   ]
   "shoot": {
