@@ -12,6 +12,11 @@
   "scaledHealth": 210,
   "ammoPerShot": 40,
   "category": "turret"
+  "shoot": {
+        "type": "shootPattern",
+        "shots": 1,
+        "shotDelay": 1,
+  },
    "consumes": {
     "power": 4,
   },
@@ -53,6 +58,7 @@
 }
 }
 "research": {
+  "parent": "sublimate",
 "objectives": [
 "sublimate"
 ]
