@@ -1,6 +1,6 @@
 
 type: GenericCrafter
-name: Carborundum Furnace
+name: Ti-Synthisizer
 description: Produces carborundum.
 size: 5
 craftTime: 80
