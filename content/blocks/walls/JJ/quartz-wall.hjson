@@ -1,0 +1,12 @@
+type: Wall
+name: Small Tronian Quartz wall
+description: Protects structures from incoming fire
+size: 1
+health: 950
+squareSprite: false
+requirements: [
+  Tronian-quartz/6
+]
+research: isocite
+category: defense
+researchCostMultiplier: 0.05
