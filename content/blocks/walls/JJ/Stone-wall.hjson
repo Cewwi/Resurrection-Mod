@@ -5,7 +5,7 @@ size: 1
 health: 1450
 squareSprite: false
 requirements: [
-  Stone/12
+  stone/12
 ]
 research: isocite
 category: defense
