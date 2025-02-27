@@ -2,7 +2,7 @@
 type: GenericCrafter
 name: Carborundum Furnace
 description: Produces carborundum.
-size: 4
+size: 5
 craftTime: 80
 consumes: {
   items: [
@@ -21,10 +21,35 @@ drawers: [
   type: DrawRegion
   suffix: -bottom
 }
-{
-  type: DrawFlame
-      flameColor: A9D8FFFF
-}
+[
+  {
+    type: DrawParticles
+    color: 66B1FFFF
+    alpha: 0.4
+    blending: additive
+    particleSize: 5
+    reverse: true
+    particleRad: 23
+    particles: 22
+    fadeMargin: 1
+    rotateScl: 7
+    particleLife: 40
+  },
+  {
+    type: DrawParticles
+    color: 66B1FFFF
+    alpha: 0.4
+    reverse: true
+    blending: additive
+    particleSize: 6
+    sides: 4
+    particleRad: 12
+    particles: 22
+    fadeMargin: 1
+    rotateScl: 7
+    particleLife: 40
+  }
+]
 {
   type: DrawDefault
 }
