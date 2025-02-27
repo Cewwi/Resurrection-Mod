@@ -29,7 +29,7 @@ drawers: [
       flameRad: 2
       circleSpace: 8
       particles: 120
-      particleRad: 14
+      particleRad: 16
       particleLen: 4
 }
 {
