@@ -24,8 +24,9 @@ drawers: [
 [
   {
     type: DrawParticles
-    color: 66B1FFFF
+    color: 62A0FCFF
     alpha: 0.4
+    sides: 4
     blending: additive
     particleSize: 5
     reverse: true
@@ -37,7 +38,7 @@ drawers: [
   },
   {
     type: DrawParticles
-    color: 66B1FFFF
+    color: 62A0FCFF
     alpha: 0.4
     reverse: true
     blending: additive
@@ -61,7 +62,9 @@ outputItems: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-  scheelite/50
-  Tronian-quartz/100
+Ti-6Al-4V/200
+Thaxon/150
+Argentium silver/50
+carborundum/50
 ]
 itemCapacity: 20
