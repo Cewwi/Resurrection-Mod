@@ -18,10 +18,6 @@ drawer: {
 type: DrawMulti
 drawers: [
 {
-  type: DrawRegion
-  suffix: -bottom
-}
-{
   type: DrawFlame
       flameColor: A9D8FFFF
 }
