@@ -22,8 +22,12 @@ drawers: [
   suffix: -bottom
 }
 {
-  type: DrawFlame
-      flameColor: A9D8FFFF
+  type: DrawCrucibleFlame
+      flameRad: 1.5
+      circleSpace: 2
+      particles: 80
+      particleRad: 14
+      particleLen: 4
 }
 {
   type: DrawDefault
@@ -31,12 +35,15 @@ drawers: [
 ]
 }
 outputItems: [
-  Albino-Alloy/2
+  MagmaCell/1
 ]
 category: crafting
 research: Quartz-Generator
 requirements: [
-  scheelite/50
-  Tronian-quartz/100
+  carborundum/200
+  Ti-6Al-4V/100
+  Tronian-Graphite/230
+  Thoralius/120
+  Thaxon/200
 ]
 itemCapacity: 20
