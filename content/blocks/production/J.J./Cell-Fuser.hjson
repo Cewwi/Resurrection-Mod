@@ -23,9 +23,9 @@ drawers: [
 }
 {
   type: DrawCrucibleFlame
-      flameRad: 1.5
-      circleSpace: 2
-      particles: 80
+      flameRad: 2
+      circleSpace: 8
+      particles: 120
       particleRad: 14
       particleLen: 4
 }
