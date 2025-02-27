@@ -29,8 +29,8 @@ drawers: [
       flameRad: 2
       circleSpace: 8
       particles: 320
-      particleRad: 16
-      particleLen: 2
+      particleRad: 20
+      particleLen: 10
 }
 {
   type: DrawDefault
