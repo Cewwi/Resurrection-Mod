@@ -6,7 +6,10 @@ size: 5
 craftTime: 80
 consumes: {
   items: [
-    scheelite/4
+    Ti-6Al-4V/1
+    carborundum/1
+    Magma-stone/5
+    Thoralius/1
   ]
 power: 2
 }
@@ -44,6 +47,6 @@ requirements: [
   Ti-6Al-4V/100
   Tronian-Graphite/230
   Thoralius/120
-  Thaxon/200
+  Magma-stone/200
 ]
 itemCapacity: 20
