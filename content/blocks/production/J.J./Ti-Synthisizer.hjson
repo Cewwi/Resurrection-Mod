@@ -30,8 +30,8 @@ drawers: [
     blending: additive
     particleSize: 5
     reverse: true
-    particleRad: 23
-    particles: 22
+    particleRad: 20
+    particles: 30
     fadeMargin: 1
     rotateScl: 7
     particleLife: 40
@@ -44,8 +44,8 @@ drawers: [
     blending: additive
     particleSize: 6
     sides: 4
-    particleRad: 12
-    particles: 22
+    particleRad: 14
+    particles: 30
     fadeMargin: 1
     rotateScl: 7
     particleLife: 40
