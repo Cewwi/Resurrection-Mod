@@ -26,7 +26,7 @@ drawers: [
   {
     type: DrawParticles
     color: 62A0FCFF
-    alpha: 0.5
+    alpha: 0.3
     sides: 4
     blending: additive
     particleSize: 5
@@ -34,13 +34,13 @@ drawers: [
     particleRad: 20
     particles: 30
     fadeMargin: 1
-    rotateScl: 7
+    rotateScl: 30
     particleLife: 40
   },
   {
     type: DrawParticles
     color: 62A0FCFF
-    alpha: 0.5
+    alpha: 0.3
     reverse: true
     blending: additive
     particleSize: 6
@@ -48,7 +48,7 @@ drawers: [
     particleRad: 14
     particles: 30
     fadeMargin: 1
-    rotateScl: 7
+    rotateScl: 30
     particleLife: 40
   }
 ]
