@@ -3,7 +3,7 @@ type: GenericCrafter
 name: Carborundum Furnace
 description: Produces carborundum.
 size: 5
-craftTime: 80
+craftTime: 50
 consumes: {
   items: [
     Ti-6Al-4V/1
@@ -16,7 +16,7 @@ power: 2
 ignoreLiquidFullness: true
 ambientSound: smelter
 researchCostMultiplier: 0.5
-ambientSoundVolume: 0.3
+ambientSoundVolume: 0.5
 drawer: {
 type: DrawMulti
 drawers: [
