@@ -34,6 +34,16 @@ drawers: [
       particleLen: 10
 }
 {
+  type: DrawCrucibleFlame
+      reverse: true
+      flameRad: 2
+      circleSpace: 8
+      particles: 320
+      particleSize: 5
+      particleRad: 20
+      particleLen: 10
+}
+{
   type: DrawDefault
 }
 ]
