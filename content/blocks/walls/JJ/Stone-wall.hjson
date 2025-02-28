@@ -7,6 +7,6 @@ squareSprite: false
 requirements: [
   stone/12
 ]
-research: isocite
+research: T-quartz-wall
 category: defense
 researchCostMultiplier: 0.05
