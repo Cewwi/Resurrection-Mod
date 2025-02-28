@@ -11,7 +11,7 @@
   "hardnessDrillMultiplier": 10,
   "expanded": true,
  "requirements": [
-     "Tronian-quartz/50",
+     "Tronian-quartz/15",
   ],
    "category": "production",
   "research": "Cavern-core",
