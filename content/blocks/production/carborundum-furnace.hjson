@@ -6,7 +6,7 @@ size: 4
 craftTime: 125
 consumes: {
   items: [
-    scheelite/4
+    Ordanium/4
     Tronian-Graphite/2
   ]
 power: 14
@@ -39,12 +39,12 @@ drawer: [
 }
 ]
 outputItems: [
-  carborundum/6
+  carborundum/2
 ]
 category: crafting
 research: cavern-core
 requirements: [
-  scheelite/100
+  Ordanium/100
   Tronian-Graphite/50
 ]
 itemCapacity: 40
