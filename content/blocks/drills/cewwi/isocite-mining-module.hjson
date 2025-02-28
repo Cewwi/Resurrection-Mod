@@ -11,3 +11,4 @@ name: Isocite Mining Module
   researchCost: [
   isocite/20,
   ]
+category: production
