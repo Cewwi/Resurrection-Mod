@@ -1,0 +1,12 @@
+type: Wall
+name: Small Tronian Quartz wall
+description: Protects structures from incoming fire
+size: 2
+health: 3800
+squareSprite: true
+requirements: [
+  Tronian-quartz/24
+]
+research: Cavern-core
+category: defense
+researchCostMultiplier: 0.05
