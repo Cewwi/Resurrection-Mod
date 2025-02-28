@@ -3,6 +3,6 @@ name: Isocite Floor
 description: Contains some isocite right under the surface, which can be mined with high-tier drills.
 //itemDrop: isocite
 variants: 8
-attributes: {
-  isocite: 1
-}
+//attributes: {
+//  isocite: 1
+//}
