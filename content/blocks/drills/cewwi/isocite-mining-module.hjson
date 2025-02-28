@@ -4,9 +4,7 @@ name: Isocite Mining Module
   requirements: [isocite/10]
   size: 2
   attribute: isocite
-  output: [
-  isocite/1,
-  ]
+  output: isocite
   ambientSound: drill
   ambientSoundVolume: 0.2
   drillTime: 0.25
