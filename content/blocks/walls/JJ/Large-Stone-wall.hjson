@@ -5,7 +5,7 @@ size: 2
 health: 4800
 squareSprite: false
 requirements: [
-  stone/48
+  Ordanium/48
 ]
 research: Stone-wall
 category: defense
