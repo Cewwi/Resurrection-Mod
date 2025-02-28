@@ -1,0 +1,13 @@
+name: Isocite Mining Module 
+  description: A basic drill that mines isocite from nearby walls.
+  type: WallCrafter
+  requirements: [isocite/10]
+  size: 2
+  attribute: isocite
+  output: isocite/1
+  ambientSound: drill
+  ambientSoundVolume: 0.2
+  drillTime: 0.25
+  researchCost: [
+  isocite/20
+  ]
