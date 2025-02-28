@@ -2,7 +2,7 @@ type: Wall
 name: Small Stone Wall
 description: Stronger than a Quartz wall, but takes longer to make.
 size: 1
-health: 1450
+health: 1200
 squareSprite: false
 requirements: [
   stone/12
