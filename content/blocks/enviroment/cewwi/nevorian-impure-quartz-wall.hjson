@@ -4,5 +4,5 @@ description: "transition wall"
 itemDrop: quartz
 variants: 3
 attributes: {
-quartz: 0.1
+quartz: 0.25
 }
