@@ -3,3 +3,6 @@ name: Nevorian Quartz Wall
 description: "Back before the Veil opened, quartz was the most abundant rescouce on Tronoe and Nevorix. Today though, it isn't as common."
 itemDrop: quartz
 variants: 4
+attributes: {
+quartz: 0.85
+}
