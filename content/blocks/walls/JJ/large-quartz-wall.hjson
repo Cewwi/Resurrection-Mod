@@ -7,6 +7,6 @@ squareSprite: true
 requirements: [
   Tronian-quartz/24
 ]
-research: Cavern-core
+research: T-quartz-wall
 category: defense
 researchCostMultiplier: 0.05
