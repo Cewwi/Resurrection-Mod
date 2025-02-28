@@ -1,0 +1,12 @@
+type: Wall
+name: Large Stone Wall
+description: Stronger than a Quartz wall, but takes longer to make.
+size: 2
+health: 4800
+squareSprite: false
+requirements: [
+  stone/48
+]
+research: Stone-wall
+category: defense
+researchCostMultiplier: 0.05
