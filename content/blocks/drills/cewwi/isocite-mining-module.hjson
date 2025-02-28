@@ -7,7 +7,7 @@ name: Isocite Mining Module
   output: isocite
   ambientSound: drill
   ambientSoundVolume: 0.2
-  drillTime: 120
+  drillTime: 165
   researchCost: [
   isocite/20,
   ]
