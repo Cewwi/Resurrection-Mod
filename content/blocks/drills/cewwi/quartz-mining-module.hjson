@@ -1,0 +1,13 @@
+name: Quartz Mining Module
+  description: A basic bore that extracts quartz from nearby walls.
+  type: BeamDrill
+  requirements: [isocite/40, quartz/10]
+  size: 2
+  attribute: quartz
+  output: quartz
+  ambientSound: drill
+  ambientSoundVolume: 0.2
+  drillTime: 225
+  researchCost: [
+  isocite/80, quartz/20]
+category: production
