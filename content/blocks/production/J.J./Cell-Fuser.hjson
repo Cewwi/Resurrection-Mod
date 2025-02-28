@@ -1,7 +1,7 @@
 
 type: GenericCrafter
-name: Carborundum Furnace
-description: Produces carborundum.
+name: Cell Fuser
+description: Produces Magmian Power cells.
 size: 5
 craftTime: 50
 consumes: {
