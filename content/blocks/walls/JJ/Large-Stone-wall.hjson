@@ -1,5 +1,5 @@
 type: Wall
-name: Large Stone Wall
+name: Large Ordanium Wall
 description: Stronger than a Quartz wall, but takes longer to make.
 size: 2
 health: 4800
