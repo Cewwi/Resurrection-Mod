@@ -1,6 +1,7 @@
 type: StaticWall
 name: Nevorian Pure Quartz Wall
 description: .
+itemDrop: quartz
 variants: 4
 attributes: {
 quartz: 1.45
