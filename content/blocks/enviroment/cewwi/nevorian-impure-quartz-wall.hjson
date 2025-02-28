@@ -1,6 +1,7 @@
 type: StaticWall
 name: Nevorian Impure Quartz Wall
 description: "transition wall"
+itemDrop: quartz
 variants: 3
 attributes: {
 quartz: 0.1
