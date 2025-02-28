@@ -5,7 +5,7 @@ size: 1
 health: 1200
 squareSprite: false
 requirements: [
-  stone/12
+  Ordanium/12
 ]
 research: T-quartz-wall
 category: defense
