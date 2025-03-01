@@ -1,0 +1,18 @@
+type: DuctBridge
+  name: Channel Bridge
+description: Carries items through low terrain.
+category: distribution
+alwaysUnlocked: false
+research: Channel-router
+solid: false
+range: 6
+researchCost: [
+  Ordanium/250
+  Tronian-quartz/100
+]
+speed: 6
+health: 250
+requirements: [
+  Ordanium/10
+  Tronian-quartz/20
+]
