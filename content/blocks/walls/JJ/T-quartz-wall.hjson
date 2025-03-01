@@ -7,6 +7,6 @@ squareSprite: false
 requirements: [
   Tronian-quartz/6
 ]
-research: isocite
+research: Caven-core
 category: defense
 researchCostMultiplier: 0.05
