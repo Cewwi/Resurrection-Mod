@@ -11,7 +11,7 @@ researchCost: [
 speed: 6
 health: 125
 requirements: [
-  Tronian-quartz/1
+  Ordanium/1
 ]
 lightRadius: 15
 lightColor: BCB6B6FF
