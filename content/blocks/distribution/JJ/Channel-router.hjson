@@ -6,10 +6,10 @@ alwaysUnlocked: false
 research: Channel
 solid: false
 researchCost: [
-  tungsten/250
-  graphite/400
+  Ordanium/25
+  Tronian-quartz/50
 ]
-speed: 5
+speed: 6
 health: 150
 requirements: [
   Ordanium/5
