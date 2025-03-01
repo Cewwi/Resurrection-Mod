@@ -1,6 +1,6 @@
 type: ShockMine
-research: shock-mine
-name: Frag mine
+research: Caver-core
+name: Explosive mine
 description: Explodes upon enemy contact.
 underBullets: true
 hasShadow: false
