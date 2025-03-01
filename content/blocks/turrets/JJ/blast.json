@@ -1,0 +1,92 @@
+{
+  "type": "ItemTurret",
+  "coolantMultiplier": 0,
+  "name": "Blast",
+  "description": "Fires 2 bullets in quick succession.",
+  "ammoPerShot": 1,
+  "reload": 75,
+  "range": 232,
+  "outlineColor": "2d2f39",
+  "recoil": 2,
+  "shake": 1,
+  "inaccuracy": 3,
+  "category": "turret",
+  "targetUnderBlocks": false,
+  "shootY": -1,
+  "shootCone": 3,
+  "research": "Cavern-core",
+  "shake": 2,
+  "requirements": [
+  "carborundum/100",
+  "ChargeStone/125",
+  "scheelite/200",
+  ]
+  "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 2,
+    "spread": 0,
+    "shotDelay": 10
+    "shots": 2
+  },
+  "size": 2,
+  "health": 900,
+  "armor": 10,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "Quartz-"
+},
+"shootSound": "shootAlt",
+  "ammoTypes": {
+"ChargeStone": {
+"type": "BasicBulletType",
+  "speed": 10,
+  "lifetime": 28,
+  "width": 13,
+  "hitSize": 7,
+  "damage": 85,
+  "height": 24,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 5,
+  "pierce": true
+  "pierceBuilding": true
+  "trailColor": "E5E5E5FF",
+  "backColor": "E5E5E5FF",
+  "hitColor": "E5E5E5FF",
+  "frontColor": "FFFFFF"
+  "trailWidth": 2.1
+  "trailLength": 10
+  "hitEffect": "hitBulletColor"
+  "despawnEffect": "hitBulletColor",
+  "buildingDamageMultiplier": 0.5
+}
+"scheelite": {
+"type": "BasicBulletType",
+  "speed": 10,
+  "lifetime": 28,
+  "width": 15,
+  "hitSize": 7.5,
+  "height": 26,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 5,
+  "damage": 100,
+  "pierce": true
+  "pierceBuilding": true
+  "trailColor": "E5E5E5FF",
+  "backColor": "E5E5E5FF",
+  "hitColor": "E5E5E5FF",
+  "frontColor": "FFFFFF"
+  "trailWidth": 2.1
+  "trailLength": 10
+  "hitEffect": "hitBulletColor"
+  "despawnEffect": "hitBulletColor",
+  "buildingDamageMultiplier": 0.5
+}
+}
+"research": {
+"parent": "Cavern-core",
+}
+}
