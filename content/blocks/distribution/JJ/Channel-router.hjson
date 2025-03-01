@@ -1,0 +1,18 @@
+type: Router
+name: Channel Router
+description: distributes items in equal directions.
+category: distribution
+alwaysUnlocked: false
+research: Channel
+solid: false
+researchCost: [
+  tungsten/250
+  graphite/400
+]
+speed: 5
+health: 150
+requirements: [
+  Ordanium/5
+  Tronian-quartz/10
+]
+  
