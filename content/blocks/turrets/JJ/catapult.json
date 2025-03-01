@@ -20,7 +20,7 @@
   "recoilAmount": 2,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "QuartzWard-"
+    "basePrefix": "Quartz-"
   }
   "ammoTypes": {
     "Tronian-quartz": {
