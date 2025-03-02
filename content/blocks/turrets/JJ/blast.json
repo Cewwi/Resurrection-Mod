@@ -18,8 +18,8 @@
   "shake": 2,
   "requirements": [
   "carborundum/100",
-  "ChargeStone/125",
-  "scheelite/200",
+  "Ordanium/125",
+  "Tronian-quartz/200",
   ]
   "shoot": {
     "type": "ShootAlternate",
@@ -37,7 +37,7 @@
 },
 "shootSound": "shootAlt",
   "ammoTypes": {
-"ChargeStone": {
+"Tronian-quartz": {
 "type": "BasicBulletType",
   "speed": 10,
   "lifetime": 28,
@@ -56,31 +56,7 @@
   "hitColor": "E5E5E5FF",
   "frontColor": "FFFFFF"
   "trailWidth": 2.1
-  "trailLength": 10
-  "hitEffect": "hitBulletColor"
-  "despawnEffect": "hitBulletColor",
-  "buildingDamageMultiplier": 0.5
-}
-"scheelite": {
-"type": "BasicBulletType",
-  "speed": 10,
-  "lifetime": 28,
-  "width": 15,
-  "hitSize": 7.5,
-  "height": 26,
-  "shootEffect": "shootBig",
-  "smokeEffect": "shootBigSmoke",
-  "ammoMultiplier": 1,
-  "pierceCap": 5,
-  "damage": 100,
-  "pierce": true
-  "pierceBuilding": true
-  "trailColor": "E5E5E5FF",
-  "backColor": "E5E5E5FF",
-  "hitColor": "E5E5E5FF",
-  "frontColor": "FFFFFF"
-  "trailWidth": 2.1
-  "trailLength": 10
+  "trailLength": 4
   "hitEffect": "hitBulletColor"
   "despawnEffect": "hitBulletColor",
   "buildingDamageMultiplier": 0.5
