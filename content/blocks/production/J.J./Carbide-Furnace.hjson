@@ -1,12 +1,13 @@
 
 type: GenericCrafter
-name: Carborundum Furnace
-description: Produces carborundum.
+name: Carbide Furnace
+description: Produces Tronian Carbide.
 size: 7
-craftTime: 80
+craftTime: 150
 consumes: {
   items: [
-    scheelite/4
+    carborundum/4
+    Tronian-Graphite/8
   ]
 power: 2
 }
@@ -31,12 +32,15 @@ drawers: [
 ]
 }
 outputItems: [
-  Albino-Alloy/2
+  Tronian-Carbide/1
 ]
 category: crafting
 research: Quartz-Generator
 requirements: [
-  scheelite/50
-  Tronian-quartz/100
+  carborundum/350
+  Ordanium/400
+  Ti-6Al-4V/250
+  Geode-catalyst/275
+  Argentium-silver/325
 ]
 itemCapacity: 20
