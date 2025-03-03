@@ -1,5 +1,5 @@
 name: Chargestone
-description: "Basic ore. Used in most turrets and cores."
+description: "Basic ore. Used in basic FC generators."
 hardness: 1
 cost: 0.5
 alwaysUnlocked: false
