@@ -1,12 +1,13 @@
 
 type: GenericCrafter
-name: Carborundum Furnace
-description: Produces carborundum.
+name: Alloy Furnace
+description: Produces Albino Alloy.
 size: 4
-craftTime: 80
+craftTime: 200
 consumes: {
   items: [
-    scheelite/4
+    Tronian-quartz/4
+    Thoralius/2
   ]
 power: 2
 }
@@ -36,7 +37,8 @@ outputItems: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-  scheelite/50
-  Tronian-quartz/100
+  carborundum/250
+  Ti-6Al-4V/100
+  Thoralius/200
 ]
 itemCapacity: 20
