@@ -1,0 +1,13 @@
+name: Sulphur Mining Module
+  description: A large bore that extracts sulphur from walls.
+  type: BeamDrill
+  requirements: [isocite/60, quartz/55]
+  size: 3
+  attribute: sulphur
+  output: sulphur
+  ambientSound: drill
+  ambientSoundVolume: 0.2
+  drillTime: 225
+  researchCost: [
+  isocite/240, quartz/220]
+category: production
