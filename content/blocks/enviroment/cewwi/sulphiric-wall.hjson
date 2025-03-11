@@ -2,4 +2,7 @@ type: StaticWall
 name: Sulphiric Wall
 description: A wall containing exposed sulphur, that can be easily mined.
 itemDrop: sulphur
+attributes: {
+sulphur: 1
+}
 variants: 3
