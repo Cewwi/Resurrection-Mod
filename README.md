@@ -16,3 +16,7 @@ The Magmians: Harnessing the power of Tronoe's large lava oceans, this faction w
 Overgrowth Wardens: Mass producer of basic tech and the main supplier of the Magmians and Fractured Crystal. This faction was always experimenting with different substances and alloys to try acquire the most out of anything they could get their hands on. Soon, they started working on more ambitious projects, such as The Earth Mover, the M.P.S, and the Genesis Wormhole. The M.P.S and Earth Mover was a crushing success. The same cant be said about Project Omega. This critical failure lead to the demise of the Overgrowth wardens, and marked the end of a great crusade. Though Project Omega still remains functional after all this time. What it's made of will always be a mystery, but maybe you can use it to get beck to erekir...if you can find it.
 
 ![image](https://github.com/user-attachments/assets/dc523877-2f18-4426-b36f-aafce548d37c)
+
+
+Discord Link:
+https://discord.gg/atCn9nDka3
