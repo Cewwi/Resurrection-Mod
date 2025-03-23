@@ -1,0 +1,69 @@
+type: legs
+legCount: 6
+legLength: 35
+legSpeed: 0.5
+legExtension: -13.5
+legForwardScl: 0.2
+envDisabled: 0
+legBaseOffset: 7
+legMoveSpace: 0.9
+legPairOffset: 2
+fogRadius: 0
+hovering: false
+faceTarget: true
+targetPriority: -2
+name: concentrator
+description: thing
+health: 1500
+armor: 6
+speed: 2.5
+hitSize: 8
+isEnemy: false
+mineSpeed: 3.5
+mineFloor: true
+mineWalls: true
+mineTier: 1
+buildSpeed: 1.2
+groundLayer: 75
+drag: 0.4
+itemCapacity: 90
+alwaysUnlocked: true
+outlineColor: 0C0D1BFF
+abilities: [
+  {
+    type: ShieldArcAbility
+    max: 2500
+    cooldown: 300
+    regen: 0.5
+    angle: 90
+    whenShooting: false
+    width: 5
+    x: 0
+    y: -26
+    radius: 50
+  }
+]
+weapons: [
+  {
+  type: RepairBeamWeapon
+x: 5
+y: 5.75
+shootY: 0
+reload: 20
+rotate: false
+beamWidth: 0.7
+shootCone: 40
+mirror: true
+repairSpeed: 1
+fractionRepairSpeed: 0.12
+targetUnits: true
+targetBuildings: true
+autoTarget: false
+controllable: true
+laserColor: E5E5E5FF
+healColor: E5E5E5FF
+bullet: {
+maxRange: 20
+    }
+}
+]
