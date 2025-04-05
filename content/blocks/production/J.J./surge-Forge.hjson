@@ -1,0 +1,88 @@
+
+type: GenericCrafter
+name: Surge Forge
+description: Produces Surge Alloy at a faster rate. No longer needs heat. Needs great amounts of slag.
+size: 5
+craftTime: 30
+consumes: {
+  items: [
+    thorium/1
+    silicon/4
+  ]
+    liquids: [
+    slag/50
+    ]
+power: 4
+}
+ignoreLiquidFullness: true
+ambientSound: smelter
+researchCostMultiplier: 0.5
+ambientSoundVolume: 0.3
+drawer: {
+type: DrawMulti
+drawers: [
+{
+  type: DrawRegion
+  suffix: -bottom
+}
+{
+  type: DrawLiquidRegion
+  suffix: -liquid
+  liquid: slag
+}
+{
+  type: DrawBubbles
+    sides: 4
+    recurrence: 3
+    spread = 8;
+    radius = 2f;
+    amount = 20;
+    color: ffa166
+}
+[
+  {
+    type: DrawParticles
+    color: 62A0FCFF
+    alpha: 0.3
+    sides: 4
+    blending: additive
+    particleSize: 5
+    reverse: true
+    particleRad: 20
+    particles: 30
+    fadeMargin: 1
+    rotateScl: 30
+    particleLife: 40
+  },
+  {
+    type: DrawParticles
+    color: 62A0FCFF
+    alpha: 0.3
+    reverse: true
+    blending: additive
+    particleSize: 6
+    particleSides: 4
+    particleRad: 14
+    particles: 30
+    fadeMargin: 1
+    rotateScl: 30
+    particleLife: 40
+  }
+]
+{
+  type: DrawDefault
+}
+]
+}
+outputItems: [
+  surgeAlloy/3
+]
+category: crafting
+research: surge-crucible
+requirements: [
+  surgeAlloy/125
+  silicon/150
+  tungsten/100
+  graphite/120
+]
+itemCapacity: 20
