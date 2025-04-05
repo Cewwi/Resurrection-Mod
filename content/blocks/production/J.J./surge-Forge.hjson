@@ -39,36 +39,6 @@ drawers: [
     amount = 20;
     color: ffa166
 }
-[
-  {
-    type: DrawParticles
-    color: 62A0FCFF
-    alpha: 0.3
-    sides: 4
-    blending: additive
-    particleSize: 5
-    reverse: true
-    particleRad: 20
-    particles: 30
-    fadeMargin: 1
-    rotateScl: 30
-    particleLife: 40
-  },
-  {
-    type: DrawParticles
-    color: 62A0FCFF
-    alpha: 0.3
-    reverse: true
-    blending: additive
-    particleSize: 6
-    particleSides: 4
-    particleRad: 14
-    particles: 30
-    fadeMargin: 1
-    rotateScl: 30
-    particleLife: 40
-  }
-]
 {
   type: DrawDefault
 }
