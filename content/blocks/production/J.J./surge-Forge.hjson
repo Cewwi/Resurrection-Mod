@@ -34,9 +34,9 @@ drawers: [
   type: DrawBubbles
     sides: 4
     recurrence: 3
-    spread = 8;
-    radius = 2f;
-    amount = 20;
+    spread: 8
+    radius: 2f
+    amount: 20
     color: ffa166
 }
 {
