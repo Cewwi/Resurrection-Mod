@@ -1,6 +1,7 @@
 {
   "singleTarget": true,
   "name": "Suppression",
+  "description": "Mainly a support unit with large healin beams and 3 defensive layers or shields, but also has 2 large plasma cannons. Why in the world would the Wardens need guns this big?"
   "lightRadius": 300,
   "type": "legs",
   "speed": 0.40,
