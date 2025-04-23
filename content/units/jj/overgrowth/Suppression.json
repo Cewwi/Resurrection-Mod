@@ -23,6 +23,7 @@
   "mineSpeed": 20,
   "buildSpeed": 5,
   "hovering": true,
+  "allowLegStep": true,
   "armor": 460,
   "drag": 0.2,
   "range": 450,
