@@ -15,6 +15,7 @@
   "legLengthScl": 1,
   "legMoveSpace": 0.9,
   "legPairOffset": 2000,
+  "legExtension": -33.5,
   "canDrown": false,
   "groundLayer": 87,
   "outlineColor": "0C0D1BFF",
