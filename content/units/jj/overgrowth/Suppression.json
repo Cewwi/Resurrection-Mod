@@ -129,7 +129,6 @@
       "reload": 110
     },
   ],
-}
 "weapons": [
   {
 "name": "Suppression-cannon",
@@ -429,3 +428,4 @@
 }
 },
 ]
+}
