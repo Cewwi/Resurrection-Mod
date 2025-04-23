@@ -149,10 +149,10 @@
       "type": "RegionPart",
       "suffix": "-glow",
       "layer": -1,
-      "mirror": false,
+      "mirror": true,
       "blending": "additive",
-      "color": "D7FFB8FF",
-      "colorTo": "6BDE5DFF",
+      "color": "C6FF6BFF",
+      "colorTo": "C6FF6BFF",
       "outline": false
     }
   ]
