@@ -137,6 +137,7 @@
   "y": 49.75,
   "shootY": 10,
   "reload": 20,
+  "top": false,
   "rotate": true,
   "beamWidth": 1.75,
   "shootCone": 40,
@@ -153,7 +154,6 @@
     "maxRange": 240
   }
 }
-
   {
 "name": "Suppression-cannon",
 "x": -32,
