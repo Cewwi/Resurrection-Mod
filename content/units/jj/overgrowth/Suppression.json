@@ -13,7 +13,7 @@
   "legCount": 8,
   "legBaseOffset": 30,
   "legLengthScl": 1,
-  "legPairOffset": -20,
+  "legPairOffset": -50,
   "canDrown": false,
   "groundLayer": 87,
   "outlineColor": "0C0D1BFF",
