@@ -153,6 +153,18 @@
   "controllable": true,
   "laserColor": "D7FFB8FF",
   "healColor": "D7FFB8FF",
+     "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": false,
+      "blending": "additive",
+      "color": "D7FFB8FF",
+      "colorTo": "6BDE5DFF",
+      "outline": false
+    }
+  ]
   "bullet": {
     "maxRange": 340
   }
