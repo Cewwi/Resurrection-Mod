@@ -139,7 +139,7 @@
   "shootY": 50,
   "reload": 20,
   "top": true,
-  "rotate": true,
+  "rotate": false,
   "layerOffset": -0.00001,
   "beamWidth": 1.75,
   "rotateSpeed": 0.8,
