@@ -268,7 +268,7 @@
           "lifetime": 225,
           "interp": "circleOut",
           "cone": 40,
-          "offset": 0,
+          "offset": 8,
           "lightColor": "6BDE5DFF",
           "colorFrom": "6BDE5DFF",
           "colorTo": "D7FFB8FF",
