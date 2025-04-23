@@ -143,6 +143,7 @@
   "layerOffset": -0.00001,
   "beamWidth": 1.5,
   "rotateSpeed": 0.8,
+  "rotationLimit": 30.5,
   "shootCone": 10,
   "mirror": true,
   "repairSpeed": 10,
