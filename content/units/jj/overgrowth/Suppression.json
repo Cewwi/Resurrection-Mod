@@ -15,7 +15,7 @@
   "outlineColor": "0C0D1BFF",
   "legLength": 178,
   "legBaseOffset": 20,
-  "legExtension": -120,
+  "legExtension": -50,
   "legContinuousMove": true,
   "allowLegStep": true,
   "legSpeed": 0.7,
