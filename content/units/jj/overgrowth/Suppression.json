@@ -31,6 +31,18 @@
   "maxRange": 2000,
   "flying": false,
   "rotateSpeed": 1.5,
+  "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": false,
+      "blending": "additive",
+      "color": "D7FFB8FF",
+      "colorTo": "6BDE5DFF",
+      "outline": false
+    }
+  ]
   "immunities": [
     "tarred",
     "melting",
