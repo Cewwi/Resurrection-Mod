@@ -269,9 +269,9 @@
           "interp": "circleOut",
           "cone": 40,
           "offset": 0,
-          "lightColor": "abb0a6",
-          "colorFrom": "73b879",
-          "colorTo": "abb0a6",
+          "lightColor": "6BDE5DFF",
+          "colorFrom": "6BDE5DFF",
+          "colorTo": "D7FFB8FF",
           "sizeFrom": 7,
           "sizeTo": 0
           },
