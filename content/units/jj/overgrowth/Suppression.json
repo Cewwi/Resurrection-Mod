@@ -194,7 +194,7 @@
 "rotateSpeed": 0.6,
 "shootY": 16,
 "recoil": 3,
-"shootSound": "shootBig",
+"shootSound": "plasmaboom",
   "parts": [
     {
       "type": "RegionPart",
@@ -255,7 +255,7 @@
         "height": 28.5,
         "width": 28.5,
         "speed": 6,
-        "hitSound": "plasmaboom",
+        "hitSound": "Energy-Explosion",
         "lifetime": 110,
         "homingPower": 0.00856,
         "homingRange": 160,
