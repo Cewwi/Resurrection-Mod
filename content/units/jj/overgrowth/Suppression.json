@@ -207,6 +207,39 @@
       "outline": false
     }
   ]
+    "shootEffect": [
+          {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 10,
+          "length": 9,
+          "baseLength": 9,
+          "lifetime": 25,
+          "interp": "circleOut",
+          "cone": 40,
+          "offset": 0,
+          "lightColor": "ffb98b",
+          "colorFrom": "fff8e8",
+          "colorTo": "ffb98b",
+          "sizeFrom": 7,
+          "sizeTo": 0
+          },
+          {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "length": 9,
+          "baseLength": 9,
+          "lifetime": 10,
+          "interp": "circleOut",
+          "cone": 40,
+          "offset": 0,
+          "lightColor": "abb0a6",
+          "colorFrom": "73b879",
+          "colorTo": "abb0a6",
+          "sizeFrom": 7,
+          "sizeTo": 0
+          },
+        ]
 "bullet": {
   
         "type": "BasicBulletType",
