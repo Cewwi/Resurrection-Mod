@@ -134,13 +134,14 @@
   {
 "name": "Suppression-cannon",
   "type": "RepairBeamWeapon",
-  "x": 3,
-  "y": 49.75,
-  "shootY": 10,
+  "x": 48,
+  "y": 43.75,
+  "shootY": 50,
   "reload": 20,
   "top": false,
   "rotate": true,
   "beamWidth": 1.75,
+  "rotateSpeed": 0.8,
   "shootCone": 40,
   "mirror": true,
   "repairSpeed": 10,
@@ -152,7 +153,7 @@
   "laserColor": "D7FFB8FF",
   "healColor": "D7FFB8FF",
   "bullet": {
-    "maxRange": 240
+    "maxRange": 340
   }
 }
   {
@@ -161,7 +162,7 @@
 "y": 3,
 "mirror": true,
 "top": true,
-"heatColor": "f9350f",
+"heatColor": "D7FFB8FF",
 "reload": 150,
 "rotate": true,
 "layerOffset": 1,
