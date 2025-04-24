@@ -9,6 +9,8 @@
   "health": 5300000,
   "drownTimeMultiplier": 99999999999999,
   "legMaxLength": 30,
+  "legMaxLength": 58,
+  "legExtension": -25,
   "legCount": 8,
   "legBaseOffset": 20,
   "legLengthScl": 1,
