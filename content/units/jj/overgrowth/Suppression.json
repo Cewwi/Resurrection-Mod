@@ -545,6 +545,7 @@
         "smokeEffect": "pointHit",
         "maxRange": 250,
         "damage": 40,
-      }
+      },
+   },
 ]
 }
