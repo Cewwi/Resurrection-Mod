@@ -27,37 +27,45 @@ mechLegColor: 0C0D1BFF
 weapons: [
 {
     name: gem-point-def
-    x: -12
-    y: 3
-    rotateSpeed: 1.5
-    mirror: false
-    rotate: true
-    shootY: 4
-    cooldownTime: 120
-    inaccuracy: 2
-    rotationLimit: 120
-    reload: 6
-    shootSound: Machine-gun
-    ejectEffect: casing1
-bullet: {
-    type: BasicBulletType
-    removeAfterPierce: false
-    collideTerrain: true
-    ammoMultiplier: 2
-    height: 12
-    width: 6.5
-    pierceDamageFactor: 0.8
-    pierceCap: 3
-    lifetime: 53
-    damage: 10
-    speed: 8.5
-    lightColor: FFB570FF
-    lightOpacity: 0.7
-    lightRadius: 12
-    trailColor: FFB570FF
-    trailLength: 30
-    trailWidth: 1.25
+  type: PointDefenseWeapon
+  controllable: false
+  autoTarget: true
+  targetInterval: 2
+  targetSwitchInterval: 2
+  y: 0
+  x: 8
+  rotate: true
+  shootY: 4
+  reload: 0.25
+  recoil: 1
+  shootSound: lasershoot
+  bullet: {
+    hitEffect: pointHit
+    smokeEffect: pointHit
+    maxRange: 50
+    damage: 5
+  }
 }
-    }
+  {
+    name: gem-point-def
+  type: PointDefenseWeapon
+  controllable: false
+  autoTarget: true
+  targetInterval: 2
+  targetSwitchInterval: 2
+  y: 0
+  x: -8
+  rotate: true
+  shootY: 4
+  reload: 0.25
+  recoil: 1
+  shootSound: lasershoot
+  bullet: {
+    hitEffect: pointHit
+    smokeEffect: pointHit
+    maxRange: 50
+    damage: 5
+  }
+}
 ]
 researchCostMultiplier: 2.5
