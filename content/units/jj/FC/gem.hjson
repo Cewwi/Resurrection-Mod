@@ -53,8 +53,9 @@ weapons: [
   autoTarget: true
   targetInterval: 2
   targetSwitchInterval: 2
-  y: 0
+  y: 3
   x: -8
+  rotationLimit: 52.5
   rotate: true
   shootY: 4
   reload: 0.25
