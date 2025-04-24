@@ -528,5 +528,23 @@
         "backColor": "C6FF6BFF"
 }
 },
+   {
+      "type": "PointDefenseWeapon",
+      "controllable": false,
+      "autoTarget": true,
+      "targetInterval": 5,
+      "targetSwitchInterval": 5,
+      "y": -8,
+      "rotate": true,
+      "shootY": 4,
+      "reload": 1,
+      "recoil": 1,
+      "shootSound": "lasershoot",
+      "bullet": {
+        "hitEffect": "pointHit",
+        "smokeEffect": "pointHit",
+        "maxRange": 250,
+        "damage": 40,
+      }
 ]
 }
