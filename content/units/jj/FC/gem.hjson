@@ -25,15 +25,16 @@ mechLegColor: 0C0D1BFF
     }
 ]
 weapons: [
-{
+  {
     name: gem-point-def
   type: PointDefenseWeapon
   controllable: false
   autoTarget: true
-  targetInterval: 2
-  targetSwitchInterval: 2
-  y: 0
-  x: 8
+  targetInterval: 8
+  targetSwitchInterval: 8
+  y: 3
+  x: -8
+  rotationLimit: 52.5
   rotate: true
   shootY: 4
   reload: 0.25
@@ -46,15 +47,15 @@ weapons: [
     damage: 5
   }
 }
-  {
+{
     name: gem-point-def
   type: PointDefenseWeapon
   controllable: false
   autoTarget: true
-  targetInterval: 2
-  targetSwitchInterval: 2
+  targetInterval: 8
+  targetSwitchInterval: 8
   y: 3
-  x: -8
+  x: 8
   rotationLimit: 52.5
   rotate: true
   shootY: 4
