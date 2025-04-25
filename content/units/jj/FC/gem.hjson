@@ -107,7 +107,7 @@ bullet: {
     width: 6.5
     pierceDamageFactor: 0.5
     pierceCap: 2
-    lifetime: 12
+    lifetime: 20
     damage: 10
     speed: 8.5
     lightColor: D1EFFFFF
