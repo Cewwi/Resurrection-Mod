@@ -73,5 +73,50 @@ weapons: [
     damage: 5
   }
 }
+{
+    x: 0
+    y: -1
+    rotateSpeed: 1.5
+    mirror: false
+    rotate: true
+    shootY: 0
+    cooldownTime: 120
+    inaccuracy: 2
+    rotationLimit: 180
+    reload: 6
+    shootSound: Machine-gun
+    ejectEffect: casing1
+parts: [
+{
+    type: RegionPart
+    suffix: -berl
+    progress: recoil
+    outline: true
+    mirror: false
+    moveY: -1
+    under: true
+    x: 0
+    y: 0
+}
+    ]
+bullet: {
+    type: BasicBulletType
+    removeAfterPierce: false
+    collideTerrain: true
+    height: 12
+    width: 6.5
+    pierceDamageFactor: 0.8
+    pierceCap: 3
+    lifetime: 53
+    damage: 10
+    speed: 8.5
+    lightColor: D1EFFFFF
+    lightOpacity: 0.7
+    lightRadius: 12
+    trailColor: D1EFFFFF
+    trailLength: 30
+    trailWidth: 1.25
+}
+    }
 ]
 researchCostMultiplier: 2.5
