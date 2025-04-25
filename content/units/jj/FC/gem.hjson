@@ -105,9 +105,9 @@ bullet: {
     collideTerrain: true
     height: 12
     width: 6.5
-    pierceDamageFactor: 0.8
-    pierceCap: 3
-    lifetime: 53
+    pierceDamageFactor: 0.5
+    pierceCap: 2
+    lifetime: 12
     damage: 10
     speed: 8.5
     lightColor: D1EFFFFF
