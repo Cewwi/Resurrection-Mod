@@ -34,7 +34,7 @@ color: D1EFFFFF
 stroke: 0
 strokeTo: 2
 radiusTo: 1
-radius: 1
+radius: 3
 }
 ]
 weapons: [
@@ -96,22 +96,9 @@ weapons: [
     cooldownTime: 120
     inaccuracy: 2
     rotationLimit: 180
-    reload: 6
-    shootSound: Machine-gun
-    ejectEffect: casing1
-parts: [
-{
-    type: RegionPart
-    suffix: -berl
-    progress: recoil
-    outline: true
-    mirror: false
-    moveY: -1
-    under: true
-    x: 0
-    y: 0
-}
-    ]
+    reload: 16
+    shootSound: lasershoot
+    ejectEffect: none
 bullet: {
     type: BasicBulletType
     removeAfterPierce: false
