@@ -32,6 +32,7 @@ weapons: [
   autoTarget: true
   targetInterval: 8
   targetSwitchInterval: 8
+  mirror: false
   y: 5
   x: -8
   rotationLimit: 52.5
@@ -55,7 +56,8 @@ weapons: [
   autoTarget: true
   targetInterval: 8
   targetSwitchInterval: 8
-  y: 3
+ mirror: false
+  y: 5
   x: 8
   rotationLimit: 52.5
   rotate: true
