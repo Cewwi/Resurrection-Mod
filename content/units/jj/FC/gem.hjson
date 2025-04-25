@@ -114,6 +114,8 @@ bullet: {
     lightOpacity: 0.7
     lightRadius: 12
     trailColor: D1EFFFFF
+    frontColor: ffffff
+    backColor: D1EFFFFF
     trailLength: 30
     trailWidth: 1.25
 }
