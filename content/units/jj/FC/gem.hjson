@@ -23,6 +23,19 @@ mechLegColor: 0C0D1BFF
       colorTo: D1EFFFFF
       outline: false
     }
+{
+type: shapePart
+y: 0
+x: 0
+hollow: false
+circle: true
+layer: 110
+color: D1EFFFFF
+stroke: 0
+strokeTo: 2
+radiusTo: 1
+radius: 1
+}
 ]
 weapons: [
   {
