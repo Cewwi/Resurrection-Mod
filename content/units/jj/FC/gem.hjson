@@ -36,6 +36,7 @@ weapons: [
   x: -8
   rotationLimit: 52.5
   rotate: true
+  layerOffset: -0.00001
   shootY: 4
   reload: 0.25
   recoil: 1
@@ -58,6 +59,7 @@ weapons: [
   x: 8
   rotationLimit: 52.5
   rotate: true
+  layerOffset: -0.00001
   shootY: 4
   reload: 0.25
   recoil: 1
