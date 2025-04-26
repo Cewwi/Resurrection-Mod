@@ -1,6 +1,6 @@
 type: Duct
 name: Channel
-description: Directs imput items to the output. Emits light.
+description: Directs imput items to the output.
 category: distribution
 alwaysUnlocked: false
 research: Cavern-core
