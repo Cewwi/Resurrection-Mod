@@ -1,6 +1,6 @@
 name: Ordanium
 description: A dark, cold stone.
-hardness: 2
+hardness: 1
 cost: 0.5
 alwaysUnlocked: false
 color: 5c5d59
