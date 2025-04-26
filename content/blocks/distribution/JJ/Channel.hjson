@@ -2,7 +2,7 @@ type: Duct
 name: Channel
 description: Directs imput items to the output.
 category: distribution
-alwaysUnlocked: false
+alwaysUnlocked: true
 research: Cavern-core
 bridgeReplacement: Channel-bridge
 researchCost: [
