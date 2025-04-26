@@ -4,7 +4,7 @@ description: Directs imput items to the output. Emits light.
 category: distribution
 alwaysUnlocked: false
 research: Cavern-core
-bridgeReplacement: duct-bridge
+bridgeReplacement: Channel-bridge
 researchCost: [
   Tronian-quartz/50
 ]
