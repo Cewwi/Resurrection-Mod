@@ -3,7 +3,7 @@ name: Charged Duct
 description: Can be boosted with power. Transports items.
 category: distribution
 alwaysUnlocked: false
-research: Cavern-core
+research: none
 bridgeReplacement: charged-bridge
 researchCost: [
   ChargeStone/250
