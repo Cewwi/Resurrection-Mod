@@ -160,13 +160,11 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
+
 "Tronian-quartz"
-"item-SurgeQuartz"
-"scheelite"
 "evergreen-shard"
 "carborundum"
 "Tronian-Graphite"
-"Surge-PowerCell"
 "Geosium"
 "Charged-crystal"
 "Charged-Alloy"
@@ -183,4 +181,5 @@ itemWhitelist: [
 "Geode-catalyst"
 "Cataclysmium"
 "Argentium-silver"
+
 ]
