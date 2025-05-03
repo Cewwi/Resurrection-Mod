@@ -16,36 +16,97 @@ weapons: [
     x: 9
     top: true
     shootY: 3
-    reload: 90
+    reload: 20
     rotateSpeed: 1.5
     mirror: true
-    alternate: false
+    alternate: true
     cooldownTime: 230
     rotationLimit: 52.5
     rotate: true
     shootCone: 45
-    loopSound: flame
-    shootSound: flame
+    shootSound: laser
     continuous: true
     loopSoundVolume: 0.5
-    bullet: {
-      type: ContinuousLaserBulletType
-      colors: [
-        F7E97EFF
-        F7E97EFF
-        ffffff
-      ]
-      damage: 30
-      layer: 110
-      groundLayer: 61
-      intervalBullets: 2
-      intervalRandomSpread: 1
-      bulletInterval: 2.7
-      drawFlare: false
-      width: 3
-      pierceArmor: true
-      divisions: 20
-      length: 140
+      bullet: {
+      type: LaserBulletType
+        length: 150
+        width: 6
+        damage: 60
+        hitEffect: [
+{
+          type: ParticleEffect
+          line: true
+          particles: 4
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 0
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 4
+          sizeTo: 0
+          }
+{
+          type: ParticleEffect
+          particles: 4
+          length: 2
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 1
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 5
+          sizeTo: 0
+          }
+]
+        shootEffect: [
+{
+          type: ParticleEffect
+          line: true
+          particles: 4
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 0
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 4
+          sizeTo: 0
+          }
+{
+          type: ParticleEffect
+          particles: 4
+          length: 2
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset: 1
+          lightColor: F7E97EFF
+          colorFrom: ffffff
+          colorTo: F7E97EFF
+          sizeFrom: 5
+          sizeTo: 0
+          }
+]
+        colors: [
+          F7E97EFF
+          F7E97EFF
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
+    }
 }
 }
 ]
