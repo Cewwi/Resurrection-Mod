@@ -77,16 +77,57 @@ shrinkY: 0
           sizeFrom: 12
           sizeTo: 0
           }
-          bulletInterval: 2
+          bulletInterval: 4
           intervalRandomSpread: 360
           intervalSpread: 300
-          intervalBullet: {
-          type: LightningBulletType
+intervalBullet: [
+{
+  type: BasicBulletType
+  speed: 3.0
+  damage: 8.0
+  width: 9.0
+  hitSize: 5.0
+  height: 15.0
+  pierce: true
+  lifetime: 35.0
+  pierceBuilding: true
+  hitColor: F7E97EFF
+  backColor: F7E97EFF
+  trailColor: F7E97EFF
+  frontColor: ffffff
+  trailWidth: 2.1
+  trailLength: 5
+
+  hitEffect: {
+    type: WaveEffect
+    colorFrom: F7E97EFF
+    colorTo: F7E97EFF
+    sizeTo: 4.0
+    strokeFrom: 4.0
+    lifetime: 10.0
+  }
+
+  despawnEffect: {
+    type: WaveEffect
+    colorFrom: F7E97EFF
+    colorTo: F7E97EFF
+    sizeTo: 4.0
+    strokeFrom: 4.0
+    lifetime: 10.0
+  }
+
+  buildingDamageMultiplier: 0.3
+  homingPower: 0.2
+}
+{
+type: LightningBulletType
           lightningColor: F7E97EFF
           lightningLength: 8
           lightningDamage: 60
           hitSound: spark
           lifetime: 1
+}
+]
     }
   }
 }
