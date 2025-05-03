@@ -133,7 +133,8 @@ weapons: [
         frontColor: F7E97EFF
         trailWidth: 2.1
         trailLength: 5
-        hitEffect: {
+        hitEffect: [
+        {
           type: WaveEffect
           colorFrom: F7E97EFF
           colorTo: F7E97EFF
@@ -150,7 +151,9 @@ weapons: [
           strokeFrom: 4
           lifetime: 10
         }
-        despawnEffect: {
+        ]
+        despawnEffect: [
+        {
           type: WaveEffect
           colorFrom: F7E97EFF
           colorTo: F7E97EFF
@@ -167,6 +170,7 @@ weapons: [
           strokeFrom: 4
           lifetime: 10
         }
+        ]
         buildingDamageMultiplier: 0.3
         homingPower: 0.2
       }
@@ -186,7 +190,8 @@ weapons: [
         frontColor: F7E97EFF
         trailWidth: 2.1
         trailLength: 5
-        hitEffect: {
+        hitEffect: [
+        {
           type: WaveEffect
           colorFrom: F7E97EFF
           colorTo: F7E97EFF
@@ -203,7 +208,9 @@ weapons: [
           strokeFrom: 4
           lifetime: 10
         }
-        despawnEffect: {
+        ]
+        despawnEffect: [
+        {
           type: WaveEffect
           colorFrom: F7E97EFF
           colorTo: F7E97EFF
@@ -220,6 +227,7 @@ weapons: [
           strokeFrom: 4
           lifetime: 10
         }
+        ]
         buildingDamageMultiplier: 0.3
         homingPower: 0.2
       }
