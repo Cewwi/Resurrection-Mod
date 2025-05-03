@@ -11,9 +11,9 @@ outlineColor: 2d2f39
 mechLegColor: 2d2f39
 weapons: [
   {
-    name: Sobretensión-cannon
+    name: Kalimtare-cannon
     y: 0
-    x: 13
+    x: 17
     mirror: true
     alternate: true
     newTargetInterval: 40
