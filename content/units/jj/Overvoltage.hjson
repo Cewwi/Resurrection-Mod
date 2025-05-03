@@ -130,6 +130,5 @@ type: LightningBulletType
 ]
     }
   }
-}
 ]
 researchCostMultiplier: 2.5
