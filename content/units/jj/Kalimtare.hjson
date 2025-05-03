@@ -25,6 +25,11 @@ weapons: [
     recoil: 3
     range: 300
     shootCone: 20
+  shoot: {
+    type: ShootAlternate
+    shotDelay: 10
+    shots: 2
+  },
     shootSound: cannon
     bullet: {
       type: BasicBulletType
@@ -43,22 +48,39 @@ weapons: [
       trailEffect: missileTrail
       trailInterval: 3
       trailParam: 4
-      pierceCap: 2
+      pierceCap: 3
       buildingDamageMultiplier: 0.5
       fragOnHit: false
-      speed: 5
-      damage: 180
-      lifetime: 80
-      width: 16
-      height: 16
+      speed: 7
+      damage: 220
+      lifetime: 85
+      width: 18
+      height: 18
       backColor: F7E97EFF
       frontColor: ffffff
       shrinkX: 0
       shrinkY: 0
       trailColor: F7E97EFF
-      trailLength: 12
-      trailWidth: 2.2
-      despawnEffect: {
+      trailLength: 14
+      trailWidth: 2.3
+      despawnEffect: [
+        {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 10
+          strokeFrom: 4
+          lifetime: 10
+        }
+         {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 15
+          strokeFrom: 4
+          lifetime: 10
+        }
+        {
         type: ExplosionEffect
         waveColor: F7E97EFF
         smokeColor: ffffff
@@ -66,23 +88,42 @@ weapons: [
         waveStroke: 4
         waveRad: 40
       }
-      hitEffect: {
+   ]
+      hitEffect: [
+        {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 10
+          strokeFrom: 4
+          lifetime: 10
+        }
+         {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 15
+          strokeFrom: 4
+          lifetime: 10
+        }
+        {
         type: ExplosionEffect
         waveColor: F7E97EFF
         smokeColor: ffffff
-        sparkColor: F7E97EFF
+        sparkColor: 665c9f
         waveStroke: 4
         waveRad: 40
       }
+   ]
       despawnSound: dullExplosion
       shootSound: cannon
       fragBullet: {
         type: BasicBulletType
-        speed: 3
-        damage: 35
-        width: 9
-        hitSize: 5
-        height: 15
+        speed: 6
+        damage: 45
+        width: 10
+        hitSize: 6
+        height: 21
         pierce: true
         lifetime: 35
         pierceBuilding: true
@@ -100,6 +141,15 @@ weapons: [
           strokeFrom: 4
           lifetime: 10
         }
+        {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 6
+          shape: 4
+          strokeFrom: 4
+          lifetime: 10
+        }
         despawnEffect: {
           type: WaveEffect
           colorFrom: F7E97EFF
@@ -108,23 +158,32 @@ weapons: [
           strokeFrom: 4
           lifetime: 10
         }
+        {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 6
+          shape: 4
+          strokeFrom: 4
+          lifetime: 10
+        }
         buildingDamageMultiplier: 0.3
         homingPower: 0.2
       }
       intervalBullet: {
         type: BasicBulletType
-        speed: 3
-        damage: 35
-        width: 9
-        hitSize: 5
-        height: 15
+        speed: 6
+        damage: 45
+        width: 10
+        hitSize: 6
+        height: 21
         pierce: true
         lifetime: 35
         pierceBuilding: true
         hitColor: F7E97EFF
         backColor: F7E97EFF
         trailColor: F7E97EFF
-        frontColor: ffffff
+        frontColor: F7E97EFF
         trailWidth: 2.1
         trailLength: 5
         hitEffect: {
@@ -135,6 +194,15 @@ weapons: [
           strokeFrom: 4
           lifetime: 10
         }
+        {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 6
+          shape: 4
+          strokeFrom: 4
+          lifetime: 10
+        }
         despawnEffect: {
           type: WaveEffect
           colorFrom: F7E97EFF
@@ -143,15 +211,24 @@ weapons: [
           strokeFrom: 4
           lifetime: 10
         }
+        {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 6
+          shape: 4
+          strokeFrom: 4
+          lifetime: 10
+        }
         buildingDamageMultiplier: 0.3
         homingPower: 0.2
       }
-      bulletInterval: 3
+      bulletInterval: 2
       intervalRandomSpread: 20
       intervalBullets: 2
       intervalAngle: 180
       intervalSpread: 300
-      fragBullets: 20
+      fragBullets: 25
       fragVelocityMin: 0.5
       fragVelocityMax: 1.5
       fragLifeMin: 0.5
