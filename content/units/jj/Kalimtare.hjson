@@ -1,7 +1,7 @@
 wtype: mech
 name: Kalimtare
 description: Fires a small surge of electricity.
-speed: 0.5
+speed: 0.54
 template: ErekirUnitType
 flying: false
 health: 20600
@@ -10,84 +10,153 @@ hitSize: 34
 outlineColor: 2d2f39
 mechLegColor: 2d2f39
 weapons: [
-{
-    name: Surge-catipult
-    y: -2
-    x: 15
-    shooty: 4
-    reload: 40
-    alternate: true
-    mirror: true
-    rotate: true
-    inaccuracy: 0
-    shootSound: cannon
-    shootSoundVolume: 0.05
-    bullet: {
-    type: BasicBulletType
-    sprite: large-orb
-    lightRadius: 10
-    lightColor: ffFFFFff
-    damage: 70
-    scaleVelocity: true
-    splashDamage: 70
-    splashDamageRadius: 30
-    height: 13.5
-    width: 13.5
-    speed: 4.5
-    lifetime: 75
-    shrinkX: 0
-    trailEffect: {
-        type: ParticleEffect
-        particles: 9
-        length: 3
-        baseLength: 3
-        lifetime: 25
-        interp: circleOut
-        cone: 360
-        offset: 1
-        lightColor: F7E97EFF
-        colorFrom: ffffff
-        colorTo: F7E97EFF
-        sizeFrom: 4
-        sizeTo: 0
-        shrinkY: 0
-        trailChance: 2
-        trailParam: 10
-        trailLength: 19
-        trailColor: F7E97EFF
-        trailWidth: 3
-        }
-  }
-}
   {
-    name: Kalimtare-cannon
-    y: 3
-    x: 17
-    shooty: 3
-    reload: 8
-    alternate: true
+    name: Sobretensión-cannon
+    y: 0
+    x: 13
     mirror: true
-    rotate: false
-    layerOffset: -0.00001
+    alternate: true
+    newTargetInterval: 40
     inaccuracy: 1
-    shootSound: shootBig
+    shake: 4
+    layerOffset: -0.00001
+    shootY: 4
+    reload: 100
+    recoil: 3
+    range: 300
+    shootCone: 20
+    shootSound: cannon
     bullet: {
       type: BasicBulletType
-      sprite: bullet
-      lightRadius: 12
-      lightColor: C6FF6BFF
-      speed: 14
-      trailColor: F7E97EFF
-      frontColor: F7E97EFF
-      backColor: ffffff
-      lifetime: 60
-      damage: 20.5
-      width: 23
-      height: 38
-      pierce: true
+      shootEffect: [
+        {
+          type: WaveEffect
+          colorTo: F7E97EFF
+          sizeTo: 26
+          lifetime: 14
+          strokeFrom: 4
+        }
+      ]
+      smokeEffect: shootSmokeTitan
+      hitColor: F7E97EFF
+      sprite: large-orb
+      trailEffect: missileTrail
+      trailInterval: 3
+      trailParam: 4
+      pierceCap: 2
+      buildingDamageMultiplier: 0.5
+      fragOnHit: false
+      speed: 5
+      damage: 180
+      lifetime: 80
+      width: 16
+      height: 16
+      backColor: F7E97EFF
+      frontColor: ffffff
       shrinkX: 0
       shrinkY: 0
-}
-}
+      trailColor: F7E97EFF
+      trailLength: 12
+      trailWidth: 2.2
+      despawnEffect: {
+        type: ExplosionEffect
+        waveColor: F7E97EFF
+        smokeColor: ffffff
+        sparkColor: 665c9f
+        waveStroke: 4
+        waveRad: 40
+      }
+      hitEffect: {
+        type: ExplosionEffect
+        waveColor: F7E97EFF
+        smokeColor: ffffff
+        sparkColor: F7E97EFF
+        waveStroke: 4
+        waveRad: 40
+      }
+      despawnSound: dullExplosion
+      shootSound: cannon
+      fragBullet: {
+        type: BasicBulletType
+        speed: 3
+        damage: 35
+        width: 9
+        hitSize: 5
+        height: 15
+        pierce: true
+        lifetime: 35
+        pierceBuilding: true
+        hitColor: F7E97EFF
+        backColor: F7E97EFF
+        trailColor: F7E97EFF
+        frontColor: F7E97EFF
+        trailWidth: 2.1
+        trailLength: 5
+        hitEffect: {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 4
+          strokeFrom: 4
+          lifetime: 10
+        }
+        despawnEffect: {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 4
+          strokeFrom: 4
+          lifetime: 10
+        }
+        buildingDamageMultiplier: 0.3
+        homingPower: 0.2
+      }
+      intervalBullet: {
+        type: BasicBulletType
+        speed: 3
+        damage: 35
+        width: 9
+        hitSize: 5
+        height: 15
+        pierce: true
+        lifetime: 35
+        pierceBuilding: true
+        hitColor: F7E97EFF
+        backColor: F7E97EFF
+        trailColor: F7E97EFF
+        frontColor: ffffff
+        trailWidth: 2.1
+        trailLength: 5
+        hitEffect: {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 4
+          strokeFrom: 4
+          lifetime: 10
+        }
+        despawnEffect: {
+          type: WaveEffect
+          colorFrom: F7E97EFF
+          colorTo: F7E97EFF
+          sizeTo: 4
+          strokeFrom: 4
+          lifetime: 10
+        }
+        buildingDamageMultiplier: 0.3
+        homingPower: 0.2
+      }
+      bulletInterval: 3
+      intervalRandomSpread: 20
+      intervalBullets: 2
+      intervalAngle: 180
+      intervalSpread: 300
+      fragBullets: 20
+      fragVelocityMin: 0.5
+      fragVelocityMax: 1.5
+      fragLifeMin: 0.5
+    }
+  }
 ]
+
 researchCostMultiplier: 2.5
