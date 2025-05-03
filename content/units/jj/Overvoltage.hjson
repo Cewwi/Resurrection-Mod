@@ -1,5 +1,5 @@
 type: mech
-name: Overvoltage
+name: Charge
 description: Fires a ball of electricity.
 template: ErekirUnitType
 speed: 0.6
