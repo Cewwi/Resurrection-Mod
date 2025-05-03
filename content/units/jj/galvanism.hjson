@@ -1,6 +1,6 @@
 type: mech
 name: Galvanism
-description: Fires two beams.
+description: Fires 3 beams per shot.
 speed: 0.65
 template: ErekirUnitType
 flying: false
@@ -29,7 +29,7 @@ weapons: [
     loopSoundVolume: 0.5
 shoot: {
     type: ShootSpread
-    spread: 180
+    spread: 30
     shots: 3
   }
       bullet: {
