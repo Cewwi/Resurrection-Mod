@@ -29,13 +29,13 @@ weapons: [
     loopSoundVolume: 0.5
 shoot: {
     type: ShootSpread
-    spread: 30
+    spread: 5
     shots: 3
   }
       bullet: {
       type: LaserBulletType
-        length: 225
-        width: 8
+        length: 175
+        width: 6
         damage: 100
         hitEffect: [
 {
