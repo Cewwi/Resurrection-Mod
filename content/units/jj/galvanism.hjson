@@ -28,12 +28,10 @@ weapons: [
     continuous: true
     loopSoundVolume: 0.5
 shoot: {
-    type": ShootAlternate
-    barrels: 3,
-    spread: 30,
-    shotDelay: 0
+    type: ShootSpread
+    spread: 180
     shots: 3
-  },
+  }
       bullet: {
       type: LaserBulletType
         length: 150
