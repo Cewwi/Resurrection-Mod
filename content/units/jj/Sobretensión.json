@@ -1,13 +1,13 @@
 {
 "type": "mech",
 "name": "Sobretensión",
-"description": "Fires 2 massive charged orbs of fragmentary flak.",
-"speed": 0.4,
+"description": "Fires 2 charged orbs of fragmentary flak.",
+"speed": 0.67,
 "template": "ErekirUnitType",
 "flying": false,
-"health": 650,
-"armor": 9,
-"hitSize": 14,
+"health": 10000,
+"armor": 18,
+"hitSize": 15,
 "outlineColor": "2d2f39",
 "mechLegColor": "2d2f39",
 "weapons": [
