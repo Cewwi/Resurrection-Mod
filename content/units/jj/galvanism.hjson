@@ -34,9 +34,9 @@ shoot: {
   }
       bullet: {
       type: LaserBulletType
-        length: 150
-        width: 6
-        damage: 60
+        length: 225
+        width: 8
+        damage: 100
         hitEffect: [
 {
           type: ParticleEffect
