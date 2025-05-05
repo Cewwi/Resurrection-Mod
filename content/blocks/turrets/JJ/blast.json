@@ -57,8 +57,8 @@
   "frontColor": "FFFFFF"
   "trailWidth": 2.1
   "trailLength": 4
-  "hitEffect": "titanSmokeSmall"
-  "despawnEffect": "titanSmokeSmall",
+  "hitEffect": "hitBulletColor"
+  "despawnEffect": "hitBulletColor",
   "buildingDamageMultiplier": 0.5
 }
 }
