@@ -1,0 +1,136 @@
+{
+  "type": "ItemTurret",
+  "coolantMultiplier": 1.1,
+  "name": "Dread",
+  "description": "A large turret that uses 2 very powerful cannon to annihilate foes.",
+  "ammoPerShot": 3,
+  "reload": 75,
+  "range": 262,
+  "outlineColor": "0C0D1BFF",
+  "recoil": 3,
+  "shake": 1.2,
+  "inaccuracy": 0,
+  "category": "turret",
+  "targetUnderBlocks": false,
+  "shootY": 5,
+  "shootCone": 3,
+  "firstShotDelay": 50,
+  "research": "",
+  "shake": 3,
+  "requirements": [
+  "Silver/250",
+  "carborundum/750",
+  "Ordanium/450",
+  "Magma-stone/500",
+  ]
+  "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "slag",
+    "amount": 5
+  },
+   "consumes": {
+    "power": 4,
+  },
+  "size": 8,
+  "health": 55250,
+  "armor": 5,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "Magmian-"
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-brl1",
+        "moveX": 0,
+        "under": true,
+        "alternate": true,
+        "moveY": -5,
+        "progress": {
+          "type": "recoil",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2,
+        },
+        "mirror": false
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-brl2",
+        "moveX": 0,
+        "under": true,
+        "alternate": true,
+        "moveY": -5,
+        "progress": {
+          "type": "recoil",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2,
+        },
+        "mirror": false
+      },
+      {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "FFB570FF",
+      "colorTo": "FFB570FF",
+      "outline": false,
+    },
+]
+},
+"shootSound": "mediumCannon",
+  "ammoTypes": {
+"Magma-stone": {
+"type": "BasicBulletType",
+  "collideTerrain": true,
+  "sprite": "circle-bullet",
+  "status": "melting",
+  "statusDuration": 200,
+  "lightRadius": 80,
+  "lightColor": "FFB570FF",
+  "speed": 15,
+  "lifetime": 48,
+  "width": 15,
+  "hitSize": 20,
+  "damage": 1250,
+  "height": 15,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 5,
+  "pierce": true
+  "pierceBuilding": true
+   "trailEffect": {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "length": 9,
+          "baseLength": 9,
+          "lifetime": 25,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 5,
+          "lightColor": "FFB570FF",
+          "colorFrom": "FFB570FF",
+          "colorTo": "505050FF",
+          "sizeFrom": 7,
+          "sizeTo": 0
+        },
+        "trailChance": 1,
+        "trailParam": 5,
+        "trailLength": 9,
+        "trailColor": "FFB570FF",
+        "trailWidth": 9,
+  "buildingDamageMultiplier": 0.5
+  "hitEffect": "scatheExplosion",
+  "despawnEffect": "scatheExplosion",
+  "hitColor": "FFB570FF",
+}
+}
+"research": {
+"objectives": [
+"sublimate"
+]
+}
+}
