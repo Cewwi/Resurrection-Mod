@@ -12,7 +12,7 @@
   "inaccuracy": 0,
   "category": "turret",
   "targetUnderBlocks": false,
-  "shootY": 5,
+  "shootY": 15,
   "shootCone": 3,
   "firstShotDelay": 50,
   "research": "",
