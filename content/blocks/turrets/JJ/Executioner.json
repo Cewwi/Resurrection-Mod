@@ -3,8 +3,8 @@
   "coolantMultiplier": 1.1,
   "name": "Executioner",
   "description": "Fires shells across great distances.",
-  "ammoPerShot": 3,
-  "reload": 75,
+  "ammoPerShot": 2,
+  "reload": 45,
   "range": 262,
   "outlineColor": "0C0D1BFF",
   "recoil": 3,
@@ -14,7 +14,7 @@
   "targetUnderBlocks": false,
   "shootY": 15,
   "shootCone": 3,
-  "firstShotDelay": 50,
+  "firstShotDelay": 150,
   "research": "",
   "shake": 3,
   "requirements": [
@@ -27,9 +27,6 @@
     "type": "ConsumeLiquid",
     "liquid": "slag",
     "amount": 5
-  },
-   "consumes": {
-    "power": 4,
   },
   "size": 3,
   "health": 2250,
