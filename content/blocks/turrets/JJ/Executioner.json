@@ -80,7 +80,7 @@
     },
 ]
 },
-"shootSound": "mediumCannon",
+"shootSound": "Cannon-large",
   "ammoTypes": {
 "Magma-stone": {
 "type": "BasicBulletType",
@@ -123,8 +123,8 @@
         "trailColor": "FFB570FF",
         "trailWidth": 9,
   "buildingDamageMultiplier": 0.5
-  "hitEffect": "scatheExplosion",
-  "despawnEffect": "scatheExplosion",
+  "hitEffect": "titanExplosionSmall",
+  "despawnEffect": "titanExplosionSmall",
   "hitColor": "FFB570FF",
 }
 }
