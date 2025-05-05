@@ -31,9 +31,9 @@
    "consumes": {
     "power": 4,
   },
-  "size": 8,
-  "health": 55250,
-  "armor": 5,
+  "size": 3,
+  "health": 2250,
+  "armor": 4,
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "Magmian-"
@@ -44,7 +44,7 @@
         "moveX": 0,
         "under": true,
         "alternate": true,
-        "moveY": -5,
+        "moveY": 10,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -59,7 +59,7 @@
         "moveX": 0,
         "under": true,
         "alternate": true,
-        "moveY": -5,
+        "moveY": 10,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -123,8 +123,8 @@
         "trailColor": "FFB570FF",
         "trailWidth": 9,
   "buildingDamageMultiplier": 0.5
-  "hitEffect": "scatheExplosion",
-  "despawnEffect": "scatheExplosion",
+  "hitEffect": "launchPod",
+  "despawnEffect": "launchPod",
   "hitColor": "FFB570FF",
 }
 }
