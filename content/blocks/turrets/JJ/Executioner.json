@@ -46,7 +46,7 @@
         "alternate": true,
         "moveY": -5,
         "progress": {
-          "type": "recoil",
+          "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0.2,
@@ -61,7 +61,7 @@
         "alternate": true,
         "moveY": -5,
         "progress": {
-          "type": "recoil",
+          "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0.2,
