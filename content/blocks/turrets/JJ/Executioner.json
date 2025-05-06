@@ -5,7 +5,7 @@
   "description": "Fires shells across great distances.",
   "ammoPerShot": 2,
   "reload": 25,
-  "range": 262,
+  "range": 832,
   "outlineColor": "0C0D1BFF",
   "recoil": 3,
   "shake": 1.2,
