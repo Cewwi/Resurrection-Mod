@@ -28,7 +28,7 @@
     "liquid": "slag",
     "amount": 5
   },
-  "size": 3,
+  "size": 4,
   "health": 2250,
   "armor": 4,
   "drawer": {
@@ -37,31 +37,29 @@
     "parts": [
       {
         "type": "RegionPart",
-        "suffix": "-brl1",
-        "moveX": 0,
-        "under": true,
-        "alternate": true,
-        "moveY": 20,
-        "progress": {
-          "type": "warmup",
-          "op": "blend",
-          "other": "heat",
-          "amount": 0.2,
-        },
-        "mirror": false
-      },
-      {
-        "type": "RegionPart",
         "suffix": "-brl2",
         "moveX": 0,
-        "under": true,
-        "alternate": true,
+        "under": false,
         "moveY": 40,
         "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2,
+          "amount": -0.2,
+        },
+        "mirror": false
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-brl1",
+        "moveX": 0,
+        "under": false,
+        "moveY": 20,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": -0.2,
         },
         "mirror": false
       },
@@ -118,7 +116,7 @@
         "trailParam": 5,
         "trailLength": 9,
         "trailColor": "FFB570FF",
-        "trailWidth": 9,
+        "trailWidth": 2,
   "buildingDamageMultiplier": 0.5
   "hitEffect": "launchPod",
   "despawnEffect": "launchPod",
