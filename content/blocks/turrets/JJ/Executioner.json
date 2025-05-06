@@ -14,7 +14,6 @@
   "targetUnderBlocks": false,
   "shootY": 15,
   "shootCone": 3,
-  "firstShotDelay": 150,
   "research": "",
   "shake": 3,
   "requirements": [
@@ -81,6 +80,7 @@
 "type": "BasicBulletType",
   "collideTerrain": true,
   "sprite": "circle-bullet",
+  "firstShotDelay": 150,
   "status": "melting",
   "statusDuration": 150,
   "lightRadius": 80,
@@ -88,13 +88,13 @@
   "speed": 15,
   "lifetime": 48,
   "width": 7,
-  "hitSize": 20,
-  "damage": 1250,
+  "hitSize": 7,
+  "damage": 75,
   "height": 15,
   "shootEffect": "shootBig",
   "smokeEffect": "shootBigSmoke",
   "ammoMultiplier": 1,
-  "pierceCap": 5,
+  "pierceCap": 3,
   "pierce": true
   "pierceBuilding": true
    "trailEffect": {
