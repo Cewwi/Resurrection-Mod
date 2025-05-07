@@ -39,7 +39,7 @@
         "suffix": "-brl2",
         "moveX": 0,
         "under": true,
-        "moveY": 40,
+        "moveY": 44,
         "progress": {
           "type": "warmup",
           "op": "blend",
