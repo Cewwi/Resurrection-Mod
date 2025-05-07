@@ -1,6 +1,6 @@
 {
   "type": "ItemTurret",
-  "coolantMultiplier": 1.1,
+  "coolantMultiplier": 0.4,
   "name": "Executioner",
   "description": "Fires shells across great distances.",
   "ammoPerShot": 2,
@@ -39,7 +39,7 @@
         "suffix": "-brl2",
         "moveX": 0,
         "under": true,
-        "moveY": 44,
+        "moveY": 39,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -99,12 +99,12 @@
   "pierceBuilding": true
    "trailEffect": {
           "type": "ParticleEffect",
-          "particles": 5,
+          "particles": 1,
           "length": 7,
           "baseLength": 9,
           "lifetime": 25,
           "interp": "circleOut",
-          "cone": 360,
+          "cone": 0,
           "offset": 0,
           "lightColor": "FFB570FF",
           "colorFrom": "FFB570FF",
