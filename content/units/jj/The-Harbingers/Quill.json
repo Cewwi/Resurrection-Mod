@@ -1,6 +1,6 @@
 {
 "localizedName": "Quill",
-"description": "Fires large fragging shells at enemy targets. Has a small shock aura."
+"description": "Fires fragging shells at enemy targets. Has a small shock aura."
 "faceTarget": false,
 "squareShape": true,
 "type": "tank",
@@ -29,55 +29,117 @@
 "x": 0,
 "y": 0,
 "top": true,
-  "shooty": 43,
-  "reload": 5,
-  "rotateSpeed": 1.5,
-  "mirror": true,
-  "alternate": false,
-  "cooldownTime": 90,
-  "rotate": true,
-  "shootCone": 45,
-  "loopSound": "torch",
-  "shootSound": "torch",
-  "incendAmount": 4,
-  "alwaysShooting": false,
-  "alwaysContinuous": true,
-  "layerOffset": 1,
-  "continuous": true,
-  "parts": [
-    {
-      "type": "RegionPart",
-      "suffix": "-glow",
-      "layer": -1,
-      "mirror": true,
-      "blending": "additive",
-      "color": "ff0000AA",
-      "colorTo": "ff0000AA",
-      "outline": false
-    }
-  ]
-  "bullet": {
-    "type": "ContinuousFlameBulletType",
-    "colors": [
-      "ff9d5c",
-      "ffb98b",
-      "ffb98b",
-      "ffffff"
-    ],
-    "damage": 30,
-    "lightColor": "ffb98b",
-    "flareColor": "ffb98b",
-    "groundLayer": 61,
-    "intervalBullets": 2,
-    "intervalRandomSpread": 1,
-    "bulletInterval": 2.7,
-    "drawFlare": true,
-    "width": 6,
-    "pierceArmor": true,
-    "divisions": 20,
-    "length": 240,
-    "hitEffect": "shootSmokeTitan",
-  }
-}
+"reload": 10,
+"rotate": true,
+"layerOffset": 1,
+"rotateSpeed": 1,
+"shootY": 5,
+"recoil": 2,
+"shootSound": "shootBig",
+"bullet": {
+"type": "BasicBulletType",
+        "damage": 30,
+        "height": 12,
+        "width": 8,
+        "speed": 4,
+        "lifetime": 60,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "frontColor": "ffdfca",
+        "backColor": "ffb98b"
+        "trailEffect": [
+          {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 10,
+          "length": 9,
+          "baseLength": 9,
+          "lifetime": 25,
+          "interp": "circleOut",
+          "cone": 0,
+          "offset": 3,
+          "lightColor": "ECECECFF",
+          "colorFrom": "ECECECFF",
+          "colorTo": "BDBDBDFF",
+          "sizeFrom": 7,
+          "sizeTo": 0
+          },
+        ]
+        "trailChance": 3,
+        "trailParam": 5,
+        "trailLength": 3,
+        "trailColor": "ECECECFF",
+        "trailWidth": 1,
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 20,
+          "lifetime": 20,
+          "length": 75,
+          "cone": 360,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "ECECECFF"
+        },
+        "despawnEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 6,
+          "lifetime": 20,
+          "length": 75,
+          "cone": 360,
+          "lenFrom": 8,
+          "lenTo": 8,
+          "colorFrom": "FFFFFFF",
+          "colorTo": "BDBDBDFF"
+        }
+      "pierce": true
+      "pierceBuilding": false
+      "pierceCap": 2
+      "fragBullets": 3,
+      "fragOnHit": true,
+      "fragVelocityMin": 1,
+      "fragRandomSpread": 30,
+      "fragSpread": 30,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "damage": 30,
+        "height": 12,
+        "width": 8,
+        "speed": 2,
+        "lifetime": 30,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "frontColor": "ECECECFF",
+        "backColor": "BDBDBDFF"
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "trailEffect": [
+          {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 10,
+          "length": 9,
+          "baseLength": 9,
+          "lifetime": 25,
+          "interp": "circleOut",
+          "cone": 0,
+          "offset": 3,
+          "lightColor": "ECECECFF",
+          "colorFrom": "ECECECFF",
+          "colorTo": "BDBDBDFF",
+          "sizeFrom": 7,
+          "sizeTo": 0
+          },
+        ]
+        "trailChance": 3,
+        "trailParam": 5,
+        "trailLength": 3,
+        "trailColor": "ECECECFF",
+        "trailWidth": 1,
+        },
+        }
+},
   ]
 }
