@@ -1,0 +1,55 @@
+
+type: GenericCrafter
+name: Molten Crucible
+description: Produces Magmian Power Cells and Ashen Silver.
+size: 5
+craftTime: 50
+consumes: {
+  items: [
+    Ti-6Al-4V/3
+    carborundum/3
+    Thoralius/3
+  ]
+    liquid:[
+    slag/5
+    ]
+power: 2
+}
+ignoreLiquidFullness: true
+ambientSound: smelter
+researchCostMultiplier: 0.5
+ambientSoundVolume: 0.5
+drawer: {
+type: DrawMulti
+drawers: [
+{
+  type: DrawRegion
+  suffix: -bottom
+}
+{
+  type: DrawCrucibleFlame
+      flameRad: 2
+      circleSpace: 8
+      particles: 320
+      particleSize: 5
+      particleRad: 20
+      particleLen: 10
+}
+{
+  type: DrawDefault
+}
+]
+}
+outputItems: [
+  MagmaCell/1
+]
+category: crafting
+research: Quartz-Generator
+requirements: [
+  carborundum/200
+  Ti-6Al-4V/100
+  Tronian-Graphite/230
+  Thoralius/120
+  Magma-stone/200
+]
+itemCapacity: 20
