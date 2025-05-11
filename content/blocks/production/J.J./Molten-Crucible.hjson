@@ -11,10 +11,10 @@ consumes: {
     Thoralius/2
     Tronian-Graphite/4
   ]
-    liquid:[
+    liquids: [
     slag/5
     ]
-power: 2
+power: 4.5
 }
 ignoreLiquidFullness: true
 ambientSound: smelter
