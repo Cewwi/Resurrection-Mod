@@ -11,7 +11,7 @@
 "omniMovement": false,
 "outlineColor": "2d2f39",
 "speed": 0.75,
-"hitSize": 10,
+"hitSize": 20,
 "health": 525,
 "fogRadius": 20,
 "crushDamage": 0.2,
@@ -19,7 +19,7 @@
 "singleTarget": true,
 "flying": false,
 "targetAir": true,
-"rotateSpeed": 3.45,
+"rotateSpeed": 1.75,
   "abilities": [
    {
       "type": "EnergyFieldAbility",
