@@ -6,9 +6,10 @@ size: 5
 craftTime: 50
 consumes: {
   items: [
-    Ti-6Al-4V/3
-    carborundum/3
-    Thoralius/3
+    Ti-6Al-4V/2
+    carborundum/2
+    Thoralius/2
+    Tronian-Graphite/4
   ]
     liquid:[
     slag/5
