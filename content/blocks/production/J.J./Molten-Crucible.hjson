@@ -28,8 +28,8 @@ drawers: [
 }
 {
   type: DrawCrucibleFlame
-      flameRad: 2
-      circleSpace: 8
+      flameRad: 3
+      circleSpace: 10
       particles: 320
       particleSize: 5
       particleRad: 20
@@ -41,15 +41,17 @@ drawers: [
 ]
 }
 outputItems: [
-  MagmaCell/1
+  MagmaCell/2
+  Ashen-Silver/4
 ]
 category: crafting
-research: Quartz-Generator
+research: Cell-Fuser
 requirements: [
-  carborundum/200
-  Ti-6Al-4V/100
-  Tronian-Graphite/230
+  carborundum/400
+  Ti-6Al-4V/200
+  Tronian-Graphite/520
   Thoralius/120
-  Magma-stone/200
+  MagmaCell/50
+  Magma-stone/300
 ]
 itemCapacity: 20
