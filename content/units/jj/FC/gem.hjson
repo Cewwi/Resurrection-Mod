@@ -120,7 +120,7 @@ bullet: {
     ]
     pierceCap: 2
     lifetime: 20
-    damage: 10
+    damage: 25
     speed: 8.5
     lightColor: D1EFFFFF
     lightOpacity: 0.7
