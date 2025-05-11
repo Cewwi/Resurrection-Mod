@@ -46,7 +46,7 @@
 "reload": 60,
 "rotate": true,
 "layerOffset": 1,
-"rotateSpeed": 1,
+"rotateSpeed": 2,
 "shootY": 5,
 "recoil": 2,
 "mirror": false,
