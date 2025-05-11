@@ -60,7 +60,7 @@
         "lifetime": 60,
         "shrinkX": 0,
         "shrinkY": 0,
-        "trailEffect": "mineSmall",
+        "trailEffect": "smeltsmoke",
         "frontColor": "ECECECFF",
         "backColor": "BDBDBDFF"
         "trailChance": 5,
