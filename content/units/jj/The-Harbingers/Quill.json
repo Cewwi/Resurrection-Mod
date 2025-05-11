@@ -1,0 +1,83 @@
+{
+"localizedName": "Quill",
+"description": "Fires large fragging shells at enemy targets. Has a small shock aura."
+"faceTarget": false,
+"squareShape": true,
+"type": "tank",
+"treadFrames": 18,
+"treadPullOffset": 5,
+"treadRects": [
+],
+"omniMovement": false,
+"outlineColor": "2d2f39",
+"speed": 0.75,
+"hitSize": 10,
+"health": 525,
+"fogRadius": 20,
+"crushDamage": 0.2,
+"armor": 3,
+"singleTarget": true,
+"flying": false,
+"targetAir": true,
+"rotateSpeed": 0.45,
+  "abilities": [
+    
+  ],
+"weapons": [
+{
+"name": "Quill-cannon",
+"x": 0,
+"y": 0,
+"top": true,
+  "shooty": 43,
+  "reload": 5,
+  "rotateSpeed": 1.5,
+  "mirror": true,
+  "alternate": false,
+  "cooldownTime": 90,
+  "rotate": true,
+  "shootCone": 45,
+  "loopSound": "torch",
+  "shootSound": "torch",
+  "incendAmount": 4,
+  "alwaysShooting": false,
+  "alwaysContinuous": true,
+  "layerOffset": 1,
+  "continuous": true,
+  "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "ff0000AA",
+      "colorTo": "ff0000AA",
+      "outline": false
+    }
+  ]
+  "bullet": {
+    "type": "ContinuousFlameBulletType",
+    "colors": [
+      "ff9d5c",
+      "ffb98b",
+      "ffb98b",
+      "ffffff"
+    ],
+    "damage": 30,
+    "lightColor": "ffb98b",
+    "flareColor": "ffb98b",
+    "groundLayer": 61,
+    "intervalBullets": 2,
+    "intervalRandomSpread": 1,
+    "bulletInterval": 2.7,
+    "drawFlare": true,
+    "width": 6,
+    "pierceArmor": true,
+    "divisions": 20,
+    "length": 240,
+    "hitEffect": "shootSmokeTitan",
+  }
+}
+  ]
+}
