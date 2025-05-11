@@ -1,0 +1,8 @@
+name: Ashen Silver
+description: Given it's name for the silver like color.
+hardness: 2
+cost: 3
+alwaysUnlocked: false
+color: a28f8f
+research: Magma-stone
+hiddenOnPlanets: [serpulo]
