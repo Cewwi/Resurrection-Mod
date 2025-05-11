@@ -19,7 +19,7 @@
 "singleTarget": true,
 "flying": false,
 "targetAir": true,
-"rotateSpeed": 6.45,
+"rotateSpeed": 3.45,
   "abilities": [
    {
       "type": "EnergyFieldAbility",
@@ -68,8 +68,8 @@
         "trailLength": 3,
         "trailColor": "ECECECFF",
         "trailWidth": 1,
-        "hitEffect": "massiveExplosion",
-        "despawnEffect": "massiveExplosion",
+        "hitEffect": "smeltsmoke",
+        "despawnEffect": "smeltsmoke",
       "pierce": true
       "pierceBuilding": false
       "pierceCap": 2
@@ -90,8 +90,8 @@
         "trailEffect": "mineSmall",
         "frontColor": "ECECECFF",
         "backColor": "BDBDBDFF"
-        "hitEffect": "massiveExplosion",
-        "despawnEffect": "massiveExplosion",
+        "hitEffect": "smeltsmoke",
+        "despawnEffect": "smeltsmoke",
         "trailChance": 5,
         "trailParam": 5,
         "trailLength": 3,
