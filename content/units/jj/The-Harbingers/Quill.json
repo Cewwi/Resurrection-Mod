@@ -19,7 +19,7 @@
 "singleTarget": true,
 "flying": false,
 "targetAir": true,
-"rotateSpeed": 0.45,
+"rotateSpeed": 6.45,
   "abilities": [
    {
       "type": "EnergyFieldAbility",
@@ -43,7 +43,7 @@
 "x": 0,
 "y": 0,
 "top": true,
-"reload": 10,
+"reload": 60,
 "rotate": true,
 "layerOffset": 1,
 "rotateSpeed": 1,
