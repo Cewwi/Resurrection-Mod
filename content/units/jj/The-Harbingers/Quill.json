@@ -21,7 +21,21 @@
 "targetAir": true,
 "rotateSpeed": 0.45,
   "abilities": [
-    
+   {
+      "type": "EnergyFieldAbility",
+      "color": "ECECECFF",
+      "maxTargets": 3,
+      "damage": 10,
+      "healPercent": 0.75,
+      "y": -8,
+      "range": 45,
+      "sectors": 2,
+      "rotateSpeed": 5,
+      "hitBuildings": false,
+      "sectorRad": 0.5,
+      "effectRadius": 20,
+      "reload": 50,
+    },
   ],
 "weapons": [
 {
