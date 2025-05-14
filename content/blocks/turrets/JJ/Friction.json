@@ -1,8 +1,9 @@
+<img src="https://github.com/Cewwi/Resurrection-Mod/blob/main/sprites/sigils/Friction-sigil.png?raw=true" alt="Friction-sigil.png"/>
 {
   "type": "ItemTurret",
   "coolantMultiplier": 0.2,
   "name": "Friction",
-  "description": "<img src="https://github.com/Cewwi/Resurrection-Mod/blob/main/sprites/sigils/Friction-sigil.png?raw=true" alt="Friction-sigil.png"/> long range Artilery Cannon. Can shoot over terrain",
+  "description": "long range Artilery Cannon. Can shoot over terrain",
   "ammoPerShot": 5,
   "reload": 500,
   "range": 722,
