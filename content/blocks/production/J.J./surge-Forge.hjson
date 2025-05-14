@@ -19,8 +19,6 @@ liquidCapacity: 120
 ambientSound: smelter
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.3
-drawer: {
-type: DrawMulti
 drawers: [
 {
   type: DrawRegion
@@ -44,7 +42,6 @@ drawers: [
   type: DrawDefault
 }
 ]
-}
 outputItems: [
   surgeAlloy/3
 ]
