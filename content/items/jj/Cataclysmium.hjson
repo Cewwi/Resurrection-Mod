@@ -1,8 +1,12 @@
 name: Cataclysmium
-description: An ancient rune with power beyond comprehension. Handling rgis resource improperly could lead to cataclysmic Consequences.
-hardness: 2
-cost: 0.5
+description: An ancient rune with power beyond comprehension. Handling this resource improperly could lead to cataclysmic Consequences.
+hardness: 40
+cost: 8.5
 alwaysUnlocked: false
+radioactivity: 20
+explosiveness: 20
+flammability: 20
+charge: 20
 color: 5e3732
 research: item-SurgeQuartz
 hiddenOnPlanets: [serpulo]
