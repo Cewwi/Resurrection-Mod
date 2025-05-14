@@ -1,0 +1,120 @@
+{
+  "type": "ItemTurret",
+  "coolantMultiplier": 0.2,
+  "name": "Friction",
+  "description": "long range Artilery Cannon. Can shoot over terrain",
+  "ammoPerShot": 5,
+  "reload": 500,
+  "range": 722,
+  "outlineColor": "0C0D1BFF",
+  "recoil": 3,
+  "shake": 1,
+  "inaccuracy": 0.2,
+  "category": "turret",
+  "targetUnderBlocks": true,
+  "shootY": 20,
+  "shootCone": 3,
+  "research": "",
+  "shake": 3,
+  "requirements": [
+  "Silver/1250",
+  "carborundum/750",
+  "Thoralius/800",
+  "Ordanium/300",
+  "MagmaCell/50",
+  "Magma-stone/1500",
+  "Geode-catalyst/500",
+  ]
+  "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "water",
+    "amount": 5
+  },
+  "size": 5,
+  "health": 8250,
+  "armor": 5,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "Harbinger-"
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-brl",
+        "moveX": 0,
+        "under": true,
+        "alternate": true,
+        "moveY": -5,
+        "Y": 12,
+        "progress": {
+          "type": "recoil",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2,
+        },
+        "mirror": false
+      },
+      {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": true,
+      "blending": "additive",
+      "color": "FFB570FF",
+      "colorTo": "FFB570FF",
+      "outline": false,
+    },
+]
+},
+"shootSound": "mediumCannon",
+  "ammoTypes": {
+"Magma-stone": {
+"type": "BasicBulletType",
+  "collideTerrain": false,
+  "sprite": "bullet",
+  "lightRadius": 80,
+  "lightColor": "FFB570FF",
+  "speed": 15,
+  "lifetime": 48,
+  "width": 5,
+  "hitSize": 20,
+  "damage": 250,
+  "height": 30,
+  "shootEffect": "shootSmokeSquareBig",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 2,
+  "pierce": true
+  "pierceBuilding": true
+   "trailEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 5,
+          "length": 12,
+          "baseLength": 9,
+          "lifetime": 25,
+          "interp": "circleOut",
+          "cone": 20,
+          "offset": 1,
+          "lightColor": "FFB570FF",
+          "colorFrom": "FFB570FF",
+          "colorTo": "505050FF",
+          "sizeFrom": 7,
+          "sizeTo": 0
+        },
+        "trailChance": 1,
+        "trailParam": 5,
+        "trailLength": 9,
+        "trailColor": "FFB570FF",
+        "trailWidth": 9,
+  "buildingDamageMultiplier": 0.5
+  "hitEffect": "randLifeSpark",
+  "despawnEffect": "randLifeSpark",
+  "hitColor": "FFB570FF",
+}
+}
+"research": {
+"objectives": [
+"sublimate"
+]
+}
+}
