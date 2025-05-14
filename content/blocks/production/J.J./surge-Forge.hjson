@@ -27,7 +27,7 @@ drawers: [
 }
 {
   type: DrawLiquidRegion
-  suffix: -liquid
+  suffix: -bottom
   liquid: slag
 }
 {
