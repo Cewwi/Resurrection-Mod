@@ -1,9 +1,13 @@
 {
-  "temperature": 54,
-  "viscosity": -5,
-  "gas": true,
-  "lightColor": "A9D8FFFF",
-  "effect": "shocked",
-  "color": "A9D8FFFF",
-  "research": "ChargeStone"
+  "type": "CellLiquid",
+   "heatCapacity": 0.4,
+  "temperature": 3.84,
+  "viscosity": 0.85,
+  "flammability": 0,
+  "capPuddles": false,
+  "moveThroughBlocks": false
+  "explosiveness": 0.3
+  "charge": 2.25,
+  "colorFrom": "D1EFFFFF",
+  "colorTo": "8CA9E8FF"
 }
