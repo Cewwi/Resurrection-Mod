@@ -1,11 +1,10 @@
 {
 type: hover
 name: Mend
-description: Gathing unit. Excels in mining operations. Hover unit, cannot fly.
+description: Can carry items. Hover unit, cannot fly.
 template: ErekirUnitType
 shadowElevation: 0.3
 drag: 0.06
-defaultController: minerAI
 outlineColor: 0C0D1BFF
 speed: 5
 rotateSpeed: 5
@@ -19,9 +18,6 @@ armor: 1
 mineSpeed: 2
 buildSpeed: 0.2
 groundLayer: 60
- mineItems: [
-    Tronian-quartz
-  ],
 isEnemy: true
 health: 1280
 itemCapacity: 80
