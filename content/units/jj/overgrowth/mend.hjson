@@ -1,11 +1,11 @@
 type: hover
 name: Mend
-description: Basic support unit. It can build, mine and repair. Hover unit, cannot fly.
+description: Basic support unit. It can build and repair. Hover unit, cannot fly.
 template: ErekirUnitType
 shadowElevation: 0.3
 drag: 0.06
 outlineColor: 0C0D1BFF
-speed: 3
+speed: 2
 rotateSpeed: 4
 hitSize: 8
 accel: 0.095
@@ -14,13 +14,10 @@ layer: 109
 hovering: true
 isEnemy: true
 armor: 1
-mineSpeed: 2
 buildSpeed: 0.2
 groundLayer: 60
 isEnemy: true
 health: 720
-itemCapacity: 20
-mineTier: 1
 alwaysUnlocked: true
 useEngineElevation: false
 lowAltitude: false
