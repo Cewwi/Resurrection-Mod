@@ -10,7 +10,7 @@ consumes: {
     silicon/4
   ]
     liquids: [
-    slag/50
+    slag/5
     ]
 power: 4
 }
@@ -50,9 +50,10 @@ outputItems: [
 category: crafting
 research: surge-crucible
 requirements: [
-  surgeAlloy/125
-  silicon/150
+  surgeAlloy/325
+  silicon/250
   tungsten/100
+  carbide/150
   graphite/120
 ]
 itemCapacity: 20
