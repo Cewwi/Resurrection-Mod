@@ -34,9 +34,32 @@ drawers: [
       circleSpace: 10
       particles: 320
       particleSize: 5
-      particleRad: 20
-      particleLen: 10
+      particleRad: 40
+      particleLen: 20
 }
+{
+  type: DrawCrucibleFlame
+      flameRad: 7
+      circleSpace: 14
+      particles: 320
+      particleSize: 5
+      particleRad: 40
+      particleLen: 20
+}
+{
+    type: DrawParticles
+    color: ffa166
+    alpha: 0.3
+    sides: 4
+    blending: additive
+    particleSize: 5
+    reverse: false
+    particleRad: 40
+    particles: 30
+    fadeMargin: 1
+    rotateScl: 30
+    particleLife: 40
+},
 {
   type: DrawLiquidRegion
   suffix: -liquid
