@@ -14,7 +14,7 @@ consumes: {
     liquids: [
     slag/0.25
     ]
-power: 4.5
+power: 24.5
 }
 ignoreLiquidFullness: true
 ambientSound: smelter
