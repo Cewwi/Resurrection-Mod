@@ -30,6 +30,14 @@
     "liquid": "water",
     "amount": 5
   },
+    "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 2,
+    "spread": 40,
+    "shotDelay": 20
+    "shots": 2
+    "alternate": true,
+  },
   "size": 5,
   "health": 8250,
   "armor": 5,
