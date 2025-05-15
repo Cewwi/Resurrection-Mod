@@ -12,7 +12,7 @@ consumes: {
     Tronian-Graphite/4
   ]
     liquids: [
-    slag/5
+    slag/0.25
     ]
 power: 4.5
 }
