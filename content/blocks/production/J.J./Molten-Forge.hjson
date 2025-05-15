@@ -39,7 +39,8 @@ drawers: [
 {
   type: DrawLiquidRegion
   suffix: -liquid
-  liquid: slag
+  liquid: water
+  color: ff6060ff
 }
 {
   type: DrawBubbles
