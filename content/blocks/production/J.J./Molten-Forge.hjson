@@ -43,7 +43,8 @@ drawers: [
 }
 outputItems: [
   MagmaCell/2
-  Ashen-Silver/4
+  Ashen-Silver/3
+  Magma-stone/4
 ]
 category: crafting
 research: Cell-Fuser
