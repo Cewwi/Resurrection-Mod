@@ -9,7 +9,7 @@
   "outlineColor": "0C0D1BFF",
   "recoil": 3,
   "shake": 3,
-  "inaccuracy": 0.2,
+  "inaccuracy": 5,
   "category": "turret",
   "targetUnderBlocks": true,
   "shootY": 30,
@@ -34,9 +34,7 @@
     "type": "ShootAlternate",
     "barrels": 2,
     "spread": 30,
-    "shotDelay": 0
     "shots": 2
-    "alternate": true,
   },
   "size": 5,
   "health": 8250,
