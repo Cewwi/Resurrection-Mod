@@ -48,7 +48,6 @@ drawers: [
     sides: 4
     recurrence: 3
     spread: 8
-    suffix: -liquid
     radius: 2f
     amount: 20
     color: ffa166
