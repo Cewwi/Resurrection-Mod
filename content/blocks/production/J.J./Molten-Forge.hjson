@@ -70,15 +70,6 @@ drawers: [
   type: DrawDefault
 }
 {
-  type: DrawCrucibleFlame
-      flameRad: 5
-      circleSpace: 10
-      particles: 320
-      particleSize: 5
-      particleRad: 30
-      particleLen: 23.34154326243245
-}
-{
   type: DrawGlowRegion
   suffix: -Vent
   color: ff6060ff
