@@ -56,6 +56,11 @@ drawers: [
 {
   type: DrawDefault
 }
+{
+  type: DrawHeatRegion
+  suffix: -Vent
+  color: ff6060ff
+}
 ]
 }
 outputItems: [
