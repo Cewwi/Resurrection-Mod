@@ -33,7 +33,7 @@
     "shoot": {
     "type": "ShootAlternate",
     "barrels": 2,
-    "spread": 30,
+    "spread": 20,
     "shots": 2
   },
   "size": 5,
