@@ -34,16 +34,7 @@ drawers: [
       circleSpace: 10
       particles: 320
       particleSize: 5
-      particleRad: 40
-      particleLen: 20
-}
-{
-  type: DrawCrucibleFlame
-      flameRad: 7
-      circleSpace: 14
-      particles: 320
-      particleSize: 5
-      particleRad: 40
+      particleRad: 30
       particleLen: 20
 }
 {
@@ -77,6 +68,15 @@ drawers: [
 }
 {
   type: DrawDefault
+}
+{
+  type: DrawCrucibleFlame
+      flameRad: 5
+      circleSpace: 10
+      particles: 320
+      particleSize: 5
+      particleRad: 30
+      particleLen: 23.34154326243245
 }
 {
   type: DrawGlowRegion
