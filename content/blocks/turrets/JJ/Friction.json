@@ -51,6 +51,7 @@
           "other": "heat",
           "amount": 0.2,
         },
+      },
          {
         "type": "RegionPart",
         "suffix": "-wing",
@@ -64,7 +65,7 @@
           "other": "heat",
           "amount": 0.2,
         },
-        "mirror": false
+        "mirror": true
       },
       {
       "type": "RegionPart",
