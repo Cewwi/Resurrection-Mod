@@ -2,7 +2,7 @@
 type: GenericCrafter
 name: Molten Crucible
 description: Produces Magmian Power Cells and Ashen Silver.
-size: 5
+size: 7
 craftTime: 50
 consumes: {
   items: [
