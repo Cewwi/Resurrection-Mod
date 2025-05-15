@@ -44,7 +44,20 @@
         "under": true,
         "alternate": true,
         "moveY": -5,
-        "Y": 12,
+        "y": 12,
+        "progress": {
+          "type": "recoil",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2,
+        },
+         {
+        "type": "RegionPart",
+        "suffix": "-wing",
+        "moveX": 1,
+        "under": true,
+        "alternate": true,
+        "moveY": -1,
         "progress": {
           "type": "recoil",
           "op": "blend",
