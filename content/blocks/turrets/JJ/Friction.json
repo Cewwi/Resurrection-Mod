@@ -52,8 +52,8 @@
         "under": true,
         "alternate": true,
         "moveY": -15,
-        "y": 42,
-        "x": 20,
+        "y": 22,
+        "x": 30,
         "progress": {
           "type": "recoil",
           "op": "blend",
