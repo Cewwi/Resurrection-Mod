@@ -37,6 +37,21 @@ drawers: [
       particleLen: 10
 }
 {
+  type: DrawLiquidRegion
+  suffix: -liquid
+  liquid: slag
+}
+{
+  type: DrawBubbles
+    sides: 4
+    recurrence: 3
+    spread: 8
+    suffix: -liquid
+    radius: 2f
+    amount: 20
+    color: ffa166
+}
+{
   type: DrawDefault
 }
 ]
