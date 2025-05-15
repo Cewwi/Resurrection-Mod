@@ -17,6 +17,7 @@ power: 4
 ignoreLiquidFullness: true
 liquidCapacity: 120
 ambientSound: smelter
+hasLiquids: true
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.3
 drawers: [
