@@ -56,7 +56,7 @@ drawers: [
   type: DrawDefault
 }
 {
-  type: DrawHeatRegion
+  type: DrawGlowRegion
   suffix: -Vent
   color: ff6060ff
 }
