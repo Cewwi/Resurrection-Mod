@@ -45,12 +45,12 @@ drawers: [
 }
 ]
 outputItems: [
-  surgeAlloy/3
+  surge-alloy/3
 ]
 category: crafting
 research: surge-crucible
 requirements: [
-  surgeAlloy/325
+  surge-alloy/325
   silicon/250
   tungsten/100
   carbide/150
