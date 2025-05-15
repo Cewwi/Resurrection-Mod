@@ -29,7 +29,7 @@ drawers: [
 }
 {
   type: DrawCrucibleFlame
-      flameRad: 3
+      flameRad: 5
       circleSpace: 10
       particles: 320
       particleSize: 5
@@ -39,7 +39,7 @@ drawers: [
 {
   type: DrawLiquidRegion
   suffix: -liquid
-  liquid: water
+  liquid: Slag
   color: ff6060ff
 }
 {
