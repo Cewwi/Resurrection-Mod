@@ -121,7 +121,7 @@
       "serrations": 8,
       "fromColor": "3D58F0FF",
       "toColor": "3D58F0FF",
-      "shootEffect": "explosion",
+      "shootEffect": "teleportOut",
       "hitColor": "62A0FCFF",
       "hitEffect": {
         "type": "ParticleEffect",
