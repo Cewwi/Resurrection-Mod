@@ -39,7 +39,7 @@ drawers: [
 {
   type: DrawLiquidRegion
   suffix: -liquid
-  liquid: Slag
+  drawLiquid: slag
   color: ff6060ff
 }
 {
