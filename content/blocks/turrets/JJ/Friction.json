@@ -4,7 +4,7 @@
   "name": "Friction",
   "description": "long range Artilery Cannon. Can shoot over terrain",
   "ammoPerShot": 5,
-  "reload": 200,
+  "reload": 100,
   "range": 722,
   "outlineColor": "0C0D1BFF",
   "recoil": 3,
@@ -34,7 +34,7 @@
     "type": "ShootAlternate",
     "barrels": 2,
     "spread": 40,
-    "shotDelay": 20
+    "shotDelay": 10
     "shots": 2
     "alternate": true,
   },
@@ -50,9 +50,9 @@
         "suffix": "-brl",
         "moveX": 0,
         "under": true,
-        "alternate": true,
+        "alternate": false,
         "moveY": -15,
-        "y": 22,
+        "y": 10,
         "x": 30,
         "progress": {
           "type": "recoil",
@@ -60,7 +60,24 @@
           "other": "heat",
           "amount": 0.2,
         },
-        "mirror": true
+        "mirror": false
+      },
+       {
+        "type": "RegionPart",
+        "suffix": "-brl",
+        "moveX": 0,
+        "under": true,
+        "alternate": false,
+        "moveY": -15,
+        "y": -10,
+        "x": 30,
+        "progress": {
+          "type": "recoil",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2,
+        },
+        "mirror": false
       },
          {
         "type": "RegionPart",
