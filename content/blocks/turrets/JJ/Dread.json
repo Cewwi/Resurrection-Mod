@@ -25,7 +25,7 @@
   "Magma-stone/1500",
   "Geode-catalyst/500",
   ]
-  "shoot":[
+  "shoot":
     {
     "type": "ShootAlternate",
     "barrels": 2,
@@ -33,12 +33,6 @@
     "shotDelay": 0,
     "shots": 2,
   },
-      {
-    "type": "ShootSpread",
-    "spread": 5,
-    "shots": 3
-    },
-  ],
   "coolant": {
     "type": "ConsumeLiquid",
     "liquid": "slag",
