@@ -35,7 +35,7 @@
   },
       {
     "type": "ShootSpread",
-    "spread": 15,
+    "spread": 5,
     "shots": 3
     },
   ],
