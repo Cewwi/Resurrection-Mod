@@ -127,9 +127,9 @@
         },
         "trailChance": 1,
         "trailParam": 5,
-        "trailLength": 9,
+        "trailLength": 0,
         "trailColor": "FFB570FF",
-        "trailWidth": 9,
+        "trailWidth": 0,
   "buildingDamageMultiplier": 0.5
   "hitEffect": "randLifeSpark",
   "despawnEffect": "randLifeSpark",
