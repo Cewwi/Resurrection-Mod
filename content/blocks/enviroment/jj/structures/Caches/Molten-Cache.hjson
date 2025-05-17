@@ -7,7 +7,6 @@ itemCapacity: 0
 size: 2
 buildTime: 0.1
 deconstructThreshold: 1
-instantDeconstruct: true
 buildable: false
 rebuildable: false
 BuildVisibility: hidden
