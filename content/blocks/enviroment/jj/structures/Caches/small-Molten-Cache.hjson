@@ -4,9 +4,9 @@ description: Contains Magmian resources.
 category: distribution
 alwaysUnlocked: false
 itemCapacity: 0
-size: 2
-buildTime: 0.1
-deconstructThreshold: 1
+size: 1
+buildTime: 0.3
+instantDeconstruct: false
 buildable: false
 rebuildable: false
 BuildVisibility: hidden
