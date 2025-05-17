@@ -6,6 +6,7 @@ alwaysUnlocked: false
 itemCapacity: 0
 size: 2
 buildable: false
+instantDeconstruct: true
 rebuildable: false
 BuildVisibility: hidden
 health: 225
