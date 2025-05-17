@@ -6,7 +6,7 @@ alwaysUnlocked: false
 itemCapacity: 0
 size: 1
 squareSprite: false
-buildTime: 0.3
+buildTime: 0
 instantDeconstruct: false
 buildable: false
 rebuildable: false
