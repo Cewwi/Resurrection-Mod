@@ -5,6 +5,7 @@ category: distribution
 alwaysUnlocked: false
 itemCapacity: 0
 size: 1
+squareSprite: false
 buildTime: 0.3
 instantDeconstruct: false
 buildable: false
