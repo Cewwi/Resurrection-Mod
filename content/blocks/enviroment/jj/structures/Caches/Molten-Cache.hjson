@@ -5,6 +5,7 @@ category: distribution
 alwaysUnlocked: false
 itemCapacity: 0
 size: 2
+instantDeconstruct: true
 buildable: false
 rebuildable: false
 BuildVisibility: hidden
