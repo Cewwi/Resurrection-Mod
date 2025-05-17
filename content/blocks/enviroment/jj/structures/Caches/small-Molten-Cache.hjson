@@ -1,12 +1,13 @@
 type: Wall
-name: Rare Small Molten Cache 1
+name: Rare Small Molten Cache
 description: Contains Magmian resources.
 category: distribution
 alwaysUnlocked: false
 itemCapacity: 0
-size: 1
+size: 2
+buildTime: 0.1
+deconstructThreshold: 1
 buildable: false
-instantDeconstruct: true
 rebuildable: false
 BuildVisibility: hidden
 health: 80
