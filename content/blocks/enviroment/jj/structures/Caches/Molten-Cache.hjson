@@ -1,11 +1,13 @@
-type: StorageBlock
-name: Molten Cache
+type: Wall
+name: Common Molten Cache 1
 description: Contains Magmian resources.
 category: distribution
 alwaysUnlocked: false
-itemCapacity: 400
+itemCapacity: 0
 size: 2
+BuildVisibility: hidden
 health: 225
 requirements: [
-  Ordanium/1
+  Ordanium/300
+  Magma-stone/500
 ]
