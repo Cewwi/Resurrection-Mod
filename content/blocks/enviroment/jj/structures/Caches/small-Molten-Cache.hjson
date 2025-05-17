@@ -8,7 +8,7 @@ size: 1
 buildable: false
 rebuildable: false
 BuildVisibility: hidden
-health: 225
+health: 80
 requirements: [
   Ordanium/100
   Magma-stone/200
