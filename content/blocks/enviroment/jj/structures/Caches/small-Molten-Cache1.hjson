@@ -1,0 +1,14 @@
+type: Wall
+name: Common Small Molten Cache 1
+description: Contains Magmian resources.
+category: distribution
+alwaysUnlocked: false
+itemCapacity: 0
+size: 1
+buildable: false
+rebuildable: false
+BuildVisibility: hidden
+health: 80
+requirements: [
+  Ordanium/150
+]
