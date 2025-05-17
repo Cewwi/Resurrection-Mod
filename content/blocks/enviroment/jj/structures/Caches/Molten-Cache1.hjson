@@ -1,0 +1,13 @@
+type: Wall
+name: Common Molten Cache 2
+description: Contains Magmian resources.
+category: distribution
+alwaysUnlocked: false
+itemCapacity: 0
+size: 2
+BuildVisibility: hidden
+health: 225
+requirements: [
+  Ordanium/700
+  Magma-stone/200
+]
