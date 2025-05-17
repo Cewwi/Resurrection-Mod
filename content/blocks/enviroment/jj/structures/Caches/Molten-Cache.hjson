@@ -1,5 +1,5 @@
 type: Wall
-name: Rare Molten Cache 1
+name: Rare Molten Cache
 description: Contains Magmian resources.
 category: distribution
 alwaysUnlocked: false
