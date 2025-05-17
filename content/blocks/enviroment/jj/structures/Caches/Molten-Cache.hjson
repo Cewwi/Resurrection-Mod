@@ -1,5 +1,5 @@
 type: Wall
-name: Common Molten Cache 1
+name: Rare Molten Cache 1
 description: Contains Magmian resources.
 category: distribution
 alwaysUnlocked: false
@@ -8,6 +8,7 @@ size: 2
 BuildVisibility: hidden
 health: 225
 requirements: [
-  Ordanium/300
-  Magma-stone/500
+  Ordanium/500
+  Ashen-Silver/200
+  Magma-stone/1200
 ]
