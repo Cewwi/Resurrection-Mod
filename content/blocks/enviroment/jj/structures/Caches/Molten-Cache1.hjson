@@ -1,12 +1,13 @@
 type: Wall
-name: Common Molten Cache 2
+name: Common Molten Cache
 description: Contains Magmian resources.
 category: distribution
 alwaysUnlocked: false
 itemCapacity: 0
 size: 2
+buildTime: 0.1
+deconstructThreshold: 1
 buildable: false
-instantDeconstruct: true
 rebuildable: false
 BuildVisibility: hidden
 health: 225
