@@ -5,6 +5,8 @@ category: distribution
 alwaysUnlocked: false
 itemCapacity: 0
 size: 2
+buildable: false
+rebuildable: false
 BuildVisibility: hidden
 health: 225
 requirements: [
