@@ -1,11 +1,12 @@
 type: Wall
-name: Common Small Molten Cache 1
+name: Common Small Molten Cache
 description: Contains Magmian resources.
 category: distribution
 alwaysUnlocked: false
 itemCapacity: 0
-size: 1
-instantDeconstruct: true
+size: 2
+buildTime: 0.1
+deconstructThreshold: 1
 buildable: false
 rebuildable: false
 BuildVisibility: hidden
