@@ -7,7 +7,7 @@ itemCapacity: 0
 size: 2
 squareSprite: false
 instantDeconstruct: false
-buildcostmultiplier: 8
+buildcostmultiplier: 20
 buildable: false
 rebuildable: false
 BuildVisibility: hidden
