@@ -5,11 +5,13 @@ category: distribution
 alwaysUnlocked: false
 itemCapacity: 0
 size: 2
-buildcostmultiplier 8
+squareSprite: false
+instantDeconstruct: false
+buildcostmultiplier: 8
 buildable: false
 rebuildable: false
 BuildVisibility: hidden
-health: 225
+health: 250
 requirements: [
   Ordanium/500
   Ashen-Silver/200
