@@ -6,8 +6,8 @@ alwaysUnlocked: false
 itemCapacity: 0
 size: 1
 squareSprite: false
-buildTime: 0
 instantDeconstruct: false
+buildcostmultiplier: 8
 buildable: false
 rebuildable: false
 BuildVisibility: hidden
