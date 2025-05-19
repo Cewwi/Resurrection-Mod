@@ -52,6 +52,23 @@ abilities: [
       colorTo: ff0000AA
       outline: false
     }
+    {
+        type: RegionPart
+        suffix: -blade
+        moveX: 0
+        under: true
+        alternate: false
+        moveY: -15
+        y: 0
+        x: 0
+        progress: {
+          type: recoil
+          op: blend
+          other: heat
+          amount: 0.2
+        }
+        mirror: true
+      },
 ]
 weapons: [
   {
