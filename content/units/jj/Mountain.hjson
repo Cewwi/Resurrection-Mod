@@ -20,7 +20,7 @@ abilities: [
     type: ShieldArcAbility
     max: 2800
     cooldown: 300
-    regen: 0.5
+    regen: 2
     angle: 100
     whenShooting: false
     width: 6
@@ -32,7 +32,7 @@ abilities: [
     type: ShieldArcAbility
     max: 2800
     cooldown: 300
-    regen: 0.5
+    regen: 4
     angle: 100
     whenShooting: false
     width: 6
@@ -55,14 +55,31 @@ abilities: [
     {
         type: RegionPart
         suffix: -blade
-        moveX: 0
+        moveX: 5
         under: true
         alternate: false
-        moveY: -15
+        moveY: -10
         y: 0
         x: 0
         progress: {
           type: recoil
+          op: blend
+          other: heat
+          amount: 0.2
+        }
+        mirror: true
+      },
+      {
+        type: RegionPart
+        suffix: -saw
+        moveX: 0
+        under: true
+        alternate: false
+        moveY: 0
+        y: 0
+        x: 0
+        progress: {
+          type: auto
           op: blend
           other: heat
           amount: 0.2
