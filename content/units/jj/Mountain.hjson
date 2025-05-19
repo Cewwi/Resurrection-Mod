@@ -76,6 +76,7 @@ abilities: [
         under: true
         alternate: false
         moveY: 0
+        RotateSpeed: 5
         y: 0
         x: 0
         progress: {
