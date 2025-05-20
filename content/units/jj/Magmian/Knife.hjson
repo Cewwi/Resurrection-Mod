@@ -29,6 +29,7 @@ weapons:  [
     reload: 12
     recoil: 1
     shootSound: smallSlash
+    shootEffect: shootTitan
     ejectEffect: none
 parts: [
        {
