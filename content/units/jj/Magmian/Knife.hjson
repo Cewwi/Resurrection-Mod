@@ -29,7 +29,6 @@ weapons:  [
     reload: 12
     recoil: 1
     shootSound: smallSlash
-    shootEffect: shootTitan
     ejectEffect: none
 parts: [
        {
@@ -56,8 +55,9 @@ bullet: {
     hitSize: 4
     pierceDamageFactor: 0.8
     lifetime: 1
+    shootEffect: shootTitan
     damage: 45
-    speed: 10
+    speed: 50
     frontColor: 000000
     backColor: 000000
     lightColor: 000000
