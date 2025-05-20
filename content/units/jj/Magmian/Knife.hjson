@@ -5,7 +5,7 @@ description: Close range Mech unit.
 speed: 0.67
 flying: false
 health: 570
-armor: 9
+armor: 12
 hitSize: 10
 outlineColor: 0C0D1BFF
 rotateSpeed: 2
@@ -57,7 +57,7 @@ bullet: {
     pierceDamageFactor: 0.8
     lifetime: 1
     shootEffect: none
-    damage: 45
+    damage: 85
     speed: 0
     frontColor: 000000
     backColor: 000000
