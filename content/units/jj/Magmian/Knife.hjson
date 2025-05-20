@@ -5,7 +5,7 @@ speed: 0.67
 flying: false
 health: 570
 armor: 9
-hitSize: 25
+hitSize: 10
 outlineColor: 0C0D1BFF
 rotateSpeed: 2
 mechLegColor: 0C0D1BFF
@@ -25,7 +25,7 @@ weapons:  [
     shootY: 2
     inaccuracy: 0
     layerOffset: -0.00001
-    rotationLimit: 20
+    rotationLimit: 60
     reload: 12
     recoil: 1
     shootSound: none
@@ -37,6 +37,7 @@ parts: [
     progress: recoil
     outline: false
     mirror: false
+    top: top
     moveY: 4
     moveX: 0
     under: true
