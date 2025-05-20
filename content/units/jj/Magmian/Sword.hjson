@@ -1,6 +1,6 @@
 
 type: mech
-name: Knife
+name: Sword
 description: Close range Mech unit.
 speed: 0.67
 flying: false
@@ -16,8 +16,8 @@ mechLegColor: 0C0D1BFF
 ]
 weapons:  [
 {
-    name: Knife-weapon
-    x: -6.5
+    name: Sword-weapon
+    x: -8.5
     y: 3
     rotateSpeed: 1.5
     mirror: true
@@ -39,7 +39,7 @@ parts: [
     outline: false
     mirror: false
     top: false
-    moveY: 6
+    moveY: 10
     moveX: 0
     under: true
     x: 0
@@ -53,12 +53,12 @@ bullet: {
     ammoMultiplier: 2
     height: 40
     width: 40
-    hitSize: 13
+    hitSize: 30
     pierceDamageFactor: 0.8
     lifetime: 1
     shootEffect: none
     damage: 85
-    speed: 0
+    speed: 80
     frontColor: 000000
     backColor: 000000
     lightColor: 000000
