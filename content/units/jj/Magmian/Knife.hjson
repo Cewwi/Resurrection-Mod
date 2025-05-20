@@ -59,6 +59,8 @@ bullet: {
     lightColor: 000000
     lightOpacity: 0.7
     lightRadius: 12
+    hitEffect: pointShockwave
+    effectColor: ffb570
     trailColor: 000000
     trailLength: 30
     trailWidth: 1.25
