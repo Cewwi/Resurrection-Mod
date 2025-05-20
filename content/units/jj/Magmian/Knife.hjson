@@ -25,7 +25,7 @@ weapons:  [
     shootY: 2
     inaccuracy: 0
     layerOffset: -0.00001
-    rotationLimit: 60
+    rotationLimit: 110
     reload: 12
     recoil: 1
     shootSound: smallSlash
@@ -51,7 +51,7 @@ bullet: {
     removeAfterPierce: false
     collideTerrain: true
     ammoMultiplier: 2
-    height: 12
+    height: 20
     width: 20
     hitSize: 4
     pierceDamageFactor: 0.8
