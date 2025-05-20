@@ -28,7 +28,7 @@ weapons:  [
     rotationLimit: 60
     reload: 12
     recoil: 1
-    shootSound: none
+    shootSound: smallSlash
     ejectEffect: none
 parts: [
        {
@@ -55,7 +55,7 @@ bullet: {
     pierceDamageFactor: 0.8
     lifetime: 1
     damage: 45
-    speed: 0.1
+    speed: 10
     frontColor: 000000
     backColor: 000000
     lightColor: 000000
