@@ -24,7 +24,8 @@ weapons:  [
     shootY: 4
     cooldownTime: 120
     inaccuracy: 2
-    rotationOffset: 30
+    layerOffset: -0.00001
+    angle: 30
     rotationLimit: 0
     reload: 12
     shootSound: none
