@@ -1,0 +1,67 @@
+type: mech
+name: Mountain
+description: Heavily armored Mech unit.
+speed: 0.37
+flying: false
+health: 57000
+armor: 9
+hitSize: 25
+outlineColor: 0C0D1BFF
+rotateSpeed: 2
+mechLegColor: 0C0D1BFF
+ immunities: [ 
+    melting
+    freezing
+    burning
+    wet
+]
+weapons:  [
+{
+    name: knife-weapon
+    x: 4
+    y: 3
+    rotateSpeed: 1.5
+    mirror: false
+    rotate: false
+    shootY: 4
+    cooldownTime: 120
+    inaccuracy: 2
+    rotationLimit: 0
+    reload: 6
+    shootSound: none
+    ejectEffect: none
+parts: [
+       {
+    type: RegionPart
+    suffix: -blade
+    progress: recoil
+    outline: true
+    mirror: false
+    moveY: 4
+    moveX: 4
+    under: true
+    x: 0
+    y: 0
+      }
+     ]
+bullet: {
+    type: BasicBulletType
+    removeAfterPierce: false
+    collideTerrain: true
+    ammoMultiplier: 2
+    height: 12
+    width: 6.5
+    pierceDamageFactor: 0.8
+    lifetime: 53
+    damage: 45
+    speed: 8.5
+    lightColor: 000000
+    lightOpacity: 0.7
+    lightRadius: 12
+    trailColor: 000000
+    trailLength: 30
+    trailWidth: 1.25
+}
+    }
+]
+researchCostMultiplier: 2.5
