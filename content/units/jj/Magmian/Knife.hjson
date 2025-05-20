@@ -37,7 +37,7 @@ parts: [
     progress: recoil
     outline: false
     mirror: false
-    top: top
+    top: true
     moveY: 4
     moveX: 0
     under: true
@@ -51,7 +51,8 @@ bullet: {
     collideTerrain: true
     ammoMultiplier: 2
     height: 12
-    width: 6.5
+    width: 20
+    hitSize: 4
     pierceDamageFactor: 0.8
     lifetime: 1
     damage: 45
@@ -61,7 +62,7 @@ bullet: {
     lightColor: 000000
     lightOpacity: 0.7
     lightRadius: 12
-    hitEffect: pointShockwave
+    hitEffect: hitFuse
     hitColor: ffb570
     despawnEffect: none
     trailColor: 000000
