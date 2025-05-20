@@ -22,7 +22,7 @@ weapons:  [
     mirror: true
     alternate: true
     rotate: true
-    shootY: 2
+    shootY: 6
     inaccuracy: 0
     layerOffset: -0.00001
     rotationLimit: 110
