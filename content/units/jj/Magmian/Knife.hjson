@@ -52,12 +52,12 @@ bullet: {
     ammoMultiplier: 2
     height: 20
     width: 20
-    hitSize: 4
+    hitSize: 13
     pierceDamageFactor: 0.8
-    lifetime: 1.2
+    lifetime: 1
     shootEffect: shootTitan
     damage: 45
-    speed: 50
+    speed: 0
     frontColor: 000000
     backColor: 000000
     lightColor: 000000
