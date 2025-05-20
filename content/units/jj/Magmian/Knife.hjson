@@ -1,9 +1,9 @@
 type: mech
 name: Knife
-description: Heavily armored Mech unit.
-speed: 0.37
+description: Close range Mech unit.
+speed: 0.67
 flying: false
-health: 57000
+health: 570
 armor: 9
 hitSize: 25
 outlineColor: 0C0D1BFF
@@ -16,7 +16,7 @@ mechLegColor: 0C0D1BFF
 weapons:  [
 {
     name: Knife-weapon
-    x: 4
+    x: 7
     y: 3
     rotateSpeed: 1.5
     mirror: true
@@ -36,9 +36,9 @@ parts: [
     suffix: -blade
     progress: recoil
     outline: false
-    mirror: true
+    mirror: false
     moveY: 4
-    moveX: -4
+    moveX: 0
     under: true
     x: 0
     y: 0
