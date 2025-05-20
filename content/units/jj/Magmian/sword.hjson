@@ -16,7 +16,7 @@ mechLegColor: 0C0D1BFF
 ]
 weapons:  [
 {
-    name: Sword-weapon
+    name: sword-weapon
     x: -8.5
     y: 3
     rotateSpeed: 1.5
