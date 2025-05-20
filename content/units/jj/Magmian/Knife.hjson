@@ -1,5 +1,5 @@
 type: mech
-name: Mountain
+name: Knife
 description: Heavily armored Mech unit.
 speed: 0.37
 flying: false
@@ -25,7 +25,7 @@ weapons:  [
     cooldownTime: 120
     inaccuracy: 2
     layerOffset: -0.00001
-    angle: 30
+    rotationOffset: 300
     rotationLimit: 0
     reload: 12
     shootSound: none
