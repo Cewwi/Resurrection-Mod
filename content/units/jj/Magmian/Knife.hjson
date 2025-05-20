@@ -37,7 +37,7 @@ parts: [
     progress: recoil
     outline: false
     mirror: false
-    top: true
+    top: false
     moveY: 4
     moveX: 0
     under: true
