@@ -17,7 +17,7 @@ mechLegColor: 0C0D1BFF
 ]
 weapons:  [
 {
-    name: knife-weapon
+    name: Knife-weapon
     x: 4
     y: 3
     rotateSpeed: 1.5
@@ -38,7 +38,7 @@ parts: [
     outline: true
     mirror: false
     moveY: 4
-    moveX: 4
+    moveX: -4
     under: true
     x: 0
     y: 0
