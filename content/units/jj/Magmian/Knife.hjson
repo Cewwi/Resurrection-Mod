@@ -22,7 +22,7 @@ weapons:  [
     mirror: true
     alternate: true
     rotate: true
-    shootY: 6
+    shootY: 10
     inaccuracy: 0
     layerOffset: -0.00001
     rotationLimit: 110
@@ -38,7 +38,7 @@ parts: [
     outline: false
     mirror: false
     top: false
-    moveY: 4
+    moveY: 6
     moveX: 0
     under: true
     x: 0
@@ -55,7 +55,7 @@ bullet: {
     hitSize: 13
     pierceDamageFactor: 0.8
     lifetime: 1
-    shootEffect: shootSmall
+    shootEffect: none
     damage: 45
     speed: 0
     frontColor: 000000
