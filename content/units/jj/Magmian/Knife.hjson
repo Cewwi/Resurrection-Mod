@@ -55,7 +55,7 @@ bullet: {
     hitSize: 13
     pierceDamageFactor: 0.8
     lifetime: 1
-    shootEffect: shootTitan
+    shootEffect: shootSmall
     damage: 45
     speed: 0
     frontColor: 000000
