@@ -19,14 +19,15 @@ weapons:  [
     x: 4
     y: 3
     rotateSpeed: 1.5
-    mirror: false
-    rotate: false
-    shootY: 4
-    cooldownTime: 120
+    mirror: true
+    alternate: true
+    rotate: true
+    shootY: 2
     inaccuracy: 0
     layerOffset: -0.00001
-    rotationLimit: 0
+    rotationLimit: 20
     reload: 12
+    recoil: 1
     shootSound: none
     ejectEffect: none
 parts: [
@@ -34,8 +35,8 @@ parts: [
     type: RegionPart
     suffix: -blade
     progress: recoil
-    outline: true
-    mirror: false
+    outline: false
+    mirror: true
     moveY: 4
     moveX: -4
     under: true
@@ -60,10 +61,11 @@ bullet: {
     lightOpacity: 0.7
     lightRadius: 12
     hitEffect: pointShockwave
-    effectColor: ffb570
+    hitColor: ffb570
+    despawnEffect: none
     trailColor: 000000
-    trailLength: 30
-    trailWidth: 1.25
+    trailLength: 0
+    trailWidth: 0
 }
     }
 ]
