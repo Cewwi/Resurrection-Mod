@@ -80,7 +80,7 @@ abilities: [
         y: 0
         x: 0
         progress: {
-          type: auto
+          type: shoot
           op: blend
           other: heat
           amount: 0.2
