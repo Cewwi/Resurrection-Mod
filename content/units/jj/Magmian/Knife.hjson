@@ -28,7 +28,7 @@ weapons:  [
     inaccuracy: 0
     layerOffset: -0.00001
     rotationLimit: 110
-    reload: 12
+    reload: 18
     recoil: 1
     shootSound: smallSlash
     ejectEffect: none
@@ -54,10 +54,10 @@ hitSize: 7
 lifetime: 13
 pierce: true
 pierceBuilding: true
-pierceCap: 2
-statusDuration: 240  # 60 * 4
+pierceCap: 600
+statusDuration: 240
 shootEffect: none
-hitEffect: hitFlameSmall
+hitEffect: disperseTrail
 despawnEffect: none
 status: burning
 keepVelocity: false
