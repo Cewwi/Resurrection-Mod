@@ -55,6 +55,7 @@ lifetime: 13
 pierce: true
 pierceBuilding: true
 pierceCap: 600
+damage: 50
 statusDuration: 240
 shootEffect: none
 hitEffect: disperseTrail
