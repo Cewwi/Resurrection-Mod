@@ -49,30 +49,19 @@ parts: [
      ]
 bullet: {
     type: BasicBulletType
-    removeAfterPierce: false
-    collideTerrain: true
-    ammoMultiplier: 2
-    height: 0
-    width: 0
-    hitSize: 30
-    pierceDamageFactor: 0.8
-    lifetime: 1
-    shootEffect: none
-    splashDamage: 60
-    splashDamageRadius: 10
-    damage: 5
-    speed: 3
-    frontColor: 000000
-    backColor: 000000
-    lightColor: 000000
-    lightOpacity: 0.7
-    lightRadius: 12
-    hitEffect: disperseTrail
-    hitColor: ffb570
-    despawnEffect: none
-    trailColor: 000000
-    trailLength: 0
-    trailWidth: 0
+    ammoMultiplier: 3
+hitSize: 7
+lifetime: 13
+pierce: true
+pierceBuilding: true
+pierceCap: 2
+statusDuration: 240  # 60 * 4
+shootEffect: none
+hitEffect: hitFlameSmall
+despawnEffect: none
+status: burning
+keepVelocity: false
+hittable: false
 }
     }
 ]
