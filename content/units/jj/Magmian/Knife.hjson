@@ -8,7 +8,6 @@ health: 570
 armor: 12
 hitSize: 10
 outlineColor: 0C0D1BFF
-range: 0
 rotateSpeed: 2
 mechLegColor: 0C0D1BFF
  immunities: [ 
