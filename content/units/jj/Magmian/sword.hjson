@@ -67,7 +67,7 @@ bullet: {
     lightColor: 000000
     lightOpacity: 0.7
     lightRadius: 12
-    hitEffect: hitFuse
+    hitEffect: disperseTrail
     hitColor: ffb570
     despawnEffect: none
     trailColor: 000000
