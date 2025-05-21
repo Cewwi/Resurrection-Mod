@@ -1,12 +1,13 @@
 
+
 type: mech
 name: Sword
-description: Close range Mech unit. More HP and damage output.
+description: Close range Mech unit.
 speed: 0.7
 flying: false
 health: 1270
 armor: 15
-hitSize: 15
+hitSize: 10
 outlineColor: 0C0D1BFF
 range: 60
 rotateSpeed: 2
@@ -18,7 +19,7 @@ mechLegColor: 0C0D1BFF
 weapons:  [
 {
     name: sword-weapon
-    x: -8.5
+    x: -6.5
     y: 3
     rotateSpeed: 1.5
     mirror: true
@@ -28,7 +29,7 @@ weapons:  [
     inaccuracy: 0
     layerOffset: -0.00001
     rotationLimit: 110
-    reload: 12
+    reload: 18
     recoil: 1
     shootSound: smallSlash
     ejectEffect: none
@@ -49,30 +50,20 @@ parts: [
      ]
 bullet: {
     type: BasicBulletType
-    removeAfterPierce: false
-    collideTerrain: true
-    ammoMultiplier: 2
-    height: 0
-    width: 0
-    hitSize: 30
-    pierceDamageFactor: 0.8
-    lifetime: 1
-    shootEffect: none
-    splashDamage: 120
-    splashDamageRadius: 12
-    damage: 5
-    speed: 3
-    frontColor: 000000
-    backColor: 000000
-    lightColor: 000000
-    lightOpacity: 0.7
-    lightRadius: 12
-    hitEffect: disperseTrail
-    hitColor: ffb570
-    despawnEffect: none
-    trailColor: 000000
-    trailLength: 0
-    trailWidth: 0
+    ammoMultiplier: 3
+hitSize: 7
+lifetime: 13
+pierce: true
+pierceBuilding: true
+pierceCap: 600
+damage: 100
+statusDuration: 240
+shootEffect: none
+hitEffect: disperseTrail
+despawnEffect: none
+status: burning
+keepVelocity: false
+hittable: false
 }
     }
 ]
