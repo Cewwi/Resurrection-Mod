@@ -24,7 +24,7 @@
   }
   "ammoTypes": {
     "Tronian-quartz": {
-      "damage": 300,
+      "damage": 120,
       "width": 25,
       "ammoMultiplier": 5,
       "pierce": "true",
