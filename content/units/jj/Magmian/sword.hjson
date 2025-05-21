@@ -26,6 +26,7 @@ weapons:  [
     alternate: true
     rotate: true
     shootY: 6
+    shootX: -3
     inaccuracy: 0
     layerOffset: -0.00001
     rotationLimit: 110
