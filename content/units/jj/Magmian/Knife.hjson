@@ -57,8 +57,10 @@ bullet: {
     pierceDamageFactor: 0.8
     lifetime: 1
     shootEffect: none
-    damage: 85
-    speed: 80
+    splashDamage: 60
+    splashDamageRadius: 10
+    damage: 5
+    speed: 0
     frontColor: 000000
     backColor: 000000
     lightColor: 000000
