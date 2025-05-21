@@ -1,13 +1,14 @@
 
 type: mech
 name: Sword
-description: Close range Mech unit.
-speed: 0.67
+description: Close range Mech unit. More HP and damage output.
+speed: 0.7
 flying: false
-health: 570
-armor: 12
+health: 1270
+armor: 15
 hitSize: 15
 outlineColor: 0C0D1BFF
+range: 20
 rotateSpeed: 2
 mechLegColor: 0C0D1BFF
  immunities: [ 
@@ -51,14 +52,16 @@ bullet: {
     removeAfterPierce: false
     collideTerrain: true
     ammoMultiplier: 2
-    height: 40
-    width: 40
+    height: 0
+    width: 0
     hitSize: 30
     pierceDamageFactor: 0.8
     lifetime: 1
     shootEffect: none
-    damage: 85
-    speed: 80
+    splashDamage: 120
+    splashDamageRadius: 12
+    damage: 5
+    speed: 0
     frontColor: 000000
     backColor: 000000
     lightColor: 000000
