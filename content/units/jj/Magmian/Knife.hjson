@@ -8,7 +8,7 @@ health: 570
 armor: 12
 hitSize: 10
 outlineColor: 0C0D1BFF
-range: 20
+range: 60
 rotateSpeed: 2
 mechLegColor: 0C0D1BFF
  immunities: [ 
@@ -61,7 +61,7 @@ bullet: {
     splashDamage: 60
     splashDamageRadius: 10
     damage: 5
-    speed: 0
+    speed: 3
     frontColor: 000000
     backColor: 000000
     lightColor: 000000
