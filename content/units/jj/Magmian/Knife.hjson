@@ -57,7 +57,7 @@ pierceBuilding: true
 pierceCap: 600
 damage: 50
 statusDuration: 240
-shootEffect: none
+shootEffect: disperseTrail
 hitEffect: disperseTrail
 despawnEffect: none
 status: burning
