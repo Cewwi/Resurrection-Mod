@@ -52,8 +52,8 @@ bullet: {
     removeAfterPierce: false
     collideTerrain: true
     ammoMultiplier: 2
-    height: 40
-    width: 40
+    height: 0
+    width: 0
     hitSize: 30
     pierceDamageFactor: 0.8
     lifetime: 1
