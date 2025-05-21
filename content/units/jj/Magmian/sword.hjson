@@ -59,7 +59,7 @@ pierceCap: 600
 damage: 100
 statusDuration: 240
 shootEffect: disperseTrail
-hitEffect: disperseTrail
+hitEffect: hitaserBlast
 despawnEffect: none
 frontColor: 000000
 backColor: 000000
