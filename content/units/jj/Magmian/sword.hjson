@@ -61,6 +61,8 @@ statusDuration: 240
 shootEffect: none
 hitEffect: disperseTrail
 despawnEffect: none
+frontColor: 000000
+backColor: 000000
 status: burning
 keepVelocity: false
 hittable: false
