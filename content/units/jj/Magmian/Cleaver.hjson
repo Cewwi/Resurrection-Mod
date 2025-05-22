@@ -141,6 +141,7 @@ hittable: false
     cooldownTime: 90
     rotationLimit: 52.5
     rotate: true
+    baseRotation: 180
     shootCone: 45
     loopSound: torch
     layerOffset: -0.00001
@@ -157,7 +158,7 @@ hittable: false
        ffffff
      ]
       damage: 5
-      recoil: 2
+      recoil: 0.1
       layer: 110
       groundLayer: 61
       intervalBullets: 2
