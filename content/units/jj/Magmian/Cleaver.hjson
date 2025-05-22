@@ -16,7 +16,7 @@ mechLegColor: 0C0D1BFF
 weapons:  [
 {
     name: Cleaver-weapon
-    x: -5.5
+    x: -9.5
     y: 3
     rotateSpeed: 1.5
     mirror: true
@@ -49,13 +49,13 @@ parts: [
 bullet: {
     type: BasicBulletType
     ammoMultiplier: 3
-hitSize: 7
+hitSize: 9
 lifetime: 13
 pierce: true
 pierceBuilding: true
 pierceCap: 600
-damage: 100
-statusDuration: 240
+damage: 200
+statusDuration: 440
 shootEffect: disperseTrail
 hitEffect: hitLaserBlast
 despawnEffect: none
