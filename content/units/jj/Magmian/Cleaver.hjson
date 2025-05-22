@@ -16,7 +16,7 @@ mechLegColor: 0C0D1BFF
 abilities: [
    {
     type: ShieldArcAbility
-    max: 4800
+    max: 1800
     cooldown: 200
     regen: 10
     angle: 100
@@ -106,7 +106,7 @@ parts: [
     moveX: 0
     under: true
     x: 0
-    y: 0
+    y: 3.5
       }
      ]
 bullet: {
@@ -117,10 +117,10 @@ lifetime: 17
 pierce: true
 pierceBuilding: true
 pierceCap: 600
-damage: 200
+damage: 215
 statusDuration: 440
-shootEffect: disperseTrail
-hitEffect: hitLaserBlast
+shootEffect: colorSparkBig
+hitEffect: explosion
 despawnEffect: none
 frontColor: 000000
 backColor: 000000
