@@ -138,6 +138,7 @@ hittable: false
     mirror: true
     alternate: false
     shootCone: 360
+    baseRotation: 180
     loopSound: torch
     layerOffset: -0.00001
     incendAmount: 2
