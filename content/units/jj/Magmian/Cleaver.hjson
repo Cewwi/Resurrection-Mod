@@ -135,14 +135,14 @@ hittable: false
     top: true
     shooty: 0
     rotateSpeed: 1.5
-    reload: 90
+    reload: 190
     mirror: true
     alternate: false
     shootCone: 360
     baseRotation: 180
     shootSound: torch
     loopSound: torch
-    shootDuration: 60
+    shootDuration: 260
     layerOffset: -0.00001
     incendAmount: 2
     alwaysShooting: false
