@@ -16,7 +16,7 @@ mechLegColor: 0C0D1BFF
 weapons:  [
 {
     name: Cleaver-weapon
-    x: -9.5
+    x: -12.5
     y: 3
     rotateSpeed: 1.5
     mirror: true
