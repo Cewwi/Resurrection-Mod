@@ -135,6 +135,7 @@ hittable: false
     top: true
     shooty: 0
     rotateSpeed: 1.5
+    reload: 90
     mirror: true
     alternate: false
     shootCone: 360
