@@ -155,7 +155,7 @@ hittable: false
      ]
       maxRange: 100
       damage: 5
-      recoil: -0.2
+      recoil: -0.5
       layer: 110
       lifetime: 30
       groundLayer: 61
