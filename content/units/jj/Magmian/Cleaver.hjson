@@ -134,15 +134,10 @@ hittable: false
     x: 0
     top: true
     shooty: 0
-    reload: 200
     rotateSpeed: 1.5
     mirror: true
     alternate: false
-    cooldownTime: 90
-    rotationLimit: 52.5
-    rotate: true
-    baseRotation: 180
-    shootCone: 45
+    shootCone: 360
     loopSound: torch
     layerOffset: -0.00001
     incendAmount: 2
@@ -157,10 +152,11 @@ hittable: false
        FF7436FF
        ffffff
      ]
+      maxRange: 100
       damage: 5
       recoil: 0.1
       layer: 110
-      lifetime: 20
+      lifetime: 30
       groundLayer: 61
       intervalBullets: 2
       intervalRandomSpread: 1
