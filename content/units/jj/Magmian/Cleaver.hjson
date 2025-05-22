@@ -26,6 +26,7 @@ abilities: [
     y: -22
     radius: 50
   }
+]
 weapons:  [
 {
     name: Knife-weapon
