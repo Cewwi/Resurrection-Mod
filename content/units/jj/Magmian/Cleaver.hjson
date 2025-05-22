@@ -3,7 +3,7 @@ name: Cleaver
 description: Close range Mech unit. Equiped with more melee weapons and a powerful radial shield.
 speed: 0.6
 flying: false
-health: 4270
+health: 12200
 armor: 22
 hitSize: 10
 outlineColor: 0C0D1BFF
