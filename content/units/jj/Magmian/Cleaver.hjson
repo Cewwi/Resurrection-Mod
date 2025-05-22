@@ -19,7 +19,7 @@ abilities: [
     max: 4800
     cooldown: 200
     regen: 10
-    angle: 200
+    angle: 100
     whenShooting: false
     width: 6
     x: 0
