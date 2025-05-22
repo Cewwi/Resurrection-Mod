@@ -141,6 +141,7 @@ hittable: false
     shootCone: 360
     baseRotation: 180
     loopSound: torch
+    shootDuration: 60
     layerOffset: -0.00001
     incendAmount: 2
     alwaysShooting: false
