@@ -1,6 +1,6 @@
 type: mech
 name: Cleaver
-description: Close range Mech unit. More Health and damage.
+description: Close range Mech unit. Equiped with a machinegun and a more melee weapons.
 speed: 0.6
 flying: false
 health: 4270
