@@ -16,7 +16,7 @@ mechLegColor: 0C0D1BFF
 weapons:  [
 {
     name: Knife-weapon
-    x: -6.5
+    x: -5
     y: 4
     rotateSpeed: 1.5
     mirror: true
