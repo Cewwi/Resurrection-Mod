@@ -162,6 +162,7 @@ hittable: false
       groundLayer: 61
       intervalBullets: 2
       intervalRandomSpread: 1
+      lifetime: 260
       bulletInterval: 2.7
       drawFlare: false
       width: 6
