@@ -140,12 +140,12 @@ hittable: false
     alternate: false
     shootCone: 360
     baseRotation: 180
+    shootSound: torch
     loopSound: torch
     shootDuration: 60
     layerOffset: -0.00001
     incendAmount: 2
     alwaysShooting: false
-    alwaysContinuous: true
     continuous: true
     bullet: {
       type: ContinuousFlameBulletType
