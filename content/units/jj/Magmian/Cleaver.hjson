@@ -134,7 +134,7 @@ hittable: false
     x: 0
     top: true
     shooty: 0
-    reload: 5
+    reload: 200
     rotateSpeed: 1.5
     mirror: true
     alternate: false
@@ -160,6 +160,7 @@ hittable: false
       damage: 5
       recoil: 0.1
       layer: 110
+      lifetime: 20
       groundLayer: 61
       intervalBullets: 2
       intervalRandomSpread: 1
