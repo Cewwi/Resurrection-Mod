@@ -41,6 +41,7 @@ weapons:  [
     inaccuracy: 0
     rotationLimit: 110
     reload: 12
+    layerOffset: -0.00001
     recoil: 1
     shootSound: smallSlash
     ejectEffect: none
@@ -86,7 +87,6 @@ hittable: false
     alternate: true
     rotate: true
     shootY: 6
-    shootX: -3
     inaccuracy: 0
     layerOffset: -0.00001
     rotationLimit: 110
@@ -167,7 +167,7 @@ hittable: false
       width: 6
       pierceArmor: true
       divisions: 20
-      length: 140
+      length: 14
 }
 }
 ]
