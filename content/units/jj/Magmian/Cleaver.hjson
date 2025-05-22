@@ -1,6 +1,6 @@
 type: mech
 name: Cleaver
-description: Close range Mech unit. Equiped with more melee weapons and a radial shield.
+description: Close range Mech unit. Equiped with more melee weapons and a powerful radial shield.
 speed: 0.6
 flying: false
 health: 4270
@@ -13,6 +13,19 @@ mechLegColor: 0C0D1BFF
     melting
     burning
 ]
+abilities: [
+   {
+    type: ShieldArcAbility
+    max: 4800
+    cooldown: 200
+    regen: 10
+    angle: 200
+    whenShooting: false
+    width: 6
+    x: 0
+    y: -22
+    radius: 50
+  }
 weapons:  [
 {
     name: Knife-weapon
