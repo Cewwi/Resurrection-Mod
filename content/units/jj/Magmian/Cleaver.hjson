@@ -159,7 +159,6 @@ hittable: false
       damage: 5
       recoil: -0.35
       layer: 110
-      lifetime: 260
       groundLayer: 61
       intervalBullets: 2
       intervalRandomSpread: 1
