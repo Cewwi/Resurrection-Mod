@@ -63,7 +63,7 @@ bullet: {
     }
 {
     name: Knife-weapon
-    x: -5
+    x: -7
     y: 5
     rotateSpeed: 1.5
     mirror: true
@@ -112,7 +112,7 @@ hittable: false
     }
 {
     name: Cleaver-weapon
-    x: -13.5
+    x: -14.5
     y: 3
     rotateSpeed: 1.5
     mirror: true
@@ -146,7 +146,7 @@ bullet: {
     type: BasicBulletType
     ammoMultiplier: 3
 hitSize: 9
-lifetime: 13
+lifetime: 17
 pierce: true
 pierceBuilding: true
 pierceCap: 600
