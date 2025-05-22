@@ -30,7 +30,7 @@ abilities: [
 weapons:  [
 {
     name: Knife-weapon
-    x: -7
+    x: -5
     y: 5
     rotateSpeed: 1.5
     mirror: true
