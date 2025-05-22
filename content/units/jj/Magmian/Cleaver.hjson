@@ -135,7 +135,7 @@ parts: [
     outline: false
     mirror: false
     top: false
-    moveY: 10
+    moveY: 14
     moveX: 0
     under: true
     x: 0
