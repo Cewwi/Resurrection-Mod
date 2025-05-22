@@ -3,8 +3,8 @@ name: Cleaver
 description: Close range Mech unit. More Health and damage.
 speed: 0.7
 flying: false
-health: 1270
-armor: 15
+health: 4270
+armor: 22
 hitSize: 10
 outlineColor: 0C0D1BFF
 rotateSpeed: 2
@@ -16,7 +16,7 @@ mechLegColor: 0C0D1BFF
 weapons:  [
 {
     name: Cleaver-weapon
-    x: -6.5
+    x: -5.5
     y: 3
     rotateSpeed: 1.5
     mirror: true
@@ -27,7 +27,7 @@ weapons:  [
     inaccuracy: 0
     layerOffset: -0.00001
     rotationLimit: 110
-    reload: 12
+    reload: 14
     recoil: 1
     shootSound: bigSlash
     ejectEffect: none
@@ -61,7 +61,7 @@ hitEffect: hitLaserBlast
 despawnEffect: none
 frontColor: 000000
 backColor: 000000
-status: burning
+status: melting
 keepVelocity: false
 hittable: false
 }
