@@ -112,7 +112,7 @@ hittable: false
     }
 {
     name: Cleaver-weapon
-    x: -12.5
+    x: -13.5
     y: 3
     rotateSpeed: 1.5
     mirror: true
