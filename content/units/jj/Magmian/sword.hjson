@@ -5,7 +5,7 @@ name: Sword
 description: Close range Mech unit. More Health and damage.
 speed: 0.7
 flying: false
-health: 1270
+health: 3270
 armor: 15
 hitSize: 10
 outlineColor: 0C0D1BFF
