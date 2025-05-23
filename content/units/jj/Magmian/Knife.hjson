@@ -57,6 +57,8 @@ pierceBuilding: true
 pierceCap: 600
 damage: 50
 statusDuration: 240
+frontColor: 000000
+backColor: 000000
 shootEffect: disperseTrail
 hitEffect: hitLaserBlast
 despawnEffect: none
