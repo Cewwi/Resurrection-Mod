@@ -95,6 +95,7 @@ hittable: false
     shootX: -2
     inaccuracy: 0
     rotationLimit: 110
+    range: 16
     reload: 1
     layerOffset: -0.00001
     recoil: 0
