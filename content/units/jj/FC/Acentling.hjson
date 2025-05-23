@@ -42,19 +42,6 @@ radius: 8
 type: shapePart
 y: 0
 x: 0
-hollow: true
-circle: true
-layer: 110
-color: FFD53FFF
-stroke: 2
-strokeTo: 1
-radiusTo: 30
-radius: 8
-}
-{
-type: shapePart
-y: 0
-x: 0
 hollow: false
 circle: true
 layer: 110
@@ -111,18 +98,18 @@ triLength: 8
 type: HaloPart
 y: 0
 x: 0
-radius: 4.6
+radius: -4.6
 tri: true
 layer: 110
 color: FFD53FFF
 haloRotateSpeed: -1.5
-haloRadius: -12
-haloRadiusTo: -12
+haloRadius: 8
+haloRadiusTo: 12
 stroke: 2
 strokeTo: 2
 shapes: 4
-triLengthTo: -12
-triLength: -8
+triLengthTo: 3
+triLength: 1
 }
 ]
 weapons: [
