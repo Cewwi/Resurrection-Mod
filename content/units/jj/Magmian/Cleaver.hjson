@@ -132,7 +132,7 @@ hittable: false
 {
     name: Cleaver-thruster
     y: -9
-    x: 0
+    x: 9
     top: true
     shooty: 8
     rotateSpeed: 1.5
@@ -140,11 +140,10 @@ hittable: false
     mirror: true
     alternate: false
     shootCone: 360
-    baseRotation: 180
+    baseRotation: 160
     shootSound: torch
     loopSound: torch
     shootDuration: 260
-    layerOffset: -0.00001
     incendAmount: 2
     alwaysShooting: false
     continuous: true
