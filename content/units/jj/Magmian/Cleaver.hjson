@@ -130,10 +130,11 @@ hittable: false
 }
     }
 {
-    y: -2
+    name: Cleaver-truster
+    y: -5
     x: 0
     top: true
-    shooty: 0
+    shooty: 8
     rotateSpeed: 1.5
     reload: 190
     mirror: true
