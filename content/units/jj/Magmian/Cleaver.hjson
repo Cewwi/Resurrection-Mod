@@ -134,6 +134,7 @@ hittable: false
     y: -9
     x: 12
     top: true
+    layerOffset: -0.00001
     shootY: 10
     rotateSpeed: 1.5
     reload: 190
