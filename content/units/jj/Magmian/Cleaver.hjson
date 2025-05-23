@@ -130,8 +130,8 @@ hittable: false
 }
     }
 {
-    name: Cleaver-truster
-    y: -5
+    name: Cleaver-thruster
+    y: -9
     x: 0
     top: true
     shooty: 8
