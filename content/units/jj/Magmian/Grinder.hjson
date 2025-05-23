@@ -40,9 +40,9 @@ weapons:  [
     shootX: -2
     inaccuracy: 0
     rotationLimit: 110
-    reload: 12
+    reload: 1
     layerOffset: -0.00001
-    recoil: 1
+    recoil: 0
     shootSound: smallSlash
     ejectEffect: none
 parts: [
@@ -51,8 +51,7 @@ parts: [
     suffix: -saw
     progress: recoil
     outline: false
-    spinSprite: true
-    rotateSpeed: 5
+    moveRot: 50
     mirror: false
     top: false
     moveY: 0
