@@ -59,7 +59,7 @@ parts: [
     moveX: 0
     under: true
     x: 0
-    y: 0
+    y: 20
       }
      ]
 bullet: {
