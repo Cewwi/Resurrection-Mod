@@ -134,7 +134,7 @@ hittable: false
     y: -9
     x: 9
     top: true
-    shooty: 8
+    shooty: 12
     rotateSpeed: 1.5
     reload: 190
     mirror: true
