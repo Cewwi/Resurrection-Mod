@@ -51,12 +51,11 @@ parts: [
     suffix: -saw
     progress: recoil
     outline: false
-    haloRotateSpeed: 1.5
-    haloRadius: 8
-    haloRadiusTo: 8
+    spinSprite: true
+    rotateSpeed: 5
     mirror: false
     top: false
-    moveY: 10
+    moveY: 0
     moveX: 0
     under: true
     x: 0
