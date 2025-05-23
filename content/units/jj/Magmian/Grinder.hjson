@@ -7,7 +7,7 @@ health: 87200
 armor: 23
 hitSize: 32
 outlineColor: 0C0D1BFF
-rotateSpeed: 2
+rotateSpeed: 4
 mechLegColor: 0C0D1BFF
  immunities: [ 
     melting
@@ -24,7 +24,7 @@ abilities: [
     width: 6
     x: 0
     y: 0
-    radius: 30
+    radius: 45
   }
 ]
 weapons:  [
