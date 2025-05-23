@@ -51,6 +51,9 @@ parts: [
     suffix: -blade
     progress: recoil
     outline: false
+    haloRotateSpeed: 1.5
+    haloRadius: 8
+    haloRadiusTo: 8
     mirror: false
     top: false
     moveY: 10
