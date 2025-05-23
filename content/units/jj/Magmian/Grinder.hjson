@@ -1,0 +1,82 @@
+type: mech
+name: Cleaver
+description: Close range Mech unit. Equiped with more melee weapons and a booster.
+speed: 0.6
+flying: false
+health: 12200
+armor: 22
+hitSize: 25
+outlineColor: 0C0D1BFF
+rotateSpeed: 2
+mechLegColor: 0C0D1BFF
+ immunities: [ 
+    melting
+    burning
+]
+abilities: [
+   {
+    type: ShieldArcAbility
+    max: 1800
+    cooldown: 200
+    regen: 10
+    angle: 100
+    whenShooting: false
+    width: 6
+    x: 0
+    y: -22
+    radius: 50
+  }
+]
+weapons:  [
+{
+    name: Knife-weapon
+    x: -5
+    y: 5
+    rotateSpeed: 1.5
+    mirror: true
+    alternate: true
+    rotate: true
+    shootY: 6
+    shootX: -2
+    inaccuracy: 0
+    rotationLimit: 110
+    reload: 12
+    layerOffset: -0.00001
+    recoil: 1
+    shootSound: smallSlash
+    ejectEffect: none
+parts: [
+       {
+    type: RegionPart
+    suffix: -blade
+    progress: recoil
+    outline: false
+    mirror: false
+    top: false
+    moveY: 10
+    moveX: 0
+    under: true
+    x: 0
+    y: 0
+      }
+     ]
+bullet: {
+    type: BasicBulletType
+    ammoMultiplier: 3
+hitSize: 7
+lifetime: 13
+pierce: true
+pierceBuilding: true
+pierceCap: 600
+damage: 50
+statusDuration: 240
+shootEffect: disperseTrail
+hitEffect: hitLaserBlast
+despawnEffect: none
+status: burning
+keepVelocity: false
+hittable: false
+}
+    }
+]
+researchCostMultiplier: 2.5
