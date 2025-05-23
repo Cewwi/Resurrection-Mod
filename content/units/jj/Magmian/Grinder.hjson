@@ -48,7 +48,7 @@ weapons:  [
 parts: [
        {
     type: RegionPart
-    suffix: -blade
+    suffix: -saw
     progress: recoil
     outline: false
     haloRotateSpeed: 1.5
