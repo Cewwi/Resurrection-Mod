@@ -1,11 +1,11 @@
 type: mech
-name: Cleaver
-description: Tradesthe blades for saws.
+name: Grinder
+description: Trades blades for saws.
 speed: 0.6
 flying: false
-health: 12200
-armor: 22
-hitSize: 25
+health: 67200
+armor: 30
+hitSize: 32
 outlineColor: 0C0D1BFF
 rotateSpeed: 2
 mechLegColor: 0C0D1BFF
@@ -29,7 +29,7 @@ abilities: [
 ]
 weapons:  [
 {
-    name: Knife-weapon
+    name: Grinder-weapon
     x: -5
     y: 5
     rotateSpeed: 1.5
