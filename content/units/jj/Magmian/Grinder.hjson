@@ -1,10 +1,10 @@
 type: mech
 name: Grinder
-description: Trades blades for saws.
-speed: 0.55
+description: Trades blades for saws. Looses armor but gains lots of speeds.
+speed: 0.75
 flying: false
 health: 87200
-armor: 30
+armor: 23
 hitSize: 32
 outlineColor: 0C0D1BFF
 rotateSpeed: 2
@@ -30,13 +30,13 @@ abilities: [
 weapons:  [
 {
     name: Grinder-weapon
-    x: -14
+    x: -19
     y: 5
     rotateSpeed: 1.5
     mirror: true
     alternate: true
     rotate: true
-    shootY: 6
+    shootY: 17
     shootX: -2
     inaccuracy: 0
     rotationLimit: 110
@@ -53,18 +53,18 @@ parts: [
     outline: false
     moveRot: 50
     mirror: false
-    top: false
+    top: true
     moveY: 0
     moveX: 0
     under: true
     x: 0
-    y: 20
+    y: 17
       }
      ]
 bullet: {
     type: BasicBulletType
     ammoMultiplier: 3
-hitSize: 7
+hitSize: 9
 lifetime: 3
 speed: 0
 pierce: true
@@ -72,7 +72,7 @@ pierceBuilding: true
 pierceCap: 600
 damage: 125
 statusDuration: 240
-shootEffect: none
+shootEffect: fire
 hitEffect: disperseTrail
 despawnEffect: none
 status: melting
