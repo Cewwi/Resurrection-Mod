@@ -3,7 +3,7 @@ name: Grinder
 description: Trades blades for saws.
 speed: 0.6
 flying: false
-health: 67200
+health: 87200
 armor: 30
 hitSize: 32
 outlineColor: 0C0D1BFF
@@ -16,21 +16,21 @@ mechLegColor: 0C0D1BFF
 abilities: [
    {
     type: ShieldArcAbility
-    max: 1800
+    max: 5800
     cooldown: 200
-    regen: 10
-    angle: 100
+    regen: 70
+    angle: 250
     whenShooting: false
     width: 6
     x: 0
-    y: -22
-    radius: 50
+    y: 0
+    radius: 30
   }
 ]
 weapons:  [
 {
     name: Grinder-weapon
-    x: -5
+    x: -14
     y: 5
     rotateSpeed: 1.5
     mirror: true
@@ -43,7 +43,7 @@ weapons:  [
     reload: 1
     layerOffset: -0.00001
     recoil: 0
-    shootSound: smallSlash
+    shootSound: smallSaw
     ejectEffect: none
 parts: [
        {
@@ -65,16 +65,17 @@ bullet: {
     type: BasicBulletType
     ammoMultiplier: 3
 hitSize: 7
-lifetime: 13
+lifetime: 3
+speed: 0
 pierce: true
 pierceBuilding: true
 pierceCap: 600
-damage: 50
+damage: 5
 statusDuration: 240
-shootEffect: disperseTrail
-hitEffect: hitLaserBlast
+shootEffect: none
+hitEffect: disperseTrail
 despawnEffect: none
-status: burning
+status: melting
 keepVelocity: false
 hittable: false
 }
