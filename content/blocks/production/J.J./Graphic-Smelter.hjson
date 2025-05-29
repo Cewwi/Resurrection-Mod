@@ -1,6 +1,6 @@
 
 type: GenericCrafter
-name: Graphic Smelter
+name: Gavolite Smelter
 description: Produces Gavolite.
 size: 3
 craftTime: 80
