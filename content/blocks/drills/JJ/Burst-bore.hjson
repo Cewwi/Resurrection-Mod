@@ -8,6 +8,7 @@ type: BeamDrill
   fogRadius: 6
   laserWidth: 0.7f
   itemCapacity: 20
+  description: Basic drill used to mine rescorces out of walls
   requirements: [
   Tronian-quartz/100
   Ordanium/75
