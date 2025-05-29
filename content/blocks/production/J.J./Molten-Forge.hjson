@@ -9,7 +9,7 @@ consumes: {
     Ti-6Al-4V/2
     carborundum/2
     Thoralius/2
-    Tronian-Graphite/4
+    Gavolite/4
   ]
     liquids: [
     slag/0.25
@@ -86,7 +86,7 @@ research: Cell-Fuser
 requirements: [
   carborundum/400
   Ti-6Al-4V/200
-  Tronian-Graphite/520
+  Gavolite/520
   Thoralius/120
   MagmaCell/50
   Ashen-Silver/300
