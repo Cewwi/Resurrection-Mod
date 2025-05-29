@@ -10,9 +10,11 @@ type: BeamDrill
   itemCapacity: 20
   description: Basic drill used to mine rescorces out of walls
   category: production
-  consumeLiquid: [
-  water/ 0.25
-  ]
+  liquidConsumption: {
+    liquid: hydrogen
+    amountPerSecond: 0.25
+    boosted: true
+  }
   requirements: [
   Tronian-quartz/100
   Ordanium/75
