@@ -1,7 +1,7 @@
 type: BeamDrill
   name: Burst bore
   consumePower: 0.8
-  drillTime: 100
+  drillTime: 600
   tier: 1
   size: 2
   range: 3
