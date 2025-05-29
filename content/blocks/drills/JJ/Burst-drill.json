@@ -3,8 +3,7 @@
   "size": 2,
   "description": "Basic drill for surface ground"
   "tier": 1,
-  "rotateSpeed": 2,
-  "drillTime": 2800,
+  "drillTime": 400,
   "liquidBoostIntensity": 1.5,
   "drawRim": false,
   "shake": 2,
