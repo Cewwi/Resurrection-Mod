@@ -6,10 +6,13 @@ type: BeamDrill
   size: 2
   range: 3
   fogRadius: 6
-  laserWidth: 0.7f
+  laserWidth: 0.7
   itemCapacity: 20
   description: Basic drill used to mine rescorces out of walls
   category: production
+  consumeLiquid: [
+  water/0.25
+  ]
   requirements: [
   Tronian-quartz/100
   Ordanium/75
