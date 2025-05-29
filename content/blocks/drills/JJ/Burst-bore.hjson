@@ -9,6 +9,7 @@ type: BeamDrill
   laserWidth: 0.7f
   itemCapacity: 20
   description: Basic drill used to mine rescorces out of walls
+  category: production
   requirements: [
   Tronian-quartz/100
   Ordanium/75
