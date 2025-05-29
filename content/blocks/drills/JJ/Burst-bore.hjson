@@ -9,6 +9,6 @@ type: BeamDrill
   laserWidth: 0.7f
   itemCapacity: 20
   requirements: [
-  silicon/20
-  tronian-quartz/20
+  Tronian-quartz/100
+  Ordanium/75
   ]
