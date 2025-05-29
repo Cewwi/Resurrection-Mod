@@ -1,17 +1,20 @@
 {
-  "type": "Drill",
+  "type": "BurstDrill",
   "size": 2,
   "tier": 1,
   "rotateSpeed": 2,
   "drillTime": 800,
   "liquidBoostIntensity": 1.5,
-  "drawRim": true,
+  "drawRim": false,
+  "shake": 2,
   "itemCapacity": 40,
+  "hasPower": false,
   "hasLiquids": true,
   "hardnessDrillMultiplier": 10,
   "expanded": true,
  "requirements": [
      "Tronian-quartz/15",
+     "Ordanium/50"
   ],
    "category": "production",
   "research": "Cavern-core",
