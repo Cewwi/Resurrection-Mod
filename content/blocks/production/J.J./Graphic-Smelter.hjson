@@ -1,7 +1,7 @@
 
 type: GenericCrafter
-name: Carborundum Furnace
-description: Produces carborundum.
+name: Graphic Smelter
+description: Produces Gavolite.
 size: 3
 craftTime: 80
 consumes: {
