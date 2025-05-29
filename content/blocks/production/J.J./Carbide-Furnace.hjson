@@ -7,7 +7,7 @@ craftTime: 150
 consumes: {
   items: [
     carborundum/4
-    Tronian-Graphite/8
+    Gavolite/8
   ]
 power: 2
 }
