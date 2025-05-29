@@ -15,7 +15,7 @@
   "requirements": [
     "carborundum/500",
     "Tronian-quartz/750",
-    "Tronian-Graphite/500",
+    "Gavolite/500",
   ],
   "category": "effect",
 }
