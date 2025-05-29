@@ -1,6 +1,7 @@
 {
   "type": "BurstDrill",
   "size": 2,
+  "description": "Basic drill for surface ground"
   "tier": 1,
   "rotateSpeed": 2,
   "drillTime": 800,
