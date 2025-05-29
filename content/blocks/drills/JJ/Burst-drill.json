@@ -4,7 +4,7 @@
   "description": "Basic drill for surface ground"
   "tier": 1,
   "rotateSpeed": 2,
-  "drillTime": 800,
+  "drillTime": 2800,
   "liquidBoostIntensity": 1.5,
   "drawRim": false,
   "shake": 2,
