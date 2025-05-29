@@ -6,7 +6,7 @@ size: 3
 craftTime: 80
 consumes: {
   items: [
-    scheelite/4
+    Ordanium/4
   ]
 power: 2
 }
@@ -36,7 +36,7 @@ outputItems: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-  scheelite/50
+  Ordanium/50
   Tronian-quartz/100
 ]
 itemCapacity: 10
