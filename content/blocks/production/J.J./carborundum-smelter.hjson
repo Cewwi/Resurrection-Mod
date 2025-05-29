@@ -32,6 +32,7 @@ outputItems: [
 ]
 category: crafting
 research: Quartz-Generator
+craftEffect: smokeCloud
 requirements: [
   Tronian-Graphite/50
   Tronian-quartz/100
