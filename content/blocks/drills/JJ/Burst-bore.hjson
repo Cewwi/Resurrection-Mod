@@ -11,7 +11,7 @@ type: BeamDrill
   description: Basic drill used to mine rescorces out of walls
   category: production
   consumeLiquid: [
-  water/0.25
+  water/ 0.25
   ]
   requirements: [
   Tronian-quartz/100
