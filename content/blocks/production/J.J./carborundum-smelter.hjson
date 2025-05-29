@@ -6,7 +6,7 @@ size: 3
 craftTime: 60
 consumes: {
   items: [
-    Tronian-Graphite/1
+    Gavolite/1
     Tronian-quartz/2
   ]
 power: 3
@@ -34,7 +34,7 @@ category: crafting
 research: Quartz-Generator
 craftEffect: smokeCloud
 requirements: [
-  Tronian-Graphite/50
+  Gavolite/50
   Tronian-quartz/100
 ]
 itemCapacity: 10
