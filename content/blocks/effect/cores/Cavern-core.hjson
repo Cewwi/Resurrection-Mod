@@ -12,7 +12,7 @@
  requirements: [
     carborundum/1000
     Geosium/500
-    Tronian-Graphite/2500
+    Gavolite/2500
   ],
 research: {
   planet: tronoe
