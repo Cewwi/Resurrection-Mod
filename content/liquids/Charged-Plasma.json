@@ -3,8 +3,8 @@
   "flammability": 0,
   "capPuddles": true,
   "explosiveness": 0.3
-  "charge": 2.25,
-  "color": "4daae0",
+  "charge": 20.25,
+  "color": "E2F5FBFF",
   "lightColor": "E2F5FBFF",
   "effect": "shocked",
   "viscosity": 0.1,
