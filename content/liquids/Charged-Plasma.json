@@ -1,12 +1,11 @@
 {
-    "heatCapacity": 0.4,
-  "temperature": 3.84,
+  "temperature": 0.84,
   "flammability": 0,
-  "capPuddles": false,
+  "capPuddles": true,
   "explosiveness": 0.3
   "charge": 2.25,
-  "Color": "8CA9E8FF",
+  "color": "E2F5FBFF",
   "lightColor": "E2F5FBFF",
   "effect": "shocked",
-  "viscosity": 2,
+  "viscosity": 0.1,
 }
