@@ -31,7 +31,7 @@ drawers: [
 ]
 }
 outputItems: [
-  Tronian-Graphite/2
+  Gavolite/2
 ]
 category: crafting
 research: Quartz-Generator
