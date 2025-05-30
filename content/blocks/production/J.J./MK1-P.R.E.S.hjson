@@ -6,7 +6,7 @@ size: 6
 craftTime: 80
 consumes: {
   items: [
-    scheelite/4
+    Gavolite/4
   ]
 power: 2
 }
@@ -27,7 +27,7 @@ drawers: [
 ]
 }
 outputItems: [
-  Tronian-Graphite/2
+  Gavolite/2
 ]
 category: crafting
 research: Quartz-Generator
