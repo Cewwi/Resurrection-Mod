@@ -1,7 +1,7 @@
 
 type: GenericCrafter
 name: Ti-Synthisizer
-description: Produces Ti-6Al-4V at a faster rate.
+description: Produces Ti-6Al-4V.
 size: 5
 craftTime: 30
 consumes: {
