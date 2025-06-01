@@ -25,6 +25,11 @@ drawers: [
 {
   type: DrawDefault
 }
+{
+  type: DrawGlowRegion
+  suffix: -glow
+  color: 3d58f0
+}
 ]
 }
 outputItems: [
