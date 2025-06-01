@@ -45,9 +45,9 @@ effect: [
           length: 9
           baseLength: 9
           sides: 4
-          lifetime: 250
+          lifetime: 150
           interp: circleOut
-          cone: 40
+          cone: 10
           offset: 0
           lightColor: D7FFB8FF
           colorFrom: D7FFB8FF
@@ -60,9 +60,9 @@ effect: [
           particles: 10
           length: 9
           baseLength: 9
-          lifetime: 225
+          lifetime: 125
           interp: circleOut
-          cone: 40
+          cone: 10
           sides: 4
           offset: 0
           lightColor: abb0a6
@@ -76,9 +76,9 @@ effect: [
           particles: 10
           length: 15
           baseLength: 9
-          lifetime: 225
+          lifetime: 125
           interp: circleOut
-          cone: 40
+          cone: 10
           sides: 4
           offset: 8
           lightColor: 6BDE5DFF
