@@ -1,17 +1,19 @@
 
 type: GenericCrafter
-name: Carborundum Furnace
-description: Produces carborundum.
+name: TI Mixer
+description: Produces Thaxus by melting down Silver and Thaxon.
 size: 4
 craftTime: 80
 consumes: {
   items: [
-    scheelite/4
+    Thaxon/4
+    Silver/2
   ]
-power: 2
+power: 3
 }
 ignoreLiquidFullness: true
 ambientSound: smelter
+group: liquids
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.3
 drawer: {
@@ -21,6 +23,8 @@ drawers: [
   type: DrawRegion
   suffix: -bottom
 }
+type: DrawLiquidTile
+liquid: Thaxus
 {
   type: DrawFlame
       flameColor: A9D8FFFF
@@ -30,13 +34,15 @@ drawers: [
 }
 ]
 }
-outputItems: [
-  Albino-Alloy/2
+outputLiquids: [
+  Thaxus/2
 ]
 category: crafting
 research: Quartz-Generator
 requirements: [
-  scheelite/50
-  Tronian-quartz/100
+  Thaxon/75
+  Tronian-quartz/150
+  Gavolite/120
 ]
 itemCapacity: 20
+liquidCapacity: 60
