@@ -37,6 +37,7 @@ outputItems: [
 ]
 craftEffect: {
 type: RadialEffect
+lengthOffset: 5
 effect: [
       {
           type: ParticleEffect
@@ -50,9 +51,9 @@ effect: [
           cone: 10
           offset: 40
           baseRotation: 45
-          lightColor: D7FFB8FF
-          colorFrom: D7FFB8FF
-          colorTo: 6BDE5DFF
+          lightColor: 3d58f0
+          colorFrom: 1923aa
+          colorTo: 3d58f0
           sizeFrom: 10
           sizeTo: 0
           }
@@ -67,9 +68,9 @@ effect: [
           cone: 10
           sides: 4
           offset: 40
-          lightColor: abb0a6
-          colorFrom: 73b879
-          colorTo: abb0a6
+          lightColor: 3d58f0
+          colorFrom: 1923aa
+          colorTo: 3d58f0
           sizeFrom: 7
           sizeTo: 0
           }
@@ -84,9 +85,9 @@ effect: [
           cone: 10
           sides: 4
           offset: 40
-          lightColor: 6BDE5DFF
-          colorFrom: 6BDE5DFF
-          colorTo: D7FFB8FF
+          lightColor: 3d58f0
+          colorFrom: 1923aa
+          colorTo: 3d58f0
           sizeFrom: 7
           sizeTo: 0
           }
