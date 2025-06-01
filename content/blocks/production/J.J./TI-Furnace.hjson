@@ -11,7 +11,7 @@ consumes: {
   ]
 power: 3
 }
-ignoreLiquidFullness: true
+ignoreLiquidFullness: false
 ambientSound: electricHum
 group: liquids
 researchCostMultiplier: 0.5
