@@ -59,7 +59,7 @@ drawers: [
 }
 {
   type: DrawBubbles
-    sides: 4
+    sides: 6
     recurrence: 3
     spread: 8
     radius: 2f
