@@ -12,10 +12,11 @@ consumes: {
 power: 3
 }
 ignoreLiquidFullness: true
-ambientSound: smelter
+ambientSound: electricHum
 group: liquids
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.3
+hasLiquids: true
 drawer: {
 type: DrawMulti
 drawers: [
@@ -39,7 +40,7 @@ drawers: [
     spread: 8
     radius: 2f
     amount: 20
-    color: ffa166
+    color: 3d58f0
 }
 {
   type: DrawDefault
