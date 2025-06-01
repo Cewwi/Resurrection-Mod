@@ -24,7 +24,7 @@
   }
   "ammoTypes": {
     "Tronian-quartz": {
-      "damage": 120,
+      "damage": 80,
       "width": 25,
       "ammoMultiplier": 5,
       "pierce": "true",
@@ -49,8 +49,8 @@
         "colorTo": "E5E5E5FF"
       },
     },
-    "ordanium": {
-      "damage": 120,
+    "Ordanium": {
+      "damage": 60,
       "width": 25,
       "ammoMultiplier": 5,
       "pierce": "true",
@@ -59,8 +59,8 @@
       "lifetime": 18,
       "length": 160,
       "serrations": 8,
-      "fromColor": "E5E5E5FF",
-      "toColor": "E5E5E5FF",
+      "fromColor": "444759",
+      "toColor": "5f6372",
       "shootEffect": "explosion",
       "hitEffect": {
         "type": "ParticleEffect",
@@ -77,8 +77,9 @@
     },
   },
   "requirements": [
-    "carborundum/200",
-    "Tronian-quartz/300",
+    "carborundum/125",
+    "Ordanium/100",
+    "Tronian-quartz/200",
   ],
   "category": "turret",
   "research": "Caven-core"
