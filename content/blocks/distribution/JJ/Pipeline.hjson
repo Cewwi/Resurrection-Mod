@@ -7,12 +7,13 @@ research: Quartz-core
 bridgeReplacement: Channel-bridge
 liquidCapacity: 20
 researchCost: [
-  Hardened-pane/250
+  pane/250
   Thaxon/120
 ]
 health: 150
 requirements: [
-  Ordanium/1
+  pane/1
+  Thaxon/1
 ]
 lightRadius: 15
 lightColor: BCB6B6FF
