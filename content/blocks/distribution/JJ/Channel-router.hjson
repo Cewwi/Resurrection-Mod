@@ -3,6 +3,7 @@ name: Channel Router
 description: distributes items in equal directions.
 category: distribution
 alwaysUnlocked: false
+squareSprite: false
 research: Channel
 solid: false
 researchCost: [
