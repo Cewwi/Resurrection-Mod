@@ -52,7 +52,7 @@ outputLiquids: [
   Thaxus/0.3
 ]
 category: crafting
-research: Quartz-Generator
+research: carborundum-smelter
 requirements: [
   Thaxon/75
   Tronian-quartz/150
