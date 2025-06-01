@@ -44,12 +44,12 @@ effect: [
           type: ParticleEffect
           particles: 10
           length: 9
-          baseLength: 9
-          lifetime: 125
+          baseLength: 3
+          lifetime: 75
           interp: circleOut
           cone: 10
           sides: 4
-          offset: 40
+          offset: 0
           lightColor: 3d58f0
           colorFrom: 3d58f0
           colorTo: 3d58f0
@@ -60,12 +60,12 @@ effect: [
           type: ParticleEffect
           particles: 10
           length: 15
-          baseLength: 9
-          lifetime: 125
+          baseLength: 3
+          lifetime: 75
           interp: circleOut
           cone: 10
           sides: 4
-          offset: 40
+          offset: 0
           lightColor: 3d58f0
           colorFrom: 3d58f0
           colorTo: 3d58f0
