@@ -1,12 +1,6 @@
 {
 "localizedName": "Deep Down",
 "description": "A place in tronoe that apperes to be continuously changing.[[]#BC5452FF]The Magmians have located your possition and are sending[[]]"
-"research": {
-"parent": "extractionOutpost",
-"objectives": [
-"Friction"
-],
-},
 "sector": 100,
 "captureWave": 60,
 "difficulty": 10,
