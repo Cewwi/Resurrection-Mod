@@ -36,7 +36,7 @@ drawer: [
       particleLen: 4
 }
 ]
-powerProduction: 2
+powerProduction: 4
 category: power
 research: Cavern-core
 requirements: [
