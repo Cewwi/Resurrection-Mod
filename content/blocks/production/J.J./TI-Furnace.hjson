@@ -23,8 +23,11 @@ drawers: [
   type: DrawRegion
   suffix: -bottom
 }
-type: DrawLiquidTile
-liquid: Thaxus
+{
+  type: DrawLiquidRegion
+  suffix: -liquid
+  drawLiquid: Thaxus
+}
 {
   type: DrawFlame
       flameColor: A9D8FFFF
