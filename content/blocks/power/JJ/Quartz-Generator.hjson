@@ -1,7 +1,7 @@
 
 type: ConsumeGenerator
 name: Quartz Generator
-description: Extracts fain energy from Tronian quartz.
+description: Extracts remote energy particals from Tronian quartz.
 size: 3
 minEfficiency: 1
 displayEfficiency: false
@@ -40,7 +40,7 @@ powerProduction: 4
 category: power
 research: Cavern-core
 requirements: [
-  Tronian-quartz/50
-  Ordanium/50
+  Tronian-quartz/150
+  Ordanium/100
 ]
-itemCapacity: 10
+itemCapacity: 25
