@@ -37,7 +37,8 @@ outputItems: [
 ]
 craftEffect: {
 type: RadialEffect
-lengthOffset: 5
+rotationOffset: 45
+lengthOffset: 7
 effect: [
       {
           type: ParticleEffect
@@ -50,7 +51,6 @@ effect: [
           interp: circleOut
           cone: 10
           offset: 40
-          baseRotation: 45
           lightColor: 3d58f0
           colorFrom: 1923aa
           colorTo: 3d58f0
@@ -64,7 +64,6 @@ effect: [
           baseLength: 9
           lifetime: 125
           interp: circleOut
-          baseRotation: 45
           cone: 10
           sides: 4
           offset: 40
@@ -81,7 +80,6 @@ effect: [
           baseLength: 9
           lifetime: 125
           interp: circleOut
-          baseRotation: 45
           cone: 10
           sides: 4
           offset: 40
