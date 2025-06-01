@@ -49,6 +49,7 @@ effect: [
           interp: circleOut
           cone: 10
           offset: 40
+          baseRotation: -165
           lightColor: D7FFB8FF
           colorFrom: D7FFB8FF
           colorTo: 6BDE5DFF
@@ -62,6 +63,7 @@ effect: [
           baseLength: 9
           lifetime: 125
           interp: circleOut
+          baseRotation: -165
           cone: 10
           sides: 4
           offset: 40
@@ -78,6 +80,7 @@ effect: [
           baseLength: 9
           lifetime: 125
           interp: circleOut
+          baseRotation: -165
           cone: 10
           sides: 4
           offset: 40
