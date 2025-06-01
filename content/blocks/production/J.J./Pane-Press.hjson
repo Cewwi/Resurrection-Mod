@@ -48,7 +48,7 @@ effect: [
           lifetime: 150
           interp: circleOut
           cone: 10
-          offset: 0
+          offset: 10
           lightColor: D7FFB8FF
           colorFrom: D7FFB8FF
           colorTo: 6BDE5DFF
@@ -64,7 +64,7 @@ effect: [
           interp: circleOut
           cone: 10
           sides: 4
-          offset: 0
+          offset: 10
           lightColor: abb0a6
           colorFrom: 73b879
           colorTo: abb0a6
@@ -80,7 +80,7 @@ effect: [
           interp: circleOut
           cone: 10
           sides: 4
-          offset: 8
+          offset: 10
           lightColor: 6BDE5DFF
           colorFrom: 6BDE5DFF
           colorTo: D7FFB8FF
