@@ -17,9 +17,8 @@
   "research": "Cavern-core",
   "shake": 2,
   "requirements": [
-  "carborundum/100",
-  "Ordanium/125",
-  "Tronian-quartz/200",
+  "Ordanium/50",
+  "Tronian-quartz/100",
   ]
   "shoot": {
     "type": "ShootAlternate",
@@ -48,7 +47,7 @@
   "shootEffect": "shootBig",
   "smokeEffect": "shootBigSmoke",
   "ammoMultiplier": 1,
-  "pierceCap": 5,
+  "pierceCap": 2,
   "pierce": true
   "pierceBuilding": true
   "trailColor": "E5E5E5FF",
@@ -60,6 +59,30 @@
   "hitEffect": "hitBulletColor"
   "despawnEffect": "hitBulletColor",
   "buildingDamageMultiplier": 0.5
+}
+    "Tronian-quartz": {
+"type": "BasicBulletType",
+  "speed": 10,
+  "lifetime": 28,
+  "width": 13,
+  "hitSize": 7,
+  "damage": 12,
+  "height": 24,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 5,
+  "pierce": true
+  "pierceBuilding": false
+  "trailColor": "444759",
+  "backColor": "5f6372",
+  "hitColor": "5f6372",
+  "frontColor": "FFFFFF"
+  "trailWidth": 2.1
+  "trailLength": 5
+  "hitEffect": "hitBulletColor"
+  "despawnEffect": "hitBulletColor",
+  "buildingDamageMultiplier": 0.7
 }
 }
 "research": {
