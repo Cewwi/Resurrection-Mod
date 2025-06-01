@@ -49,7 +49,7 @@ drawers: [
 ]
 }
 outputLiquids: [
-  Thaxus/0.1
+  Thaxus/0.5
 ]
 category: crafting
 research: Quartz-Generator
@@ -59,4 +59,4 @@ requirements: [
   Gavolite/120
 ]
 itemCapacity: 20
-liquidCapacity: 10
+liquidCapacity: 40
