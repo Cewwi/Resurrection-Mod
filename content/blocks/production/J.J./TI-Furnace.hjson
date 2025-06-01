@@ -36,7 +36,7 @@ drawers: [
     spread: 8
     radius: 2f
     amount: 20
-    color: 3d58f0
+    color: 62a0fc
 }
 {
   type: DrawGlowRegion
