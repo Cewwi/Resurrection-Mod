@@ -25,15 +25,21 @@ drawers: [
 {
   type: DrawDefault
 }
+{
+  type: DrawLiquidRegion
+  suffix: -liquid
+  drawLiquid: slag
+  color: 3d58f0
+}
 ]
 }
 outputItems: [
   Ti-6Al-4V/2
 ]
 craftEffect: {
-type: RadialEffect
+type: RadialEffect {
 effects: [
-{
+      {
           type: ParticleEffect
           line: true
           particles: 10
@@ -83,6 +89,7 @@ effects: [
           sizeTo: 0
           }
 ]
+}
 }
 type: RadialEffect
 effect: {
