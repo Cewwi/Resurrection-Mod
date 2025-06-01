@@ -1,6 +1,6 @@
 name: Thoralius
 description: Strong thorium like material.
-hardness: 2
+hardness: 3
 cost: 0.5
 alwaysUnlocked: false
 color: e397ca
