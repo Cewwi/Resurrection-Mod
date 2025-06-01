@@ -52,7 +52,7 @@ effect: [
           cone: 10
           offset: 40
           lightColor: 3d58f0
-          colorFrom: 1923aa
+          colorFrom: 3d58f0
           colorTo: 3d58f0
           sizeFrom: 10
           sizeTo: 0
@@ -68,7 +68,7 @@ effect: [
           sides: 4
           offset: 40
           lightColor: 3d58f0
-          colorFrom: 1923aa
+          colorFrom: 3d58f0
           colorTo: 3d58f0
           sizeFrom: 7
           sizeTo: 0
@@ -84,7 +84,7 @@ effect: [
           sides: 4
           offset: 40
           lightColor: 3d58f0
-          colorFrom: 1923aa
+          colorFrom: 3d58f0
           colorTo: 3d58f0
           sizeFrom: 7
           sizeTo: 0
