@@ -1,0 +1,8 @@
+{
+"difficulty": 10,
+"planet": "tronoe",
+"sector": 100,
+"research": {
+"parent": "onset",
+}
+}
