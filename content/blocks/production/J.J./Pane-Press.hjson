@@ -37,8 +37,8 @@ outputItems: [
   Ti-6Al-4V/2
 ]
 craftEffect: {
-type: RadialEffect {
-effects: [
+type: RadialEffect
+effect: [
       {
           type: ParticleEffect
           line: true
@@ -89,7 +89,6 @@ effects: [
           sizeTo: 0
           }
 ]
-}
 }
 type: RadialEffect
 effect: {
