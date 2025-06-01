@@ -30,6 +30,14 @@ drawers: [
 outputItems: [
   Ti-6Al-4V/2
 ]
+craftEffect: {
+type: multiEffect
+effects: [
+
+]
+}
+type: RadialEffect
+effect: {
 category: crafting
 research: Quartz-Generator
 requirements: [
