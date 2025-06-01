@@ -33,7 +33,7 @@ drawers: [
 ]
 }
 outputItems: [
-  pane/2
+  pane/1
 ]
 craftEffect: {
 type: RadialEffect
