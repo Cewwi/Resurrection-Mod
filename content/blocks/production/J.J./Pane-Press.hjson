@@ -38,7 +38,7 @@ outputItems: [
 craftEffect: {
 type: RadialEffect
 rotationOffset: 45
-lengthOffset: 7
+lengthOffset: 8
 effect: [
           {
           type: ParticleEffect
