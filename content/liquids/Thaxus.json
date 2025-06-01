@@ -1,0 +1,10 @@
+{
+  "temperature": 0.3,
+  "flammability": 0.3,
+  "capPuddles": true,
+  "explosiveness": 0.6
+  "color": "3d58f0",
+  "lightColor": "3d58f0",
+  "effect": "blasted",
+  "viscosity": 0.3,
+}
