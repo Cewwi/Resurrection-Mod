@@ -1,19 +1,19 @@
 
 type: GenericCrafter
-name: Ti-Synthisizer
-description: Produces Ti-6Al-4V.
+name: Pane Press
+description: Produces glass panes.
 size: 5
 craftTime: 30
 consumes: {
   items: [
-    Thoralius/1
-    Thaxon/2
+    Tronian-quartz/2
+    Thaxon/1
   ]
 power: 4
 }
 ignoreLiquidFullness: true
 ambientSound: smelter
-researchCostMultiplier: 0.5
+researchCostMultiplier: 1.5
 ambientSoundVolume: 0.3
 drawer: {
 type: DrawMulti
@@ -33,7 +33,7 @@ drawers: [
 ]
 }
 outputItems: [
-  Ti-6Al-4V/2
+  pane/2
 ]
 craftEffect: {
 type: RadialEffect
@@ -77,9 +77,8 @@ effect: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-Ti-6Al-4V/200
-Thoralius/150
-Argentium-silver/50
-carborundum/50
+Tronian-quartz/100
+Thaxon/150
+carborundum/150
 ]
 itemCapacity: 20
