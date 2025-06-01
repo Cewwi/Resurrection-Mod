@@ -90,8 +90,6 @@ effect: [
           }
 ]
 }
-type: RadialEffect
-effect: {
 category: crafting
 research: Quartz-Generator
 requirements: [
