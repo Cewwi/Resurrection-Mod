@@ -40,23 +40,6 @@ type: RadialEffect
 rotationOffset: 45
 lengthOffset: 7
 effect: [
-      {
-          type: ParticleEffect
-          line: true
-          particles: 10
-          length: 9
-          baseLength: 9
-          sides: 4
-          lifetime: 150
-          interp: circleOut
-          cone: 10
-          offset: 40
-          lightColor: 3d58f0
-          colorFrom: 3d58f0
-          colorTo: 3d58f0
-          sizeFrom: 10
-          sizeTo: 0
-          }
           {
           type: ParticleEffect
           particles: 10
@@ -65,7 +48,7 @@ effect: [
           lifetime: 125
           interp: circleOut
           cone: 10
-          sides: 4
+          shape: 4
           offset: 40
           lightColor: 3d58f0
           colorFrom: 3d58f0
@@ -81,7 +64,7 @@ effect: [
           lifetime: 125
           interp: circleOut
           cone: 10
-          sides: 4
+          shape: 4
           offset: 40
           lightColor: 3d58f0
           colorFrom: 3d58f0
