@@ -1,6 +1,6 @@
 {
   "type": "BurstDrill",
-  "size": 2,
+  "size": 3,
   "description": "Moderate drill for surface ground"
   "tier": 2,
   "drillTime": 270,
@@ -12,9 +12,11 @@
   "hasLiquids": true,
   "hardnessDrillMultiplier": 10,
   "expanded": true,
+  "researchCostMultiplier": 5,
  "requirements": [
-     "Tronian-quartz/15",
-     "Ordanium/50"
+     "Tronian-quartz/125",
+     "Ordanium/75",
+     "carborundum/50",
   ],
    "category": "production",
   "research": "Burst-drill",
