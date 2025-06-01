@@ -10,6 +10,7 @@
 "sector": 100,
 "captureWave": 60,
 "difficulty": 10,
+"planet": "tronoe",
 "allowLaunchLoadout": true,
 "alwaysUnlocked": true,
 "allowLaunchSchematics": false,
