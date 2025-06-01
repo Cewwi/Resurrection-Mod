@@ -2,14 +2,14 @@
 type: GenericCrafter
 name: Pane Press
 description: Produces glass panes.
-size: 5
+size: 3
 craftTime: 30
 consumes: {
   items: [
     Tronian-quartz/2
     Thaxon/1
   ]
-power: 4
+power: 4.5
 }
 ignoreLiquidFullness: true
 ambientSound: smelter
