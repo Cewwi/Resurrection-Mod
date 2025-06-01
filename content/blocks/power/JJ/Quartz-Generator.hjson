@@ -41,5 +41,6 @@ category: power
 research: Cavern-core
 requirements: [
   Tronian-quartz/50
+  Ordanium/50
 ]
 itemCapacity: 10
