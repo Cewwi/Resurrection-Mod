@@ -56,7 +56,8 @@ weapons: [
     inaccuracy: 2
     rotationLimit: 360
     reload: 6
-    shootSound: Machine-gun
+    alternate: true
+    shootSound: Heavy-Machine-gun
     ejectEffect: casing1
 bullet: {
     type: BasicBulletType
@@ -66,7 +67,7 @@ bullet: {
     height: 12
     width: 6.5
     pierceDamageFactor: 0.8
-    pierceCap: 3
+    pierceCap: 5
     lifetime: 53
     damage: 10
     speed: 8.5
