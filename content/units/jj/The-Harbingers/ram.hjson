@@ -32,7 +32,7 @@ outlineColor: 0C0D1BFF
 abilities: [
   {
     type: ShieldArcAbility
-    max: 2500
+    max: 750
     cooldown: 300
     regen: 0.5
     angle: 90
@@ -46,7 +46,7 @@ abilities: [
 weapons: [
 {
     name: ram-gun
-    x: 4
+    x: 3
     y: 5
     rotateSpeed: 1.5
     mirror: true
@@ -68,8 +68,9 @@ bullet: {
     width: 6.5
     pierceDamageFactor: 0.8
     pierceCap: 5
+    pierceBuildings: true
     lifetime: 53
-    damage: 10
+    damage: 40
     speed: 8.5
     lightColor: b9b9b9
     lightOpacity: 0.7
