@@ -13,9 +13,9 @@ hovering: false
 faceTarget: true
 targetPriority: -2
 name: concentrator
-description: A Well rounded Core with moderate speed, damage, and defense. 
-health: 500
-armor: 6
+description: A Well rounded Core unit with moderate speed, damage, and defense. 
+health: 750
+armor: 9
 speed: 2
 hitSize: 8
 isEnemy: false
