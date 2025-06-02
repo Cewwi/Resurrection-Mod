@@ -78,7 +78,6 @@
   "ammoTypes": {
 "Magma-stone": {
 "type": "BasicBulletType",
-  "collideTerrain": true,
   "sprite": "circle-bullet",
   "firstShotDelay": 150,
   "status": "melting",
