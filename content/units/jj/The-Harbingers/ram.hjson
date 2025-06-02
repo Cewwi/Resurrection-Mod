@@ -2,11 +2,11 @@ type: legs
 legCount: 6
 legLength: 30
 legSpeed: 0.5
-legExtension: -1
+legExtension: -4
 legForwardScl: 0.7
 envDisabled: 0
 legBaseOffset: 2
-legMoveSpace: 0.9
+legMoveSpace: 4
 legPairOffset: 4
 fogRadius: 0
 hovering: false
@@ -22,7 +22,7 @@ isEnemy: false
 mineSpeed: 3.5
 mineFloor: true
 mineWalls: true
-mineTier: 1
+mineTier: 2
 buildSpeed: 1.2
 groundLayer: 75
 drag: 0.4
