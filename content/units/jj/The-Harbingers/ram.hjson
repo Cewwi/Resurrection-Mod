@@ -2,19 +2,19 @@ type: legs
 legCount: 6
 legLength: 18
 legSpeed: 0.5
-legExtension: -4
+legExtension: -2
 legForwardScl: 0.2
 envDisabled: 0
 legMaxLength:  5
-legBaseOffset: -1
+legBaseOffset: 1
 legMoveSpace: 4
 legPairOffset: 4
 fogRadius: 0
 hovering: false
 faceTarget: true
-targetPriority: -2
-name: concentrator
-description: A Well rounded Core unit with moderate speed, damage, and defense. 
+targetPriority: -1
+name: Ram
+description: A Well rounded Core unit with moderate speed, damage, and defense.
 health: 750
 armor: 9
 speed: 2
