@@ -61,20 +61,13 @@ abilities: [
     effectRadius: 2
     reload: 50
   }
-]
-abilities: [
-  {
-    type: ShieldArcAbility
-    max: 750
-    cooldown: 300
-    regen: 0.5
-    angle: 90
-    whenShooting: false
-    width: 5
-    x: 0
-    y: -26
-    radius: 50
-  }
+{
+      type: mindustry.entities.abilities.ForceFieldAbility
+      radius: 12
+      regen: 8
+      max: 800
+      cooldown: 550
+    }
 ]
 weapons: [
 {
