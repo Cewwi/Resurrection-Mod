@@ -24,7 +24,7 @@
   }
   "ammoTypes": {
     "Tronian-quartz": {
-      "damage": 80,
+      "damage": 100,
       "width": 25,
       "ammoMultiplier": 5,
       "pierce": "true",
@@ -50,11 +50,11 @@
       },
     },
     "Ordanium": {
-      "damage": 60,
+      "damage": 80,
       "width": 25,
       "ammoMultiplier": 5,
       "pierce": "true",
-      "pierceCap": 5,
+      "pierceCap": 7,
       "type": "ShrapnelBulletType",
       "lifetime": 18,
       "length": 160,
