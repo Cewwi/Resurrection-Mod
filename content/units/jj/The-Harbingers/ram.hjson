@@ -1,11 +1,11 @@
 type: legs
 legCount: 6
-legLength: 30
+legLength: 23
 legSpeed: 0.5
 legExtension: -4
 legForwardScl: 0.7
 envDisabled: 0
-legMaxLength:  38
+legMaxLength:  28
 legBaseOffset: 2
 legMoveSpace: 4
 legPairOffset: 4
@@ -48,7 +48,7 @@ weapons: [
 {
     name: ram-gun
     x: 3
-    y: 5
+    y: 3
     rotateSpeed: 1.5
     mirror: true
     rotate: false
