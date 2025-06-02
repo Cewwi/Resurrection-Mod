@@ -50,11 +50,11 @@ weapons: [
     y: 5
     rotateSpeed: 1.5
     mirror: true
-    rotate: true
+    rotate: false
     shootY: 4
     cooldownTime: 120
     inaccuracy: 2
-    rotationLimit: 360
+    rotationLimit: 0
     reload: 6
     alternate: true
     shootSound: Heavy-Machine-gun
