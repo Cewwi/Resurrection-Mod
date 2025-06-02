@@ -7,9 +7,9 @@ legForwardScl: 0.2
 envDisabled: 0
 legMaxLength:  5
 legBaseOffset: 1
-legMoveSpace: 0.3
+legMoveSpace: 1
 legPairOffset: 4
-fogRadius: 0
+fogRadius: 5
 legContinuousMove: true
 hovering: false
 faceTarget: true
