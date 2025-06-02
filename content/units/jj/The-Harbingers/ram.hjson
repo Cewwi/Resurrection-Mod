@@ -32,6 +32,38 @@ alwaysUnlocked: true
 outlineColor: 0C0D1BFF
 abilities: [
   {
+    type: EnergyFieldAbility
+    color: ECECECFF
+    maxTargets: 3
+    damage: 10
+    healPercent: 0.75
+    y: -8
+    range: 45
+    sectors: 3
+    rotateSpeed: 5
+    hitBuildings: false
+    sectorRad: 0.1
+    effectRadius: 2
+    reload: 50
+  }
+{
+    type: EnergyFieldAbility
+    color: ECECECFF
+    maxTargets: 3
+    damage: 10
+    healPercent: 0.75
+    y: -8
+    range: 65
+    sectors: 3
+    rotateSpeed: -5
+    hitBuildings: false
+    sectorRad: 0.1
+    effectRadius: 2
+    reload: 50
+  }
+]
+abilities: [
+  {
     type: ShieldArcAbility
     max: 750
     cooldown: 300
