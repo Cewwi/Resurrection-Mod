@@ -1,0 +1,95 @@
+type: legs
+legCount: 6
+legLength: 35
+legSpeed: 0.5
+legExtension: -13.5
+legForwardScl: 0.2
+envDisabled: 0
+legBaseOffset: 7
+legMoveSpace: 0.9
+legPairOffset: 2
+fogRadius: 0
+hovering: false
+faceTarget: true
+targetPriority: -2
+name: concentrator
+description: A Well rounded unit with moderate speed, damage, and defense. 
+health: 500
+armor: 6
+speed: 2.5
+hitSize: 8
+isEnemy: false
+mineSpeed: 3.5
+mineFloor: true
+mineWalls: true
+mineTier: 1
+buildSpeed: 1.2
+groundLayer: 75
+drag: 0.4
+itemCapacity: 90
+alwaysUnlocked: true
+outlineColor: 0C0D1BFF
+abilities: [
+  {
+    type: ShieldArcAbility
+    max: 2500
+    cooldown: 300
+    regen: 0.5
+    angle: 90
+    whenShooting: false
+    width: 5
+    x: 0
+    y: -26
+    radius: 50
+  }
+]
+weapons: [
+{
+    name: T3-Weapon
+    y: 1
+    x: -13
+    top: true
+    shooty: 43
+    reload: 50
+    rotateSpeed: 1.5
+    mirror: true
+    alternate: true
+    cooldownTime: 90
+    restitution: 0.2
+    rotationLimit: 52.5
+    shootCone: 30
+    rotate: true
+    shootCone: 45
+    layerOffset: -0.00001
+    shootSound: shotgun
+    shoot: {
+    type: ShootSpread
+    spread: 5
+    shots: 3
+  }
+    bullet: {
+      damage: 120
+  width: 25
+  ammoMultiplier: 5
+  pierce: true
+  type: ShrapnelBulletType
+  lifetime: 18
+  length: 200
+  serrations: 8
+  fromColor: E5E5E5FF
+  toColor: E5E5E5FF
+  shootEffect: explosion
+  hitEffect: {
+    type: ParticleEffect
+    line: true
+    particles: 7
+    lifetime: 10
+    length: 25
+    cone: -360
+    lenFrom: 5
+    lenTo: 0
+    colorFrom: E5E5E5FF
+    colorTo: E5E5E5FF
+}
+}
+]
