@@ -10,6 +10,7 @@ legBaseOffset: 1
 legMoveSpace: 0.3
 legPairOffset: 4
 fogRadius: 0
+legContinuousMove: true
 hovering: false
 faceTarget: true
 targetPriority: -1
