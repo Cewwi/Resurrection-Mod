@@ -45,7 +45,7 @@ abilities: [
 ]
 weapons: [
 {
-    name: T3-Weapon
+    name: ram-gun
     y: 1
     x: -13
     top: true
@@ -90,6 +90,7 @@ weapons: [
     lenTo: 0
     colorFrom: E5E5E5FF
     colorTo: E5E5E5FF
+}
 }
 }
 ]
