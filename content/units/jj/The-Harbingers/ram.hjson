@@ -65,8 +65,8 @@ abilities: [
 {
       type: mindustry.entities.abilities.ForceFieldAbility
       radius: 12
-      regen: 0.5
-      max: 250
+      regen: 0.8
+      max: 850
       cooldown: 2550
     }
 ]
