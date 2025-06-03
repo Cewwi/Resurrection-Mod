@@ -11,7 +11,7 @@
   "maxAmmo": 30,
   "health": 650,
   "shootShake": 1,
-  "coolantMultiplier": 1,
+  "coolantMultiplier": 10,
   "shoot": {
     "type": "ShootSpread",
     "spread": 15,
