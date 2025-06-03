@@ -17,6 +17,8 @@ power: 6
 ignoreLiquidFullness: true
 ambientSound: smelter
 researchCostMultiplier: 0.5
+hasLiquids: true
+ignoreLiquidFullness: false
 ambientSoundVolume: 0.3
 drawer: {
 type: DrawMulti
