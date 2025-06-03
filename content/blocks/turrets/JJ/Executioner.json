@@ -39,7 +39,8 @@
         "suffix": "-brl2",
         "moveX": 0,
         "under": true,
-        "moveY": 39,
+        "moveY": -7,
+        "Y": 39,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -53,7 +54,8 @@
         "suffix": "-brl1",
         "moveX": 0,
         "under": true,
-        "moveY": 20,
+        "moveY": -5,
+        "Y": 20,
         "progress": {
           "type": "warmup",
           "op": "blend",
