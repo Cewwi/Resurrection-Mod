@@ -12,6 +12,7 @@
   "category": "power",
   "research": "Quartz-Generator"
   "requirements": [
-    "Tronian-quartz/10"
+    "Tronian-quartz/30",
+    "carborundum/20"
   ],
 }
