@@ -82,7 +82,6 @@
       },
     },
     "Thaxon": {
-"type": "BasicBulletType",
       "damage": 150,
       "width": 30,
       "ammoMultiplier": 5,
