@@ -25,7 +25,7 @@
   ]
   "coolant": {
     "type": "ConsumeLiquid",
-    "liquid": "water",
+    "liquid": "Thaxus",
     "amount": 5
   },
     "shoot": {
