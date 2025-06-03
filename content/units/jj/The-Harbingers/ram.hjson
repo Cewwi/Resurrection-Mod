@@ -15,6 +15,7 @@ faceTarget: true
 targetPriority: -1
 name: Ram
 description: A Well rounded Core unit with moderate speed, damage, and defense.
+details: Built most commonly near the end of the Harbinger's demise. Its cheap constructing cost and multi functional load out made it extremely effective for conserving resources.
 health: 750
 armor: 9
 speed: 2
