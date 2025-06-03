@@ -7,6 +7,7 @@
   "restitution": 0.2,
   "shootCone": 20,
   "size": 3,
+  "outlineColor": "0C0D1BFF",
   "maxAmmo": 30,
   "health": 650,
   "shootShake": 1,
