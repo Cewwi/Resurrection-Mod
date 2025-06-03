@@ -1,0 +1,21 @@
+{
+  "localizedName": "Core: Palisade",
+  "type": "CoreBlock",
+  "description": "Commonly constructed core for short term fortresses on tronoe"
+  "details": "'It was the only reason we won.'"
+  "health": 3750,
+  "squareSprite": false,
+  "size": 5,
+  "armor": 50,
+  "itemCapacity": 2000,
+  "buildCostMultiplier": 0.7,
+  "unitCapModifier": 15,
+  "researchCostMultiplier": 0.1,
+  "unitType": "signal",
+  "requirements": [
+    "carborundum/500",
+    "Tronian-quartz/750",
+    "Gavolite/500",
+  ],
+  "category": "effect",
+}
