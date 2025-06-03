@@ -133,6 +133,8 @@ laserColor: E5E5E5FF
 healColor: E5E5E5FF
 bullet: {
 maxRange: 20
+controllable: false
+autoTarget: true
     }
 }
 ]
