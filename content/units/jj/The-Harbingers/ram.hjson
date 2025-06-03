@@ -95,8 +95,8 @@ bullet: {
     width: 6.5
     pierceDamageFactor: 0.8
     pierceCap: 3
-    pierceBuildings: true
-    lifetime: 53
+    pierceBuilding: true
+    lifetime: 23
     damage: 40
     speed: 8.5
     lightColor: b9b9b9
