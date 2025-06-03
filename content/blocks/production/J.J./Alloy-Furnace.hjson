@@ -38,7 +38,7 @@ category: crafting
 research: Quartz-Generator
 requirements: [
   carborundum/250
-  Ti-6Al-4V/100
+  Thaxium/100
   Thoralius/200
 ]
 itemCapacity: 20
