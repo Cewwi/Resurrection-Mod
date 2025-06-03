@@ -24,7 +24,7 @@ isEnemy: false
 mineSpeed: 3.5
 mineFloor: true
 mineWalls: true
-mineTier: 2
+mineTier: 1.5
 buildSpeed: 1.2
 groundLayer: 75
 drag: 0.4
