@@ -9,6 +9,9 @@ consumes: {
     Thoralius/1
     Thaxon/2
   ]
+   liquids: [
+    Thaxus/0.5
+   ]
 power: 4
 }
 ignoreLiquidFullness: true
