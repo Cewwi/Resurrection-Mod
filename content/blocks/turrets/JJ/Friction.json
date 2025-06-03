@@ -104,7 +104,7 @@
 },
 "shootSound": "mediumCannon",
   "ammoTypes": {
-"Magma-stone": {
+"Thaxon": {
 "type": "BasicBulletType",
   "collideTerrain": false,
       "damage": 500,
