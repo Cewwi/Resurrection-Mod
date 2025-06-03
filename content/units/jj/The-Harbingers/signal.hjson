@@ -2,7 +2,7 @@ type: legs
 legCount: 4
 legLength: 20
 legSpeed: 0.5
-legExtension: -10
+legExtension: -6.5
 legForwardScl: 0.1
 envDisabled: 0
 legBaseOffset: 3
