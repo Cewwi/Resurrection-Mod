@@ -10,6 +10,7 @@
   "maxAmmo": 30,
   "health": 650,
   "shootShake": 1,
+  "coolantMultiplier": 0.2,
   "shoot": {
     "type": "ShootSpread",
     "spread": 15,
@@ -22,6 +23,11 @@
     "type": "drawTurret",
     "basePrefix": "Quartz-"
   }
+  "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "Thaxus",
+    "amount": 0.12
+  },
   "ammoTypes": {
     "Tronian-quartz": {
       "damage": 100,
