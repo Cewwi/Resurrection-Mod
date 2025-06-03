@@ -1,7 +1,7 @@
 
 type: GenericCrafter
-name: Ti-Smelter
-description: Produces Quartz.
+name: TI-Smelter
+description: Produces Thaxon Steel.
 size: 4
 craftTime: 30
 consumes: {
