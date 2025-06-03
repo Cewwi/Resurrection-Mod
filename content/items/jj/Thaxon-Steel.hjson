@@ -1,7 +1,7 @@
 name: Thaxon Steel
 description: Titanium like metal.
-hardness: 2
-cost: 0.5
+hardness: 4
+cost: 2
 alwaysUnlocked: false
 color: 6c73cf
 research: Thaxon
