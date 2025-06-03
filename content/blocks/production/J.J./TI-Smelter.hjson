@@ -8,7 +8,7 @@ consumes: {
   items: [
     Ordanium/1
     Thaxon/1
-    Tronian-quartz-2
+    Tronian-quartz/2
   ]
    liquids: [
     Thaxus/0.5
