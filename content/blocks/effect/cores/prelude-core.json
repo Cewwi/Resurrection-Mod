@@ -11,6 +11,7 @@
   "buildCostMultiplier": 0.7,
   "unitCapModifier": 75,
   "researchCostMultiplier": 0.1,
+  "requiresCoreZone": true,
   "unitType": "Harbinger-sentinel",
   "requirements": [
     "carborundum/5000",
