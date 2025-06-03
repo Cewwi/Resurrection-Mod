@@ -14,7 +14,7 @@ hovering: false
 faceTarget: true
 targetPriority: -5
 name: Signal
-description: Standard unit for the quartz core. Weaker and slower that the average core every unit.
+description: Standard unit for the quartz core. Can build, mine, and repair.
 health: 300
 armor: 3
 speed: 1.5
