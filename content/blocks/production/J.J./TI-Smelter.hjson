@@ -66,7 +66,7 @@ drawers: [
 ]
 }
 outputItems: [
-  Ti-6Al-4V/2
+  Thaxon-Steel/1
 ]
 category: crafting
 research: Quartz-Generator
