@@ -93,9 +93,9 @@ bullet: {
     ammoMultiplier: 2
     height: 12
     width: 6.5
-    pierceDamageFactor: 0.8
+    pierceDamageFactor: 1
     pierceCap: 3
-    pierceBuilding: true
+    pierceBuilding: false
     lifetime: 23
     damage: 40
     speed: 8.5
