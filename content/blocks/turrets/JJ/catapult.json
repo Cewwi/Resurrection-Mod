@@ -107,6 +107,7 @@
         "colorTo": "62A0FCFF",
     },
   },
+  },
   "requirements": [
     "carborundum/125",
     "Ordanium/100",
@@ -114,5 +115,4 @@
   ],
   "category": "turret",
   "research": "Caven-core",
-}
 }
