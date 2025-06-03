@@ -105,7 +105,7 @@
         "lenFrom": 5,
         "lenTo": 0,
         "colorFrom": "3D58F0FF",
-        "colorTo": "62A0FCFF"
+        "colorTo": "62A0FCFF",
 }
   },
   "requirements": [
@@ -114,5 +114,6 @@
     "Tronian-quartz/200",
   ],
   "category": "turret",
-  "research": "Caven-core"
+  "research": "Caven-core",
+}
 }
