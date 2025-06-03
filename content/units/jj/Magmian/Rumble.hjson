@@ -56,7 +56,7 @@ bullet: {
     pierceDamageFactor: 0.8
     pierceCap: 3
     lifetime: 35
-    damage: 10
+    damage: 15
     speed: 8.5
     lightColor: FFB570FF
     lightOpacity: 0.7
@@ -103,7 +103,7 @@ bullet: {
     pierceDamageFactor: 0.8
     pierceCap: 3
     lifetime: 35
-    damage: 10
+    damage: 15
     speed: 8.5
     lightColor: FFB570FF
     lightOpacity: 0.7
