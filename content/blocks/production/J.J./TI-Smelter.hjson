@@ -3,11 +3,12 @@ type: GenericCrafter
 name: TI-Smelter
 description: Produces Thaxon Steel.
 size: 4
-craftTime: 30
+craftTime: 100
 consumes: {
   items: [
-    Thoralius/1
-    Thaxon/2
+    Ordanium/1
+    Thaxon/1
+    Tronian-quartz-2
   ]
    liquids: [
     Thaxus/0.5
@@ -66,7 +67,7 @@ drawers: [
 ]
 }
 outputItems: [
-  Thaxon-Steel/1
+  Thaxon-Steel/3
 ]
 category: crafting
 research: Quartz-Generator
