@@ -2,7 +2,7 @@
 type: GenericCrafter
 name: Ti-Smelter
 description: Produces Quartz.
-size: 5
+size: 4
 craftTime: 30
 consumes: {
   items: [
@@ -12,7 +12,7 @@ consumes: {
    liquids: [
     Thaxus/0.5
    ]
-power: 4
+power: 6
 }
 ignoreLiquidFullness: true
 ambientSound: smelter
@@ -108,9 +108,9 @@ outputItems: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-Ti-6Al-4V/200
-Thoralius/150
-Argentium-silver/50
-carborundum/50
+Thaxon/200
+Thoralius/100
+Silver/150
+carborundum/250
 ]
 itemCapacity: 20
