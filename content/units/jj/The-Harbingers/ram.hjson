@@ -38,13 +38,14 @@ abilities: [
     maxTargets: 3
     damage: 10
     healPercent: 0.75
-    y: -2
+    layerOffset: -0.00001
+    y: 0
     range: 45
     sectors: 3
     rotateSpeed: 5
     hitBuildings: true
     sectorRad: 0.1
-    effectRadius: 3
+    effectRadius: 5
     reload: 50
   }
 {
@@ -53,13 +54,14 @@ abilities: [
     maxTargets: 3
     damage: 10
     healPercent: 0.75
-    y: -2
+    layerOffset: -0.00001
+    y: 0
     range: 65
     sectors: 3
     rotateSpeed: -5
     hitBuildings: true
     sectorRad: 0.1
-    effectRadius: 2
+    effectRadius: 4
     reload: 50
   }
 {
