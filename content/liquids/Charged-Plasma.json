@@ -3,7 +3,7 @@
   "flammability": 0,
   "capPuddles": true,
   "explosiveness": 0.3
-  "charge": 20.25,
+  "charge": 20,
   "color": "E2F5FBFF",
   "lightColor": "E2F5FBFF",
   "effect": "shocked",
