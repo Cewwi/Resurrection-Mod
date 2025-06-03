@@ -7,9 +7,10 @@
   "squareSprite": false,
   "size": 5,
   "armor": 50,
-  "itemCapacity": 2000,
+  "itemCapacity": 3500,
   "buildCostMultiplier": 0.7,
-  "unitCapModifier": 15,
+  "unitCapModifier": 25,
+  "requiresCoreZone": true,
   "researchCostMultiplier": 0.1,
   "unitType": "ram",
   "requirements": [
