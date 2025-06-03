@@ -35,8 +35,8 @@ abilities: [
   {
     type: EnergyFieldAbility
     color: ECECECFF
-    maxTargets: 3
-    damage: 10
+    maxTargets: 6
+    damage: 40
     healPercent: 0.75
     under: ture
     y: -3
@@ -51,9 +51,9 @@ abilities: [
 {
     type: EnergyFieldAbility
     color: ECECECFF
-    maxTargets: 3
-    damage: 10
-    healPercent: 0.75
+    maxTargets: 6
+    damage: 40
+    healPercent: 1.25
     under: ture
     y: -3
     range: 65
