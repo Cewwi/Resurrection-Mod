@@ -13,9 +13,10 @@
   "researchCostMultiplier": 0.1,
   "unitType": "signal",
   "requirements": [
-    "carborundum/500",
+    "carborundum/1500",
     "Tronian-quartz/750",
-    "Gavolite/500",
+    "Gavolite/1500",
+    "Thaxon/500",
   ],
   "category": "effect",
 }
