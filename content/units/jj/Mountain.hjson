@@ -64,6 +64,8 @@ weapons: [
     rotateSpeed: 1.5
     mirror: true
     alternate: false
+    pierceCap: 2
+    pierce: true
     cooldownTime: 90
     rotationLimit: 52.5
     rotate: true
