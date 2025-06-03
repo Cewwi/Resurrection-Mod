@@ -1,9 +1,9 @@
 type: naval
   name: Rumble
-  speed: 0.9
+  speed: 0.7
   drag: 0.14
   hitSize: 14
-  health: 1200
+  health: 800
   accel: 0.4
   rotateSpeed: 3
   trailLength: 20
@@ -55,7 +55,7 @@ bullet: {
     width: 6.5
     pierceDamageFactor: 0.8
     pierceCap: 3
-    lifetime: 53
+    lifetime: 35
     damage: 10
     speed: 8.5
     lightColor: FFB570FF
@@ -102,7 +102,7 @@ bullet: {
     width: 6.5
     pierceDamageFactor: 0.8
     pierceCap: 3
-    lifetime: 53
+    lifetime: 35
     damage: 10
     speed: 8.5
     lightColor: FFB570FF
