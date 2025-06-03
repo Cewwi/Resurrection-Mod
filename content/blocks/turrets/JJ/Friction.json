@@ -1,6 +1,6 @@
 {
   "type": "ItemTurret",
-  "coolantMultiplier": 0.2,
+  "coolantMultiplier": 10,
   "name": "Friction",
   "description": "Fires 2 bolts that can pierce enemies indefinitely",
   "ammoPerShot": 5,
