@@ -119,16 +119,12 @@ shootY: 0
 reload: 20
 rotate: false
 beamWidth: 0.4
-shootCone: 360
 controllable: false
 autoTarget: true
 mirror: false
 repairSpeed: 0.3
 fractionRepairSpeed: 0.2
-targetUnits: true
 targetBuildings: true
-autoTarget: false
-controllable: true
 laserColor: E5E5E5FF
 healColor: E5E5E5FF
 bullet: {
