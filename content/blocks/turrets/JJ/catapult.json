@@ -22,7 +22,7 @@
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "Quartz-"
-  }
+  },
   "coolant": {
     "type": "ConsumeLiquid",
     "liquid": "Thaxus",
@@ -106,7 +106,7 @@
         "lenTo": 0,
         "colorFrom": "3D58F0FF",
         "colorTo": "62A0FCFF",
-}
+    },
   },
   "requirements": [
     "carborundum/125",
