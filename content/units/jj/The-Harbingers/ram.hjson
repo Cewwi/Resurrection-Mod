@@ -41,7 +41,7 @@ abilities: [
     range: 45
     sectors: 3
     rotateSpeed: 5
-    hitBuildings: false
+    hitBuildings: true
     sectorRad: 0.1
     effectRadius: 3
     reload: 50
@@ -56,7 +56,7 @@ abilities: [
     range: 65
     sectors: 3
     rotateSpeed: -5
-    hitBuildings: false
+    hitBuildings: true
     sectorRad: 0.1
     effectRadius: 2
     reload: 50
