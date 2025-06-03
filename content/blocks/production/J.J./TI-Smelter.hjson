@@ -65,45 +65,6 @@ drawers: [
 }
 ]
 }
-craftEffect: {
-type: RadialEffect
-rotationOffset: 45
-lengthOffset: 8
-effect: [
-          {
-          type: ParticleEffect
-          particles: 10
-          length: 9
-          baseLength: 3
-          lifetime: 75
-          interp: circleOut
-          cone: 10
-          sides: 4
-          offset: 0
-          lightColor: 3d58f0
-          colorFrom: 3d58f0
-          colorTo: 3d58f0
-          sizeFrom: 4
-          sizeTo: 0
-          }
-          {
-          type: ParticleEffect
-          particles: 10
-          length: 15
-          baseLength: 3
-          lifetime: 75
-          interp: circleOut
-          cone: 10
-          sides: 4
-          offset: 0
-          lightColor: 3d58f0
-          colorFrom: 3d58f0
-          colorTo: 3d58f0
-          sizeFrom: 5
-          sizeTo: 0
-          }
-]
-}
 outputItems: [
   Ti-6Al-4V/2
 ]
