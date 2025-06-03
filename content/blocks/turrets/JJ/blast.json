@@ -1,6 +1,6 @@
 {
   "type": "ItemTurret",
-  "coolantMultiplier": 0,
+  "coolantMultiplier": 0.25,
   "name": "Blast",
   "description": "Fires 2 bullets in quick succession.",
   "ammoPerShot": 1,
