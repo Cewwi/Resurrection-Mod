@@ -25,6 +25,11 @@ drawers: [
   type: DrawRegion
   suffix: -bottom
 }
+{
+  type: DrawLiquidRegion
+  suffix: -liquid
+  drawLiquid: Thaxus
+}
   {
     type: DrawParticles
     color: 62A0FCFF
@@ -39,20 +44,6 @@ drawers: [
     rotateScl: 30
     particleLife: 40
   },
-  {
-    type: DrawParticles
-    color: 62A0FCFF
-    alpha: 0.3
-    reverse: true
-    blending: additive
-    particleSize: 6
-    particleSides: 4
-    particleRad: 14
-    particles: 30
-    fadeMargin: 1
-    rotateScl: 30
-    particleLife: 40
-  }
 {
   type: DrawBubbles
     sides: 4
