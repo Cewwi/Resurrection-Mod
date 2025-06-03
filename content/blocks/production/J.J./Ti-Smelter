@@ -1,0 +1,71 @@
+
+type: GenericCrafter
+name: Ti-Smelter
+description: Produces Ti-6Al-4V.
+size: 5
+craftTime: 30
+consumes: {
+  items: [
+    Thoralius/1
+    Thaxon/2
+  ]
+power: 4
+}
+ignoreLiquidFullness: true
+ambientSound: smelter
+researchCostMultiplier: 0.5
+ambientSoundVolume: 0.3
+drawer: {
+type: DrawMulti
+drawers: [
+{
+  type: DrawRegion
+  suffix: -bottom
+}
+[
+  {
+    type: DrawParticles
+    color: 62A0FCFF
+    alpha: 0.3
+    sides: 4
+    blending: additive
+    particleSize: 5
+    reverse: true
+    particleRad: 20
+    particles: 30
+    fadeMargin: 1
+    rotateScl: 30
+    particleLife: 40
+  },
+  {
+    type: DrawParticles
+    color: 62A0FCFF
+    alpha: 0.3
+    reverse: true
+    blending: additive
+    particleSize: 6
+    particleSides: 4
+    particleRad: 14
+    particles: 30
+    fadeMargin: 1
+    rotateScl: 30
+    particleLife: 40
+  }
+]
+{
+  type: DrawDefault
+}
+]
+}
+outputItems: [
+  Ti-6Al-4V/2
+]
+category: crafting
+research: Quartz-Generator
+requirements: [
+Ti-6Al-4V/200
+Thoralius/150
+Argentium-silver/50
+carborundum/50
+]
+itemCapacity: 20
