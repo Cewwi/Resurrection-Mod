@@ -114,6 +114,7 @@
       "type": "ShrapnelBulletType",
       "lifetime": 20,
       "length": 220,
+      "pierceCap": 4,
       "serrations": 8,
       "fromColor": "3D58F0FF",
       "toColor": "3D58F0FF",
