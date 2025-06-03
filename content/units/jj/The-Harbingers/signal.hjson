@@ -5,7 +5,7 @@ legSpeed: 0.5
 legExtension: -7
 legForwardScl: 0.1
 envDisabled: 0
-legBaseOffset: 3
+legBaseOffset: 1
 legMoveSpace: 1
 legPairOffset: -5
 legContinuousMove: true
