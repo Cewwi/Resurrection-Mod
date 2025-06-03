@@ -11,7 +11,7 @@
   "buildCostMultiplier": 0.7,
   "unitCapModifier": 15,
   "researchCostMultiplier": 0.1,
-  "unitType": "signal",
+  "unitType": "ram",
   "requirements": [
     "carborundum/1500",
     "Tronian-quartz/750",
