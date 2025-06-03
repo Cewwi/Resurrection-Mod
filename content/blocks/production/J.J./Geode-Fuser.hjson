@@ -38,7 +38,7 @@ research: Quartz-Generator
 requirements: [
   Geosium/100
   carborundum/100
-  Ti-6Al-4V/75
+  Thaxium/75
   Thoralius/50
 ]
 itemCapacity: 12
