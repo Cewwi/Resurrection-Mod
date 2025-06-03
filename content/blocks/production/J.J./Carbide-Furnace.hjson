@@ -39,7 +39,7 @@ research: Quartz-Generator
 requirements: [
   carborundum/350
   Ordanium/400
-  Ti-6Al-4V/250
+  Thaxium/250
   Geode-catalyst/275
   Argentium-silver/325
 ]
