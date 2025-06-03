@@ -10,6 +10,7 @@
   "itemCapacity": 2000,
   "buildCostMultiplier": 0.7,
   "unitCapModifier": 15,
+  "requiresCoreZone": true,
   "researchCostMultiplier": 0.1,
   "unitType": "signal",
   "requirements": [
