@@ -39,13 +39,13 @@ abilities: [
     damage: 10
     healPercent: 0.75
     under: ture
-    y: 0
+    y: -3
     range: 45
     sectors: 3
     rotateSpeed: 5
     hitBuildings: true
     sectorRad: 0.1
-    effectRadius: 5
+    effectRadius: 3
     reload: 50
   }
 {
@@ -55,13 +55,13 @@ abilities: [
     damage: 10
     healPercent: 0.75
     under: ture
-    y: 0
+    y: -3
     range: 65
     sectors: 3
     rotateSpeed: -5
     hitBuildings: true
     sectorRad: 0.1
-    effectRadius: 4
+    effectRadius: 2
     reload: 50
   }
 {
