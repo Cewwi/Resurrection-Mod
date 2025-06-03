@@ -1,7 +1,7 @@
 
 type: GenericCrafter
 name: Ti-Smelter
-description: Produces Ti-6Al-4V.
+description: Produces Quartz.
 size: 5
 craftTime: 30
 consumes: {
@@ -22,7 +22,6 @@ drawers: [
   type: DrawRegion
   suffix: -bottom
 }
-[
   {
     type: DrawParticles
     color: 62A0FCFF
@@ -51,7 +50,6 @@ drawers: [
     rotateScl: 30
     particleLife: 40
   }
-]
 {
   type: DrawDefault
 }
