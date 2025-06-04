@@ -7,7 +7,7 @@
   "squareSprite": false,
   "size": 4,
   "armor": 20,
-  "itemCapacity": 2000,
+  "itemCapacity": 3500,
   "buildCostMultiplier": 0.7,
   "unitCapModifier": 15,
   "requiresCoreZone": true,
