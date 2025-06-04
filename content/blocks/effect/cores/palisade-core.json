@@ -1,9 +1,9 @@
 {
   "localizedName": "Core: Palisade",
   "type": "CoreBlock",
-  "description": "Commonly constructed core for short term fortresses on tronoe"
+  "description": "Strong and reliable"
   "details": "'It was the only reason we won.'"
-  "health": 3750,
+  "health": 8750,
   "squareSprite": false,
   "size": 5,
   "armor": 50,
