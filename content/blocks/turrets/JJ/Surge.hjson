@@ -1,0 +1,100 @@
+{
+  "type": "ItemTurret",
+  "coolantMultiplier": 2.5,
+  "name": "Sure",
+  "description": "Fires a large ball of concentrated energy.",
+  "ammoPerShot": 5,
+  "reload": 40,
+  "range": 220,
+  "outlineColor": "0C0D1BFF",
+  "recoil": 3,
+  "shake": 3,
+  "inaccuracy": 5,
+  "category": "turret",
+  "targetUnderBlocks": true,
+  "shootY": 30,
+  "shootCone": 3,
+  "research": "",
+  "shake": 3,
+  "requirements": [
+  "Thaxon/850",
+  "carborundum/750",
+  "Ordanium/250",
+  "Tronian-quartz/750",
+  "Silver/500",
+  ]
+  "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "Thaxus",
+    "amount": 0.5,
+  },
+    "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 2,
+    "spread": 20,
+    "shots": 2
+  },
+  "size": 5,
+  "health": 8250,
+  "armor": 5,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "Harbinger-"
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-Blade",
+        "moveX": 0,
+        "under": true,
+        "alternate": false,
+        "moveY": -5,
+        "moveX": -5,
+        "progress": {
+          "type": "recoil",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2,
+        },
+        "mirror": false
+      },
+]
+},
+"shootSound": "mediumCannon",
+  "ammoTypes": {
+"Thaxon": {
+"type": "BasicBulletType",
+  "collideTerrain": false,
+      "damage": 500,
+      "width": 20,
+      "ammoMultiplier": 5,
+      "pierce": "true",
+      "type": "ShrapnelBulletType",
+      "lifetime": 20,
+      "sprite": "circle"
+      "length": 20,
+      "pierceCap": 4,
+      "serrations": 8,
+      "fromColor": "3D58F0FF",
+      "toColor": "3D58F0FF",
+      "shootEffect": "teleportOut",
+      "hitColor": "62A0FCFF",
+      "hitEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 7,
+        "lifetime": 10,
+        "length": 25,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "3D58F0FF",
+        "colorTo": "62A0FCFF"
+}
+}
+  }
+"research": {
+"objectives": [
+"sublimate"
+]
+}
+}
