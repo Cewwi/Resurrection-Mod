@@ -41,7 +41,7 @@
         "moveX": 0,
         "under": true,
         "alternate": false,
-        "moveY": -5,
+        "moveY": -6,
         "moveX": 5,
         "progress": {
           "type": "recoil",
