@@ -1,0 +1,27 @@
+{
+  "type": "BurstDrill",
+  "size": 4,
+  "description": "Moderate drill for surface ground"
+  "tier": 2,
+  "drillTime": 270,
+  "liquidBoostIntensity": 1.5,
+  "drawRim": false,
+  "shake": 4,
+  "itemCapacity": 40,
+  "hasPower": false,
+  "drillMultipliers": [
+    "Thaxon": 2
+  ],
+  "hasLiquids": true,
+  "hardnessDrillMultiplier": 10,
+  "expanded": true,
+  "researchCostMultiplier": 5,
+ "requirements": [
+     "Tronian-quartz/75",
+     "Ordanium/125",
+     "carborundum/150",
+     "Thaxon/100"
+  ],
+   "category": "production",
+  "research": "Burst-drill",
+}
