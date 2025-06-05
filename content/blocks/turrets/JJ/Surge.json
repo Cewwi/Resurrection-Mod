@@ -1,6 +1,6 @@
 {
   "type": "ItemTurret",
-  "coolantMultiplier": 2.5,
+  "coolantMultiplier": 3,
   "name": "Surge",
   "description": "Fires a large ball of concentrated energy.",
   "ammoPerShot": 5,
@@ -60,9 +60,9 @@
   "sprite": "large-orb",
   "lightRadius": 10,
   "lightColor": "62a0fc",
-  "damage": 170,
+  "damage": 270,
   "scaleVelocity": true,
-  "splashDamage": 70,
+  "splashDamage": 120,
   "pierce": true,
   "pierceCap": 5,
   "splashDamageRadius": 30,
@@ -97,7 +97,7 @@
   "trailChance": 2,
   "trailParam": 10,
   "trailLength": 19,
-  "trailColor": "F7E97EFF",
+  "trailColor": "62a0fc",
   "trailWidth": 3,
   "trailEffect": {
     "type": "ParticleEffect",
@@ -121,7 +121,7 @@
     "type": "LightningBulletType",
     "lightningColor": "62a0fc",
     "lightningLength": 8,
-    "lightningDamage": 60,
+    "lightningDamage": 120,
     "hitSound": "spark",
     "lifetime": 1
   }
