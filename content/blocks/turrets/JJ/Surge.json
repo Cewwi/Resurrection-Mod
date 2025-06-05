@@ -59,51 +59,80 @@
       },
 ]
 },
-"shootSound": "mediumCannon",
+"shootSound": "laser",
   "ammoTypes": {
 "Thaxon": {
 "type": "BasicBulletType",
-  "collideTerrain": false,
-      "damage": 150,
-      "width": 20,
-      "ammoMultiplier": 5,
-      "pierce": "true",
-      "type": "ShrapnelBulletType",
-      "lifetime": 20,
-      "sprite": "circle"
-      "length": 20,
-      "pierceCap": 4,
-      "serrations": 8,
-      "fromColor": "3D58F0FF",
-      "toColor": "3D58F0FF",
-      "shootEffect": "teleportOut",
-      "hitColor": "62A0FCFF",
-      "hitEffect": {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 7,
-        "lifetime": 10,
-        "length": 25,
-        "cone": -360,
-        "lenFrom": 5,
-        "lenTo": 0,
-        "colorFrom": "3D58F0FF",
-        "colorTo": "62A0FCFF"
-}
-        "despawnEffect": {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 7,
-        "lifetime": 10,
-        "length": 25,
-        "cone": -360,
-        "lenFrom": 5,
-        "lenTo": 0,
-        "colorFrom": "3D58F0FF",
-        "colorTo": "62A0FCFF"
-}
-}
+  "sprite": "large-orb",
+  "lightRadius": 10,
+  "lightColor": "ffFFFFff",
+  "damage": 170,
+  "scaleVelocity": true,
+  "splashDamage": 70,
+  "pierce": true,
+  "pierceCap": 5,
+  "splashDamageRadius": 30,
+  "height": 13.5,
+  "width": 13.5,
+  "speed": 4.5,
+  "lifetime": 75,
+  "despawnEffect": [
+    {
+      "type": "WaveEffect",
+      "lifetime": 10,
+      "sizeFrom": 0,
+      "sizeTo": 25,
+      "strokeFrom": 10,
+      "strokeTo": 0,
+      "colorFrom": "FFFFFF",
+      "colorTo": "F7E97EFF"
+    },
+    {
+      "type": "WaveEffect",
+      "lifetime": 10,
+      "sizeFrom": 0,
+      "sizeTo": 20,
+      "strokeFrom": 8,
+      "strokeTo": 0,
+      "colorFrom": "FFFFFF",
+      "colorTo": "F7E97EFF"
+    }
+  ],
+  "shrinkX": 0,
+  "shrinkY": 0,
+  "trailChance": 2,
+  "trailParam": 10,
+  "trailLength": 19,
+  "trailColor": "F7E97EFF",
+  "trailWidth": 3,
+  "trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "length": 3,
+    "baseLength": 3,
+    "lifetime": 25,
+    "interp": "circleOut",
+    "cone": 360,
+    "offset": 2,
+    "lightColor": "F7E97EFF",
+    "colorFrom": "ffffff",
+    "colorTo": "F7E97EFF",
+    "sizeFrom": 12,
+    "sizeTo": 0
+  },
+  "bulletInterval": 2,
+  "intervalRandomSpread": 360,
+  "intervalSpread": 300,
+  "intervalBullet": {
+    "type": "LightningBulletType",
+    "lightningColor": "F7E97EFF",
+    "lightningLength": 8,
+    "lightningDamage": 60,
+    "hitSound": "spark",
+    "lifetime": 1
   }
+}
+}
 "research": {
 "objectives": [
 "sublimate"
