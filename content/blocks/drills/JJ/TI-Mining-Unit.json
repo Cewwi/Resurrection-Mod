@@ -9,9 +9,6 @@
   "shake": 4,
   "itemCapacity": 40,
   "hasPower": false,
-  "drillMultipliers": [
-    "Thaxon": 2
-  ],
   "hasLiquids": true,
   "hardnessDrillMultiplier": 10,
   "expanded": true,
@@ -19,9 +16,9 @@
  "requirements": [
      "Tronian-quartz/75",
      "Ordanium/125",
-     "carborundum/150",
-     "Thaxon/100"
+     "Silver/150",
+     "Thaxon-Steel/100"
   ],
    "category": "production",
-  "research": "Burst-drill",
+  "research": "Blast-Drill",
 }
