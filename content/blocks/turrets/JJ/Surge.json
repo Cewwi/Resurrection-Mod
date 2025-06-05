@@ -57,8 +57,8 @@
 "progress": "recoil",
 "circle": true,
 "layer": 110,
-"color": "3d58f0",
-"radiusTo": 4.2,
+"color": "62a0fc",
+"radiusTo": 2,
 "radius": 6
 },
 {
@@ -67,8 +67,8 @@
 "progress": "recoil",
 "circle": true,
 "layer": 100,
-"color": "62a0fc",
-"radiusTo": 4,
+"color": "3d58f0",
+"radiusTo": 1,
 "radius": 4
 },
 ]
