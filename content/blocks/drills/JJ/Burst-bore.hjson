@@ -8,7 +8,7 @@ type: BeamDrill
   fogRadius: 6
   laserWidth: 0.7
   itemCapacity: 20
-  description: Basic drill used to mine rescorces out of walls
+  description: Basic drill used to harvest rescorces from walls
   category: production
   liquidConsumption: {
     liquid: hydrogen
