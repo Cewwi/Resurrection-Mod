@@ -1,7 +1,7 @@
 {
   "type": "BurstDrill",
   "size": 4,
-  "description": "Advanced drill for surface ground"
+  "description": "Advanced drill for surface mining"
   "tier": 3,
   "drillTime": 270,
   "liquidBoostIntensity": 1.5,
