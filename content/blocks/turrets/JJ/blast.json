@@ -16,6 +16,26 @@
   "shootCone": 3,
   "research": "Cavern-core",
   "shake": 2,
+  {
+"type": "shapePart",
+"y": 2,
+"progress": "recoil",
+"circle": true,
+"layer": 100,
+"color": "62a0fc",
+"radiusTo": 4,
+"radius": 6
+},
+{
+"type": "shapePart",
+"y": 2,
+"progress": "recoil",
+"circle": true,
+"layer": 110,
+"color": "3d58f0",
+"radiusTo": 4.2,
+"radius": 8
+}
   "requirements": [
   "Ordanium/50",
   "Tronian-quartz/100",
