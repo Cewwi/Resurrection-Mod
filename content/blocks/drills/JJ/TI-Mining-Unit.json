@@ -1,9 +1,10 @@
 {
-  "type": "BurstDrill",
+  "type": "Drill",
   "size": 4,
+  "name": "TI Drilling Unit"
   "description": "Advanced drill for surface drilling"
   "tier": 3,
-  "drillTime": 270,
+  "drillTime": 220,
   "liquidBoostIntensity": 1.5,
   "drawRim": false,
   "shake": 4,
@@ -11,7 +12,9 @@
   "hasPower": false,
   "hasLiquids": true,
   "hardnessDrillMultiplier": 10,
-  "expanded": true,
+  "warmupSpeed": 1.5,
+  "hasPower": true,
+  "rotateSpeed": 7,
   "researchCostMultiplier": 5,
  "requirements": [
      "Tronian-quartz/75",
