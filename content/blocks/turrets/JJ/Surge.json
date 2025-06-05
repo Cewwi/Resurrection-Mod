@@ -59,7 +59,7 @@
       },
 ]
 },
-"shootSound": "laser",
+"shootSound": "Heavy-Discharge",
   "ammoTypes": {
 "Thaxon": {
 "type": "BasicBulletType",
