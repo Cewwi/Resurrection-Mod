@@ -28,6 +28,28 @@
     "liquid": "Thaxus",
     "amount": 0.5,
   },
+    "parts": [
+  {
+"type": "shapePart",
+"y": 2,
+"progress": "recoil",
+"circle": true,
+"layer": 100,
+"color": "62a0fc",
+"radiusTo": 4,
+"radius": 6
+},
+{
+"type": "shapePart",
+"y": 2,
+"progress": "recoil",
+"circle": true,
+"layer": 110,
+"color": "3d58f0",
+"radiusTo": 4.2,
+"radius": 8
+},
+  ],
   "size": 4,
   "health": 3250,
   "armor": 5,
