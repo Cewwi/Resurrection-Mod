@@ -1,8 +1,8 @@
 {
   "type": "BurstDrill",
   "size": 4,
-  "description": "Moderate drill for surface ground"
-  "tier": 2,
+  "description": "Advanced drill for surface ground"
+  "tier": 3,
   "drillTime": 270,
   "liquidBoostIntensity": 1.5,
   "drawRim": false,
