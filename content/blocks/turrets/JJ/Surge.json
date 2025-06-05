@@ -59,7 +59,7 @@
 "layer": 110,
 "color": "62a0fc",
 "radiusTo": 2,
-"radius": 6
+"radius": 4
 },
 {
 "type": "shapePart",
@@ -69,7 +69,7 @@
 "layer": 100,
 "color": "3d58f0",
 "radiusTo": 1,
-"radius": 4
+"radius": 2
 },
 ]
 },
