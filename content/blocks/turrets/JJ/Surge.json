@@ -12,7 +12,7 @@
   "inaccuracy": 5,
   "category": "turret",
   "targetUnderBlocks": true,
-  "shootY": 30,
+  "shootY": 5,
   "shootCone": 3,
   "research": "",
   "shake": 3,
@@ -28,12 +28,6 @@
     "liquid": "Thaxus",
     "amount": 0.5,
   },
-    "shoot": {
-    "type": "ShootAlternate",
-    "barrels": 2,
-    "spread": 20,
-    "shots": 2
-  },
   "size": 5,
   "health": 8250,
   "armor": 5,
@@ -48,7 +42,7 @@
         "under": true,
         "alternate": false,
         "moveY": -5,
-        "moveX": -5,
+        "moveX": 5,
         "progress": {
           "type": "recoil",
           "op": "blend",
@@ -65,7 +59,7 @@
 "type": "BasicBulletType",
   "sprite": "large-orb",
   "lightRadius": 10,
-  "lightColor": "ffFFFFff",
+  "lightColor": "62a0fc",
   "damage": 170,
   "scaleVelocity": true,
   "splashDamage": 70,
@@ -84,8 +78,8 @@
       "sizeTo": 25,
       "strokeFrom": 10,
       "strokeTo": 0,
-      "colorFrom": "FFFFFF",
-      "colorTo": "F7E97EFF"
+      "colorFrom": "62a0fc",
+      "colorTo": "3d58f0"
     },
     {
       "type": "WaveEffect",
@@ -94,8 +88,8 @@
       "sizeTo": 20,
       "strokeFrom": 8,
       "strokeTo": 0,
-      "colorFrom": "FFFFFF",
-      "colorTo": "F7E97EFF"
+      "colorFrom": "62a0fc",
+      "colorTo": "3d58f0"
     }
   ],
   "shrinkX": 0,
@@ -114,9 +108,9 @@
     "interp": "circleOut",
     "cone": 360,
     "offset": 2,
-    "lightColor": "F7E97EFF",
-    "colorFrom": "ffffff",
-    "colorTo": "F7E97EFF",
+    "lightColor": "62a0fc",
+    "colorFrom": "62a0fc",
+    "colorTo": "3d58f0",
     "sizeFrom": 12,
     "sizeTo": 0
   },
@@ -125,7 +119,7 @@
   "intervalSpread": 300,
   "intervalBullet": {
     "type": "LightningBulletType",
-    "lightningColor": "F7E97EFF",
+    "lightningColor": "62a0fc",
     "lightningLength": 8,
     "lightningDamage": 60,
     "hitSound": "spark",
