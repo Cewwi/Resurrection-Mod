@@ -1,7 +1,7 @@
 {
   "type": "BurstDrill",
   "size": 3,
-  "description": "Moderate drill for surface mining"
+  "description": "Moderate drill for surface drilling"
   "tier": 2,
   "drillTime": 270,
   "liquidBoostIntensity": 1.5,
