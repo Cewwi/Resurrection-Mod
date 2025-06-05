@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "coolantMultiplier": 2.5,
-  "name": "Sure",
+  "name": "Surge",
   "description": "Fires a large ball of concentrated energy.",
   "ammoPerShot": 5,
   "reload": 40,
@@ -43,7 +43,7 @@
     "parts": [
       {
         "type": "RegionPart",
-        "suffix": "-Blade",
+        "suffix": "-blade",
         "moveX": 0,
         "under": true,
         "alternate": false,
@@ -55,7 +55,7 @@
           "other": "heat",
           "amount": 0.2,
         },
-        "mirror": false
+        "mirror": true
       },
 ]
 },
@@ -64,7 +64,7 @@
 "Thaxon": {
 "type": "BasicBulletType",
   "collideTerrain": false,
-      "damage": 500,
+      "damage": 150,
       "width": 20,
       "ammoMultiplier": 5,
       "pierce": "true",
@@ -79,6 +79,18 @@
       "shootEffect": "teleportOut",
       "hitColor": "62A0FCFF",
       "hitEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 7,
+        "lifetime": 10,
+        "length": 25,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "3D58F0FF",
+        "colorTo": "62A0FCFF"
+}
+        "despawnEffect": {
         "type": "ParticleEffect",
         "line": true,
         "particles": 7,
