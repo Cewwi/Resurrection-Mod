@@ -120,7 +120,7 @@
   "intervalBullet": {
     "type": "LightningBulletType",
     "lightningColor": "62a0fc",
-    "lightningLength": 8,
+    "lightningLength": 13,
     "lightningDamage": 120,
     "hitSound": "spark",
     "lifetime": 1
