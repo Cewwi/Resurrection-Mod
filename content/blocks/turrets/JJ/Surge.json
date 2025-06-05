@@ -28,8 +28,14 @@
     "liquid": "Thaxus",
     "amount": 0.5,
   },
+  "size": 4,
+  "health": 3250,
+  "armor": 5,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "Harbinger-"
     "parts": [
-  {
+        {
 "type": "shapePart",
 "y": 2,
 "progress": "recoil",
@@ -49,14 +55,6 @@
 "radiusTo": 4.2,
 "radius": 8
 },
-  ],
-  "size": 4,
-  "health": 3250,
-  "armor": 5,
-  "drawer": {
-    "type": "drawTurret",
-    "basePrefix": "Harbinger-"
-    "parts": [
       {
         "type": "RegionPart",
         "suffix": "-blade",
