@@ -9,4 +9,4 @@ requirements: [
 ]
 research: T-quartz-wall
 category: defense
-researchCostMultiplier: 0.05
+researchCostMultiplier: 1.5

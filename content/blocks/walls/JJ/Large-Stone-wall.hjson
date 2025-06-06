@@ -2,11 +2,11 @@ type: Wall
 name: Large Ordanium Wall
 description: Stronger than a Quartz wall, but takes longer to make.
 size: 2
-health: 4800
+health: 4000
 squareSprite: false
 requirements: [
   Ordanium/48
 ]
 research: Stone-wall
 category: defense
-researchCostMultiplier: 0.05
+researchCostMultiplier: 1.5

@@ -1,7 +1,7 @@
 type: Conduit
 name: Pipeline
 description: Directs imput items to the output.
-category: distribution
+category: liquid
 alwaysUnlocked: true
 research: Quartz-core
 bridgeReplacement: Channel-bridge

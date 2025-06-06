@@ -2,5 +2,5 @@ type: Floor
 name: Burning Ashen Silver Floor
 variants: 3
 lightRadius: 20
-lightColor: ffa166
+lightColor: ffb874
 emitLight: true
