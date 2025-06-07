@@ -74,6 +74,9 @@
 },
 ]
 },
+"consumes": {
+    "power": 4,
+  },
 "shootSound": "Heavy-Discharge",
   "ammoTypes": {
 "Thaxon": {
