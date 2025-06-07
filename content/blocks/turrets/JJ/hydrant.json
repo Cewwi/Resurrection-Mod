@@ -3,7 +3,7 @@
   "type": "LiquidTurret",
   "category": "turret",
   "requirements": [
-    "Pane/125",
+    "pane/125",
     "Thaxon/100",
     "Tronian-quartz/50",
     "Ordanium/75"
