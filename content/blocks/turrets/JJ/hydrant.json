@@ -3,14 +3,15 @@
   "type": "LiquidTurret",
   "category": "turret",
   "requirements": [
-    "carborundum/125",
-    "Ordanium/100",
-    "Tronian-quartz/200",
+    "Pane/125",
+    "Thaxon/100",
+    "Tronian-quartz/50",
+    "Ordanium/75"
   ],
   "ammo": {
     "Thaxus": {
       "liquid": "Thaxus",
-      "lifetime": 49.0,
+      "lifetime": 50,
       "speed": 5.0,
       "knockback": 1.9,
       "puddleSize": 9.0,
@@ -22,7 +23,7 @@
     },
     "slag": {
       "liquid": "slag",
-      "lifetime": 49.0,
+      "lifetime": 50,
       "speed": 5.0,
       "knockback": 1.5,
       "puddleSize": 8.0,
@@ -34,9 +35,9 @@
     },
   },
   "size": 3,
-  "reload": 3.0,
+  "reload": 2.0,
   "shoot": {
-    "shots": 2
+    "shots": 4
   },
   "velocityRnd": 0.1,
   "inaccuracy": 4.0,
@@ -44,6 +45,6 @@
   "shootCone": 45.0,
   "liquidCapacity": 40.0,
   "shootEffect": "shootLiquid",
-  "range": 190.0,
+  "range": 200.0,
   "scaledHealth": 2500,
 }
