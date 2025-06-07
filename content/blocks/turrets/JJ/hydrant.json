@@ -46,8 +46,4 @@
   "shootEffect": "shootLiquid",
   "range": 190.0,
   "scaledHealth": 2500,
-  "flags": [
-    "turret",
-    "extinguisher"
-  ]
 }
