@@ -1,14 +1,12 @@
 {
   "name": "tsunami",
   "type": "LiquidTurret",
-  "requirements": {
-    "category": "turret",
-    "items": {
-      "Pane/120",
-      "Thaxon/150",
-      "Tronian-quartz/50"
-    }
-  },
+  "category": "turret",
+  "requirements": [
+    "carborundum/125",
+    "Ordanium/100",
+    "Tronian-quartz/200",
+  ],
   "ammo": {
     "Thaxus": {
       "liquid": "Thaxus",
