@@ -8,7 +8,7 @@
     "Tronian-quartz/50",
     "Ordanium/75"
   ],
-  "ammo": {
+  "ammoTypes": {
     "Thaxus": {
       "liquid": "Thaxus",
       "lifetime": 50,
