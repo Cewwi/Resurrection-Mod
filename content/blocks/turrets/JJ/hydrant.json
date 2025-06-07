@@ -1,0 +1,55 @@
+{
+  "name": "tsunami",
+  "type": "LiquidTurret",
+  "requirements": {
+    "category": "turret",
+    "items": {
+      "Pane/120",
+      "Thaxon/150",
+      "Tronian-quartz/50"
+    }
+  },
+  "ammo": {
+    "Thaxus": {
+      "liquid": "Thaxus",
+      "lifetime": 49.0,
+      "speed": 5.0,
+      "knockback": 1.9,
+      "puddleSize": 9.0,
+      "orbSize": 3.0,
+      "drag": 0.001,
+      "ammoMultiplier": 0.5,
+      "statusDuration": 300,
+      "damage": 0.2,
+    },
+    "slag": {
+      "liquid": "slag",
+      "lifetime": 49.0,
+      "speed": 5.0,
+      "knockback": 1.5,
+      "puddleSize": 8.0,
+      "orbSize": 3.0,
+      "drag": 0.001,
+      "ammoMultiplier": 0.5,
+      "statusDuration": 325,
+      "damage": 7.75
+    },
+  },
+  "size": 3,
+  "reload": 3.0,
+  "shoot": {
+    "shots": 2
+  },
+  "velocityRnd": 0.1,
+  "inaccuracy": 4.0,
+  "recoil": 1.0,
+  "shootCone": 45.0,
+  "liquidCapacity": 40.0,
+  "shootEffect": "shootLiquid",
+  "range": 190.0,
+  "scaledHealth": 2500,
+  "flags": [
+    "turret",
+    "extinguisher"
+  ]
+}
