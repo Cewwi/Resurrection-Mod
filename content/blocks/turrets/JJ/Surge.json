@@ -41,9 +41,9 @@
         "moveX": 0,
         "under": true,
         "alternate": false,
-        "moveY": -6,
-        "moveX": 3,
-        "moveRot": -10
+        "moveY": -4,
+        "moveX": 2.5,
+        "moveRot": -20
         "progress": {
           "type": "recoil",
           "op": "blend",
