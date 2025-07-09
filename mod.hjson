@@ -14,7 +14,7 @@ The only thing that stands in your way, is The New Order. A faction of mindless 
 bring this powerful technology back from the planet, so that you may annihilate an ancient foe once and for all...
 '''
 version: "0"
-minGameVersion: "146"
+minGameVersion: "149"
 dependencies: [ ]
 main: "resurrection.Resurrection"
 hidden: false
