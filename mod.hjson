@@ -4,7 +4,7 @@ author: "[[]#757575]cewwi[[]] & [[]#757575]JJ[[]]"
 description: '''
 '''
 version: "0"
-minGameVersion: "146"
+minGameVersion: "149"
 dependencies: [ ]
 main: "resurrection.Resurrection"
 hidden: false
