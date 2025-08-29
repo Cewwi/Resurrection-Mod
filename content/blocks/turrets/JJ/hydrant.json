@@ -10,6 +10,7 @@
   ],
   "ammoTypes": {
     "Thaxus": {
+      "type": "LiquidBulletType",
       "liquid": "Thaxus",
       "lifetime": 50,
       "speed": 5.0,
@@ -23,6 +24,7 @@
     },
     "slag": {
       "liquid": "slag",
+      "type": "LiquidBulletType",
       "lifetime": 50,
       "speed": 5.0,
       "knockback": 1.5,
