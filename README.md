@@ -19,4 +19,3 @@ Overgrowth Wardens: Mass producer of basic tech and the main supplier of the Mag
 ![image](https://github.com/user-attachments/assets/058dfda6-89a9-4e65-9fa8-fd5a5c79c11a)
 
 Discord Link:
-https://discord.gg/atCn9nDka3
