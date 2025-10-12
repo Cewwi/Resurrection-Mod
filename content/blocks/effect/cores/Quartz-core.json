@@ -1,8 +1,8 @@
 {
   "localizedName": "Core: Quartz",
   "type": "CoreBlock",
-  "description": "Commonly constructed core for short term fortresses on tronoe"
-  "details": "'Guess peace is no longer an option'."
+  "description": "Commonly constructed core for short term fortresses on tronoe",
+  "details": "'Guess peace is no longer an option'.",
   "health": 850,
   "squareSprite": false,
   "size": 4,
@@ -16,7 +16,7 @@
   "requirements": [
     "carborundum/500",
     "Tronian-quartz/750",
-    "Gavolite/500",
+    "Gavolite/500"
   ],
-  "category": "effect",
+  "category": "effect"
 }

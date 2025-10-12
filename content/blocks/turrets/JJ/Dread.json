@@ -23,15 +23,15 @@
   "Ordanium/300",
   "MagmaCell/50",
   "Magma-stone/1500",
-  "Geode-catalyst/500",
-  ]
+  "Geode-catalyst/500"
+  ],
   "shoot":
     {
     "type": "ShootAlternate",
     "barrels": 2,
     "spread": 40,
     "shotDelay": 0,
-    "shots": 2,
+    "shots": 2
   },
   "coolant": {
     "type": "ConsumeLiquid",
@@ -39,14 +39,14 @@
     "amount": 5
   },
    "consumes": {
-    "power": 4,
+    "power": 4
   },
   "size": 8,
   "health": 55250,
   "armor": 5,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "Magmian-"
+    "basePrefix": "Magmian-",
     "parts": [
       {
         "type": "RegionPart",
@@ -59,7 +59,7 @@
           "type": "recoil",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2,
+          "amount": 0.2
         },
         "mirror": true
       },
@@ -71,8 +71,8 @@
       "blending": "additive",
       "color": "FFB570FF",
       "colorTo": "FFB570FF",
-      "outline": false,
-    },
+      "outline": false
+    }
 ]
 },
 "shootSound": "mediumCannon",
@@ -94,8 +94,8 @@
   "smokeEffect": "shootBigSmoke",
   "ammoMultiplier": 1,
   "pierceCap": 5,
-  "pierce": true
-  "pierceBuilding": true
+  "pierce": true,
+  "pierceBuilding": true,
    "trailEffect": {
           "type": "ParticleEffect",
           "particles": 10,
@@ -116,12 +116,12 @@
         "trailLength": 9,
         "trailColor": "FFB570FF",
         "trailWidth": 9,
-  "buildingDamageMultiplier": 0.5
+  "buildingDamageMultiplier": 0.5,
   "hitEffect": "scatheExplosion",
   "despawnEffect": "scatheExplosion",
-  "hitColor": "FFB570FF",
+  "hitColor": "FFB570FF"
 }
-}
+},
 "research": {
 "objectives": [
 "sublimate"

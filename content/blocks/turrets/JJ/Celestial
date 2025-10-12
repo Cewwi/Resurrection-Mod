@@ -28,7 +28,7 @@
   "armor": 40,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "Acentus-"
+    "basePrefix": "Acentus-",
     "parts": [
 {
 "type": "shapePart",
@@ -84,7 +84,7 @@
 "shapes": 2,
 "triLengthTo": 13,
 "triLength": 0
-}
+},
 {
 "type": "HaloPart",
 "y": -6.5,
@@ -116,7 +116,7 @@
 "shapes": 2,
 "triLengthTo": 8,
 "triLength": 0
-}
+},
 {
 "type": "HaloPart",
 "y": -6.5,
@@ -157,7 +157,7 @@
         "lightningCone": 40,
         "lightningLengthRand": 6,
         "frontColor": "FFFFFFF",
-        "backColor": "FFE135FF"
+        "backColor": "FFE135FF",
         "hitEffect": {
           "type": "ParticleEffect",
           "line": true,
@@ -193,7 +193,7 @@
       }
     },
   "requirements": [
-    "graphite/600",
+    "graphite/600"
   ],
   "category": "turret"
 }

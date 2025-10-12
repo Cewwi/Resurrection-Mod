@@ -1,7 +1,7 @@
 {
   "type": "BurstDrill",
   "size": 2,
-  "description": "Basic drill for surface drilling"
+  "description": "Basic drill for surface drilling",
   "tier": 1,
   "drillTime": 400,
   "liquidBoostIntensity": 1.5,
@@ -17,5 +17,5 @@
      "Ordanium/50"
   ],
    "category": "production",
-  "research": "Cavern-core",
+  "research": "Cavern-core"
 }

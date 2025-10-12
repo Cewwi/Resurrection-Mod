@@ -1,6 +1,6 @@
 {
 "localizedName": "Quill",
-"description": "Fires fragging shells at enemy targets. Has a small shock aura."
+"description": "Fires fragging shells at enemy targets. Has a small shock aura.",
 "faceTarget": false,
 "squareShape": true,
 "type": "tank",
@@ -34,8 +34,8 @@
       "hitBuildings": false,
       "sectorRad": 0.1,
       "effectRadius": 2,
-      "reload": 50,
-    },
+      "reload": 50
+    }
   ],
 "weapons": [
 {
@@ -62,7 +62,7 @@
         "shrinkY": 0,
         "trailEffect": "smeltsmoke",
         "frontColor": "ECECECFF",
-        "backColor": "BDBDBDFF"
+        "backColor": "BDBDBDFF",
         "trailChance": 5,
         "trailParam": 5,
         "trailLength": 3,
@@ -70,9 +70,9 @@
         "trailWidth": 1,
         "hitEffect": "smeltsmoke",
         "despawnEffect": "smeltsmoke",
-      "pierce": true
-      "pierceBuilding": false
-      "pierceCap": 2
+      "pierce": true,
+      "pierceBuilding": false,
+      "pierceCap": 2,
       "fragBullets": 3,
       "fragOnHit": true,
       "fragVelocityMin": 1,
@@ -89,16 +89,16 @@
         "shrinkY": 0,
         "trailEffect": "mineSmall",
         "frontColor": "ECECECFF",
-        "backColor": "BDBDBDFF"
+        "backColor": "BDBDBDFF",
         "hitEffect": "smeltsmoke",
         "despawnEffect": "smeltsmoke",
         "trailChance": 5,
         "trailParam": 5,
         "trailLength": 3,
         "trailColor": "ECECECFF",
-        "trailWidth": 1,
-        },
+        "trailWidth": 1
         }
-},
+      }
+    }
   ]
 }

@@ -1,19 +1,17 @@
 {
   "type": "Drill",
   "size": 4,
-  "name": "TI Drilling Unit"
-  "description": "Advanced drill for surface drilling"
+  "name": "TI Drilling Unit",
+  "description": "Advanced drill for surface drilling",
   "tier": 3,
   "drillTime": 220,
   "liquidBoostIntensity": 1.5,
   "drawRim": false,
   "shake": 4,
   "itemCapacity": 40,
-  "hasPower": false,
   "hasLiquids": true,
   "hardnessDrillMultiplier": 10,
   "warmupSpeed": 1.5,
-  "hasPower": true,
   "rotateSpeed": 7,
   "researchCostMultiplier": 5,
  "requirements": [
@@ -23,5 +21,5 @@
      "Thaxon-Steel/100"
   ],
    "category": "production",
-  "research": "Blast-Drill",
+  "research": "Blast-Drill"
 }

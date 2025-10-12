@@ -1,0 +1,20 @@
+{
+"type": "OverflowGate",
+"name": "Underflow Channel",
+"description": "Opposite of the Overflow Channel. Outputs items through through the front if both sides are blocked.",
+"category": "distribution",
+"alwaysUnlocked": true,
+"research": "Channel-bridge",
+"bridgeReplacement": "Channel-bridge",
+"invert": true,
+"researchCost": [
+  "pane/250,",
+  "Thaxon/120",
+  "Tronian_quartz/100"
+],
+"health": 150,
+"requirements": [
+  "Ordanium/1",
+  "Thaxon/1"
+]
+}

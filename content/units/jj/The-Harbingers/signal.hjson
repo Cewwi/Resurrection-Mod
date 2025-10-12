@@ -32,13 +32,12 @@ alwaysUnlocked: true
 outlineColor: 0C0D1BFF
 abilities: [
   {
-    type: ShieldArcAbility
+    type: ForceFieldAbility
     max: 500
     cooldown: 300
     regen: 0.5
     angle: 370
     whenShooting: false
-    width: 5
     x: 0
     y: 0
     radius: 20

@@ -1,8 +1,8 @@
 {
   "localizedName": "Core: Palisade",
   "type": "CoreBlock",
-  "description": "Strong and reliable"
-  "details": "'It was the only reason we won.'"
+  "description": "Strong and reliable",
+  "details": "'It was the only reason we won.'",
   "health": 8750,
   "squareSprite": false,
   "size": 5,
@@ -18,7 +18,7 @@
     "Tronian-quartz/750",
     "Gavolite/1500",
     "Thaxon/500",
-    "Silver/450",
+    "Silver/450"
   ],
-  "category": "effect",
+  "category": "effect"
 }

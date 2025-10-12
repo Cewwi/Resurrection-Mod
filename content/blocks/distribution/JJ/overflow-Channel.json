@@ -1,0 +1,19 @@
+{
+"type": "OverflowGate",
+"name": "Onderflow Channel",
+"description": "Outputs items through it's sides if it can no longer output through the front.",
+"category": "distribution",
+"alwaysUnlocked": true,
+"research": "Channel-bridge",
+"bridgeReplacement": "Channel-bridge",
+"researchCost": [
+  "pane/250,",
+  "Thaxon/120",
+  "Tronian_quartz/100"
+],
+"health": 150,
+"requirements": [
+  "Ordanium/1",
+  "Thaxon/1"
+]
+}

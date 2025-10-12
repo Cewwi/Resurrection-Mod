@@ -1,4 +1,4 @@
-
+{
   "localizedName": "Surge Alcazar",
   "type": "CoreBlock",
   "health": 30000,
@@ -15,7 +15,8 @@
     "silicon/5000",
     "surge-alloy/4000",
     "tungsten/2500",
-    "carbide/3000",
-  ]
+    "carbide/3000"
+  ],
   "category": "effect",
-  "research": "core-citadel",
+  "research": "core-citadel"
+}
