@@ -1,5 +1,5 @@
 {
-"type": "OverflowGate",
+"type": "OverflowDuct",
 "name": "Onderflow Channel",
 "description": "Outputs items through it's sides if it can no longer output through the front.",
 "category": "distribution",

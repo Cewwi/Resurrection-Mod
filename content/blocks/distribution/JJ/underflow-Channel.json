@@ -1,5 +1,5 @@
 {
-"type": "OverflowGate",
+"type": "OverflowDuct",
 "name": "Underflow Channel",
 "description": "Opposite of the Overflow Channel. Outputs items through through the front if both sides are blocked.",
 "category": "distribution",
