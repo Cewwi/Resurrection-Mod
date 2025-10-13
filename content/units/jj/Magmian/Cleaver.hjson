@@ -158,7 +158,7 @@ hittable: false
      ]
       maxRange: 100
       damage: 5
-      recoil: -0.35
+      recoil: 0.35
       layer: 110
       groundLayer: 61
       intervalBullets: 2

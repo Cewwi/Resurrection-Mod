@@ -12,7 +12,7 @@ fogRadius: 0
 hovering: false
 faceTarget: true
 targetPriority: -2
-name: concentrator
+name: Pulser
 description: thing
 health: 1500
 armor: 6

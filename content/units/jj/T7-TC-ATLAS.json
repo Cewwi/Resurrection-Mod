@@ -1,12 +1,12 @@
 {
 "localizedName": "T7-TC-ATLAS",
-"description": "[#D1EFFFFF]T7-TC-ATLAS[]. This large war tank has a large assortment of weapons for many unique situations."
+"description": "[#D1EFFFFF]T7-TC-ATLAS[]. This large war tank has a large assortment of weapons for many unique situations.",
 "template": "ErekirUnitType",
 "research": {
 "requirements": [
   "silicon/1000",
   "phase-fabric/50",
-  "carbide/50",
+  "carbide/50"
 ]
 },
 "faceTarget": false,
@@ -19,14 +19,14 @@
 "x": 80,
 "y": -165,
 "width": 80,
-"height": 400,
+"height": 400
 },
 {
 "x": 80,
 "y": -265,
 "width": 80,
-"height": 400,
-},
+"height": 400
+}
 ],
 "omniMovement": false,
 "outlineColor": "2d2f39",

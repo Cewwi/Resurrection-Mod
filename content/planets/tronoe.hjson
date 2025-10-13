@@ -91,14 +91,14 @@ colors: [
   } 
 ]
 cloudMesh: [
-  {
+ {
    type: HexSkyMesh
    planet: tronoe
-   speed: 1.2
-   radius: 0.2
+   speed: 1.21
+   radius: 0.1
    divisions: 6
-   color: 9698A8FF
-   octaves: 3
+   color: "F7E97EFF" //buhhuhhuuhuh
+   octaves: "3"
    persistence: 0.3
    scl: 1
    thresh: 0.6
@@ -106,8 +106,20 @@ cloudMesh: [
   {
    type: HexSkyMesh
    planet: tronoe
-   speed: 2
-   radius: 0.23
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: 9698A8FF
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: tronoe
+   speed: 0.891
+   radius: 0.091
    divisions: 6
    color: 9698A8FF
    octaves: 3
@@ -117,7 +129,7 @@ cloudMesh: [
   }
 ]
 generator: {
-  octaves: 3
+  octaves: 3 
   persistence: 0.52
   scale: 22
   mag: 0.721
