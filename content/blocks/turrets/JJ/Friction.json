@@ -14,15 +14,14 @@
   "targetUnderBlocks": true,
   "shootY": 30,
   "shootCone": 3,
-  "research": "",
   "shake": 3,
   "requirements": [
   "Thaxon/850",
   "carborundum/750",
   "Ordanium/850",
   "Tronian-quartz/1000",
-  "Thaxon-Steel/500",
-  ]
+  "Thaxon-Steel/500"
+  ],
   "coolant": {
     "type": "ConsumeLiquid",
     "liquid": "Thaxus",
@@ -39,7 +38,7 @@
   "armor": 5,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "Harbinger-"
+    "basePrefix": "Harbinger-",
     "parts": [
       {
         "type": "RegionPart",
@@ -54,7 +53,7 @@
           "type": "recoil",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2,
+          "amount": 0.2
         },
         "mirror": false
       },
@@ -71,7 +70,7 @@
           "type": "recoil",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2,
+          "amount": 0.2
         },
         "mirror": false
       },
@@ -86,7 +85,7 @@
           "type": "recoil",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2,
+          "amount": 0.2
         },
         "mirror": true
       },
@@ -98,8 +97,8 @@
       "blending": "additive",
       "color": "FFB570FF",
       "colorTo": "FFB570FF",
-      "outline": false,
-    },
+      "outline": false
+    }
 ]
 },
 "shootSound": "mediumCannon",
@@ -133,7 +132,7 @@
         "colorTo": "62A0FCFF"
 }
 }
-  }
+  },
 "research": {
 "objectives": [
 "sublimate"

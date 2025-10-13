@@ -11,7 +11,7 @@
   "legMaxLength": 20,
   "legExtension": -25,
   "legCount": 6,
-  "legBaseOffset": 20,
+  "legBaseOffset": 10,
   "legLengthScl": 1,
   "legMoveSpace": 0.9,
   "canDrown": false,
