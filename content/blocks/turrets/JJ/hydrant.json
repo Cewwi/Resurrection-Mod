@@ -1,5 +1,5 @@
 {
-  "name": "tsunami",
+  "name": "hydrant",
   "type": "LiquidTurret",
   "category": "turret",
   "requirements": [
@@ -20,7 +20,7 @@
       "drag": 0.001,
       "ammoMultiplier": 0.5,
       "statusDuration": 300,
-      "damage": 0.2,
+      "damage": 0.2
     },
     "slag": {
       "liquid": "slag",
@@ -34,7 +34,7 @@
       "ammoMultiplier": 0.5,
       "statusDuration": 325,
       "damage": 7.75
-    },
+    }
   },
   "size": 3,
   "reload": 2.0,
@@ -48,5 +48,5 @@
   "liquidCapacity": 40.0,
   "shootEffect": "shootLiquid",
   "range": 200.0,
-  "scaledHealth": 2500,
+  "scaledHealth": 2500
 }

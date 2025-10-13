@@ -2,12 +2,12 @@ name: "resurrection"
 displayName: "[[]#757575]Cataclysm[[]]"
 author: "[[]#757575]cewwi[[]] & [[]#757575]JJ[[]]"
 description: '''
-If you strive to be the greatest, enough, is never enough - jj
+Not now, maybe later.
 '''
 version: "0"
 minGameVersion: "149"
 dependencies: [ ]
 main: "resurrection.Resurrection"
 hidden: false
-subtitle: "Discontinued"
+subtitle: "Maybe"
 repo: https://github.com/Cewwi/Resurrection-Mod

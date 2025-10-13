@@ -8,7 +8,6 @@
   "range": 720,
   "outlineColor": "0C0D1BFF",
   "recoil": 3,
-  "shake": 1.2,
   "inaccuracy": 0,
   "category": "turret",
   "targetUnderBlocks": false,
@@ -20,8 +19,8 @@
   "Silver/250",
   "carborundum/750",
   "Ordanium/450",
-  "Magma-stone/500",
-  ]
+  "Magma-stone/500"
+  ],
   "coolant": {
     "type": "ConsumeLiquid",
     "liquid": "slag",
@@ -32,20 +31,20 @@
   "armor": 4,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "Magmian-"
+    "basePrefix": "Magmian-",
     "parts": [
       {
         "type": "RegionPart",
         "suffix": "-brl2",
         "moveX": 0,
         "under": true,
-        "moveY": -7,
+        "moveY": 7,
         "Y": 39,
         "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
-          "amount": -0.5,
+          "amount": -0.5
         },
         "mirror": false
       },
@@ -54,13 +53,13 @@
         "suffix": "-brl1",
         "moveX": 0,
         "under": true,
-        "moveY": -5,
+        "moveY": 5,
         "Y": 20,
         "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
-          "amount": -0.5,
+          "amount": -0.5
         },
         "mirror": false
       },
@@ -72,8 +71,8 @@
       "blending": "additive",
       "color": "FFB570FF",
       "colorTo": "FFB570FF",
-      "outline": false,
-    },
+      "outline": false
+    }
 ]
 },
 "shootSound": "Cannon-large",
@@ -96,8 +95,8 @@
   "smokeEffect": "shootBigSmoke",
   "ammoMultiplier": 1,
   "pierceCap": 3,
-  "pierce": true
-  "pierceBuilding": true
+  "pierce": true,
+  "pierceBuilding": true,
    "trailEffect": {
           "type": "ParticleEffect",
           "particles": 1,
@@ -118,12 +117,12 @@
         "trailLength": 9,
         "trailColor": "FFB570FF",
         "trailWidth": 2,
-  "buildingDamageMultiplier": 0.5
+  "buildingDamageMultiplier": 0.5,
   "hitEffect": "launchPod",
   "despawnEffect": "launchPod",
-  "hitColor": "FFB570FF",
+  "hitColor": "FFB570FF"
 }
-}
+},
 "research": {
 "objectives": [
 "sublimate"

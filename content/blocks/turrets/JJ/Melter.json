@@ -10,16 +10,16 @@
   "shootY": 5,
   "shake": 1,
   "inaccuracy": 0,
-  "category": "turret"
-  "research": "none"
+  "category": "turret",
+  "research": "none",
   "requirements": [
   "Magma-stone/75",
-  "Ordanium/120",
-  ]
+  "Ordanium/120"
+  ],
   "shoot": {
         "type": "shootPattern",
         "shots": 1,
-        "shotDelay": 1,
+        "shotDelay": 1
   },
   "size": 2,
   "health": 500,
@@ -35,7 +35,7 @@
 "colors": ["EB564BFF", "FFB570FF", "FF9166FF", "ffffff"],
 "damage": 2,
 "knockback": 3,
-"buildingDamageMultiplier": 0.24
+"buildingDamageMultiplier": 0.24,
 "width": 2.5,
 "drawFlare": false,
 "lifetime": 60,
@@ -54,9 +54,9 @@
 "colorFrom": "FF9166FF",
 "colorTo": "EB564BFF"
 },
-"length": 50,
+"length": 50
 }
-}
+},
 "research": {
 "parent": "sublimate",
 "objectives": [
