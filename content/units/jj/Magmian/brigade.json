@@ -39,7 +39,7 @@
     "outline": false,
     "mirror": false,
     "moveY": 1,
-    "under": true,
+    "under": false,
     "x": 0,
     "y": 0
 }
