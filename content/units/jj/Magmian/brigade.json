@@ -18,9 +18,9 @@
   ],
 "weapons": [
 {
-    "name": "Large-magmian-weapon",
-    "x": 0,
-    "y": -7,
+    "name": "Large-magmian-Weapon",
+    "x": 6,
+    "y": 0,
     "rotateSpeed": 1.5,
     "mirror": false,
     "rotate": true,
