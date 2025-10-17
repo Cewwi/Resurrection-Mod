@@ -22,12 +22,31 @@ drawers: [
   suffix: -bottom
 }
 {
-  type: DrawFlame
-      flameColor: A9D8FFFF
-}
-{
   type: DrawDefault
 }
+]
+}
+craftEffect: {
+type: RadialEffect
+rotationOffset: 45
+lengthOffset: 8
+effect: [
+          {
+          type: ParticleEffect
+          particles: 10
+          length: 9
+          baseLength: 0
+          lifetime: 75
+          interp: circleOut
+          cone: 10
+          sides: 4
+          offset: 0
+          lightColor: A9D8FFFF
+          colorFrom: A9D8FFFF
+          colorTo: A9D8FFFF
+          sizeFrom: 4
+          sizeTo: 0
+          }
 ]
 }
 outputItems: [

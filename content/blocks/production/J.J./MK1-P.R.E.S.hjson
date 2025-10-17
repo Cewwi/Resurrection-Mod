@@ -1,14 +1,17 @@
 
 type: GenericCrafter
-name: Carborundum Furnace
-description: Produces carborundum.
+name: Mass Press
+description: Produces Carborundum and Gavolite at a very fast rate.
 size: 6
 craftTime: 80
 consumes: {
   items: [
-    Gavolite/4
+    Tronian-quartz/5
+    Thaxon/3
+    Geosium/1
+    Ordanium/5
   ]
-power: 2
+power: 4.5
 }
 ignoreLiquidFullness: true
 ambientSound: smelter
@@ -18,8 +21,13 @@ drawer: {
 type: DrawMulti
 drawers: [
 {
-  type: DrawFlame
-      flameColor: A9D8FFFF
+  type: DrawCrucibleFlame
+      flameRad: 20
+      circleSpace: 40
+      particles: 320
+      particleSize: 5
+      particleRad: 60
+      particleLen: 20
 }
 {
   type: DrawDefault
@@ -27,12 +35,16 @@ drawers: [
 ]
 }
 outputItems: [
-  Gavolite/2
+  carborundum/10
+  Gavolite/10
 ]
 category: crafting
 research: Quartz-Generator
 requirements: [
-  scheelite/50
-  Tronian-quartz/100
+Thaxon/200
+Silver/150
+carborundum/250
+Ordanium/5
+Tronian-quartz/5
 ]
-itemCapacity: 10
+itemCapacity: 30

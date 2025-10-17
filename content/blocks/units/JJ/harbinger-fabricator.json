@@ -25,10 +25,10 @@
         },
         {
           "item": "carborundum",
-          "amount": 10
+          "amount": 20
         }
       ],
-      "time": 400
+      "time": 800
     }
 ]
 }
