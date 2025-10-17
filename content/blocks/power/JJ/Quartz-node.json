@@ -10,8 +10,8 @@
   "laserColor1": "FFFFFFFF",
   "laserColor2": "BCB6B6FF",
   "category": "power",
-  "research": "Quartz-Generator"
+  "research": "Quartz-Generator",
   "requirements": [
     "Tronian-quartz/10"
-  ],
+  ]
 }
