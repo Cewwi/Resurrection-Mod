@@ -21,7 +21,7 @@
   "carborundum/750",
   "Ordanium/250",
   "Tronian-quartz/750",
-  "Silver/500",
+  "Silver/500"
   ]
   "coolant": {
     "type": "ConsumeLiquid",

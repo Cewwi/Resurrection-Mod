@@ -2,6 +2,7 @@
 "localizedName": "Harbinger Fabricator",
 "description": "Builds T1 Harbinger units.",
 "research": "Cavern-core",
+"squareSprite": false,
 "category": "units",
 "type": "UnitFactory",
   "researchCostMultiplier": 0.3,

@@ -11,7 +11,6 @@
   "shake": 1,
   "inaccuracy": 0,
   "category": "turret",
-  "research": "none",
   "requirements": [
   "Magma-stone/75",
   "Ordanium/120"
@@ -58,7 +57,6 @@
 }
 },
 "research": {
-"parent": "sublimate",
 "objectives": [
 "sublimate"
 ]
