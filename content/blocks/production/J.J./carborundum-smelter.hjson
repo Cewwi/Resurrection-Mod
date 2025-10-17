@@ -23,12 +23,22 @@ drawers: [
   suffix: -bottom
 }
 {
-  type: DrawFlame
-  flameColor: BCB6B6FF
-}
-{
   type: DrawDefault
 }
+  {
+    type: DrawParticles
+    color: A9D8FFFF
+    alpha: 0.3
+    sides: 4
+    blending: additive
+    particleSize: 5
+    reverse: true
+    particleRad: 20
+    particles: 30
+    fadeMargin: 1
+    rotateScl: 30
+    particleLife: 40
+  },
 ]
 }
 outputItems: [

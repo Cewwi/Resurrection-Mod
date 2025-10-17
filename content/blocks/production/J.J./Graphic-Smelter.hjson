@@ -34,16 +34,16 @@ effect: [
           {
           type: ParticleEffect
           particles: 10
-          length: 9
+          length: 11
           baseLength: 0
           lifetime: 75
           interp: circleOut
           cone: 10
           sides: 4
           offset: 0
-          lightColor: A9D8FFFF
-          colorFrom: A9D8FFFF
-          colorTo: A9D8FFFF
+          lightColor: 62A0FCFF
+          colorFrom: 62A0FCFF
+          colorTo: 62A0FCFF
           sizeFrom: 4
           sizeTo: 0
           }

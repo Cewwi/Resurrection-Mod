@@ -21,6 +21,9 @@ drawer: {
 type: DrawMulti
 drawers: [
 {
+  type: DrawDefault
+}
+{
   type: DrawCrucibleFlame
       flameRad: 20
       circleSpace: 40
@@ -28,9 +31,6 @@ drawers: [
       particleSize: 5
       particleRad: 60
       particleLen: 20
-}
-{
-  type: DrawDefault
 }
 ]
 }
