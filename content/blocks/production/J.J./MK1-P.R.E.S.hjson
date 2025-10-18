@@ -23,15 +23,35 @@ drawers: [
 {
   type: DrawDefault
 }
-{
-  type: DrawCrucibleFlame
-      flameRad: 20
-      circleSpace: 40
-      particles: 320
-      particleSize: 5
-      particleRad: 60
-      particleLen: 20
-}
+  {
+    type: DrawParticles
+    color: A9D8FFFF
+    alpha: 0.3
+    sides: 4
+    blending: additive
+    particleSize: 5
+    particleRad: 30
+    particles: 30
+    offset: 3
+    fadeMargin: 1
+    rotateScl: 30
+    particleLife: 40
+  },
+    {
+    type: DrawParticles
+    color: A9D8FFFF
+    alpha: 0.3
+    sides: 4
+    blending: additive
+    particleSize: 5
+    reverse: true
+    particleRad: 40
+    particles: 30
+    offset: 3
+    fadeMargin: 1
+    rotateScl: 30
+    particleLife: 40
+  },
 ]
 }
 outputItems: [
