@@ -1,0 +1,10 @@
+{
+    "type": "Floor",
+    "name": "Magmian Heated Panel",
+    "autotile": true,
+    "drawEdgeOut": false,
+    "drawEdgeIn": false,
+    "lightRadius": 10,
+    "lightColor": "D1EFFFFF",
+    "emitLight": true
+}
