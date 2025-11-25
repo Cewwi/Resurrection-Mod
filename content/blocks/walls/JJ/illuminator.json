@@ -1,0 +1,25 @@
+{
+    "type": "Wall",
+    "name": "Illuminator",
+    "variants": 1,
+    "lightRadius": 60,
+    "lightColor": "ffffff",
+    "emitLight": true,
+    "description": "Provides light.",
+    "size": 1,
+    "health": 2000,
+    "squareSprite": false,
+    "consumes": {
+        "power": 3
+    },
+    "drawer": {
+  "type": "DrawGlowRegion",
+  "suffix": "-glow",
+  "color": "ffffff"
+},
+    "requirements": [
+        "Ordanium/10",
+        "Tronian-quartz/10",
+        "Gavolite/5"
+    ]
+}
