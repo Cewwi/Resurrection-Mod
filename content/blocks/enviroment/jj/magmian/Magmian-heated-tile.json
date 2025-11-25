@@ -1,6 +1,6 @@
 {
     "type": "Floor",
-    "name": "Magmian Heated Panel",
+    "name": "Magmian Heat tile",
     "autotile": true,
     "drawEdgeOut": false,
     "drawEdgeIn": false,
