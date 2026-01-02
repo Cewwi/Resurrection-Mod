@@ -5,7 +5,7 @@ description: '''
 Not now, maybe later.
 '''
 version: "0"
-minGameVersion: "149"
+minGameVersion: "137"
 dependencies: [ ]
 main: "resurrection.Resurrection"
 hidden: false
