@@ -141,6 +141,49 @@
     }
   ],
 "weapons": [
+    {
+    "name": "Warden-T3-weapon",
+    "x": 4,
+    "y": 0,
+    "shooty": 10,
+    "reload": 60,
+    "alternate": true,
+    "mirror": true,
+    "top": true,
+    "rotate": true,
+    "shootSound": "laser",
+"shoot": {
+    "type": "shootPattern",
+    "shotDelay": 10,
+    "shots": 3
+  },
+      "bullet": {
+        "type": "LaserBulletType",
+        "length": 350,
+        "width": 50,
+        "damage": 600,
+        "hitEffect": "lightningShoot",
+        "shootEffect": "lightningShoot",
+        "shooteffect": {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 6,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "D7FFB8FF",
+          "colorTo": "6BDE5DFF"
+        },
+        "colors": [
+          "D7FFB8FF",
+          "6BDE5DFF"
+        ],
+        "sideAngle": -45,
+        "sideLength": 30,
+        "sideWidth": 3.4
+      }
+    },
   {
 "name": "Suppression-cannon",
   "type": "RepairBeamWeapon",

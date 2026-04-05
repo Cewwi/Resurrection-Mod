@@ -62,7 +62,7 @@
           "strokeTo": 0,
           "colorFrom": "FFFFFF",
           "colorTo": "FFE96C"
-        }
+        },
         "colors": [
           "FFE96CFF",
           "FFE135FF",
@@ -72,6 +72,6 @@
         "sideLength": 30,
         "sideWidth": 3.4
       }
-    },
+    }
   ]
 }
