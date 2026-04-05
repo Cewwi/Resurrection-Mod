@@ -14,7 +14,7 @@
       "liquid": "Thaxus",
       "lifetime": 50,
       "speed": 5.0,
-      "knockback": 1.9,
+      "knockback": 3,
       "puddleSize": 9.0,
       "orbSize": 3.0,
       "drag": 0.001,
@@ -37,12 +37,16 @@
     }
   },
   "size": 3,
-  "reload": 2.0,
+  "reload": 4,
   "shoot": {
     "shots": 4
   },
-  "velocityRnd": 0.1,
-  "inaccuracy": 4.0,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "Quartz-"
+  },
+  "velocityRnd": 1,
+  "inaccuracy": 6.0,
   "recoil": 1.0,
   "shootCone": 45.0,
   "liquidCapacity": 40.0,

@@ -21,13 +21,13 @@
   "carborundum/550",
   "Thoralius/300",
   "Ordanium/300",
-  "Magma-stone/200",
-  ]
+  "Magma-stone/200"
+  ],
   "shoot": {
     "type": "ShootAlternate",
     "barrels": 1,
     "spread": 0,
-    "shotDelay": 8
+    "shotDelay": 8,
     "shots": 5
   },
   "coolant": {
@@ -40,7 +40,7 @@
   "armor": 4,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "Magmian-"
+    "basePrefix": "Magmian-",
     "parts": [
       {
         "type": "RegionPart",
@@ -53,10 +53,10 @@
           "type": "recoil",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2,
+          "amount": 0.2
         },
         "mirror": false
-      },
+      }
 ]
 },
 "shootSound": "mediumCannon",
@@ -89,17 +89,17 @@
   "buildingDamageMultiplier": 0.5,
   "splashDamage": 120,
   "splashDamageRadius": 30,
-  "pierceBuilding": true
+  "pierceBuilding": true,
         "trailParam": 5,
         "trailLength": 9,
         "trailColor": "FFB570FF",
         "trailWidth": 8,
-  "buildingDamageMultiplier": 0.5
+  "buildingDamageMultiplier": 0.5,
   "hitEffect": "titanExplosion",
   "despawnEffect": "titanExplosion",
-  "hitColor": "FFB570FF",
+  "hitColor": "FFB570FF"
 }
-}
+},
 "research": {
 "objectives": [
 "sublimate"
