@@ -1,19 +1,19 @@
 {
   "singleTarget": true,
   "name": "Suppression",
-  "description": "Mainly a support unit with large healing beams and 3 defensive layers of shields and energy fields, but also has 2 large plasma cannons. Why in the world would the Wardens need guns this big?",
+  "description": "Why in the world would the Wardens need guns this big?",
   "lightRadius": 300,
   "type": "legs",
-  "speed": 0.40,
-  "hitSize": 110,
-  "health": 5300000,
+  "speed": 0.60,
+  "hitSize": 90,
+  "health": 7500000,
   "drownTimeMultiplier": 99999999999999,
   "legMaxLength": 58,
   "legCount": 6,
   "legBaseOffset": 20,
   "legLengthScl": 1,
   "legMoveSpace": 0.9,
-  "legExtension": -32.5,
+  "legExtension": -22.5,
   "canDrown": false,
   "groundLayer": 87,
   "outlineColor": "0C0D1BFF",
@@ -39,19 +39,6 @@
       "color": "D7FFB8FF",
       "colorTo": "6BDE5DFF",
       "outline": false
-    },  
-    {
-      "type": "shapePart",
-      "y": -22,
-      "x": 0,
-      "hollow": true,
-      "circle": true,
-      "layer": 110,
-      "color": "D7FFB8FF",
-      "stroke": 0,
-      "strokeTo": 2,
-      "radiusTo": 5,
-      "radius": 5
     }
   ],
   "immunities": [
@@ -148,7 +135,7 @@
       "sectors": 4,
       "rotateSpeed": -2,
       "hitBuildings": true,
-      "sectorRad": 0.28,
+      "sectorRad": 0.20,
       "effectRadius": 13,
       "reload": 110
     }
@@ -156,15 +143,15 @@
 "weapons": [
     {
     "name": "T1-weapon",
-    "x": 4,
+    "x": 0,
     "y": -8,
-    "shooty": 10,
-    "reload": 60,
+    "shooty": 0,
+    "reload": 30,
     "alternate": true,
-    "mirror": true,
+    "mirror": false,
     "top": true,
     "rotate": true,
-    "shootSound": "laser",
+    "shootSound": "shootLancer",
 "shoot": {
     "type": "shootPattern",
     "shotDelay": 10,
