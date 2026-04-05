@@ -13,7 +13,7 @@
   "legBaseOffset": 20,
   "legLengthScl": 1,
   "legMoveSpace": 0.9,
-  "legExtension": -42.5,
+  "legExtension": -35.5,
   "canDrown": false,
   "groundLayer": 87,
   "outlineColor": "0C0D1BFF",
@@ -146,17 +146,12 @@
     "x": 0,
     "y": -8,
     "shooty": 0,
-    "reload": 30,
+    "reload": 20,
     "alternate": true,
     "mirror": false,
     "top": true,
     "rotate": true,
     "shootSound": "shootLancer",
-"shoot": {
-    "type": "shootPattern",
-    "shotDelay": 10,
-    "shots": 3
-  },
       "bullet": {
         "type": "LaserBulletType",
         "length": 350,
