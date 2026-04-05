@@ -39,6 +39,19 @@
       "color": "D7FFB8FF",
       "colorTo": "6BDE5DFF",
       "outline": false
+    },  
+    {
+      "type": "shapePart",
+      "y": -22,
+      "x": 0,
+      "hollow": true,
+      "circle": true,
+      "layer": 110,
+      "color": "D7FFB8FF",
+      "stroke": 0,
+      "strokeTo": 2,
+      "radiusTo": 5,
+      "radius": 5
     }
   ],
   "immunities": [
@@ -129,22 +142,22 @@
       "color": "D7FFB8FF",
       "maxTargets": 30,
       "damage": 175,
-      "healPercent": 5,
+      "healPercent": 10,
       "y": -8,
       "range": 430,
-      "sectors": 3,
-      "rotateSpeed": 1,
+      "sectors": 4,
+      "rotateSpeed": -2,
       "hitBuildings": true,
       "sectorRad": 0.28,
-      "effectRadius": 11,
+      "effectRadius": 13,
       "reload": 110
     }
   ],
 "weapons": [
     {
-    "name": "Warden-T3-weapon",
+    "name": "T1-weapon",
     "x": 4,
-    "y": 0,
+    "y": -8,
     "shooty": 10,
     "reload": 60,
     "alternate": true,

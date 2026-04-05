@@ -1,8 +1,8 @@
 type: flying
 name: J.J.
-description: Pray.
+description: Unit cleaner.
 flying: true
-shadowElevation: 1
+shadowElevation: 3
 drag: 0.06
 layer: 112
 outlineColor: 1d1c1a

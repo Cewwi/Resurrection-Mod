@@ -2,13 +2,13 @@
   "singleTarget": true,
   "template": "ErekirUnitType",
   "localizedName": "Dominique",
-  "description": "Fires a devastating surge of energy out of the main cannon. Has 2 secondary laser chainguns."
+  "description": "Fires a devastating surge of energy out of the main cannon. Has 2 secondary laser chainguns.",
   "drawShields": false,
   "research": {
   "requirements": [
     "silicon/1000",
     "phase-fabric/50",
-    "carbide/50",
+    "carbide/50"
  ]
  },
   "lightRadius": 200,
@@ -45,7 +45,7 @@
       "colorTo": "ffffff",
       "outline": false
     }
-  ]
+  ],
   "weapons": [
 {
   "parts": [
@@ -79,7 +79,7 @@
   "rotate": false,
   "shootSound": "laser",
   "shoot": {
-    "firstShotDelay": 100
+    "firstShotDelay": 100,
     "type": "shootPattern",
     "shotDelay": 4,
     "shots": 25
@@ -220,7 +220,7 @@
         "colorTo": "aec6ff",
         "sizeFrom": 3,
         "sizeTo": 0
-      },
+      }
       ],
     "fragBullets": 5,
     "fragVelocityMin": 0.2,
@@ -360,10 +360,10 @@
         "colorTo": "aec6ff",
         "sizeFrom": 3,
         "sizeTo": 0
-      },
-      ],
       }
-    },
+      ]
+      }
+    }
   },
     {
       "name": "Dominique-laserCannon",
@@ -396,7 +396,7 @@
           "strokeTo": 0,
           "colorFrom": "FFFFFF",
           "colorTo": "aec6ff"
-        }
+        },
         "shootEffect": {
           "type": "WaveEffect",
           "lifetime": 20,
@@ -407,7 +407,7 @@
           "strokeTo": 0,
           "colorFrom": "FFFFFF",
           "colorTo": "aec6ff"
-        }
+        },
         "colors": [
           "8ca9e855",
           "aec6ff",
@@ -417,6 +417,6 @@
         "sideLength": 30,
         "sideWidth": 3.4
       }
-    },
+    }
   ]
 }
