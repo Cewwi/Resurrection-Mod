@@ -79,8 +79,8 @@
 "rotateSpeed": 0.6,
 "shootY": 16,
 "recoil": 3,
-"shootSound": "laserblast",
-"chargeSound": "lasercharge",
+"shootSound": "shootCorvus",
+"chargeSound": "chargeCorvus",
 "shoot": {
 "firstShotDelay": 120
 },
@@ -100,7 +100,7 @@
     "lightRadius": 10,
     "lightColor": "ffFFFFff",
     "damage": 3900,
-    "hitSound": "plasmaboom",
+    "hitSound": "explosionTitan",
     "scaleVelocity": true,
     "splashDamage": 4800,
     "splashDamageRadius": 30,
@@ -608,7 +608,7 @@
     "xRand": 5,
     "mirror": "true",
     "rotate": "true",
-    "shootSound": "missileLaunch",
+    "shootSound": "shootScathe",
     "shoot": {
     "shots": 15,
     "shotDelay": 10
