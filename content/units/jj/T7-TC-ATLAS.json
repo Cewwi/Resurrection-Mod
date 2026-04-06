@@ -1,5 +1,5 @@
 {
-"localizedName": "T7-TC-ATLAS",
+"localizedName": "ATLAS",
 "description": "[#D1EFFFFF]T7-TC-ATLAS[]. This large war tank has a large assortment of weapons for many unique situations.",
 "template": "ErekirUnitType",
 "research": {
@@ -55,7 +55,7 @@
       "colorTo": "ff0000AA",
       "outline": false
     }
-  ]
+  ],
 "weapons": [
 {
 "name": "Eradacator-prototype",
@@ -84,16 +84,16 @@
       "color": "D1EFFFFF",
       "colorTo": "D1EFFFFF",
       "outline": false
-    }
+    },
 "bullet": {
     "type": "BasicBulletType",
     "sprite": "large-orb",
     "lightRadius": 10,
     "lightColor": "ffFFFFff",
-    "damage": 970,
+    "damage": 3900,
     "hitSound": "plasmaboom",
     "scaleVelocity": true,
-    "splashDamage": 700,
+    "splashDamage": 4800,
     "splashDamageRadius": 30,
     "height": 73.5,
     "width": 73.5,
@@ -113,7 +113,7 @@
         "strokeFrom": 5,
         "strokeTo": 0,
         "colorFrom": "ffffff",
-        "colorTo": "D1EFFFFF",
+        "colorTo": "D1EFFFFF"
       },
       {
         "type": "WaveEffect",
@@ -123,7 +123,7 @@
         "strokeFrom": 14,
         "strokeTo": 0,
         "colorFrom": "ffffff",
-        "colorTo": "D1EFFFFF",
+        "colorTo": "D1EFFFFF"
       },
       {
         "type": "WaveEffect",
@@ -133,7 +133,7 @@
         "strokeFrom": 14,
         "strokeTo": 0,
         "colorFrom": "ffffff",
-        "colorTo": "D1EFFFFF",
+        "colorTo": "D1EFFFFF"
       },
       {
         "type": "ParticleEffect",
@@ -148,7 +148,7 @@
         "lightColor": "D1EFFFFF",
         "lifetime": 300,
         "colorFrom": "D1EFFFFF",
-        "colorTo": "ffffff",
+        "colorTo": "ffffff"
       },
       {
         "type": "ParticleEffect",
@@ -162,7 +162,7 @@
         "lightColor": "D1EFFFFF",
         "lifetime": 120,
         "colorFrom": "ffffff",
-        "colorTo": "D1EFFFFF",
+        "colorTo": "D1EFFFFF"
       },
       {
         "type": "ParticleEffect",
@@ -176,9 +176,9 @@
         "lightColor": "D1EFFFFF",
         "lifetime": 120,
         "colorFrom": "D1EFFFFF",
-        "colorTo": "ffffff",
-      },
-    ],
+        "colorTo": "ffffff"
+      }
+    ]
   },
   "parts": [
 {
@@ -196,8 +196,8 @@
 "strokeTo": 2,
 "shapes": 6,
 "triLengthTo": 20,
-"triLength": 7,
-}
+"triLength": 7
+},
 {
 "type": "HaloPart",
 "y": 0,
@@ -213,8 +213,8 @@
 "strokeTo": 2,
 "shapes": 6,
 "triLengthTo": 7,
-"triLength": 7,
-}
+"triLength": 7
+},
 {
 "type": "HaloPart",
 "y": 0,
@@ -230,10 +230,138 @@
 "strokeTo": 2,
 "shapes": 3,
 "triLengthTo": 18,
-"triLength": 12,
+"triLength": 12
 }
-]
- "despawnEffect": [
+],
+"hitEffect": [
+  {
+"type": "ParticleEffect",
+"lightOpacity": 0.5,
+"particles": 30,
+"length": 150,
+"baseLength": 30,
+"lifetime": 240,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"sizeFrom": 27,
+"sizeTo": 1,
+"lightColor": "D1EFFFFF",
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
+},
+{
+"type": "ParticleEffect",
+"lightOpacity": 0.5,
+"particles": 30,
+"length": 180,
+"baseLength": 30,
+"lifetime": 60,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"sizeFrom": 15,
+"sizeTo": 1,
+"lightColor": "D1EFFFFF",
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
+},
+{
+"type": "ParticleEffect",
+"lightOpacity": 0.5,
+"particles": 30,
+"length": 120,
+"baseLength": 30,
+"lifetime": 180,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"sizeFrom": 20,
+"sizeTo": 1,
+"lightColor": "D1EFFFFF",
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
+},
+{
+"type": "ParticleEffect",
+"lightOpacity": 0.5,
+"particles": 20,
+"length": 180,
+"baseLength": 30,
+"lifetime": 220,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"sizeFrom": 35,
+"sizeTo": 0,
+"lightColor": "D1EFFFFF",
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
+},
+{
+"type": "ParticleEffect",
+"lightOpacity": 0,
+"particles": 35,
+"layer": 99,
+"length": 160,
+"baseLength": 30,
+"lifetime": 160,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"sizeFrom": 21,
+"sizeTo": 10,
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
+},
+{
+"type": "ParticleEffect",
+"lightOpacity": 0,
+"particles": 35,
+"layer": 99,
+"length": 150,
+"baseLength": 30,
+"lifetime": 180,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"sizeFrom": 25,
+"sizeTo": 16,
+"colorFrom": "444759FF",
+"colorTo": "444759FF"
+},
+{
+"type": "ParticleEffect",
+"line": true,
+"particles": 35,
+"lifetime": 60,
+"length": 275,
+"offset": 40,
+"strokeFrom": 5,
+"strokeTo": 0,
+"cone": -360,
+"lenFrom": 20,
+"lenTo": 10,
+"lightColor": "D1EFFFFF",
+"colorFrom": "D1EFFFFF",
+"colorTo": "D1EFFFFF"
+},
+      {
+        "type": "WaveEffect",
+        "lifetime": 200,
+        "sizeFrom": 0,
+        "sizeTo": 80,
+        "strokeFrom": 10,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "D1EFFFFF"
+      },
+      {
+        "type": "WaveEffect",
+        "lifetime": 200,
+        "sizeFrom": 0,
+        "sizeTo": 60,
+        "strokeFrom": 8,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "D1EFFFFF"
+      }
+],
+"despawnEffect": [
       {
 "type": "ParticleEffect",
 "lightOpacity": 0.5,
