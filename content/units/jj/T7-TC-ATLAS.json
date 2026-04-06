@@ -41,8 +41,17 @@
 "targetAir": true,
 "rotateSpeed": 0.45,
 "immunities": [
-"burning", 
-"melting",
+    "corroded",
+    "freezing",
+    "blasted",
+    "slow",
+    "wet",
+    "muddy",
+    "sapped",
+    "disarmed",
+    "shocked",
+    "electrified",
+    "spore-slowed"
 ],
   "parts": [
     {
@@ -530,7 +539,7 @@
       "colorTo": "D1EFFFFF",
       "sizeFrom": 22,
       "sizeTo": 0
-    }
+    },
       {
       "type": "ParticleEffect",
       "particles": 3,
@@ -545,7 +554,7 @@
       "sizeFrom": 22,
       "sizeTo": 0
     }
-    ]
+    ],
         "hitEffect": {
           "type": "WaveEffect",
           "colorFrom": "D1EFFFFF",
@@ -563,12 +572,12 @@
           "lifetime": 10.0
         },
         "buildingDamageMultiplier": 0.3,
-        "homingPower": 0.2
+        "homingPower": 0.2,
         "bulletInterval": 2,
         "fragBullets": 1,
       "fragVelocityMin": 0.5,
       "fragVelocityMax": 1.5,
-      "fragLifeMin": 0.5
+      "fragLifeMin": 0.5,
     "fragBullet": {
         "damage": 500,
       "status": "slow",
@@ -583,11 +592,11 @@
       "toColor": "D1EFFFFF",
       "ammoMultiplier": 5,
       "shootEffect": "thoriumShoot",
-      "hitEffect": "thoriumShoot",
-      },
+      "hitEffect": "thoriumShoot"
+      }
   }
 }
-}
+},
 {
   "name": "T7-TC-ATLAS-MISSILE-SILO",
     "x": "20",
@@ -602,11 +611,11 @@
     "shootSound": "missileLaunch",
     "shoot": {
     "shots": 15,
-    "shotDelay": 10,
-    }
+    "shotDelay": 10
+    },
     "bullet": {
       "type": "BasicBulletType",
-        "spawnUnit": "T7-TC-ATLAS-missile",
+        "spawnUnit": "T7-TC-ATLAS-missile"
        }
   }
   ]

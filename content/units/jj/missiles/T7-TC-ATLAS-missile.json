@@ -53,7 +53,7 @@
 "lenTo": 8,
 "colorFrom": "FFFFFFF",
 "colorTo": "D1EFFFFF"
-        }
+        },
   {
 "type": "ParticleEffect",
 "particles": 3,
@@ -65,14 +65,14 @@
 "colorFrom": "FFFFFFF",
 "colorTo": "D1EFFFFFd"
         }
-]
+],
 "instantDisappear": true,
-"hitSoundVolume": 80,
-"splashDamage": 40,
+"hitSoundVolume": 20,
+"splashDamage": 80,
 "splashDamageRadius": 20,
 "hitSound": "bang",
-"buildingDamageMultiplier": 0.8,
+"buildingDamageMultiplier": 0.8
 }
 }
- ],
+]
 }
