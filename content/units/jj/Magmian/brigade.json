@@ -24,7 +24,7 @@
     "rotateSpeed": 1.5,
     "mirror": false,
     "rotate": true,
-    "shootY": 4,
+    "shootY": 7,
     "cooldownTime": 120,
     "inaccuracy": 0,
     "rotationLimit": 360,
