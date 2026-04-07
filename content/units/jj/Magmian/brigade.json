@@ -29,8 +29,10 @@
     "inaccuracy": 0,
     "rotationLimit": 360,
     "reload": 70,
-    "shootSound": "Cannon-large",
-    "ejectEffect": "casing1",
+    "shootSound": "blastExplosion",
+    "ejectEffect": "casing2",
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
 "parts": [
 {
     "type": "RegionPart",
@@ -69,8 +71,8 @@
    "trailEffect": {
           "type": "ParticleEffect",
           "particles": 1,
-          "length": 7,
-          "baseLength": 9,
+          "length": 0,
+          "baseLength": 0,
           "lifetime": 75,
           "interp": "circleOut",
           "cone": 0,

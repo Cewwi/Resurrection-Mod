@@ -1,75 +1,63 @@
 type: hover
-name: Mend
-description: Basic support unit. It can build, mine and repair. Hover unit, cannot fly.
+name: Shield
+description: Advanced support unit. It can build, mine and repair. Hover unit, cannot fly.
 template: ErekirUnitType
 shadowElevation: 0.3
-drag: 0.06
+drag: 0.5
 outlineColor: 0C0D1BFF
-speed: 3
-rotateSpeed: 4
-hitSize: 8
+speed: 0.5
+rotateSpeed: 1
+hitSize: 30
 accel: 0.095
 groundLayer: 60
 layer: 109
 hovering: true
 isEnemy: true
-armor: 1
-mineSpeed: 2
+armor: 30
+mineSpeed: 4
 buildSpeed: 0.2
 groundLayer: 60
 isEnemy: true
-health: 720
-itemCapacity: 20
-mineTier: 1
+health: 4720
+itemCapacity: 60
+mineTier: 2
 alwaysUnlocked: true
 useEngineElevation: false
 lowAltitude: false
 parts: [
-{
-type: HoverPart
-x: -8
-y: 8
-radius: 12
-phase: 90
-layerOffset: -0.001
-stroke: 2
-color: D7FFB8FF
-}
   {
 type: HoverPart
-x: -8
-y: 8
-radius: 12
-phase: 90
-layerOffset: -0.001
-stroke: 2
-color: D7FFB8FF
-}
-  {
-type: HoverPart
-x: -10
+x: -10bb
 y: -10
-radius: 12
-phase: 90
-layerOffset: -0.001
-stroke: 2
-color: D7FFB8FF
-}
-  {
-type: HoverPart
-x: 10
-y: -10
-radius: 12
+radius: 120
 phase: 90
 layerOffset: -0.001
 stroke: 2
 color: D7FFB8FF
 }
 ]
+
+abilities: [
+    {
+  type: EnergyFieldAbility
+  color: ECECECFF
+  maxTargets: 3
+  damage: 10
+  healPercent: 0.75
+  y: -8
+  range: 450
+  sectors: 2
+  rotateSpeed: 5
+  hitBuildings: false
+  sectorRad: 0.1
+  effectRadius: 2
+  reload: 50
+}
+  ]
 weapons: [
    {
-    name: mend-weapon
-    x: 4
+    name: Warden-T2-weapon
+    x: 20
     y: 0
     shooty: 10
     reload: 60
@@ -80,8 +68,8 @@ weapons: [
     shootSound: laser
 shoot: {
     type: shootPattern
-    shotDelay: 5
-    shots: 2
+    shotDelay: 1
+    shots: 10
   }
    bullet: {
     type: BasicBulletType
