@@ -27,7 +27,7 @@ lowAltitude: false
 parts: [
   {
 type: HoverPart
-x: -10bb
+x: -10
 y: -10
 radius: 120
 phase: 90
