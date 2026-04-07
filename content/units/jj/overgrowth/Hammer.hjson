@@ -5,9 +5,9 @@ template: ErekirUnitType
 shadowElevation: 0.3
 drag: 0.5
 outlineColor: 0C0D1BFF
-speed: 0.5
+speed: 1.5
 rotateSpeed: 1
-hitSize: 30
+hitSize: 35
 accel: 0.095
 groundLayer: 60
 layer: 109
@@ -27,12 +27,12 @@ lowAltitude: false
 parts: [
   {
 type: HoverPart
-x: -10
-y: -10
-radius: 120
+x: 0
+y: 0
+radius: 50
 phase: 90
 layerOffset: -0.001
-stroke: 2
+stroke: 9
 color: D7FFB8FF
 }
 ]
@@ -40,17 +40,17 @@ color: D7FFB8FF
 abilities: [
     {
   type: EnergyFieldAbility
-  color: ECECECFF
-  maxTargets: 3
+  color: D7FFB8FF
+  maxTargets: 20
   damage: 10
-  healPercent: 0.75
+  healPercent: 3.5
   y: -8
   range: 450
   sectors: 2
   rotateSpeed: 5
   hitBuildings: false
   sectorRad: 0.1
-  effectRadius: 2
+  effectRadius: 10
   reload: 50
 }
   ]
