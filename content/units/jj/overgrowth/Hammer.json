@@ -1,0 +1,95 @@
+{
+  "type": "hover",
+  "name": "Shield",
+  "description": "Advanced support unit. It can build, mine and repair. Hover unit, cannot fly.",
+  "template": "ErekirUnitType",
+  "shadowElevation": 0.3,
+  "drag": 0.06,
+  "outlineColor": "0C0D1BFF",
+  "speed": 1,
+  "rotateSpeed": 2,
+  "hitSize": 35,
+  "accel": 0.095,
+  "groundLayer": 60,
+  "layer": 109,
+  "hovering": true,
+  "isEnemy": true,
+  "armor": 30,
+  "mineSpeed": 4,
+  "buildSpeed": 0.2,
+  "health": 4720,
+  "itemCapacity": 60,
+  "mineTier": 2,
+  "alwaysUnlocked": true,
+  "useEngineElevation": false,
+  "lowAltitude": false,
+  "parts": [
+    {
+      "type": "HoverPart",
+      "x": 0,
+      "y": 0,
+      "radius": 50,
+      "phase": 90,
+      "layerOffset": -0.001,
+      "stroke": 9,
+      "color": "D7FFB8FF"
+    }
+  ],
+  "abilities": [
+    {
+      "type": "EnergyFieldAbility",
+      "color": "D7FFB8FF",
+      "maxTargets": 20,
+      "damage": 10,
+      "healPercent": 3.5,
+      "y": -25,
+      "range": 200,
+      "sectors": 3,
+      "rotateSpeed": 5,
+      "hitBuildings": false,
+      "sectorRad": 0.5,
+      "effectRadius": 10,
+      "reload": 50
+    }
+  ],
+  "weapons": [
+    {
+    "name": "T1-weapon",
+    "x": 0,
+    "y": -25,
+    "shooty": 0,
+    "reload": 80,
+    "alternate": true,
+    "mirror": false,
+    "top": true,
+    "rotate": true,
+    "shootSound": "shootLancer",
+      "bullet": {
+        "type": "LaserBulletType",
+        "length": 350,
+        "width": 30,
+        "damage": 600,
+        "hitEffect": "lightningShoot",
+        "shootEffect": "lightningShoot",
+        "shooteffect": {
+          "type": "WaveEffect",
+          "lifetime": 20,
+          "sizeFrom": 0,
+          "sizeTo": 6,
+          "sides": 4,
+          "strokeFrom": 8,
+          "strokeTo": 0,
+          "colorFrom": "D7FFB8FF",
+          "colorTo": "6BDE5DFF"
+        },
+        "colors": [
+          "D7FFB8FF",
+          "6BDE5DFF"
+        ],
+        "sideAngle": -45,
+        "sideLength": 25,
+        "sideWidth": 2.5
+      }
+    }
+  ]
+}

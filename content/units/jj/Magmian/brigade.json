@@ -29,7 +29,7 @@
     "inaccuracy": 0,
     "rotationLimit": 360,
     "reload": 70,
-    "shootSound": "blastExplosion",
+    "shootSound": "shootArtillery",
     "ejectEffect": "casing2",
   "shootEffect": "shootBig",
   "smokeEffect": "shootBigSmoke",
