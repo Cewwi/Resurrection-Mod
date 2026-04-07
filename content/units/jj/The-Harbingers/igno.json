@@ -112,7 +112,7 @@
   "length": 14,
   "hitSize": 7,
   "collideTerrain": true,
-  "damage": 165,
+  "damage": 1650,
   "height": 15,
   "shootEffect": "explosion",
   "smokeEffect": "shootBigSmoke",

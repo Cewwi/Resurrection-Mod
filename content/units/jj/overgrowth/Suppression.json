@@ -60,7 +60,7 @@
 "abilities": [
   {
     "type": "ShieldArcAbility",
-    "max": 8800,
+    "max": 188000,
     "cooldown": 300,
     "regen": 0.5,
     "angle": 360,
@@ -72,7 +72,7 @@
   },
   {
     "type": "ShieldArcAbility",
-    "max": 8800,
+    "max": 188000,
     "cooldown": 300,
     "regen": 0.5,
     "angle": 360,
@@ -84,7 +84,7 @@
   },
    {
     "type": "ShieldArcAbility",
-    "max": 8800,
+    "max": 188000,
     "cooldown": 300,
     "regen": 0.5,
     "angle": 360,
@@ -138,6 +138,21 @@
       "sectorRad": 0.20,
       "effectRadius": 13,
       "reload": 110
+    },
+    {
+      "type": "EnergyFieldAbility",
+      "color": "D7FFB8FF",
+      "maxTargets": 20,
+      "damage": 120,
+      "healPercent": 3.5,
+      "y": -8,
+      "range": 200,
+      "sectors": 3,
+      "rotateSpeed": 5,
+      "hitBuildings": false,
+      "sectorRad": 20,
+      "effectRadius": 10,
+      "reload": 50
     }
   ],
 "weapons": [
