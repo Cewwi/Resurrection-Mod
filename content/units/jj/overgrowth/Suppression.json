@@ -156,7 +156,7 @@
         "type": "LaserBulletType",
         "length": 350,
         "width": 50,
-        "damage": 600,
+        "damage": 6500,
         "hitEffect": "lightningShoot",
         "shootEffect": "lightningShoot",
         "shooteffect": {
@@ -252,7 +252,7 @@
         "statusDuration": 200,
         "lightRadius": 80,
         "lightColor": "C6FF6BFF",
-        "damage": 4450,
+        "damage": 144500,
         "scaleVelocity": "true",
         "splashDamage": 7750,
         "splashDamageRadius": 110,
