@@ -1,12 +1,12 @@
 {
   "type": "legs",
   "legCount": 6,
-  "legLength": 50,
+  "legLength": 75,
   "legSpeed": 0.5,
   "legExtension": -13.5,
   "legForwardScl": 0.2,
   "envDisabled": 0,
-  "legBaseOffset": 15,
+  "legBaseOffset": 10,
   "legMoveSpace": 0.9,
   "legPairOffset": 2,
   "fogRadius": 30,
@@ -38,8 +38,8 @@
     "autoTarget": true,
     "targetInterval": 8,
     "targetSwitchInterval": 8,
-    "mirror": false,
-    "y": 5,
+    "mirror": true,
+    "y": 12,
     "x": -8,
     "rotationLimit": 52.5,
     "rotate": true,
@@ -51,36 +51,12 @@
     "bullet": {
       "hitEffect": "pointHit",
       "smokeEffect": "pointHit",
-      "maxRange": 50,
+      "maxRange": 200,
       "damage": 5
     }
   },
-  {
-    "name": "gem-point-def",
-    "type": "PointDefenseWeapon",
-    "controllable": false,
-    "autoTarget": true,
-    "targetInterval": 8,
-    "targetSwitchInterval": 8,
-    "mirror": false,
-    "y": 5,
-    "x": 8,
-    "rotationLimit": 52.5,
-    "rotate": true,
-    "layerOffset": -0.00001,
-    "shootY": 4,
-    "reload": 0.25,
-    "recoil": 1,
-    "shootSound": "lasershoot",
-    "bullet": {
-      "hitEffect": "pointHit",
-      "smokeEffect": "pointHit",
-      "maxRange": 50,
-      "damage": 5
-    }
-    },
     {
-      "name": "T3-Weapon",
+      "name": "igno-cannon",
       "y": 0,
       "x": 0,
       "top": true,
@@ -92,7 +68,6 @@
       "rotationLimit": 52.5,
       "shootCone": 45,
       "rotate": true,
-      "layerOffset": -0.00001,
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
@@ -123,50 +98,6 @@
           "colorFrom": "E5E5E5FF",
           "colorTo": "E5E5E5FF"
         }
-      }
-    },
-    {
-      "type": "RepairBeamWeapon",
-      "x": 0,
-      "y": 9.75,
-      "shootY": 0,
-      "reload": 20,
-      "rotate": false,
-      "beamWidth": 0.7,
-      "shootCone": 40,
-      "mirror": false,
-      "repairSpeed": 2,
-      "fractionRepairSpeed": 0.46,
-      "targetUnits": true,
-      "targetBuildings": true,
-      "autoTarget": false,
-      "controllable": true,
-      "laserColor": "E5E5E5FF",
-      "healColor": "E5E5E5FF",
-      "bullet": {
-        "maxRange": 20
-      }
-    },
-    {
-      "type": "RepairBeamWeapon",
-      "x": 5,
-      "y": 5.75,
-      "shootY": 0,
-      "reload": 20,
-      "rotate": false,
-      "beamWidth": 0.7,
-      "shootCone": 40,
-      "mirror": true,
-      "repairSpeed": 1,
-      "fractionRepairSpeed": 0.12,
-      "targetUnits": true,
-      "targetBuildings": true,
-      "autoTarget": false,
-      "controllable": true,
-      "laserColor": "E5E5E5FF",
-      "healColor": "E5E5E5FF",
-      "bullet": {
-        "maxRange": 20
       }
     }
   ]

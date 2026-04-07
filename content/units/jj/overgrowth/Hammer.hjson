@@ -3,10 +3,10 @@ name: Shield
 description: Advanced support unit. It can build, mine and repair. Hover unit, cannot fly.
 template: ErekirUnitType
 shadowElevation: 0.3
-drag: 0.5
+drag: 0.06
 outlineColor: 0C0D1BFF
-speed: 1.5
-rotateSpeed: 1
+speed: 1
+rotateSpeed: 2
 hitSize: 35
 accel: 0.095
 groundLayer: 60
@@ -44,12 +44,12 @@ abilities: [
   maxTargets: 20
   damage: 10
   healPercent: 3.5
-  y: -8
-  range: 450
-  sectors: 2
+  y: -16
+  range: 200
+  sectors: 3
   rotateSpeed: 5
   hitBuildings: false
-  sectorRad: 0.1
+  sectorRad: 0.5
   effectRadius: 10
   reload: 50
 }
