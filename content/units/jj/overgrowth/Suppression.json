@@ -59,6 +59,13 @@
   ],
 "abilities": [
   {
+    "type": "UnitSpawnAbility",
+    "spawnX": 0,
+    "spawnY": -40,
+    "unit": "Hammer",
+    "spawnTime": 3600
+  },
+  {
     "type": "ShieldArcAbility",
     "max": 188000,
     "cooldown": 300,
@@ -233,7 +240,7 @@
     "maxRange": 340
   }
 },
-  {
+{
 "name": "Suppression-cannon",
 "x": -32,
 "y": 3,
@@ -634,6 +641,68 @@
         "maxRange": 250,
         "damage": 40
       }
-   }
+   },
+   {
+"name": "suppression-secondary-cannon",
+"x": -62,
+"y": 3,
+"mirror": true,
+"top": true,
+"heatColor": "D7FFB8FF",
+"reload": 150,
+"rotate": true,
+"rotateSpeed": 0.6,
+"shootY": 22,
+"layerOffset": -0.00001,
+"recoil": 3,
+"shootSound": "Cannon-large",
+"bullet": {
+    "type": "BasicBulletType",
+  "sprite": "missile",
+  "firstShotDelay": 150,
+  "status": "shocked",
+  "statusDuration": 150,
+  "lightRadius": 80,
+  "lightColor": "D7FFB8FF",
+  "speed": 5,
+  "lifetime": 48,
+  "width": 12,
+  "length": 32,
+  "hitSize": 24,
+  "collideTerrain": true,
+  "damage": 4650,
+  "height": 15,
+  "shootEffect": "explosion",
+  "smokeEffect": "shootBigSmoke",
+  "ammoMultiplier": 1,
+  "pierceCap": 3,
+  "pierce": true,
+  "pierceBuilding": true,
+   "trailEffect": {
+          "type": "ParticleEffect",
+          "particles": 1,
+          "length": 5,
+          "baseLength": 5,
+          "lifetime": 75,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 5,
+          "lightColor": "D7FFB8FF",
+          "colorFrom": "D7FFB8FF",
+          "colorTo": "505050FF",
+          "sizeFrom": 5,
+          "sizeTo": 0
+        },
+        "trailChance": 1,
+        "trailParam": 5,
+        "trailLength": 9,
+        "trailColor": "D7FFB8FF",
+        "trailWidth": 2,
+  "buildingDamageMultiplier": 0.5,
+  "hitEffect": "explosion",
+  "despawnEffect": "explosion",
+  "hitColor": "D7FFB8FF"
+}
+}
 ]
 }

@@ -1,12 +1,12 @@
 {
 "localizedName": "Dominate",
-"description": "Fires a large flame out of the front cannon. Has extreamly powerful rebar punchers."
+"description": "Fires a large flame out of the front cannon. Has extreamly powerful rebar punchers.",
 "template": "ErekirUnitType",
 "research": {
 "requirements": [
   "silicon/1000",
   "phase-fabric/50",
-  "carbide/50",
+  "carbide/50"
 ]
 },
 "faceTarget": false,
@@ -30,7 +30,7 @@
 "rotateSpeed": 0.45,
 "immunities": [
 "burning", 
-"melting",
+"melting"
 ],
   "abilities": [
     {
@@ -39,14 +39,14 @@
       "spawnY": -25,
       "unit": "locus",
       "spawnTime": 1800
-    }
+    },
     {
       "type": "UnitSpawnAbility",
       "spawnX": -30,
       "spawnY": -25,
       "unit": "locus",
       "spawnTime": 1800
-    }
+    },
     {
       "type": "UnitSpawnAbility",
       "spawnX": 0,
@@ -66,7 +66,7 @@
       "colorTo": "ff0000AA",
       "outline": false
     }
-  ]
+  ],
 "weapons": [
   {
 "name": "Dominate-rebarPucher",
