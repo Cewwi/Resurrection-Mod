@@ -653,13 +653,13 @@
 "reload": 10,
 "rotate": true,
 "rotateSpeed": 0.6,
-"shootY": 32,
+"shootY": 65,
 "layerOffset": -0.00001,
 "recoil": 3,
 "shootSound": "shootArtillery",
       "shoot": {
         "type": "ShootSpread",
-        "spread": 2,
+        "spread": 20,
         "shots": 2
       },
 "bullet": {
