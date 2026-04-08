@@ -63,6 +63,7 @@
     "spawnX": 0,
     "spawnY": -40,
     "unit": "Hammer",
+    "layerOffset": -0.00001,
     "spawnTime": 3600
   },
   {
@@ -649,13 +650,18 @@
 "mirror": true,
 "top": true,
 "heatColor": "D7FFB8FF",
-"reload": 150,
+"reload": 10,
 "rotate": true,
 "rotateSpeed": 0.6,
-"shootY": 22,
+"shootY": 32,
 "layerOffset": -0.00001,
 "recoil": 3,
-"shootSound": "Cannon-large",
+"shootSound": "shootArtillery",
+      "shoot": {
+        "type": "ShootSpread",
+        "spread": 2,
+        "shots": 2
+      },
 "bullet": {
     "type": "BasicBulletType",
   "sprite": "missile",
@@ -669,7 +675,9 @@
   "width": 12,
   "length": 32,
   "hitSize": 24,
-  "collideTerrain": true,
+  "collideTerrain": false,
+  "homingPower": 0.02,
+  "homingRange": 160,
   "damage": 4650,
   "height": 15,
   "shootEffect": "explosion",
