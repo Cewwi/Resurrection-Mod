@@ -42,7 +42,7 @@
     },
     {
     "type": "shapePart",
-    "y": 0,
+    "y": -8,
     "x": 0,
     "hollow": true,
     "circle": true,
@@ -53,7 +53,7 @@
     },
     {
     "type": "shapePart",
-    "y": 0,
+    "y": -8,
     "x": 0,
     "hollow": true,
     "circle": true,
@@ -64,7 +64,7 @@
     },
     {
     "type": "shapePart",
-    "y": 0,
+    "y": -8,
     "x": 0,
     "hollow": true,
     "circle": true,
@@ -75,18 +75,46 @@
     },
     {
     "type": "HaloPart",
-    "y": 0,
-    "x": -8,
-    "radius": 10,
+    "y": -8,
+    "x": 0,
+    "radius": 40,
     "tri": true,
     "layer": 110,
-    "color": "A45637FF",
+    "color": "6BDE5DFF",
     "haloRotateSpeed": -1.5,
     "haloRadius": 175,
-    "stroke": 2,
+    "stroke": 3,
     "shapes": 2,
     "triLength": 8
-}
+    },
+    {
+    "type": "HaloPart",
+    "y": -8,
+    "x": 0,
+    "radius": 40,
+    "tri": true,
+    "layer": 110,
+    "color": "6BDE5DFF",
+    "haloRotateSpeed": -1.5,
+    "haloRadius": 350,
+    "stroke": 3,
+    "shapes": 2,
+    "triLength": 8
+    },
+    {
+    "type": "HaloPart",
+    "y": -8,
+    "x": 0,
+    "radius": 40,
+    "tri": true,
+    "layer": 110,
+    "color": "6BDE5DFF",
+    "haloRotateSpeed": -1.5,
+    "haloRadius": 270,
+    "stroke": 3,
+    "shapes": 2,
+    "triLength": 8
+    }
   ],
   "immunities": [
     "tarred",
