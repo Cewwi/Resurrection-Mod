@@ -134,11 +134,40 @@
   ],
 "abilities": [
   {
-      "type": "mindustry.entities.abilities.ForceFieldAbility",
-      "radius": 120,
-      "regen": 0.8,
-      "max": 850,
-      "cooldown": 2550
+    "type": "ShieldArcAbility",
+    "max": 188000,
+    "cooldown": 300,
+    "regen": 0.5,
+    "angle": 365,
+    "whenShooting": true,
+    "width": 12,
+    "x": 0,
+    "y": -8,
+    "radius": 175
+  },
+  {
+    "type": "ShieldArcAbility",
+    "max": 188000,
+    "cooldown": 300,
+    "regen": 0.5,
+    "angle": 365,
+    "whenShooting": true,
+    "width": 12,
+    "x": 0,
+    "y": -8,
+    "radius": 270
+  },
+   {
+    "type": "ShieldArcAbility",
+    "max": 188000,
+    "cooldown": 300,
+    "regen": 0.5,
+    "angle": 365,
+    "whenShooting": true,
+    "width": 12,
+    "x": 0,
+    "y": -8,
+    "radius": 350
   },
   {
       "type": "EnergyFieldAbility",
