@@ -55,6 +55,7 @@
       "damage": 5
     }
   },
+  
     {
     "name": "gem-point-def",
     "type": "PointDefenseWeapon",
@@ -63,8 +64,8 @@
     "targetInterval": 8,
     "targetSwitchInterval": 8,
     "mirror": false,
-    "y": 8,
-    "x": 15,
+    "y": 12,
+    "x": 10,
     "rotationLimit": 120,
     "rotate": true,
     "layerOffset": -0.00001,
@@ -87,8 +88,8 @@
     "targetInterval": 8,
     "targetSwitchInterval": 8,
     "mirror": false,
-    "y": 12,
-    "x": 10,
+    "y": 8,
+    "x": 15,
     "rotationLimit": 120,
     "rotate": true,
     "layerOffset": -0.00001,
@@ -189,6 +190,36 @@
         "trailLength": 9,
         "trailColor": "e3e3e3",
         "trailWidth": 2,
+        "fragBullet": {
+        "type": "ShrapnelBulletType",
+        "damage": 120,
+        "width": 10,
+        "ammoMultiplier": 5,
+        "pierce": true,
+        "lifetime": 18,
+        "length": 50,
+        "serrations": 8,
+        "fromColor": "E5E5E5FF",
+        "toColor": "E5E5E5FF",
+        "shootEffect": "explosion",
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 7,
+          "lifetime": 10,
+          "length": 25,
+          "cone": -360,
+          "lenFrom": 5,
+          "lenTo": 0,
+          "colorFrom": "E5E5E5FF",
+          "colorTo": "E5E5E5FF"
+        }
+        },
+        
+        "fragBullets": 3,
+        "fragVelocityMin": 0.5,
+        "fragVelocityMax": 1.5,
+        "fragLifeMin": 0.5,
   "buildingDamageMultiplier": 0.5,
   "hitEffect": "explosion",
   "despawnEffect": "explosion",
