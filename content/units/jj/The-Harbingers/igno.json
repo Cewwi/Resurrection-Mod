@@ -131,7 +131,7 @@
       "name": "igno-cannon",
       "y": -8,
       "x": 18,
-      "shootY": 24,
+      "shootY": 26,
       "top": true,
       "reload": 50,
       "rotateSpeed": 1.5,
