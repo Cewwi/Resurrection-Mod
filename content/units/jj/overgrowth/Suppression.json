@@ -48,9 +48,45 @@
     "circle": true,
     "layer": 110,
     "color": "6BDE5DFF",
-    "stroke": 7,
-    "radius": 120
-  }
+    "stroke": 3,
+    "radius": 175
+    },
+    {
+    "type": "shapePart",
+    "y": 0,
+    "x": 0,
+    "hollow": true,
+    "circle": true,
+    "layer": 110,
+    "color": "6BDE5DFF",
+    "stroke": 3,
+    "radius": 270
+    },
+    {
+    "type": "shapePart",
+    "y": 0,
+    "x": 0,
+    "hollow": true,
+    "circle": true,
+    "layer": 110,
+    "color": "6BDE5DFF",
+    "stroke": 3,
+    "radius": 350
+    },
+    {
+    "type": "HaloPart",
+    "y": 0,
+    "x": -8,
+    "radius": 10,
+    "tri": true,
+    "layer": 110,
+    "color": "A45637FF",
+    "haloRotateSpeed": -1.5,
+    "haloRadius": 175,
+    "stroke": 2,
+    "shapes": 2,
+    "triLength": 8
+}
   ],
   "immunities": [
     "tarred",
