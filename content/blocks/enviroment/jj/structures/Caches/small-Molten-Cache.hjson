@@ -7,12 +7,11 @@ itemCapacity: 0
 size: 1
 squareSprite: false
 instantDeconstruct: false
-buildcostmultiplier: 800
 buildable: false
-buildSpeedMultiplier: 10
 rebuildable: false
 BuildVisibility: hidden
-deconstructRefundMultiplier: 1
+deconstructRefundMultiplier: 2
+buildSpeedMultiplier: 100000
 health: 80
 requirements: [
   Ordanium/100
