@@ -10,4 +10,4 @@ dependencies: [ ]
 main: "cataclysm.Cataclysm"
 hidden: false
 subtitle: "Tronoe Remains"
-repo: https://github.com/JJTheCold/Cataclysm-Mod
+repo: https://github.com/JJTheCold/Cataclysm-Mo
