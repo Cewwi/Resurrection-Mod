@@ -11,7 +11,7 @@ buildable: false
 rebuildable: false
 BuildVisibility: hidden
 deconstructRefundMultiplier: 2
-buildSpeedMultiplier: 0.1
+buildSpeedMultiplier: 0.01
 health: 250
 requirements: [
   Ordanium/700

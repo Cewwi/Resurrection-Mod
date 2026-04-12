@@ -1,13 +1,13 @@
 name: "Cataclysm"
-displayName: "[[]#757575]Cataclysm[[]]"
-author: "[[]#757575]cewwi[[]] & [[]#757575]JJ[[]]"
+displayName: "[[]#ffad2b]Cataclysm[[]]"
+author: "[[]#ffb33a]JJ[[]]"
 description: '''
-Not now, maybe later.
+Drop a star in the project's repo.
 '''
 version: "0"
 minGameVersion: "154"
 dependencies: [ ]
 main: "cataclysm.Cataclysm"
 hidden: false
-subtitle: "Maybe"
+subtitle: "Tronoe Remains"
 repo: https://github.com/JJTheCold/Cataclysm-Mod
