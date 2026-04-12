@@ -1,4 +1,4 @@
-name: "resurrection"
+name: "Cataclysm"
 displayName: "[[]#757575]Cataclysm[[]]"
 author: "[[]#757575]cewwi[[]] & [[]#757575]JJ[[]]"
 description: '''
@@ -7,7 +7,7 @@ Not now, maybe later.
 version: "0"
 minGameVersion: "154"
 dependencies: [ ]
-main: "resurrection.Resurrection"
+main: "cataclysm.Cataclysm"
 hidden: false
 subtitle: "Maybe"
-repo: https://github.com/JJTheCold/Resurrection-Mod
+repo: https://github.com/JJTheCold/Cataclysm-Mod
