@@ -6,11 +6,13 @@ alwaysUnlocked: false
 itemCapacity: 0
 size: 2
 squareSprite: false
-instantDeconstruct: true
+instantDeconstruct: false
 buildcostmultiplier: 800
 buildable: false
+buildSpeedMultiplier: 10
 rebuildable: false
 BuildVisibility: hidden
+deconstructRefundMultiplier: 1
 health: 250
 requirements: [
   Ordanium/700
