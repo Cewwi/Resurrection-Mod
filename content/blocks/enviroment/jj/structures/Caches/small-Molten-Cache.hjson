@@ -6,7 +6,7 @@ alwaysUnlocked: false
 itemCapacity: 0
 size: 1
 squareSprite: false
-instantDeconstruct: false
+instantDeconstruct: true
 buildcostmultiplier: 800
 buildable: false
 rebuildable: false
