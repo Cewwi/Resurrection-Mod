@@ -37,7 +37,7 @@
             "lifetime": 14.0,
             "strokeFrom": 4.0
           }
-        ]
+        ],
       "smokeEffect": "shootSmokeTitan",
       "hitColor": "F7E97EFF",
       "sprite": "large-orb",
@@ -156,8 +156,8 @@
       "fragVelocityMin": 0.5,
       "fragVelocityMax": 1.5,
       "fragLifeMin": 0.5
-    },
-  },
+    }
+  }
 ],
-"researchCostMultiplier": 2.5,
+"researchCostMultiplier": 2.5
   }

@@ -59,7 +59,7 @@
     {
       "name": "Warden-T3-weapon",
       "y": -2,
-      "x": 12,
+      "x": 15,
       "top": true,
       "layerOffset": -0.00001,
       "shootY": 10,
@@ -94,6 +94,8 @@
         "lightColor": "cfff70",
         "flareColor": "81d268",
         "width": 3,
+        "healPercent": 0.2,
+        "collidesTeam": true,
         "pierceArmor": true,
         "divisions": 20,
         "length": 140
