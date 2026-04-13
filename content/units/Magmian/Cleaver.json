@@ -16,16 +16,11 @@
   ],
   "abilities": [
     {
-      "type": "ShieldArcAbility",
-      "max": 1800,
-      "cooldown": 200,
+      "type": "mindustry.entities.abilities.ForceFieldAbility",
+      "radius": 12,
       "regen": 10,
-      "angle": 100,
-      "whenShooting": false,
-      "width": 6,
-      "x": 0,
-      "y": -22,
-      "radius": 50
+      "max": 1800,
+      "cooldown": 2550
     }
   ],
   "weapons": [
