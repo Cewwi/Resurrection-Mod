@@ -72,6 +72,9 @@
       "loopSound": "shootSublimate",
       "incendAmount": 6,
       "alwaysShooting": true,
+      "alwaysContinuous": true,
+      "rotate": true,
+      "rotationLimit": 20,
       "continuous": true,
       "bullet": {
         "type": "ContinuousFlameBulletType",
@@ -82,15 +85,18 @@
           "cfff70"
         ],
         "maxRange": 100,
-        "damage": 21,
+        "damage": 18,
         "recoil": 0,
         "layer": 110,
         "groundLayer": 61,
         "drawFlare": true,
+        "bulletInterval": 2.7,
+        "lightColor": "cfff70",
+        "flareColor": "81d268",
         "width": 3,
         "pierceArmor": true,
         "divisions": 20,
-        "length": 14
+        "length": 140
       }
     }
   ]
