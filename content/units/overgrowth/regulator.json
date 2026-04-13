@@ -17,9 +17,9 @@
   "armor": 1,
   "mineSpeed": 2,
   "buildSpeed": 0.2,
-  "health": 720,
+  "health": 2720,
   "itemCapacity": 20,
-  "mineTier": 1,
+  "mineTier": 2,
   "alwaysUnlocked": true,
   "useEngineElevation": false,
   "lowAltitude": false,
@@ -58,7 +58,7 @@
   "weapons": [
     {
       "name": "Warden-T3-weapon",
-      "y": -9,
+      "y": -2,
       "x": 12,
       "top": true,
       "layerOffset": -0.00001,
@@ -71,7 +71,7 @@
       "shootSound": "shootSublimate",
       "loopSound": "shootSublimate",
       "incendAmount": 6,
-      "alwaysShooting": true,
+      "alwaysShooting": false,
       "alwaysContinuous": true,
       "rotate": true,
       "rotationLimit": 20,
@@ -85,7 +85,7 @@
           "cfff70"
         ],
         "maxRange": 100,
-        "damage": 18,
+        "damage": 8,
         "recoil": 0,
         "layer": 110,
         "groundLayer": 61,
