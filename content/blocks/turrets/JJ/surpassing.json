@@ -102,7 +102,7 @@
       },
 ]
 },
-  "loopSound": "torch",
+  "loopSound": "shootSublimate",
   "ammoTypes": {
 "hydrogen": {
 "type": "ContinuousFlameBulletType",

@@ -27,7 +27,7 @@
     "type": "drawTurret",
     "basePrefix": "Magmian-"
   },
-  "loopSound": "torch",
+  "loopSound": "shootSublimate",
   "ammoTypes": {
 "slag": {
 "type": "ContinuousFlameBulletType",

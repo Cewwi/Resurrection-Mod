@@ -1,0 +1,96 @@
+{
+  "type": "hover",
+  "name": "Mend",
+  "description": "Basic support unit. It can build, mine and repair. Hover unit, cannot fly.",
+  "template": "ErekirUnitType",
+  "shadowElevation": 0.3,
+  "drag": 0.06,
+  "outlineColor": "0C0D1BFF",
+  "speed": 3,
+  "rotateSpeed": 4,
+  "hitSize": 8,
+  "accel": 0.095,
+  "groundLayer": 60,
+  "layer": 109,
+  "hovering": true,
+  "isEnemy": true,
+  "armor": 1,
+  "mineSpeed": 2,
+  "buildSpeed": 0.2,
+  "health": 720,
+  "itemCapacity": 20,
+  "mineTier": 1,
+  "alwaysUnlocked": true,
+  "useEngineElevation": false,
+  "lowAltitude": false,
+  "parts": [
+    {
+      "type": "HoverPart",
+      "x": 0,
+      "y": 12,
+      "radius": 18,
+      "phase": 90,
+      "layerOffset": -0.001,
+      "stroke": 2,
+      "color": "D7FFB8FF"
+    },
+    {
+      "type": "HoverPart",
+      "x": -10,
+      "y": -10,
+      "radius": 12,
+      "phase": 90,
+      "layerOffset": -0.001,
+      "stroke": 2,
+      "color": "D7FFB8FF"
+    },
+    {
+      "type": "HoverPart",
+      "x": 10,
+      "y": -10,
+      "radius": 12,
+      "phase": 90,
+      "layerOffset": -0.001,
+      "stroke": 2,
+      "color": "D7FFB8FF"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Warden-T3-weapon",
+      "y": -9,
+      "x": 18,
+      "top": true,
+      "layerOffset": -0.00001,
+      "shootY": 10,
+      "rotateSpeed": 1.5,
+      "mirror": true,
+      "alternate": false,
+      "shootCone": 360,
+      "baseRotation": 0,
+      "shootSound": "shootSublimate",
+      "loopSound": "shootSublimate",
+      "incendAmount": 5,
+      "continuous": true,
+      "bullet": {
+        "type": "ContinuousFlameBulletType",
+        "colors": [
+          "3d6170",
+          "3ca379",
+          "81d268",
+          "cfff70"
+        ],
+        "maxRange": 100,
+        "damage": 5,
+        "recoil": 0.35,
+        "layer": 110,
+        "groundLayer": 61,
+        "drawFlare": true,
+        "width": 3,
+        "pierceArmor": true,
+        "divisions": 20,
+        "length": 14
+      }
+    }
+  ]
+}
