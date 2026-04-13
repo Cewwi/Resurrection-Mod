@@ -102,7 +102,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: iridescence
+defaultCore: Quartz-core
 parent: tronoe
 solarSystem: sun
 launchCandidates: []
