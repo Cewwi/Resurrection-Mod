@@ -10,7 +10,7 @@
   "rotateSpeed": 4,
   "hitSize": 8,
   "accel": 0.095,
-  "defaultCommand": "repairCommand",
+  "UnitCommand": "repairCommand",
   "groundLayer": 60,
   "drownTimeMultiplier": 2,
   "layer": 109,
