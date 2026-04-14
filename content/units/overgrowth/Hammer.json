@@ -52,7 +52,7 @@
     },
     {
       "type": "mindustry.entities.abilities.ForceFieldAbility",
-      "radius": 50,
+      "radius": 200,
       "y": -15,
       "regen": 0.8,
       "max": 850,
