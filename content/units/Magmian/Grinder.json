@@ -63,7 +63,7 @@
         "ammoMultiplier": 3,
         "hitSize": 9,
         "lifetime": 3,
-        "speed": 0,
+        "speed": 0.1,
         "pierce": true,
         "pierceBuilding": true,
         "pierceCap": 600,
