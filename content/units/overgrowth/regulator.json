@@ -74,7 +74,7 @@
       "alwaysShooting": false,
       "alwaysContinuous": true,
       "rotate": true,
-      "rotationLimit": 20,
+      "rotationLimit": 5,
       "continuous": true,
       "bullet": {
         "type": "ContinuousFlameBulletType",
