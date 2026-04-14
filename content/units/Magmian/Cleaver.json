@@ -17,7 +17,7 @@
   "abilities": [
     {
       "type": "mindustry.entities.abilities.ForceFieldAbility",
-      "radius": 12,
+      "radius": 30,
       "regen": 10,
       "max": 1800,
       "cooldown": 2550

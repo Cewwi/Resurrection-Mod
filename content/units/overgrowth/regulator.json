@@ -18,6 +18,7 @@
   "mineSpeed": 2,
   "buildSpeed": 0.2,
   "health": 2720,
+  "defaultCommand": "repairCommand",
   "itemCapacity": 20,
   "mineTier": 2,
   "alwaysUnlocked": true,
