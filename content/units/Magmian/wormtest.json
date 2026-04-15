@@ -14,7 +14,8 @@
   "segments": 6,
   "segmentScl": 7,
   "segmentPhase": 5,
-  "segmentMag": 0,
+  "segmentMag": 0.5,
+  "segmentSpacing": 5,
   "immunities": [
     "melting",
     "burning"
