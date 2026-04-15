@@ -1,5 +1,5 @@
 {
-  "type": "crawl",
+  "type": "segmentUnit",
   "name": "Crawler test",
   "description": "Crawling mech test.",
   "speed": 0.6,
