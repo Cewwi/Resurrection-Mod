@@ -1,5 +1,5 @@
 {
-  "type": "segmentUnit",
+  "type": "crawl",
   "name": "Crawler test",
   "description": "Crawling mech test.",
   "speed": 0.6,
@@ -14,8 +14,8 @@
   "segments": 6,
   "segmentScl": 7,
   "segmentPhase": 5,
-  "segmentMag": 0.5,
-  "segmentSpacing": 5,
+  "segmentMag": 0,
+  "segmentSpacing": -5,
   "immunities": [
     "melting",
     "burning"
