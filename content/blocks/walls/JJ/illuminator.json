@@ -1,16 +1,17 @@
 {
-    "type": "Wall",
+    "type": "LightBlock",
     "name": "Illuminator",
-    "variants": 1,
     "lightRadius": 60,
-    "lightColor": "ffffff",
+    "brightness":  0.35,
+    "radius": 100,
     "emitLight": true,
     "description": "Provides light.",
     "size": 1,
-    "health": 2000,
+    "category": "effect",
+    "health": 200,
     "squareSprite": false,
     "consumes": {
-        "power": 3
+        "power": 0.5
     },
     "drawer": {
   "type": "DrawGlowRegion",
