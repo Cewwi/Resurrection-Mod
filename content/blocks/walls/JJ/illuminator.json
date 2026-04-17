@@ -3,7 +3,7 @@
     "name": "Illuminator",
     "lightRadius": 60,
     "brightness":  0.75,
-    "radius": 200,
+    "radius": 50,
     "emitLight": true,
     "description": "Provides light.",
     "size": 1,
