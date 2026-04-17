@@ -2,8 +2,8 @@
     "type": "LightBlock",
     "name": "Illuminator",
     "lightRadius": 60,
-    "brightness":  0.35,
-    "radius": 100,
+    "brightness":  0.75,
+    "radius": 200,
     "emitLight": true,
     "description": "Provides light.",
     "size": 1,
@@ -13,11 +13,6 @@
     "consumes": {
         "power": 0.5
     },
-    "drawer": {
-  "type": "DrawGlowRegion",
-  "suffix": "-glow",
-  "color": "ffffff"
-},
     "requirements": [
         "Ordanium/10",
         "Tronian-quartz/10",
