@@ -5,7 +5,5 @@
   "clipSize": 300,
   "shadowOffset": 0,
   "shadowAlpha": 0,
-  "emitLight": true,
-  "lightRadius": 100,
-  "lightColor": "BCB6B6FF"
+  "emitLight": false
 }

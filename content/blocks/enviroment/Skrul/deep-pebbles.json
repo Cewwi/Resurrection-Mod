@@ -1,5 +1,5 @@
 {
-    "type": "Prop",
+    "type": "OverlayFloor",
     "name": "Deep Pebbles",
     "variants": 1,
     "breakSound": "rock-crush"
