@@ -9,5 +9,5 @@ minGameVersion: "154"
 dependencies: [ ]
 main: "cataclysm.Cataclysm"
 hidden: false
-subtitle: "Tronoe Remains"
+subtitle: "Beta Release."
 repo:  https://github.com/JJTheCold/Cataclysm-Mod
