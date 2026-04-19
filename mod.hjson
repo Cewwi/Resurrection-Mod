@@ -8,6 +8,6 @@ version: "0"
 minGameVersion: "154"
 dependencies: [ ]
 main: "cataclysm.Cataclysm"
-hidden: true
+hidden: false
 subtitle: "Beta Release."
 repo:  https://github.com/JJTheCold/Cataclysm-Mod
