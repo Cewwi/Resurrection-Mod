@@ -1,0 +1,11 @@
+{
+  "type": "TallBlock",
+  "name": "Static Cluster",
+  "variants": 2,
+  "clipSize": 300,
+  "shadowOffset": 0,
+  "shadowAlpha": 0,
+  "emitLight": true,
+  "lightRadius": 100,
+  "lightColor": "77bfc0"
+}

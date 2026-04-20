@@ -1,0 +1,9 @@
+{
+  "type": "StaticWall",
+  "name": "Static Crystal Wall",
+  "variants": 2,
+  "itemDrop": "static-crystal",
+  "emitLight": true,
+  "lightRadius": 50,
+  "lightColor": "77bfc0"
+}

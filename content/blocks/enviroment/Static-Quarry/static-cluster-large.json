@@ -1,0 +1,11 @@
+{
+  "type": "TallBlock",
+  "name": "Large Static Cluster",
+  "variants": 1,
+  "clipSize": 300,
+  "shadowOffset": 0,
+  "shadowAlpha": 0,
+  "emitLight": true,
+  "lightRadius": 250,
+  "lightColor": "77bfc0"
+}
