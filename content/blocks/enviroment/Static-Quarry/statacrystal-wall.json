@@ -5,25 +5,5 @@
   "itemDrop": "static-crystal",
   "emitLight": true,
   "lightRadius": 50,
-  "lightColor": "77bfc0",
-  "effectSpacing": 1,
-  "effect": [
-    {
-      "type": "ParticleEffect",
-      "lightRadius": 100,
-      "lightColor": "77bfc0",
-      "particles": 3,
-      "baseRotation": 90,
-      "cone": 360,
-      "sizeFrom": 1.8,
-      "sizeTo": 0,
-      "length": 40,
-      "baseLength": 10,
-      "colorFrom": "a4d5c9",
-      "colorTo": "77bfc0",
-      "lifetime": 4,
-      "useRotation": false,
-      "startDelay": 0
-    }
-  ]
+  "lightColor": "77bfc0"
 }
