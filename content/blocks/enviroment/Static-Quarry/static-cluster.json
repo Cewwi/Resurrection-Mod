@@ -7,5 +7,25 @@
   "shadowAlpha": 0,
   "emitLight": true,
   "lightRadius": 100,
-  "lightColor": "77bfc0"
+  "lightColor": "77bfc0",
+  "effectSpacing": 2,
+  "effect": [
+    {
+      "type": "ParticleEffect",
+      "lightRadius": 100,
+      "lightColor": "77bfc0",
+      "particles": 2,
+      "baseRotation": 90,
+      "cone": 360,
+      "sizeFrom": 1.8,
+      "sizeTo": 0,
+      "length": 10,
+      "baseLength": 10,
+      "colorFrom": "a4d5c9",
+      "colorTo": "77bfc0",
+      "lifetime": 4,
+      "useRotation": false,
+      "startDelay": 0
+    }
+  ]
 }
