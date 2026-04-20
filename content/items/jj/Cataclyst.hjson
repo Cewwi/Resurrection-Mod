@@ -6,7 +6,7 @@ alwaysUnlocked: false
 radioactivity: 500
 explosiveness: 500
 flammability: 500
-charge: 500
+charge: 0
 color: 5e3732
 research: item-SurgeQuartz
 hiddenOnPlanets: [serpulo]
