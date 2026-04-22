@@ -1,11 +1,11 @@
 {
     "name": "Tronite",
     "description": "Reliable.",
-    "hardness": 2,
+    "hardness": 1,
     "cost": 8.5,
     "alwaysUnlocked": false,
     "explosiveness": 0.2,
     "color": "ffffff",
-    "research": "item-SurgeQuartz",
+    "research": "Ordanium",
     "hiddenOnPlanets": ["serpulo", "erekir"]
 }

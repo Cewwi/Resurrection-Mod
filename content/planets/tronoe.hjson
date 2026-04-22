@@ -193,7 +193,6 @@ itemWhitelist: [
 "Magma-stone"
 "Geode-catalyst"
 "Cataclyst"
-"Argentium-silver"
-"slag"
+"static-crystal"
 
 ]
