@@ -12,7 +12,7 @@
 ],
 "requirements": [
     "carborundum/500",
-    "Tronian-quartz/750",
+    "Tronite/750",
     "Gavolite/500"
   ],
 "plans": [
@@ -20,7 +20,7 @@
       "unit": "Quill",
       "requirements": [
         {
-          "item": "Tronian-quartz",
+          "item": "Tronite",
           "amount": 25
         },
         {

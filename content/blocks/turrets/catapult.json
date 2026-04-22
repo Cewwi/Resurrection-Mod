@@ -30,7 +30,7 @@
     "amount": 0.12
   },
   "ammoTypes": {
-    "Tronian-quartz": {
+    "Tronite": {
       "damage": 100,
       "width": 25,
       "ammoMultiplier": 3,
@@ -112,7 +112,7 @@
   "requirements": [
     "carborundum/125",
     "Ordanium/100",
-    "Tronian-quartz/200"
+    "Tronite/200"
   ],
   "category": "turret",
   "research": "Caven-core"

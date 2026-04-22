@@ -14,7 +14,7 @@
   "expanded": true,
   "researchCostMultiplier": 5,
  "requirements": [
-     "Tronian-quartz/125",
+     "Tronite/125",
      "Ordanium/75",
      "carborundum/50"
   ],

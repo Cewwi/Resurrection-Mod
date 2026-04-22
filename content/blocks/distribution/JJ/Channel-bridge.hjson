@@ -8,11 +8,11 @@ solid: false
 range: 6
 researchCost: [
   Ordanium/250
-  Tronian-quartz/100
+  Tronite/100
 ]
 speed: 6
 health: 250
 requirements: [
   Ordanium/10
-  Tronian-quartz/20
+  Tronite/20
 ]

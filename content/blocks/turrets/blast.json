@@ -18,7 +18,7 @@
   "shake": 2,
   "requirements": [
   "Ordanium/50",
-  "Tronian-quartz/100",
+  "Tronite/100",
   ]
   "shoot": {
     "type": "ShootAlternate",
@@ -41,7 +41,7 @@
   },
 "shootSound": "shootAlt",
   "ammoTypes": {
-"Tronian-quartz": {
+"Tronite": {
 "type": "BasicBulletType",
   "speed": 10,
   "lifetime": 28,

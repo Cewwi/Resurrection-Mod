@@ -8,12 +8,12 @@ research: Channel
 solid: false
 researchCost: [
   Ordanium/25
-  Tronian-quartz/50
+  Tronite/50
 ]
 speed: 6
 health: 150
 requirements: [
   Ordanium/5
-  Tronian-quartz/10
+  Tronite/10
 ]
   

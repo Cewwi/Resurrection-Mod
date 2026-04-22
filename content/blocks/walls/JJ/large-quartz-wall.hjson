@@ -5,7 +5,7 @@ size: 2
 health: 3800
 squareSprite: true
 requirements: [
-  Tronian-quartz/24
+  Tronite/24
 ]
 research: T-quartz-wall
 category: defense

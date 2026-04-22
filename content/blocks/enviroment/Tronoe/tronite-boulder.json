@@ -1,0 +1,9 @@
+{
+  "type": "TallBlock",
+  "name": "Tronite Boulder",
+  "variants": 1,
+  "clipSize": 300,
+  "shadowOffset": 0,
+  "shadowAlpha": 0,
+  "emitLight": false
+}

@@ -55,7 +55,7 @@ category: crafting
 research: carborundum-smelter
 requirements: [
   Thaxon/75
-  Tronian-quartz/150
+  Tronite/150
   Gavolite/120
 ]
 itemCapacity: 20

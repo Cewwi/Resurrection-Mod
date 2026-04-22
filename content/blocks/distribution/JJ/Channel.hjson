@@ -6,7 +6,7 @@ alwaysUnlocked: true
 research: Cavern-core
 bridgeReplacement: Channel-bridge
 researchCost: [
-  Tronian-quartz/50
+  Tronite/50
 ]
 speed: 6
 health: 125

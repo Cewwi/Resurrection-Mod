@@ -37,6 +37,6 @@ category: crafting
 research: Quartz-Generator
 requirements: [
   scheelite/50
-  Tronian-quartz/100
+  Tronite/100
 ]
 itemCapacity: 20

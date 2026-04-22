@@ -16,6 +16,6 @@ type: BeamDrill
     boosted: true
   }
   requirements: [
-  Tronian-quartz/100
+  Tronite/100
   Ordanium/75
   ]
