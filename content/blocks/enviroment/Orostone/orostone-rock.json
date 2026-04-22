@@ -2,5 +2,5 @@
   "type": "Prop",
   "name": "Orostone Rock",
   "variants": 2,
-  "breakSound": "rock-crush"
+  "breakSound": "rockBreak"
 }

@@ -1,4 +1,4 @@
 type: Prop
 name: Surge Stone Boulder
 variants: 2
-breakSound: rock-crush
+breakSound: rockBreak
