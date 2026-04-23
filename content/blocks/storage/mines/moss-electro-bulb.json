@@ -1,0 +1,35 @@
+{
+  "type": "ShockMine",
+  "research": "Caver-core",
+  "name": "Explosive mine",
+  "description": "Explodes upon enemy contact.",
+  "underBullets": true,
+  "hasShadow": false,
+  "category": "effect",
+  "fogRadius": 0,
+  "teamAlpha": 0,
+  "tendrils": 0,
+  "length": 0,
+  "shots": 6,
+  "size": 1,
+  "researchCostMultiplier": 0.2,
+  "buildCostMultiplier": 2,
+  "tileDamage": 100,
+  "cooldown": 60,
+  "damage": 300,
+  "health": 100,
+  "destroySound": "boom-mine",
+  "requirements": [
+    "Ordanium/5",
+    "Magma-stone/5"
+  ],
+  "bullet": 
+        {
+          "type": "LightningBulletType",
+          "lightningColor": "F7E97EFF",
+          "lightningLength": 8,
+          "lightningDamage": 60,
+          "hitSound": "spark",
+          "lifetime": 1
+        }
+}
