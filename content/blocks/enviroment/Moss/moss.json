@@ -1,6 +1,6 @@
 {
-  "type": "Prop",
-  "name": "Tronite Rock",
+  "type": "WobbleProp",
+  "name": "Moss",
   "variants": 4,
   "breakSound": "plantBreak"
 }
