@@ -1,5 +1,8 @@
 {
   "type": "SeaBush",
   "name": "Purple Cave Flower",
-  "walkSound ": "stepMud"
+  "walkSound ": "stepMud",
+  "emitLight": true,
+  "lightRadius": 100,
+  "lightColor": "db3ffd"
 }

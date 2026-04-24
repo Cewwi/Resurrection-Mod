@@ -3,5 +3,8 @@
   "name": "Yellow Cave Flower",
   "walkSound ": "stepMud",
   "lobesMax": "4",
-  "lobesMin": "4"
+  "lobesMin": "4",
+  "emitLight": true,
+  "lightRadius": 150,
+  "lightColor": "ffc825"
 }
