@@ -1,5 +1,7 @@
 {
   "type": "SeaBush",
   "name": "Sprouting Red Cave Flower",
-  "walkSound ": "stepMud"
+  "walkSound ": "stepMud",
+  "lobesMax": "5",
+  "lobesMin": "5"
 }
