@@ -1,6 +1,5 @@
 {
   "type": "SeaBush",
-  "name": "Statastone Floor",
-  "variants": 3,
+  "name": "Cave Reef",
   "walkSound ": "stepMud"
 }
