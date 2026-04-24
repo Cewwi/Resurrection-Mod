@@ -3,5 +3,8 @@
   "name": "Sprouting Red Cave Flower",
   "walkSound ": "stepMud",
   "lobesMax": "5",
-  "lobesMin": "5"
+  "lobesMin": "5",
+  "emitLight": true,
+  "lightRadius": 50,
+  "lightColor": "c42430"
 }
