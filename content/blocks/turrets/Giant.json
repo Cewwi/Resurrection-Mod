@@ -14,8 +14,6 @@
   "targetUnderBlocks": false,
   "shootY": 5,
   "shootCone": 3,
-  "research": "",
-  "shake": 3,
   "requirements": [
   "Silver/650",
   "carborundum/550",

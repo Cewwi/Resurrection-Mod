@@ -29,7 +29,7 @@
     "shootY": 7,
     "cooldownTime": 120,
     "inaccuracy": 0,
-    "rotationLimit": 360,
+    "rotationLimit": 30,
     "reload": 70,
     "shootSound": "shootArtillery",
     "ejectEffect": "casing2",
