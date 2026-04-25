@@ -27,14 +27,13 @@
   "weapons": [
     {
       "name": "linger-cannon",
-      "x": 12,
+      "x": 10,
       "y": 3,
       "rotateSpeed": 1.5,
       "mirror": false,
       "rotate": true,
       "rotationLimit": 50,
       "shootY": 8,
-      "shootX": -2,
       "cooldownTime": 120,
       "inaccuracy": 1,
       "layerOffset": -0.00001,
