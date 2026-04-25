@@ -1,0 +1,6 @@
+{
+  "type": "Floor",
+  "name": "Shrub Floor",
+  "variants": 2,
+  "walkSound ": "plantBreak"
+}
