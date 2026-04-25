@@ -33,7 +33,7 @@
       "mirror": false,
       "rotate": true,
       "rotationLimit": 50,
-      "shootY": 8,
+      "shootY": 12,
       "inaccuracy": 1,
       "layerOffset": -0.00001,
       "reload": 10,
