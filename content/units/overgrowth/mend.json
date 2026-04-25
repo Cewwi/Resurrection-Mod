@@ -12,7 +12,6 @@
   "UnitCommand": "repairCommand",
   "groundLayer": 60,
   "drownTimeMultiplier": 2,
-  "layer": 109,
   "hovering": true,
   "isEnemy": true,
   "armor": 1,

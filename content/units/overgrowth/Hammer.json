@@ -9,7 +9,6 @@
   "rotateSpeed": 2,
   "hitSize": 35,
   "accel": 0.095,
-  "layer": 109,
   "hovering": true,
   "isEnemy": true,
   "armor": 30,

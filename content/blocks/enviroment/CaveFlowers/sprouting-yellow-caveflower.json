@@ -3,6 +3,7 @@
   "name": "Sprouting Yellow Cave Flower",
   "clipSize": 90,
   "walkSound ": "stepMud",
+  "crushFragile": false,
   "lobesMax": "4",
   "lobesMin": "4",
   "emitLight": true,

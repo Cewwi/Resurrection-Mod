@@ -62,7 +62,7 @@
       "shootCone": 45,
       "rotate": true,
       "layerOffset": -0.00001,
-      "shootSound": "shotgun",
+      "shootSound": "shootFuse",
       "shoot": {
         "type": "ShootSpread",
         "spread": 5,

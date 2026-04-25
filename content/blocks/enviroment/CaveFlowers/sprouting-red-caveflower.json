@@ -3,6 +3,7 @@
   "name": "Sprouting Red Cave Flower",
   "clipSize": 90,
   "walkSound ": "stepMud",
+  "crushFragile": false,
   "lobesMax": "5",
   "lobesMin": "5",
   "emitLight": true,

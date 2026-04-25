@@ -3,6 +3,7 @@
   "name": "Sprouting Purple Cave Flower",
   "clipSize": 90,
   "walkSound ": "stepMud",
+  "crushFragile": false,
   "emitLight": true,
   "lightRadius": 20,
   "lightColor": "db3ffd"
