@@ -8,6 +8,7 @@
   "speed": 3,
   "rotateSpeed": 4,
   "hitSize": 8,
+  "layer": 112,
   "accel": 0.095,
   "groundLayer": 60,
   "hovering": true,

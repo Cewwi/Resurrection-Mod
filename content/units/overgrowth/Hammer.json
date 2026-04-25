@@ -8,6 +8,7 @@
   "speed": 1,
   "rotateSpeed": 2,
   "hitSize": 35,
+  "layer": 112,
   "accel": 0.095,
   "hovering": true,
   "isEnemy": true,

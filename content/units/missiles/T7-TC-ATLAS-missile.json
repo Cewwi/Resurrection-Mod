@@ -67,11 +67,11 @@
         }
 ],
 "instantDisappear": true,
-"hitSoundVolume": 20,
-"splashDamage": 80,
+"hitSoundVolume": 10,
+"splashDamage": 350,
 "splashDamageRadius": 20,
 "hitSound": "bang",
-"buildingDamageMultiplier": 0.8
+"buildingDamageMultiplier": 0.6
 }
 }
 ]

@@ -44,7 +44,7 @@
 "rotateEffect": true,
 "rotation": 180
 }
-]
+],
 "weapons": [
  {
 "shootCone": 360,
@@ -56,12 +56,12 @@
 "hitEffect": "reactorExplosion",
 "instantDisappear": true,
 "hitSoundVolume": 5,
-"splashDamage": 500,
+"splashDamage": 1000,
 "suppressionRange": 90,
 "splashDamageRadius": 70,
 "hitSound": "largeExplosion",
-"buildingDamageMultiplier": 0.8,
+"buildingDamageMultiplier": 0.8
 }
 }
- ],
+]
 }
