@@ -2,6 +2,7 @@
   "type": "SeaBush",
   "name": "Blue Cave Flower",
   "walkSound ": "stepMud",
+  "clipSize": 120,
   "lobesMax": "5",
   "lobesMin": "5",
   "emitLight": true,

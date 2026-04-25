@@ -1,6 +1,7 @@
 {
   "type": "SeaBush",
   "name": "Sprouting Yellow Cave Flower",
+  "clipSize": 90,
   "walkSound ": "stepMud",
   "lobesMax": "4",
   "lobesMin": "4",

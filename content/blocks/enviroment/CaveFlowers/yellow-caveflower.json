@@ -2,6 +2,7 @@
   "type": "SeaBush",
   "name": "Yellow Cave Flower",
   "walkSound ": "stepMud",
+  "clipSize": 120,
   "lobesMax": "4",
   "lobesMin": "4",
   "emitLight": true,
