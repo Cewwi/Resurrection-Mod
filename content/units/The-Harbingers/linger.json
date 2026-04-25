@@ -36,7 +36,7 @@
       "shootY": 14,
       "inaccuracy": 3,
       "layerOffset": -0.00001,
-      "reload": 200,
+      "reload": 300,
       "alternate": true,
       "shootSound": "Heavy-Machine-gun",
       "ejectEffect": "casing2",
@@ -47,7 +47,7 @@
         "type": "ShootAlternate",
         "barrels": 1,
         "spread": 0,
-        "shotDelay": 1,
+        "shotDelay": 3,
         "shots": 60
       },
       "bullet": {
