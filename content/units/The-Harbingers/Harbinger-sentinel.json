@@ -12,6 +12,7 @@
   "fogRadius": 0,
   "hovering": false,
   "faceTarget": true,
+  "legContinuousMove": true,
   "targetPriority": -2,
   "name": "concentrator",
   "description": "A vessel of the great power the harbingers once held.",
@@ -28,7 +29,7 @@
   "groundLayer": 75,
   "drag": 0.4,
   "itemCapacity": 90,
-  "alwaysUnlocked": true,
+  "alwaysUnlocked": false,
   "outlineColor": "0C0D1BFF",
   "abilities": [
     {

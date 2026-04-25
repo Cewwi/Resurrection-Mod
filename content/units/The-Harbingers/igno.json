@@ -11,6 +11,7 @@
   "legPairOffset": 2,
   "fogRadius": 30,
   "hovering": false,
+  "legContinuousMove": true,
   "faceTarget": true,
   "name": "Igno",
   "description": "An expensive, heavily armored, hexapod unit. Fires a burst of 3 rounds which fire shrapnel on hit and death.",
@@ -22,6 +23,7 @@
   "groundLayer": 75,
   "drag": 0.4,
   "outlineColor": "0C0D1BFF",
+  "alwaysUnlocked": false,
   "weapons": [
     {
     "name": "gem-point-def",

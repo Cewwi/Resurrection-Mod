@@ -19,7 +19,7 @@
   "armor": 1,
   "buildSpeed": 0.2,
   "health": 720,
-  "alwaysUnlocked": true,
+  "alwaysUnlocked": false,
   "useEngineElevation": false,
   "lowAltitude": true,
   "parts": [

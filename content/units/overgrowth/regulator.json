@@ -21,7 +21,7 @@
   "UnitCommand": "repairCommand",
   "itemCapacity": 20,
   "mineTier": 2,
-  "alwaysUnlocked": true,
+  "alwaysUnlocked": false,
   "useEngineElevation": false,
   "lowAltitude": false,
   "parts": [

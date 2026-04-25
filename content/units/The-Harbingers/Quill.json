@@ -20,6 +20,7 @@
 "flying": false,
 "targetAir": true,
 "rotateSpeed": 1.75,
+  "alwaysUnlocked": false,
   "abilities": [
    {
       "type": "EnergyFieldAbility",
