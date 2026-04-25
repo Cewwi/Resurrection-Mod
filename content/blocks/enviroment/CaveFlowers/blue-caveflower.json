@@ -7,9 +7,8 @@
   "layer": 111,
   "solid": true,
   "instantDeconstruct": false,
-  "destructible": false,
-  "lobesMax": "5",
-  "lobesMin": "5",
+  "lobesMax": "8",
+  "lobesMin": "8",
   "emitLight": true,
   "lightRadius": 175,
   "lightColor": "00cdf9"

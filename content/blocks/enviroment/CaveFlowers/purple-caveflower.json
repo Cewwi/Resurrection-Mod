@@ -4,9 +4,9 @@
   "clipSize": 120,
   "walkSound ": "stepMud",
   "crushFragile": false,
+  "layer": 111,
   "solid": true,
   "instantDeconstruct": false,
-  "destructible": false,
   "emitLight": true,
   "lightRadius": 100,
   "lightColor": "db3ffd"

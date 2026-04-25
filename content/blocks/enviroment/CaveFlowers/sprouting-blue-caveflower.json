@@ -1,11 +1,11 @@
 {
   "type": "SeaBush",
-  "name": "Blue Cave Flower",
+  "name": "Sprouting Blue Cave Flower",
   "clipSize": 90,
   "walkSound ": "stepMud",
   "crushFragile": false,
-  "lobesMax": "5",
-  "lobesMin": "5",
+  "lobesMax": "8",
+  "lobesMin": "8",
   "emitLight": true,
   "lightRadius": 40,
   "lightColor": "00cdf9"
