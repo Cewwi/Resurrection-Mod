@@ -10,6 +10,6 @@
   "lobesMax": "4",
   "lobesMin": "4",
   "emitLight": true,
-  "lightRadius": 150,
+  "lightRadius": 200,
   "lightColor": "ffc825"
 }
