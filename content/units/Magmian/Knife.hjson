@@ -2,10 +2,10 @@
 type: mech
 name: Knife
 description: Close range Mech unit.
-speed: 0.7
+speed: 0.6
 flying: false
-health: 870
-armor: 12
+health: 600
+armor: 10
 hitSize: 10
 outlineColor: 0C0D1BFF
 rotateSpeed: 2

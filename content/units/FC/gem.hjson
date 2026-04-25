@@ -1,7 +1,7 @@
 type: mech
 name: Gem
 description: Deffensive and Offensive mech unit. Long range blasters and close range anti-projectile weapons.
-speed: 0.37
+speed: 0.5
 flying: false
 health: 500
 armor: 9

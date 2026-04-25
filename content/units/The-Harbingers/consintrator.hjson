@@ -22,7 +22,7 @@ mineSpeed: 7.5
 mineFloor: true
 mineWalls: true
 mineTier: 1
-buildSpeed: 1.2
+buildSpeed: 2
 drag: 0.4
 itemCapacity: 90
 alwaysUnlocked: true
