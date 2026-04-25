@@ -1,0 +1,10 @@
+{
+  "type": "SeaBush",
+  "name": "Blue Cave Flower",
+  "walkSound ": "stepMud",
+  "lobesMax": "5",
+  "lobesMin": "5",
+  "emitLight": true,
+  "lightRadius": 175,
+  "lightColor": "00cdf9"
+}
