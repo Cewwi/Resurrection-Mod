@@ -9,6 +9,7 @@
   "speed": 1,
   "rotateSpeed": 2,
   "hitSize": 35,
+  "aiController": "PrebuildAI",
   "accel": 0.095,
   "layer": 109,
   "hovering": true,

@@ -20,6 +20,7 @@
   "health": 1280,
   "itemCapacity": 80,
   "mineTier": 2,
+  "aiController": "MinerAI",
   "alwaysUnlocked": false,
   "useEngineElevation": false,
   "lowAltitude": false,

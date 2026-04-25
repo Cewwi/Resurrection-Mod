@@ -20,6 +20,7 @@
   "health": 2720,
   "UnitCommand": "repairCommand",
   "itemCapacity": 20,
+  "aiController": "BuilderAI",
   "mineTier": 2,
   "alwaysUnlocked": false,
   "useEngineElevation": false,
