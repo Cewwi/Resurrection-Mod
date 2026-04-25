@@ -46,7 +46,7 @@
     "targetInterval": 8,
     "targetSwitchInterval": 8,
     "mirror": true,
-    "y": 12,
+    "y": 6,
     "x": -10,
     "rotate": true,
     "shootY": 4,

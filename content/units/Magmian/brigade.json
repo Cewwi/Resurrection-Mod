@@ -20,10 +20,11 @@
 "weapons": [
 {
     "name": "Large-magmian-Weapon",
-    "x": 6,
+    "x": 13,
     "y": 0,
     "rotateSpeed": 1.5,
-    "mirror": false,
+    "layerOffset": -0.00001,
+    "mirror": true,
     "rotate": true,
     "shootY": 7,
     "cooldownTime": 120,
