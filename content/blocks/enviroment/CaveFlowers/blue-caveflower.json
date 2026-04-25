@@ -4,7 +4,7 @@
   "clipSize": 120,
   "walkSound ": "stepMud",
   "crushFragile": false,
-  "layer": 110,
+  "layer": 111,
   "solid": true,
   "instantDeconstruct": false,
   "destructible": false,
