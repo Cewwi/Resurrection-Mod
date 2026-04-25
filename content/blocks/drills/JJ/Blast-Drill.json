@@ -1,7 +1,8 @@
 {
   "type": "BurstDrill",
   "size": 3,
-  "description": "Moderate drill for surface drilling",
+  "name": "Blast Drill",
+  "description": "Drill for surface mining",
   "tier": 2,
   "drillTime": 270,
   "liquidBoostIntensity": 1.5,
@@ -15,7 +16,7 @@
   "researchCostMultiplier": 5,
  "requirements": [
      "Tronite/125",
-     "Ordanium/75",
+     "Ordanium/50",
      "carborundum/50"
   ],
    "category": "production",

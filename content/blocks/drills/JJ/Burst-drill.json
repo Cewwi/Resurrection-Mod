@@ -1,6 +1,7 @@
 {
   "type": "BurstDrill",
   "size": 2,
+  "name": "Burst Drill",
   "description": "Basic drill for surface drilling",
   "tier": 1,
   "drillTime": 400,
@@ -14,7 +15,7 @@
   "expanded": true,
  "requirements": [
      "Tronite/15",
-     "Ordanium/50"
+     "Ordanium/25"
   ],
    "category": "production",
   "research": "Quartz-core"
