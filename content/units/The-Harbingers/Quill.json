@@ -11,7 +11,7 @@
 "omniMovement": false,
 "outlineColor": "0C0D1BFF",
 "speed": 0.75,
-"hitSize": 20,
+"hitSize": 10,
 "health": 575,
 "fogRadius": 20,
 "crushDamage": 0.2,

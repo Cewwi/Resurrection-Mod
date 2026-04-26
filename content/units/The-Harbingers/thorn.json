@@ -9,7 +9,7 @@
 "omniMovement": false,
 "outlineColor": "0C0D1BFF",
 "speed": 0.7,
-"hitSize": 25,
+"hitSize": 15,
 "health": 1775,
 "fogRadius": 30,
 "crushDamage": 0.4,
@@ -121,11 +121,11 @@
         "damage": 15,
         "hitSize": 5,
         "speed": 4.5,
-        "lightColor": "3D58F0FF",
+        "lightColor": "ECECECFF",
         "lightOpacity": 0.7,
         "lightRadius": 12,
-        "backColor": "3D58F0FF",
-        "trailColor": "3D58F0FF",
+        "backColor": "ECECECFF",
+        "trailColor": "ECECECFF",
         "trailLength": 10,
         "trailWidth": 1.25
       }
