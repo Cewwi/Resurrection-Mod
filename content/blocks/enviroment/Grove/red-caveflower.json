@@ -1,7 +1,7 @@
 {
   "type": "SeaBush",
   "name": "Red Cave Flower",
-  "clipSize": 120,
+  "clipSize": 200,
   "walkSound ": "stepMud",
   "crushFragile": false,
   "layer": 111,
