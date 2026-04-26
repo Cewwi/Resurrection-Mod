@@ -2,7 +2,7 @@
   "type": "PowerNode",
   "name": "Large Quartz Node",
   "size": 6,
-  "health": 120,
+  "health": 1250,
   "laserRange": 100,
   "maxNodes": 30,
   "hasPower": true,
