@@ -1,6 +1,6 @@
 {
 "localizedName": "Thorn",
-"description": "Fires fragging shells at enemy targets. Losses it's shock aura.",
+"description": "Fires shells at enemy targets. Losses it's shock aura.",
 "faceTarget": false,
 "squareShape": true,
 "type": "tank",
@@ -21,7 +21,7 @@
 "alwaysUnlocked": false,
 "weapons": [
 {
-"name": "thron-cannon",
+"name": "thorn-cannon",
 "x": 0,
 "y": 0,
 "top": true,
@@ -92,36 +92,6 @@
         "trailLength": 9,
         "trailColor": "e3e3e3",
         "trailWidth": 2,
-        "fragBullet": {
-        "type": "ShrapnelBulletType",
-        "damage": 120,
-        "width": 10,
-        "ammoMultiplier": 5,
-        "pierce": true,
-        "lifetime": 18,
-        "length": 50,
-        "serrations": 8,
-        "fromColor": "E5E5E5FF",
-        "toColor": "E5E5E5FF",
-        "shootEffect": "explosion",
-        "hitEffect": {
-          "type": "ParticleEffect",
-          "line": true,
-          "particles": 7,
-          "lifetime": 10,
-          "length": 25,
-          "cone": -360,
-          "lenFrom": 5,
-          "lenTo": 0,
-          "colorFrom": "E5E5E5FF",
-          "colorTo": "E5E5E5FF"
-        }
-        },
-        
-        "fragBullets": 3,
-        "fragVelocityMin": 0.5,
-        "fragVelocityMax": 1.5,
-        "fragLifeMin": 0.5,
   "buildingDamageMultiplier": 0.5,
   "hitEffect": "explosion",
   "despawnEffect": "explosion",
@@ -135,10 +105,8 @@
       "rotateSpeed": 1.5,
       "mirror": true,
       "rotate": true,
-      "shootY": 4,
-      "cooldownTime": 120,
+      "shootY": 6,
       "inaccuracy": 2,
-      "rotationLimit": 180,
       "reload": 6,
       "shootSound": "shootStell",
       "parts": [
