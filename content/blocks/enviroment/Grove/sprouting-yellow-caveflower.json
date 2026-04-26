@@ -4,8 +4,8 @@
   "clipSize": 90,
   "walkSound ": "stepMud",
   "crushFragile": false,
-  "lobesMax": "4",
-  "lobesMin": "4",
+  "lobesMax": "8",
+  "lobesMin": "8",
   "emitLight": true,
   "lightRadius": 25,
   "lightColor": "ffc825"
