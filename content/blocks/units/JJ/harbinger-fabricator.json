@@ -1,7 +1,7 @@
 {
 "localizedName": "Harbinger Fabricator",
 "description": "Builds T1 Harbinger units.",
-"research": "Cavern-core",
+"research": "Quartz-core",
 "squareSprite": false,
 "category": "units",
 "type": "UnitFactory",
@@ -28,7 +28,7 @@
           "amount": 20
         }
       ],
-      "time": 800
+      "time": 1200
     }
 ]
 }
