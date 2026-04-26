@@ -8,7 +8,7 @@
   "solid": true,
   "instantDeconstruct": false,
   "emitLight": true,
-  "lightRadius": 100,
+  "lightRadius": 200,
   "lightColor": "db3ffd",
   "unitMoveBreakable": false,
   "breakable": false,
