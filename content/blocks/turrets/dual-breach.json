@@ -20,11 +20,11 @@
   "carbide/200",
   "beryllium/1500",
   "silicon/500",
-  "tungsten/300",
-  ]
+  "tungsten/300"
+  ],
   "shoot": {
     "type": "ShootAlternate",
-    "barrels": 2,
+    "barrels": 3,
     "spread": 13.4,
     "shots": 1
   },
@@ -41,7 +41,7 @@
   "armor": 5,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "reinforced-"
+    "basePrefix": "reinforced-",
     "parts": [
       {
         "type": "RegionPart",
