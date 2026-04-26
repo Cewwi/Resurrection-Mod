@@ -1,7 +1,7 @@
 {
   "type": "PowerNode",
   "name": "Large Quartz Node",
-  "size": 2,
+  "size": 6,
   "health": 120,
   "laserRange": 100,
   "maxNodes": 30,
