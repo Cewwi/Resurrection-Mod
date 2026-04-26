@@ -11,5 +11,8 @@
   "lobesMin": "8",
   "emitLight": true,
   "lightRadius": 175,
-  "lightColor": "00cdf9"
+  "lightColor": "00cdf9",
+  "unitMoveBreakable": false,
+  "breakable": false,
+  "replaceable": false
 }

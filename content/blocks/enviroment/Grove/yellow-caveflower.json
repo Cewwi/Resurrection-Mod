@@ -11,5 +11,8 @@
   "lobesMin": "4",
   "emitLight": true,
   "lightRadius": 200,
-  "lightColor": "ffc825"
+  "lightColor": "ffc825",
+  "unitMoveBreakable": false,
+  "breakable": false,
+  "replaceable": false
 }

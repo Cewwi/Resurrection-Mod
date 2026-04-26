@@ -9,5 +9,8 @@
   "instantDeconstruct": false,
   "emitLight": true,
   "lightRadius": 100,
-  "lightColor": "db3ffd"
+  "lightColor": "db3ffd",
+  "unitMoveBreakable": false,
+  "breakable": false,
+  "replaceable": false
 }
