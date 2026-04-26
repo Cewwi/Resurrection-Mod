@@ -1,0 +1,20 @@
+{
+  "type": "PowerNode",
+  "name": "Large Quartz Node",
+  "size": 2,
+  "health": 120,
+  "laserRange": 100,
+  "maxNodes": 30,
+  "hasPower": true,
+  "placeableLiquid": "true",
+  "laserColor1": "FFFFFFFF",
+  "laserColor2": "38a8ff",
+  "category": "power",
+  "research": "large-Quartz-node",
+  "requirements": [
+    "Tronite/500",
+    "carborundum/220",
+    "Thaxon-Steel/75",
+    "Thaxon/300"
+  ]
+}

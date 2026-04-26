@@ -10,9 +10,9 @@
   "laserColor1": "FFFFFFFF",
   "laserColor2": "BCB6B6FF",
   "category": "power",
-  "research": "Quartz-Generator"
+  "research": "Quartz-node",
   "requirements": [
     "Tronite/30",
     "carborundum/20"
-  ],
+  ]
 }
