@@ -14,5 +14,6 @@
   "lightColor": "ffc825",
   "unitMoveBreakable": false,
   "breakable": false,
+  "alwaysReplace": false,
   "replaceable": false
 }

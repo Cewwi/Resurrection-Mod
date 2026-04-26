@@ -12,5 +12,6 @@
   "lightColor": "db3ffd",
   "unitMoveBreakable": false,
   "breakable": false,
+  "alwaysReplace": false,
   "replaceable": false
 }
