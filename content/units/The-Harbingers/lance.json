@@ -1,6 +1,7 @@
 {
 "localizedName": "Lance",
 "description": "Fires piercing, fragmenting shells at enemy targets, has 4 fuse like cannons, nearly unaffected by liquid drag, and able to float in liquids for short periods of time.",
+"details": "'We're the only reason that...thing, is still operational'.",
 "faceTarget": false,
 "squareShape": true,
 "type": "tank",
