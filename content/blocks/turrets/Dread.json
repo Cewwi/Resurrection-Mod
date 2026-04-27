@@ -8,7 +8,6 @@
   "range": 232,
   "outlineColor": "0C0D1BFF",
   "recoil": 2,
-  "shake": 1,
   "inaccuracy": 5,
   "category": "turret",
   "targetUnderBlocks": false,

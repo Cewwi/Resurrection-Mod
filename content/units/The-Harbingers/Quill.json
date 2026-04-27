@@ -1,13 +1,11 @@
 {
 "localizedName": "Quill",
-"description": "Fires fragging shells at enemy targets. Has a small shock aura.",
+"description": "Fires fuse like rounds. Has a small shock aura.",
 "faceTarget": false,
 "squareShape": true,
 "type": "tank",
 "treadFrames": 18,
 "treadPullOffset": 5,
-"treadRects": [
-],
 "omniMovement": false,
 "outlineColor": "0C0D1BFF",
 "speed": 0.75,
@@ -15,6 +13,7 @@
 "health": 575,
 "fogRadius": 20,
 "crushDamage": 0.2,
+"drownTimeMultiplier": 2,
 "armor": 12,
 "singleTarget": true,
 "flying": false,

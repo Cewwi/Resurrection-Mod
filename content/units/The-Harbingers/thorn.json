@@ -13,6 +13,7 @@
 "health": 1775,
 "fogRadius": 30,
 "crushDamage": 0.4,
+"drownTimeMultiplier": 2,
 "armor": 14,
 "singleTarget": true,
 "flying": false,
