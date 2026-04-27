@@ -1,18 +1,15 @@
 {
   "type": "Reconstructor",
-  "size": 5,
-  "squareSprite": false,
-  "localizedName": "Harbinger Refabricator",
+  "size": 7,
+  "localizedName": "Harbinger Reconstructor",
   "description": "Upgrades to T3 Harbinger units.",
   "consumes": {
-    "power": 2.5,
+    "power": 5.5,
     "items": {
       "items": [
-    "carborundum/50",
-    "Tronite/750",
-    "Thoralius/150",
+    "carborundum/125",
     "Thaxium/100",
-    "Gavolite/250"
+    "Gavolite/150"
       ],
     "liquid": {
       "liquid": "Thaxus",
@@ -21,9 +18,11 @@
     }
   },
   "requirements": [
-    "carborundum/125",
+    "carborundum/50",
+    "Tronite/750",
+    "Thoralius/150",
     "Thaxium/100",
-    "Gavolite/150"
+    "Gavolite/250"
   ],
   "upgrades": [
     [

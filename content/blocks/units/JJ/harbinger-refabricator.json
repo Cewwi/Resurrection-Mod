@@ -6,24 +6,22 @@
   "description": "Upgrades to T2 Harbinger units.",
   "consumes": {
     "power": 2.5,
-    "items": {
-      "items": [
-    "carborundum/500",
-    "Tronite/750",
-    "Thaxon/150",
-    "Silver/150",
-    "Gavolite/500"
+    "items": [
+    "carborundum/60",
+    "Tronite/100",
+    "Gavolite/40"
       ],
     "liquid": {
       "liquid": "Thaxus",
       "amount": 0.25
     }
-    }
   },
   "requirements": [
-    "carborundum/60",
-    "Tronite/100",
-    "Gavolite/40"
+    "carborundum/500",
+    "Tronite/750",
+    "Thaxon/150",
+    "Silver/150",
+    "Gavolite/500"
   ],
   "upgrades": [
     [
