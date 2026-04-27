@@ -1,0 +1,13 @@
+{
+  "type": "PayloadConveyor",
+  "name": "Payload Transporter",
+  "requirements": [
+    "Tronite/20",
+    "carborundum/5"
+  ],
+  "moveTime": 45,
+  "canOverdrive": true,
+  "health": 500,
+  "researchCostMultiplier": 4,
+  "underBullets": true
+}

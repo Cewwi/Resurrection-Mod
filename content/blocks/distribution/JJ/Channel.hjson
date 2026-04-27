@@ -3,7 +3,7 @@ name: Channel
 description: Directs imput items to the output.
 category: distribution
 alwaysUnlocked: true
-research: Cavern-core
+research: Quartz-core
 bridgeReplacement: Channel-bridge
 researchCost: [
   Tronite/50

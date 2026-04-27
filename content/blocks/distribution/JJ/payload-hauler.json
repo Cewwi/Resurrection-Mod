@@ -1,0 +1,16 @@
+{
+  "type": "PayloadConveyor",
+  "name": "Payload Hauler",
+  "requirements": [
+    "Tronite/50",
+    "Thaxon/20",
+    "carborundum/50"
+  ],
+  "moveTime": 80,
+  "size": 7,
+  "canOverdrive": true,
+  "research": "Payload-Transporter",
+  "health": 1500,
+  "researchCostMultiplier": 4,
+  "underBullets": true
+}

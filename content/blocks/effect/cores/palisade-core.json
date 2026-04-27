@@ -2,7 +2,7 @@
   "localizedName": "Core: Palisade",
   "type": "CoreBlock",
   "description": "Strong and reliable",
-  "details": "'The only reason they won.'",
+  "details": "They didn't listen to reason.",
   "health": 8750,
   "squareSprite": false,
   "size": 5,
