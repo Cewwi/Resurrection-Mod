@@ -164,7 +164,7 @@
             "lightColor": "62A0FCFF",
             "colorFrom": "62A0FCFF",
             "colorTo": "3D58F0FF",
-            "sizeFrom": 9,
+            "sizeFrom": 6,
             "sizeTo": 0
         },
         "trailChance": 0.5,
