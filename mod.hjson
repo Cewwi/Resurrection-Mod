@@ -1,12 +1,13 @@
 name: "cataclysm"
-displayName: "[[]#ffad2b]Cataclysm[[]]"
+displayName: "[[]#ffc100]Cataclysm[[]]"
 author: "[[]#ffb33a]JJ[[]]"
 description: '''
+[#ffc100]Adds TronoeP07, a cave planet set after a war that drove the faction's off it's surface[].
+
 Drop a star in the project's repo.
 '''
-version: "0"
+version: "[[]#ffc100]0[[]]"
 minGameVersion: "154"
-dependencies: [ ]
-main: "cataclysm.Cataclysm"
 hidden: false
 subtitle: "Reinstall from the mod browser." 
+repo: "JJTheCold/Cataclysm-Mod"
