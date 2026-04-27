@@ -1,8 +1,0 @@
-name: Ordanium
-description: A dark, cold stone.
-hardness: 1
-cost: 3.5
-alwaysUnlocked: false
-color: 5c5d59
-research: item-SurgeQuartz
-hiddenOnPlanets: [serpulo]

@@ -1,0 +1,10 @@
+{
+    "name": "Ordanium",
+    "description": "A dark, metalic stone.",
+    "hardness": 1,
+    "cost": 1.5,
+    "alwaysUnlocked": false,
+    "color": "5c5d59",
+    "research": "Quartz-core",
+    "hiddenOnPlanets": ["serpulo", "erekir"]
+}
