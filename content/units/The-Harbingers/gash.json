@@ -10,19 +10,21 @@
 "outlineColor": "0C0D1BFF",
 "speed": 0.65,
 "hitSize": 30,
-"health": 13250,
-"fogRadius": 30,
+"health": 162500,
+"fogRadius": 90,
 "canDrown": false,
+"lightColor": "62A0FCFF",
+"lightRadius": 250,
 "floorMultiplier": 0,
-"crushDamage": 6,
-"armor": 25,
+"crushDamage": 8,
+"armor": 35,
 "singleTarget": true,
 "crushFragile": true,
-"tankMoveVolume": 1.3,
+"tankMoveVolume": 2.3,
 "flying": false,
 "targetAir": true,
 "tankMoveSound": "tankMoveHeavy",
-"rotateSpeed": 1.75,
+"rotateSpeed": 1,
 "alwaysUnlocked": false,
 "weapons": [
     {
@@ -33,7 +35,7 @@
       "rotate": true,
       "mirror": false,
       "layerOffset": 1,
-      "shootY": 65,
+      "shootY": 70,
       "inaccuracy": 0,
       "reload": 95,
       "shootSound": "shootTank",
@@ -56,7 +58,6 @@
         "removeAfterPierce": false,
         "collideTerrain": true,
         "height": 63,
-        "shootEffect": "teleportOut",
         "hitColor": "62A0FCFF",
         "splashDamage": 450,
         "damage": 1250,
@@ -72,6 +73,38 @@
         "lightColor": "62A0FCFF",
         "lightOpacity": 0.7,
         "lightRadius": 12,
+        "shootEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 45,
+              "length": 150,
+              "lifetime": 80,
+              "lightColor": "62A0FCFF",
+              "cone": 80,
+              "colorFrom": "62A0FCFF",
+              "colorTo": "62A0FCFF",
+              "sizeFrom": 6,
+              "sizeTo": 0
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 65,
+              "length": 150,
+              "lifetime": 80,
+              "lightColor": "62A0FCFF",
+              "cone": 80,
+              "colorFrom": "62A0FCFF",
+              "colorTo": "62A0FCFF",
+              "lenFrom": 10,
+              "lenTo": 10,
+              "strokeFrom": 6,
+              "strokeTo": 0
+            }
+          ]
+        },
         "hitEffect": {
           "type": "multiEffect",
           "effects": [
