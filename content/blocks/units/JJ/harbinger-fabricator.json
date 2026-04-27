@@ -2,18 +2,17 @@
 "localizedName": "Harbinger Fabricator",
 "description": "Builds T1 Harbinger units.",
 "research": "Quartz-core",
-"squareSprite": false,
 "category": "units",
 "type": "UnitFactory",
   "researchCostMultiplier": 0.3,
-  "size": 4,
+  "size": 5,
 "consumes": [
   "power", 1.5
 ],
 "requirements": [
-    "carborundum/500",
-    "Tronite/750",
-    "Gavolite/500"
+    "carborundum/300",
+    "Tronite/250",
+    "Gavolite/200"
   ],
 "plans": [
     {
