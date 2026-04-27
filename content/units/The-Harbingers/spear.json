@@ -1,6 +1,7 @@
 {
 "localizedName": "Spear",
 "description": "Fires piercing shells at enemy targets and less affected by liquid drag.",
+"details": "'We're the only reason that...thing, is still operational'.",
 "faceTarget": false,
 "squareShape": true,
 "type": "tank",

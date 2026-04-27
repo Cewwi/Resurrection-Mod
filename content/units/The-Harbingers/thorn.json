@@ -1,6 +1,7 @@
 {
 "localizedName": "Thorn",
 "description": "Fires shells at enemy targets. Losses it's shock aura.",
+"details": "'They dare strike at us? At such a moment?'.",
 "faceTarget": false,
 "squareShape": true,
 "type": "tank",
