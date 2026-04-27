@@ -9,13 +9,13 @@
   "legBaseOffset": 1,
   "legMoveSpace": 1,
   "legPairOffset": 2,
-  "fogRadius": 25,
+  "fogRadius": 30,
   "legContinuousMove": true,
   "hovering": false,
   "faceTarget": true,
   "name": "Hearth",
-  "description": "Fires exploding shells at enemies.",
-  "health": 1280,
+  "description": "Fires exploding shells at enemies, setting them ablaze.",
+  "health": 4980,
   "armor": 13,
   "speed": 1,
   "hitSize": 12,
@@ -25,6 +25,10 @@
   "itemCapacity": 90,
   "alwaysUnlocked": false,
   "outlineColor": "0C0D1BFF",
+  "immunities": [
+    "melting",
+    "burning"
+  ],
   "parts": [
     {
       "type": "RegionPart",
@@ -40,7 +44,7 @@
   "weapons": [
     {
       "name": "hearth-cannon",
-      "x": 12,
+      "x": 10,
       "y": 3,
       "rotateSpeed": 1.5,
       "mirror": true,
@@ -73,12 +77,14 @@
         "height": 16,
         "width": 10,
         "pierceDamageFactor": 1,
+        "status": "burning",
+        "statusDuration": 200,
         "pierceCap": 3,
         "pierceBuilding": false,
         "lifetime": 23,
-        "damage": 50,
-        "splashDamage": 70,
-        "splashDamageRadius": 30,
+        "damage": 250,
+        "splashDamage": 170,
+        "splashDamageRadius": 80,
         "despawnSound": "explosionDull",
         "hitSound": "explosionDull",
         "hitEffect": {
@@ -86,26 +92,10 @@
           "effects": [
             {
               "type": "ParticleEffect",
-              "line": true,
-              "particles": 15,
-              "lifetime": 20,
-              "interp": "circleOut",
-              "offset": 30,
-              "length": 20,
-              "lightColor": "FFB570FF",
-              "strokeFrom": 6,
-              "strokeTo": 0,
-              "lenFrom": 10,
-              "lenTo": 10,
-              "colorFrom": "FFB570FF",
-              "colorTo": "FFB570FF"
-            },
-            {
-              "type": "ParticleEffect",
               "particles": 15,
               "length": 30,
               "baseLength": 10,
-              "lifetime": 30,
+              "lifetime": 60,
               "lightColor": "FFB570FF",
               "interp": "circleOut",
               "cone": 360,
@@ -116,7 +106,7 @@
             },
             {
               "type": "WaveEffect",
-              "lifetime": 40,
+              "lifetime": 60,
               "sizeFrom": 0,
               "sizeTo": 40,
               "strokeFrom": 6,
