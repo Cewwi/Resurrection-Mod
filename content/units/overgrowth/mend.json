@@ -6,7 +6,7 @@
   "drag": 0.06,
   "outlineColor": "0C0D1BFF",
   "controller": "RepairAI",
-  "speed": 2,
+  "speed": 1.25,
   "legCount": 4,
   "legLength": 5,
   "legSpeed": 0.5,
@@ -24,7 +24,7 @@
   "isEnemy": true,
   "armor": 1,
   "buildSpeed": 0.2,
-  "health": 720,
+  "health": 920,
   "alwaysUnlocked": false,
   "parts": [
     {
@@ -52,7 +52,7 @@
   "weapons": [
     {
       "name": "Warden-T2-weapon",
-      "x": 10,
+      "x": 7,
       "y": 0,
       "shooty": 10,
       "reload": 60,
