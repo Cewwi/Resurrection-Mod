@@ -3,18 +3,17 @@
   "size": 7,
   "localizedName": "Harbinger Reconstructor",
   "description": "Upgrades to T3 Harbinger units.",
+  "constructTime": 1800,
   "consumes": {
     "power": 5.5,
-    "items": {
-      "items": [
+    "items":[
     "carborundum/125",
     "Thaxium/100",
     "Gavolite/150"
       ],
     "liquid": {
       "liquid": "Thaxus",
-      "amount": 0.25
-    }
+      "amount": 0.75
     }
   },
   "requirements": [

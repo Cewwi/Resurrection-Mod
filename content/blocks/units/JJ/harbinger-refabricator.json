@@ -4,6 +4,7 @@
   "squareSprite": false,
   "localizedName": "Harbinger Refabricator",
   "description": "Upgrades to T2 Harbinger units.",
+  "constructTime": 1400,
   "consumes": {
     "power": 2.5,
     "items": [
@@ -17,11 +18,11 @@
     }
   },
   "requirements": [
-    "carborundum/500",
-    "Tronite/750",
+    "carborundum/100",
+    "Tronite/250",
     "Thaxon/150",
     "Silver/150",
-    "Gavolite/500"
+    "Gavolite/100"
   ],
   "upgrades": [
     [
