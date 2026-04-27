@@ -131,18 +131,18 @@
             "lightOpacity": 0.7,
             "lightRadius": 12,
             "offset": 0,
-            "lightColor": "ff4f00",
-            "colorFrom": "ff4f00",
-            "colorTo": "954800",
+            "lightColor": "FFB570FF",
+            "colorFrom": "FFB570FF",
+            "colorTo": "ff4f00",
             "sizeFrom": 6,
             "sizeTo": 0
         },
         "lightOpacity": 0.7,
         "trailChance": 3,
         "lightRadius": 12,
-        "trailColor": "ff4f00",
+        "trailColor": "FFB570FF",
         "frontColor": "ffffff",
-        "backColor": "ff4f00",
+        "backColor": "FFB570FF",
         "trailLength": 10,
         "trailWidth": 1.25
       }
