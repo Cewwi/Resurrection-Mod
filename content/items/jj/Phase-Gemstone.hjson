@@ -1,7 +1,0 @@
-name: Phase Gemstone
-hardness: 1
-cost: 0.5
-alwaysUnlocked: false
-color: FFF3D6FF
-research: ChargeStone
-hiddenOnPlanets: [serpulo]

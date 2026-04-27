@@ -78,7 +78,6 @@ drawers: [
 }
 outputItems: [
   MagmaCell/2
-  Ashen-Silver/3
   Magma-stone/4
 ]
 category: crafting
@@ -89,6 +88,5 @@ requirements: [
   Gavolite/520
   Thoralius/120
   MagmaCell/50
-  Ashen-Silver/300
 ]
 itemCapacity: 20
