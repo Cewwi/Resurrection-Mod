@@ -145,7 +145,7 @@
         "hitSound": "explosionDull",
         "damage": 365,
         "hitEffect": "teleportOut",
-        "speed": 13,
+        "speed": 8,
         "backColor": "62A0FCFF",
         "lightColor": "62A0FCFF",
         "lightOpacity": 0.7,
