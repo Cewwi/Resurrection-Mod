@@ -5,7 +5,7 @@
   "shadowElevation": 0.3,
   "drag": 0.06,
   "outlineColor": "0C0D1BFF",
-  "defaultController": "PrebuildAI",
+  "controller": "PrebuildAI",
   "speed": 3,
   "playerControllable": true,
   "rotateSpeed": 4,

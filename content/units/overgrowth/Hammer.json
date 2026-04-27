@@ -5,7 +5,7 @@
   "shadowElevation": 0.3,
   "drag": 0.06,
   "outlineColor": "0C0D1BFF",
-  "defaultController": "DefenderAI",
+  "controller": "DefenderAI",
   "speed": 1,
   "rotateSpeed": 2,
   "hitSize": 35,
@@ -72,6 +72,7 @@
 "shootY": 15,
 "recoil": 3,
 "mirror": false,
+    "shootSound": "shootLancer",
 "bullet": {
   "type": "ArtilleryBulletType",
             "removeAfterPierce": false,
