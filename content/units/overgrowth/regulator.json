@@ -11,7 +11,7 @@
   "hitSize": 8,
   "layer": 112,
   "accel": 0.095,
-  "groundLayer": 60,
+  "groundLayer": 60, 
   "hovering": true,
   "isEnemy": true,
   "armor": 1,
