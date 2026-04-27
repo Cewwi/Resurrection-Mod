@@ -21,7 +21,7 @@
   "armor": 9,
   "speed": 2,
   "hitSize": 8,
-  "isEnemy": false,
+  "isEnemy": true,
   "mineSpeed": 3.5,
   "mineFloor": true,
   "mineWalls": true,
@@ -87,7 +87,7 @@
       "layerOffset": -0.00001,
       "reload": 6,
       "alternate": true,
-      "shootSound": "Heavy-Machine-gun",
+      "shootSound": "shootStell",
       "ejectEffect": "casing1",
       "bullet": {
         "type": "BasicBulletType",

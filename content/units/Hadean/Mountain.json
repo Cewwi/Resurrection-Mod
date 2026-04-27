@@ -122,7 +122,6 @@
       "rotate": true,
       "shootY": 4,
       "cooldownTime": 120,
-      "layerOffset": -0.00001,
       "inaccuracy": 2,
       "rotationLimit": 180,
       "reload": 6,

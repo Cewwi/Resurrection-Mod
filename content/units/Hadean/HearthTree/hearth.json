@@ -1,0 +1,113 @@
+{
+  "type": "legs",
+  "legCount": 4,
+  "legLength": 22,
+  "legSpeed": 0.5,
+  "legExtension": -5,
+  "legForwardScl": 0.2,
+  "envDisabled": 0,
+  "legBaseOffset": 1,
+  "legMoveSpace": 1,
+  "legPairOffset": 2,
+  "fogRadius": 25,
+  "legContinuousMove": true,
+  "hovering": false,
+  "faceTarget": true,
+  "name": "Hearth",
+  "description": "Fires small exploding shells at enemies.",
+  "health": 480,
+  "armor": 10,
+  "speed": 1,
+  "hitSize": 12,
+  "isEnemy": true,
+  "groundLayer": 75,
+  "drag": 0.4,
+  "itemCapacity": 90,
+  "alwaysUnlocked": false,
+  "outlineColor": "0C0D1BFF",
+  "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": false,
+      "blending": "additive",
+      "color": "D7FFB8FF",
+      "colorTo": "6BDE5DFF",
+      "outline": false
+    }
+  ],
+  "weapons": [
+    {
+      "name": "hearth-cannon",
+      "x": 3,
+      "y": 3,
+      "rotateSpeed": 1.5,
+      "mirror": true,
+      "rotate": true,
+      "shootY": 4,
+      "inaccuracy": 2,
+      "layerOffset": -0.00001,
+      "reload": 12,
+      "alternate": true,
+      "shootSound": "shootStell",
+      "rotationLimit": 60,
+      "ejectEffect": "casing1",
+  "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": false,
+      "blending": "additive",
+      "color": "FFB570FF",
+      "colorTo": "FFB570FF",
+      "outline": false
+    }
+  ],
+      "bullet": {
+        "type": "BasicBulletType",
+        "removeAfterPierce": false,
+        "collideTerrain": true,
+        "ammoMultiplier": 2,
+        "height": 16,
+        "width": 10,
+        "pierceDamageFactor": 1,
+        "pierceCap": 3,
+        "pierceBuilding": false,
+        "lifetime": 23,
+        "damage": 40,
+        "speed": 8.5,
+        "lightColor": "FFB570FF",
+        "lightOpacity": 0.7,
+        "lightRadius": 12,
+        "trailColor": "FFB570FF",
+        "frontColor": "ffffff",
+        "backColor": "FFB570FF",
+        "trailLength": 30,
+        "trailWidth": 1.25
+      }
+    },
+    {
+      "type": "RepairBeamWeapon",
+      "x": 0,
+      "y": -3,
+      "shootY": 0,
+      "reload": 20,
+      "rotate": false,
+      "beamWidth": 0.4,
+      "controllable": false,
+      "autoTarget": true,
+      "mirror": false,
+      "repairSpeed": 0.3,
+      "fractionRepairSpeed": 0.2,
+      "targetBuildings": true,
+      "laserColor": "E5E5E5FF",
+      "healColor": "E5E5E5FF",
+      "bullet": {
+        "maxRange": 20,
+        "speed": 3
+      }
+    }
+  ]
+}
