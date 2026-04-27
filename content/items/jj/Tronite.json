@@ -2,7 +2,7 @@
     "name": "Tronite",
     "description": "Reliable.",
     "hardness": 1,
-    "cost": 8.5,
+    "cost": 1,
     "alwaysUnlocked": false,
     "explosiveness": 0.2,
     "color": "ffffff",

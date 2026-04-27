@@ -9,4 +9,4 @@ requirements: [
 ]
 research: Caven-core
 category: defense
-researchCostMultiplier: 0.05
+researchCostMultiplier: 1.5
