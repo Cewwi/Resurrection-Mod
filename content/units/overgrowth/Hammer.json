@@ -12,7 +12,7 @@
   "layer": 112,
   "accel": 0.095,
   "hovering": true,
-  "playerControllable": false,
+  "playerControllable": true,
   "isEnemy": true,
   "armor": 30,
   "mineSpeed": 4,
@@ -62,8 +62,8 @@
   ],
   "weapons": [
     {
-"x": 25,
-"y": 25,
+"x": 0,
+"y": -15,
 "top": true,
 "reload": 650,
 "rotate": true,
@@ -72,20 +72,15 @@
 "shootY": 15,
 "recoil": 3,
 "mirror": false,
-"alternate": true,
-  "shoot": {
-    "type": "ShootAlternate",
-    "barrels": 1,
-    "shots": 3
-  },
 "bullet": {
   "type": "ArtilleryBulletType",
             "removeAfterPierce": false,
             "collideTerrain": true,
-            "height": 0,
+            "sprite": "circle-bullet",
+            "height": 12,
             "shootEffect": "teleportOut",
             "hitColor": "D7FFB8FF",
-            "width": 9,
+            "width": 12,
             "pierceDamageFactor": 0.8,
             "backColor": "D7FFB8FF",
             "pierceCap": 5,
@@ -156,7 +151,7 @@
             "lightRadius": 12,
             "trailColor": "6BDE5DFF",
             "trailLength": 5,
-            "trailWidth": 1.25
+            "trailWidth": 2
         }
 },
     {

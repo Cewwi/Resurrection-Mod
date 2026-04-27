@@ -7,7 +7,7 @@
   "outlineColor": "0C0D1BFF",
   "defaultController": "PrebuildAI",
   "speed": 3,
-  "playerControllable": false,
+  "playerControllable": true,
   "rotateSpeed": 4,
   "hitSize": 8,
   "layer": 112,

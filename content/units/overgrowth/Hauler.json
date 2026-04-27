@@ -6,6 +6,7 @@
   "drag": 0.06,
   "outlineColor": "0C0D1BFF",
   "defaultController": "minerAI",
+  "playerControllable": true,
   "speed": 5,
   "rotateSpeed": 5,
   "hitSize": 16,
