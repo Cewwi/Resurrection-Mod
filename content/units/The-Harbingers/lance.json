@@ -50,6 +50,7 @@
       "length": 175,
       "serrations": 5,
       "fromColor": "3D58F0FF",
+      "collideTerrain": true,
       "toColor": "3D58F0FF",
       "hitEffect": {
         "type": "ParticleEffect",

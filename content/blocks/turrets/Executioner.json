@@ -13,6 +13,8 @@
   "targetUnderBlocks": false,
   "shootY": 15,
   "shootCone": 3,
+  "fogRadiusMultiplier": 0.4,
+  "unitSort": "strongest",
   "research": "",
   "shake": 3,
   "requirements": [
@@ -78,6 +80,7 @@
 "Magma-stone": {
 "type": "BasicBulletType",
   "sprite": "circle-bullet",
+  "collideTerrain": true,
   "firstShotDelay": 150,
   "status": "melting",
   "statusDuration": 150,

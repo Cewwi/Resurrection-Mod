@@ -12,6 +12,7 @@
   "inaccuracy": 5,
   "category": "turret",
   "targetUnderBlocks": false,
+  "fogRadiusMultiplier": 0.4,
   "shootY": 5,
   "shootCone": 3,
   "requirements": [
@@ -92,7 +93,6 @@
         "trailLength": 9,
         "trailColor": "FFB570FF",
         "trailWidth": 8,
-  "buildingDamageMultiplier": 0.5,
   "hitEffect": "titanExplosion",
   "despawnEffect": "titanExplosion",
   "hitColor": "FFB570FF"

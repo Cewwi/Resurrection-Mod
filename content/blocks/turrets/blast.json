@@ -75,6 +75,7 @@
   "ammoMultiplier": 2,
   "pierceCap": 3,
   "pierce": true,
+  "collideTerrain": true,
   "pierceBuilding": false,
   "trailColor": "444759",
   "backColor": "5f6372",

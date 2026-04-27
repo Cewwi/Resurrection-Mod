@@ -173,6 +173,7 @@
         "damage": 600,
         "healPercent": 3,
         "collidesTeam": true,
+        "collideTerrain": true,
         "hitEffect": "lightningShoot",
         "shootEffect": "lightningShoot",
         "shooteffect": {
