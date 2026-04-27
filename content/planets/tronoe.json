@@ -95,7 +95,7 @@
     "berylChance": 0,
     "ferricChance": 0.26
   },
-  "sectorSize": 1,
+  "sectorSize": 0.2,
   "allowLaunchSchematics": false,
   "allowLaunchToNumbered": false,
   "allowLaunchLoadout": false,

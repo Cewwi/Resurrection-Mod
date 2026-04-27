@@ -5,6 +5,7 @@
   "shadowElevation": 0.3,
   "drag": 0.06,
   "outlineColor": "0C0D1BFF",
+  "defaultController": "minerAI",
   "speed": 5,
   "rotateSpeed": 5,
   "hitSize": 16,

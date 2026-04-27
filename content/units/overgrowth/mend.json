@@ -5,6 +5,7 @@
   "shadowElevation": 0.3,
   "drag": 0.06,
   "outlineColor": "0C0D1BFF",
+  "defaultController": "RepairAI",
   "speed": 2,
   "rotateSpeed": 4,
   "hitSize": 8,
