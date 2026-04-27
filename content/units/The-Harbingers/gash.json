@@ -77,18 +77,18 @@
             {
               "type": "ParticleEffect",
               "line": true,
-              "particles": 15,
-              "lifetime": 30,
+              "particles": 25,
+              "lifetime": 80,
               "interp": "circleOut",
               "offset": 30,
-              "length": 50,
-              "lightColor": "ff7048",
-              "strokeFrom": 4,
+              "length": 80,
+              "lightColor": "62A0FCFF",
+              "strokeFrom": 6,
               "strokeTo": 0,
               "lenFrom": 10,
               "lenTo": 10,
-              "colorFrom": "ffcea0",
-              "colorTo": "ff7048"
+              "colorFrom": "62A0FCFF",
+              "colorTo": "62A0FCFF"
             },
             {
               "type": "ParticleEffect",
@@ -96,11 +96,11 @@
               "length": 120,
               "baseLength": 10,
               "lifetime": 100,
-              "lightColor": "ff7048",
+              "lightColor": "62A0FCFF",
               "interp": "circleOut",
               "cone": 360,
-              "colorFrom": "ffcea0",
-              "colorTo": "ff7048",
+              "colorFrom": "62A0FCFF",
+              "colorTo": "62A0FCFF",
               "sizeFrom": 6,
               "sizeTo": 0
             },
@@ -109,10 +109,20 @@
               "lifetime": 30,
               "sizeFrom": 0,
               "sizeTo": 40,
-              "strokeFrom": 3,
+              "strokeFrom": 6,
               "strokeTo": 0,
-              "colorFrom": "ffcea0",
-              "colorTo": "ff7048"
+              "colorFrom": "62A0FCFF",
+              "colorTo": "62A0FCFF"
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 60,
+              "sizeFrom": 0,
+              "sizeTo": 80,
+              "strokeFrom": 12,
+              "strokeTo": 0,
+              "colorFrom": "62A0FCFF",
+              "colorTo": "62A0FCFF"
             }
           ]
         },
@@ -158,7 +168,7 @@
         "trailWidth": 4,
         "bulletInterval": 3,
         "intervalBullets": 6,
-        "intervalRandomSpread": 0,
+        "intervalRandomSpread": 120,
         "intervalSpread": 360,
         "intervalBullet": {
             "type": "BasicBulletType",
