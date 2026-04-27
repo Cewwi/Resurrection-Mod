@@ -8,7 +8,7 @@
   "controller": "RepairAI",
   "speed": 1.25,
   "legCount": 4,
-  "legLength": 5,
+  "legLength": 10,
   "legSpeed": 0.5,
   "legExtension": -10.5,
   "legForwardScl": 0,
