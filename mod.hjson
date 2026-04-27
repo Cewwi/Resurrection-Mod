@@ -6,7 +6,7 @@ description: '''
 
 Drop a star in the project's repo.
 '''
-version: "[#ffc100]0]"
+version: "[#ffc100]0[]"
 minGameVersion: "154"
 hideBrowser: true
 hidden: false
