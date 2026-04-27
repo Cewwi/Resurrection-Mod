@@ -153,8 +153,8 @@
         "trailEffect": {
             "type": "ParticleEffect",
             "particles": 3,
-            "length": 8,
-            "baseLength": 6,
+            "length": 3,
+            "baseLength": 3,
             "lifetime": 75,
             "interp": "circleOut",
             "cone": 360,
