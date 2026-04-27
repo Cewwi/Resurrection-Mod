@@ -7,6 +7,7 @@
     "carborundum/50"
   ],
   "moveTime": 80,
+  "payloadLimit": 7,
   "size": 7,
   "canOverdrive": true,
   "research": "Payload-Transporter",
