@@ -1,6 +1,6 @@
 {
 "localizedName": "Gash",
-"description": "[[]#62A0FCFF]Fires a powerful piercing, fragmenting shell at enemy targets, has 4 artillery cannons, unaffected by liquid drag, and able to float in liquids.[[]]",
+"description": "[#62A0FCFFF] Fires a powerful piercing, fragmenting shell at enemy targets, has 4 artillery cannons, unaffected by liquid drag, and able to float in liquids.",
 "details": "'Those crystal dwellers brought their own annihilation. If not for us, that damned super computor would have been failed long before Hadean Xerok's fleet knew about it.'.",
 "faceTarget": false,
 "squareShape": true,
