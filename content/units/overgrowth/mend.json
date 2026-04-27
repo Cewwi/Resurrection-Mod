@@ -10,7 +10,7 @@
   "rotateSpeed": 4,
   "hitSize": 8,
   "accel": 0.095,
-  "UnitCommand": "repairCommand",
+  "playerControllable": false,
   "groundLayer": 60,
   "drownTimeMultiplier": 2,
   "hovering": true,
