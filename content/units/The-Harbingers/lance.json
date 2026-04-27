@@ -153,7 +153,7 @@
         "trailEffect": {
             "type": "ParticleEffect",
             "particles": 3,
-            "length": 2,
+            "length": 12,
             "baseLength": 6,
             "lifetime": 75,
             "interp": "circleOut",
@@ -163,15 +163,15 @@
             "offset": 0,
             "lightColor": "62A0FCFF",
             "colorFrom": "62A0FCFF",
-            "colorTo": "505050FF",
+            "colorTo": "3D58F0FF",
             "sizeFrom": 5,
             "sizeTo": 0
         },
         "trailChance": 0.5,
         "trailParam": 1,
         "trailColor": "62A0FCFF",
-        "trailLength": 5,
-        "trailWidth": 12,
+        "trailLength": 12,
+        "trailWidth": 6,
         "fragBullet": {
             "type": "BasicBulletType",
             "removeAfterPierce": false,
