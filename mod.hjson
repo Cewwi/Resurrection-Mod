@@ -9,4 +9,4 @@ minGameVersion: "154"
 dependencies: [ ]
 main: "cataclysm.Cataclysm"
 hidden: false
-subtitle: "Reinstall from the mod browser."
+subtitle: "Reinstall from the mod browser." 
