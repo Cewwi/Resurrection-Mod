@@ -9,5 +9,4 @@ minGameVersion: "154"
 dependencies: [ ]
 main: "cataclysm.Cataclysm"
 hidden: false
-subtitle: "Beta Release."
-repo:  https://github.com/JJTheCold/Cataclysm-Mod
+subtitle: "You may need to reinstall from the mod browser."
