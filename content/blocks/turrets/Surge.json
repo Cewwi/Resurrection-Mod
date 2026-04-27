@@ -8,7 +8,6 @@
   "range": 220,
   "outlineColor": "0C0D1BFF",
   "recoil": 3,
-  "shake": 3,
   "inaccuracy": 5,
   "category": "turret",
   "targetUnderBlocks": true,
@@ -22,18 +21,18 @@
   "Ordanium/250",
   "Tronite/750",
   "Silver/500"
-  ]
+  ],
   "coolant": {
     "type": "ConsumeLiquid",
     "liquid": "Thaxus",
-    "amount": 0.5,
+    "amount": 0.5
   },
   "size": 4,
   "health": 3250,
   "armor": 5,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "Harbinger-"
+    "basePrefix": "Harbinger-",
     "parts": [
       {
         "type": "RegionPart",
@@ -43,12 +42,12 @@
         "alternate": false,
         "moveY": -4,
         "moveX": 2.5,
-        "moveRot": -20
+        "moveRot": -20,
         "progress": {
           "type": "recoil",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2,
+          "amount": 0.2
         },
         "mirror": true
       },
@@ -71,11 +70,11 @@
 "color": "3d58f0",
 "radiusTo": 1,
 "radius": 2
-},
+}
 ]
 },
 "consumes": {
-    "power": 4,
+    "power": 4
   },
 "shootSound": "Heavy-Discharge",
   "ammoTypes": {
@@ -150,7 +149,7 @@
     "lifetime": 1
   }
 }
-}
+},
 "research": {
 "objectives": [
 "sublimate"

@@ -11,7 +11,7 @@
 "speed": 0.65,
 "hitSize": 30,
 "health": 13250,
-"fogRadius": 50,
+"fogRadius": 30,
 "drownTimeMultiplier": 6,
 "floorMultiplier": 0.1,
 "crushDamage": 2,

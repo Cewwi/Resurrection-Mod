@@ -333,7 +333,7 @@
         "damage": 144500,
         "scaleVelocity": "true",
         "splashDamage": 7750,
-        "splashDamageRadius": 110,
+        "splashDamageRadius": 210,
         "height": 28.5,
         "width": 28.5,
         "speed": 6,
