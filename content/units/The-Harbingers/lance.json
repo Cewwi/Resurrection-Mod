@@ -169,7 +169,7 @@
             "sizeFrom": 6,
             "sizeTo": 0
         },
-        "trailChance": 0.5,
+        "trailChance": 2,
         "trailParam": 1,
         "trailColor": "62A0FCFF",
         "trailLength": 12,
