@@ -29,7 +29,7 @@
 "x": 0,
 "y": 5,
 "top": true,
-"reload": 30,
+"reload": 45,
 "rotate": true,
 "firstShotDelay": 50,
 "rotateSpeed": 2,
@@ -43,7 +43,7 @@
       "type": "ShrapnelBulletType",
       "lifetime": 23,
       "length": 2,
-      "serrations": 0,
+      "serrations": 10,
       "fromColor": "3D58F0FF",
       "toColor": "3D58F0FF"
     }
@@ -58,7 +58,7 @@
       "layerOffset": 1,
       "shootY": 30,
       "inaccuracy": 0,
-      "reload": 45,
+      "reload": 145,
       "shootSound": "shootTank",
       "parts": [
         {
@@ -85,10 +85,11 @@
         "width": 16,
         "pierceDamageFactor": 0.8,
         "pierceCap": 5,
-        "lifetime": 3,
+        "pierceBuilding": true,
+        "lifetime": 8,
         "despawnSound": "explosionDull",
         "hitSound": "explosionDull",
-        "damage": 150,
+        "damage": 450,
         "hitEffect": "teleportOut",
         "speed": 43,
         "backColor": "62A0FCFF",
@@ -100,7 +101,7 @@
             "particles": 3,
             "length": 2,
             "baseLength": 2,
-            "lifetime": 125,
+            "lifetime": 225,
             "interp": "circleOut",
             "cone": 360,
             "lightOpacity": 0.7,
@@ -112,8 +113,8 @@
             "sizeFrom": 5,
             "sizeTo": 0
         },
-        "trailChance": 5,
-        "trailParam": 1,
+        "trailChance": 50,
+        "trailParam": 3,
         "trailColor": "62A0FCFF",
         "trailLength": 12,
         "trailWidth": 4
