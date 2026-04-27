@@ -15,7 +15,7 @@
 "fogRadius": 90,
 "canDrown": false,
 "lightColor": "62A0FCFF",
-"lightRadius": 250,
+"lightRadius": 500,
 "floorMultiplier": 0,
 "crushDamage": 8,
 "armor": 35,

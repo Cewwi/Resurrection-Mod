@@ -13,6 +13,8 @@
 "hitSize": 30,
 "health": 13250,
 "fogRadius": 30,
+"lightColor": "62A0FCFF",
+"lightRadius": 250,
 "drownTimeMultiplier": 6,
 "floorMultiplier": 0.1,
 "crushDamage": 2,

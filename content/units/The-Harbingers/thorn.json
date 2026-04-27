@@ -9,6 +9,8 @@
 "treadPullOffset": 5,
 "omniMovement": false,
 "outlineColor": "0C0D1BFF",
+"lightColor": "ECECECFF",
+"lightRadius": 100,
 "speed": 0.7,
 "hitSize": 15,
 "health": 1775,

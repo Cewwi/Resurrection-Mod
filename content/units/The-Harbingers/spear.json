@@ -13,6 +13,8 @@
 "health": 5750,
 "fogRadius": 30,
 "drownTimeMultiplier": 2,
+"lightColor": "62A0FCFF",
+"lightRadius": 150,
 "floorMultiplier": 0.6,
 "crushDamage": 1.4,
 "armor": 20,

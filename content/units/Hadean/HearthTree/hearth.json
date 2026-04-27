@@ -12,6 +12,8 @@
   "fogRadius": 30,
   "legContinuousMove": true,
   "hovering": false,
+  "lightColor": "ff4f00",
+  "lightRadius": 150,
   "faceTarget": true,
   "name": "Hearth",
   "description": "Fires exploding shells at enemies, setting them ablaze.",
@@ -74,8 +76,8 @@
         "removeAfterPierce": false,
         "collideTerrain": true,
         "ammoMultiplier": 2,
-        "height": 16,
-        "width": 10,
+        "height": 25,
+        "width": 16,
         "pierceDamageFactor": 1,
         "status": "burning",
         "statusDuration": 200,
@@ -92,7 +94,7 @@
           "effects": [
             {
               "type": "ParticleEffect",
-              "particles": 15,
+              "particles": 25,
               "length": 30,
               "baseLength": 10,
               "lifetime": 60,
@@ -100,7 +102,7 @@
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "FFB570FF",
-              "colorTo": "FFB570FF",
+              "colorTo": "ff4f00",
               "sizeFrom": 12,
               "sizeTo": 0
             },
@@ -129,8 +131,8 @@
             "lightOpacity": 0.7,
             "lightRadius": 12,
             "offset": 0,
-            "lightColor": "FFB570FF",
-            "colorFrom": "ffad61",
+            "lightColor": "ff4f00",
+            "colorFrom": "ff4f00",
             "colorTo": "954800",
             "sizeFrom": 6,
             "sizeTo": 0
@@ -138,9 +140,9 @@
         "lightOpacity": 0.7,
         "trailChance": 3,
         "lightRadius": 12,
-        "trailColor": "FFB570FF",
+        "trailColor": "ff4f00",
         "frontColor": "ffffff",
-        "backColor": "FFB570FF",
+        "backColor": "ff4f00",
         "trailLength": 10,
         "trailWidth": 1.25
       }
