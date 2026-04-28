@@ -20,7 +20,7 @@
   "plans": [
     {
       "type": "AssemblerUnitPlan",
-      "unit": "Dominique",
+      "unit": "gash",
       "requirements": [
         "Ordanium-wall/25",
         "blast/12",
@@ -30,7 +30,7 @@
     },
     {
       "type": "AssemblerUnitPlan",
-      "unit": "Dominique",
+      "unit": "lance",
       "requirements": [
         "T-quartz-wall/25",
         "catapult/4",
