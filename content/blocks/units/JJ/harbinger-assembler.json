@@ -43,7 +43,7 @@
   "consumes": {
     "power": 6,
     "liquids": [
-      "Thoralius/0.4"
+      "Thaxus/0.4"
     ]
   },
   "areaSize": 18
