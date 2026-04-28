@@ -34,7 +34,7 @@
     {
       "name": "scorch-cannon",
       "x": 8,
-      "y": -3,
+      "y": 3,
       "rotateSpeed": 1.5,
       "mirror": true,
       "rotate": true,
@@ -57,7 +57,21 @@
         "damage": 22,
         "pierceDamageFactor": 0.8,
         "hitSize": 5,
-        "hitEffect": "none",
+        "hitEffect": 
+            {
+              "type": "ParticleEffect",
+              "particles": 5,
+              "length": 10,
+              "baseLength": 10,
+              "lifetime": 80,
+              "lightColor": "FFB570FF",
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "FFB570FF",
+              "colorTo": "ff4f00",
+              "sizeFrom": 12,
+              "sizeTo": 0
+            },
         "despawnEffect": "none",
         "speed": 7,
         "lightColor": "FFB570FF",
