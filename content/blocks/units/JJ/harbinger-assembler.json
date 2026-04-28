@@ -1,0 +1,50 @@
+{
+  "researchCostMultiplier": 0.5,
+  "type": "UnitAssembler",
+  "name": "Titan Mech Assembler",
+  "description": "Creates Powerful Harbinger units from payloads.",
+  "size": 7,
+  "category": "units",
+  "droneType": "assembly-drone",
+  "dronesCreated": 4,
+  "droneConstructTime": 80,
+  "research": "mech-assembler",
+  "requirements": [
+    "Gavolite/3000",
+    "Thaxon-Steel/3000",
+    "Thoralius/1000",
+    "carborundum/1500",
+    "Tronite/500",
+    "Thaxon/750"
+  ],
+  "plans": [
+    {
+      "type": "AssemblerUnitPlan",
+      "unit": "Dominique",
+      "requirements": [
+        "Ordanium-wall/25",
+        "blast/12",
+        "spear/6"
+      ],
+      "time": 25000
+    },
+    {
+      "type": "AssemblerUnitPlan",
+      "unit": "Dominique",
+      "requirements": [
+        "T-quartz-wall/25",
+        "catapult/4",
+        "thorn/4"
+      ],
+      "time": 20000
+    }
+  ],
+  "squareSprite": false,
+  "consumes": {
+    "power": 6,
+    "liquids": [
+      "Thoralius/0.4"
+    ]
+  },
+  "areaSize": 18
+}

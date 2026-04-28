@@ -15,10 +15,10 @@
   "rotateSpeed": 7,
   "researchCostMultiplier": 5,
  "requirements": [
-     "Tronite/75",
+     "Thaxium/75",
      "Ordanium/100",
      "Silver/150",
-     "Thaxon-Steel/100"
+     "Thaxon/100"
   ],
    "category": "production",
   "research": "Blast-Drill"
