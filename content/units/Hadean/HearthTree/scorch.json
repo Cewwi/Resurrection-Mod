@@ -1,7 +1,7 @@
 {
   "type": "legs",
   "legCount": 4,
-  "legLength": 23,
+  "legLength": 28,
   "legSpeed": 0.5,
   "legExtension": -5,
   "legForwardScl": 0.2,
@@ -41,9 +41,9 @@
       "shootY": 5,
       "inaccuracy": 29,
       "layerOffset": -0.00001,
-      "reload": 1,
+      "reload": 5,
       "alternate": true,
-      "shootSound": "shootStell",
+      "shootSound": "shootFlame",
       "rotationLimit": 60,
       "ejectEffect": "casing1",
       "bullet": {
@@ -59,7 +59,7 @@
         "pierceDamageFactor": 0.8,
         "hitEffect": {},
         "despawnEffect": {},
-        "speed": 44,
+        "speed": 15,
         "lightColor": "FFB570FF",
         "trailEffect": {
             "type": "ParticleEffect",
@@ -73,7 +73,7 @@
             "lightRadius": 25,
             "offset": 0,
             "lightColor": "FFB570FF",
-            "colorFrom": "FFB570FF",
+            "colorFrom": "ff4f00",
             "colorTo": "464646",
             "sizeFrom": 8,
             "sizeTo": 0
