@@ -87,6 +87,35 @@
             }
           ]
         },
+        "despawnEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 12,
+              "length": 15,
+              "baseLength": 10,
+              "lifetime": 18,
+              "lightColor": "FFB570FF",
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "FFB570FF",
+              "colorTo": "FFB570FF",
+              "sizeFrom": 4,
+              "sizeTo": 0
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 10,
+              "sizeFrom": 0,
+              "sizeTo": 10,
+              "strokeFrom": 6,
+              "strokeTo": 0,
+              "colorFrom": "FFB570FF",
+              "colorTo": "FFB570FF"
+            }
+          ]
+        },
         "speed": 7,
         "lightColor": "FFB570FF",
         "trailEffect": {
