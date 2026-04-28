@@ -55,7 +55,6 @@
       "bullet": {
         "type": "BasicBulletType",
         "removeAfterPierce": false,
-        "collideTerrain": true,
         "height": 40,
         "shootEffect": "teleportOut",
         "hitColor": "62A0FCFF",

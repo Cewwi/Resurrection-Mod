@@ -61,7 +61,6 @@
   "width": 4,
   "length": 14,
   "hitSize": 7,
-  "collideTerrain": true,
   "damage": 165,
   "height": 15,
   "shootEffect": "shootBig",

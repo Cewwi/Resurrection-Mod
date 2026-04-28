@@ -52,7 +52,6 @@
       "length": 175,
       "serrations": 5,
       "fromColor": "3D58F0FF",
-      "collideTerrain": true,
       "toColor": "3D58F0FF",
       "hitEffect": {
         "type": "ParticleEffect",
@@ -135,7 +134,7 @@
       "bullet": {
         "type": "BasicBulletType",
         "removeAfterPierce": false,
-        "collideTerrain": true,
+        
         "height": 40,
         "shootEffect": "teleportOut",
         "hitColor": "62A0FCFF",
@@ -179,7 +178,7 @@
         "fragBullet": {
             "type": "BasicBulletType",
             "removeAfterPierce": false,
-            "collideTerrain": true,
+            
             "height": 20,
             "shootEffect": "teleportOut",
             "hitColor": "62A0FCFF",

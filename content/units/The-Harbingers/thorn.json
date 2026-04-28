@@ -48,7 +48,6 @@
   "width": 8,
   "length": 20,
   "hitSize": 15,
-  "collideTerrain": true,
   "damage": 250,
   "height": 15,
   "shootEffect": "explosion",
@@ -114,7 +113,7 @@
       "bullet": {
         "type": "BasicBulletType",
         "removeAfterPierce": false,
-        "collideTerrain": true,
+        
         "ammoMultiplier": 2,
         "height": 8,
         "width": 5.5,

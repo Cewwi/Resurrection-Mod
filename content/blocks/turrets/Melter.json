@@ -35,7 +35,6 @@
 "damage": 2,
 "knockback": 3,
 "buildingDamageMultiplier": 0.24,
-  "collideTerrain": true,
 "width": 2.5,
 "drawFlare": false,
 "lifetime": 60,

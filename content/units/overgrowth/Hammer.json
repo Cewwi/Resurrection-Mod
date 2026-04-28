@@ -76,7 +76,6 @@
 "bullet": {
   "type": "ArtilleryBulletType",
             "removeAfterPierce": false,
-            "collideTerrain": true,
             "sprite": "circle-bullet",
             "height": 12,
             "shootEffect": "teleportOut",
@@ -173,7 +172,6 @@
         "damage": 600,
         "healPercent": 3,
         "collidesTeam": true,
-        "collideTerrain": true,
         "hitEffect": "lightningShoot",
         "shootEffect": "lightningShoot",
         "shooteffect": {

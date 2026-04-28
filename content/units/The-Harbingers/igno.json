@@ -155,7 +155,6 @@
   "width": 4,
   "length": 14,
   "hitSize": 7,
-  "collideTerrain": true,
   "damage": 1050,
   "height": 15,
   "shootEffect": "explosion",

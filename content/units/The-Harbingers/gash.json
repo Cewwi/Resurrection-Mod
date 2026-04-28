@@ -51,7 +51,6 @@
 "bullet": {
   "type": "ArtilleryBulletType",
             "removeAfterPierce": false,
-            "collideTerrain": true,
             "height": 30,
             "shootEffect": "teleportOut",
             "hitColor": "62A0FCFF",
@@ -141,7 +140,7 @@
 "bullet": {
   "type": "ArtilleryBulletType",
             "removeAfterPierce": false,
-            "collideTerrain": true,
+            
             "height": 30,
             "shootEffect": "teleportOut",
             "hitColor": "62A0FCFF",
@@ -238,7 +237,7 @@
         "type": "BasicBulletType",
         "sprite": "missile-large",
         "removeAfterPierce": false,
-        "collideTerrain": true,
+        
         "height": 63,
         "hitColor": "62A0FCFF",
         "splashDamage": 450,
@@ -399,7 +398,7 @@
         "intervalBullet": {
             "type": "BasicBulletType",
             "removeAfterPierce": false,
-            "collideTerrain": true,
+            
             "height": 20,
             "shootEffect": "teleportOut",
             "hitColor": "62A0FCFF",
@@ -425,7 +424,7 @@
         "fragBullet": {
             "type": "BasicBulletType",
             "removeAfterPierce": false,
-            "collideTerrain": true,
+            
             "height": 40,
             "shootEffect": "teleportOut",
             "hitColor": "62A0FCFF",

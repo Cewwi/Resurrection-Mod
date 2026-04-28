@@ -62,7 +62,6 @@
   "ammoTypes": {
 "Magma-stone": {
 "type": "ArtilleryBulletType",
-  "collideTerrain": true,
   "sprite": "circle-bullet",
   "status": "blasted",
   "shrinkX": 0.2,

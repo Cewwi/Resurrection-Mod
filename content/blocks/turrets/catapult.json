@@ -39,7 +39,6 @@
       "type": "ShrapnelBulletType",
       "lifetime": 18,
       "length": 160,
-      "collideTerrain": true,
       "serrations": 6,
       "fromColor": "E5E5E5FF",
       "toColor": "E5E5E5FF",

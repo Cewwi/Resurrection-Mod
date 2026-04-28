@@ -72,7 +72,6 @@
         "type": "ShrapnelBulletType",
         "damage": 120,
         "width": 25,
-        "collideTerrain": true,
         "ammoMultiplier": 5,
         "pierce": true,
         "lifetime": 18,

@@ -80,7 +80,6 @@
 "Magma-stone": {
 "type": "BasicBulletType",
   "sprite": "circle-bullet",
-  "collideTerrain": true,
   "firstShotDelay": 150,
   "status": "melting",
   "statusDuration": 150,
