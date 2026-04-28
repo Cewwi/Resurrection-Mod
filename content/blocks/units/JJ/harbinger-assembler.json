@@ -21,6 +21,7 @@
     {
       "type": "AssemblerUnitPlan",
       "unit": "gash",
+      "tier": 1,
       "requirements": [
         "Ordanium-wall/25",
         "blast/12",
