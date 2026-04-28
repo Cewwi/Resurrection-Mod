@@ -53,7 +53,7 @@
         "status": "burning",
         "statusDuration": 1200,
         "pierce": true,
-        "drag": 0.01,
+        "drag": 0.4,
         "lifetime": 20,
         "damage": 22,
         "pierceDamageFactor": 0.8,
@@ -73,7 +73,7 @@
             "lightRadius": 25,
             "offset": 0,
             "lightColor": "FFB570FF",
-            "colorFrom": "ff4f00",
+            "colorFrom": "ff7c41",
             "colorTo": "464646",
             "sizeFrom": 8,
             "sizeTo": 0
