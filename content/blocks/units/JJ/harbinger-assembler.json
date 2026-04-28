@@ -21,23 +21,13 @@
     {
       "type": "AssemblerUnitPlan",
       "unit": "gash",
-      "tier": 1,
       "requirements": [
         "Ordanium-wall/25",
         "blast/12",
+        "lance/2",
         "spear/6"
       ],
       "time": 25000
-    },
-    {
-      "type": "AssemblerUnitPlan",
-      "unit": "lance",
-      "requirements": [
-        "T-quartz-wall/25",
-        "catapult/4",
-        "thorn/4"
-      ],
-      "time": 20000
     }
   ],
   "squareSprite": false,
