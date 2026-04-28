@@ -1,7 +1,7 @@
 {
   "type": "legs",
   "legCount": 4,
-  "legLength": 18,
+  "legLength": 23,
   "legSpeed": 0.5,
   "legExtension": -5,
   "legForwardScl": 0.2,
@@ -32,8 +32,8 @@
   ],
   "weapons": [
     {
-      "name": "heat-cannon",
-      "x": 6,
+      "name": "scorch-cannon",
+      "x": 8,
       "y": 3,
       "rotateSpeed": 1.5,
       "mirror": true,
@@ -51,15 +51,15 @@
         "height": 1,
         "width": 1,
         "status": "burning",
-        "statusDuration": 1000,
+        "statusDuration": 1200,
         "pierce": true,
         "drag": 0.4,
-        "lifetime": 23,
+        "lifetime": 153,
         "damage": 22,
         "pierceDamageFactor": 0.8,
         "hitEffect": {},
         "despawnEffect": {},
-        "speed": 2,
+        "speed": 4,
         "lightColor": "FFB570FF",
         "trailEffect": {
             "type": "ParticleEffect",
