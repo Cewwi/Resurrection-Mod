@@ -83,7 +83,7 @@
         "lifetime": 23,
         "damage": 150,
         "splashDamage": 90,
-        "splashDamageRadius": 80,
+        "splashDamageRadius": 30,
         "despawnSound": "explosionDull",
         "hitSound": "explosionDull",
         "hitEffect": {
