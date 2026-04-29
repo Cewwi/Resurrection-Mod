@@ -6,7 +6,7 @@
   "legExtension": -5,
   "legForwardScl": 0.2,
   "envDisabled": 0,
-  "legBaseOffset": 1,
+  "legBaseOffset": -2,
   "legMoveSpace": 1,
   "legPairOffset": 2,
   "fogRadius": 20,
