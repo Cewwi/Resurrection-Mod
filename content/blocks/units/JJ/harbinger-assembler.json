@@ -22,17 +22,17 @@
       "type": "AssemblerUnitPlan",
       "unit": "gash",
       "requirements": [
-        "cataclysm-Ordanium-wall/25",
+        "cataclysm-Large-Ordanium-wall/25",
         "cataclysm-blast/12",
-        "cataclysm-lance/2",
-        "cataclysm-spear/6"
+        "cataclysm-thorn/8",
+        "cataclysm-spear/4"
       ],
-      "time": 25000
+      "time": 20000
     }
   ],
   "squareSprite": false,
   "consumes": {
-    "power": 6,
+    "power": 12,
     "liquids": [
       "Thaxus/0.4"
     ]

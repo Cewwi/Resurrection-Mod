@@ -6,6 +6,7 @@
     "carborundum/5"
   ],
   "moveTime": 45,
+  "category": "units",
   "canOverdrive": true,
   "health": 500,
   "researchCostMultiplier": 4,
