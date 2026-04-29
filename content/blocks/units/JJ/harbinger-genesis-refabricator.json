@@ -1,0 +1,34 @@
+{
+  "type": "Reconstructor",
+  "size": 7,
+  "localizedName": "Harbinger Genesis Reconstructor",
+  "description": "Upgrades to T4 Harbinger units.",
+  "constructTime": 5800,
+  "consumes": {
+    "power": 3,
+    "items":[
+    "carborundum/125",
+    "Thaxium/100",
+    "Gavolite/150"
+      ],
+    "liquid": {
+      "liquid": "Thaxus",
+      "amount": 0.45
+    }
+  },
+  "requirements": [
+    "carborundum/250",
+    "Tronite/750",
+    "Thoralius/150",
+    "Thaxon-Steel/180",
+    "Gavolite/500"
+  ],
+  "upgrades": [
+    [
+      "spear",
+      "lance"
+    ]
+  ],
+  "category": "units",
+  "research": "harbinger-reconstructor"
+}
