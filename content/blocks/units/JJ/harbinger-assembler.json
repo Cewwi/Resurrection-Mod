@@ -22,10 +22,10 @@
       "type": "AssemblerUnitPlan",
       "unit": "gash",
       "requirements": [
-        "Ordanium-wall/25",
-        "blast/12",
-        "lance/2",
-        "spear/6"
+        "cataclysm-Ordanium-wall/25",
+        "cataclysm-blast/12",
+        "cataclysm-lance/2",
+        "cataclysm-spear/6"
       ],
       "time": 25000
     }
