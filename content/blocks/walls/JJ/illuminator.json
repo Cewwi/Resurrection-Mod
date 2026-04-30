@@ -1,9 +1,9 @@
 {
     "type": "LightBlock",
     "name": "Illuminator",
-    "lightRadius": 60,
+    "lightRadius": 120,
     "brightness":  0.75,
-    "radius": 50,
+    "radius": 100,
     "emitLight": true,
     "description": "Provides light.",
     "size": 1,

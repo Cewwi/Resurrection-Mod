@@ -77,6 +77,9 @@
         "speed": 7,
         "lightColor": "FFB570FF",
         "trailEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
             "type": "ParticleEffect",
             "particles": 1,
             "length": 12,
@@ -84,15 +87,32 @@
             "lifetime": 240,
             "interp": "circleOut",
             "cone": 360,
-            "lightOpacity": 0.7,
             "lightRadius": 25,
             "offset": 0,
             "lightColor": "FFB570FF",
             "colorFrom": "FFB570FF",
-            "colorTo": "464646",
+            "colorTo": "ff4f00",
             "sizeFrom": 4,
             "sizeTo": 0
         },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 2,
+              "lifetime": 120,
+              "interp": "circleOut",
+              "offset": 30,
+              "length": 4,
+              "lightColor": "FFB570FF",
+              "strokeFrom": 6,
+              "strokeTo": 0,
+              "lenFrom": 10,
+              "lenTo": 5,
+              "colorFrom": "FFB570FF",
+              "colorTo": "ff4f00"
+            }
+      ]
+    },
         "lightOpacity": 0.7,
         "trailChance": 0.8,
         "lightRadius": 1,
