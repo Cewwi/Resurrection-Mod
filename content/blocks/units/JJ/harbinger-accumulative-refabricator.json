@@ -1,15 +1,17 @@
 {
   "type": "Reconstructor",
-  "size": 7,
-  "localizedName": "Harbinger Genesis Reconstructor",
+  "size": 9,
+  "localizedName": "Harbinger Accumulative Refabricator",
   "description": "Upgrades to T4 Harbinger units.",
-  "constructTime": 5800,
+  "constructTime": 5200,
   "consumes": {
     "power": 3,
     "items":[
-    "carborundum/125",
-    "Thaxium/100",
-    "Gavolite/150"
+    "carborundum/225",
+    "Thaxon-Steel/100",
+    "Gavolite/250",
+    "Thoralius/250",
+    "Tronite/750"
       ],
     "liquid": {
       "liquid": "Thaxus",

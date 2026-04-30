@@ -1,9 +1,9 @@
 {
   "type": "Reconstructor",
   "size": 7,
-  "localizedName": "Harbinger Reconstructor",
+  "localizedName": "Harbinger Genesis Reconstructor",
   "description": "Upgrades to T3 Harbinger units.",
-  "constructTime": 3800,
+  "constructTime": 3200,
   "consumes": {
     "power": 2,
     "items":[
