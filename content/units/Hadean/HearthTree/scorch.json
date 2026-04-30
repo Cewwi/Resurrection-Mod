@@ -69,7 +69,7 @@
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
+              "colorTo": "4d312b",
               "sizeFrom": 6,
               "sizeTo": 0
             },
@@ -91,7 +91,7 @@
             "offset": 0,
             "lightColor": "FFB570FF",
             "colorFrom": "FFB570FF",
-            "colorTo": "ff4f00",
+            "colorTo": "4d312b",
             "sizeFrom": 4,
             "sizeTo": 0
         },
@@ -106,7 +106,7 @@
               "sizeFrom": 3,
               "sizeTo": 0,
               "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00"
+              "colorTo": "4d312b"
             }
       ]
     },
