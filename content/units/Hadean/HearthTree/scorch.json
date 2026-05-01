@@ -45,11 +45,11 @@
       "alternate": true,
       "shootSound": "shootFlame",
       "rotationLimit": 60,
+      "velocityRnd": 1.5,
       "bullet": {
         "type": "BasicBulletType",
         "height": 1,
         "width": 1,
-        "velocityRnd": 1,
         "status": "burning",
         "statusDuration": 1200,
         "pierce": true,
