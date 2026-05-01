@@ -1,6 +1,6 @@
 {
 "localizedName": "Annihilate",
-"description": "[#62A0FC]Fires a powerful piercing, fragmenting shell at enemy targets, has 4 lance like cannons, unaffected by liquid drag, and able to float in liquids.[]",
+"description": "[#62A0FC]Fires a devastating piercing, fragmenting shell at enemy targets. Has 4 more powerful lance like cannons. Unaffected by liquid drag, and able to float in liquids.[]",
 "details": "'They were warned.'.",
 "faceTarget": false,
 "squareShape": true,
@@ -37,10 +37,10 @@
       "layerOffset": 1,
       "shootY": 30,
       "inaccuracy": 12,
-      "reload": 25,
+      "reload": 50,
 "mirror": true,
 "alternate": true,
-      "velocityRnd": 1.2,
+      "velocityRnd": 0.2,
       "shootSound": "shootTank",
       "parts": [
         {
@@ -62,6 +62,7 @@
   },
       "bullet": {
         "type": "BasicBulletType",
+        "firstShotDelay": 25,
         "removeAfterPierce": false,
         "height": 40,
         "shootEffect": "teleportOut",
@@ -183,11 +184,11 @@
       "name": "annihilate-cannon",
       "x": 0,
       "y": 0,
-      "rotateSpeed": 1.5, 
+      "rotateSpeed": 1, 
       "rotate": true,
       "mirror": false,
       "layerOffset": 1,
-      "shootY": 120,
+      "shootY": 140,
       "inaccuracy": 0,
       "reload": 95,
       "shootSound": "shootConquer",
@@ -240,11 +241,11 @@
             },
             {
               "type": "ParticleEffect",
-              "particles": 25,
-              "length": 75,
+              "particles": 50,
+              "length": 180,
               "lifetime": 40,
               "lightColor": "62A0FCFF",
-              "cone": 80,
+              "cone": 160,
               "colorFrom": "62A0FCFF",
               "colorTo": "62A0FCFF",
               "sizeFrom": 6,
@@ -253,8 +254,8 @@
             {
               "type": "ParticleEffect",
               "line": true,
-              "particles": 25,
-              "length": 75,
+              "particles": 50,
+              "length": 200,
               "lifetime": 40,
               "lightColor": "62A0FCFF",
               "cone": 30,
@@ -264,61 +265,6 @@
               "lenTo": 6,
               "strokeFrom": 6,
               "strokeTo": 0
-            }
-          ]
-        },
-        "hitEffect": {
-          "type": "multiEffect",
-          "effects": [
-            {
-              "type": "ParticleEffect",
-              "line": true,
-              "particles": 25,
-              "lifetime": 80,
-              "interp": "circleOut",
-              "offset": 30,
-              "length": 80,
-              "lightColor": "62A0FCFF",
-              "strokeFrom": 6,
-              "strokeTo": 0,
-              "lenFrom": 10,
-              "lenTo": 10,
-              "colorFrom": "62A0FCFF",
-              "colorTo": "62A0FCFF"
-            },
-            {
-              "type": "ParticleEffect",
-              "particles": 25,
-              "length": 120,
-              "baseLength": 10,
-              "lifetime": 100,
-              "lightColor": "62A0FCFF",
-              "interp": "circleOut",
-              "cone": 360,
-              "colorFrom": "62A0FCFF",
-              "colorTo": "62A0FCFF",
-              "sizeFrom": 6,
-              "sizeTo": 0
-            },
-            {
-              "type": "WaveEffect",
-              "lifetime": 30,
-              "sizeFrom": 0,
-              "sizeTo": 40,
-              "strokeFrom": 6,
-              "strokeTo": 0,
-              "colorFrom": "62A0FCFF",
-              "colorTo": "62A0FCFF"
-            },
-            {
-              "type": "WaveEffect",
-              "lifetime": 60,
-              "sizeFrom": 0,
-              "sizeTo": 80,
-              "strokeFrom": 12,
-              "strokeTo": 0,
-              "colorFrom": "62A0FCFF",
-              "colorTo": "62A0FCFF"
             }
           ]
         },
