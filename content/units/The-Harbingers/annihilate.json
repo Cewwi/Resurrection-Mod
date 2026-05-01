@@ -549,6 +549,7 @@
             "removeAfterPierce": false,
             
             "height": 40,
+            "speed": 8,
             "shootEffect": "teleportOut",
             "hitColor": "62A0FCFF",
             "width": 20,
@@ -656,36 +657,6 @@
         "trailColor": "62A0FCFF",
         "trailLength": 12,
         "trailWidth": 4,
-        "bulletInterval": 3,
-        "intervalBullets": 6,
-        "intervalRandomSpread": 120,
-        "intervalSpread": 360,
-        "intervalBullet": {
-            "type": "BasicBulletType",
-            "removeAfterPierce": false,
-            
-            "height": 20,
-            "shootEffect": "teleportOut",
-            "hitColor": "62A0FCFF",
-            "width": 10,
-            "pierceDamageFactor": 0.8,
-            "backColor": "62A0FCFF",
-            "pierceCap": 2,
-            "lifetime": 35,
-            "despawnSound": "explosionDull",
-            "hitSound": "explosionDull",
-            "damage": 170,
-            "splashDamage": 50,
-            "splashDamageRadius": 30,
-            "hitEffect": "teleportOut",
-            "speed": 2,
-            "lightColor": "62A0FCFF",
-            "lightOpacity": 0.7,
-            "lightRadius": 12,
-            "trailColor": "62A0FCFF",
-            "trailLength": 12,
-            "trailWidth": 1.25
-        },
         "fragBullet": {
             "type": "BasicBulletType",
             "removeAfterPierce": false,
@@ -758,7 +729,7 @@
             }
           ]
         },
-            "speed": 8,
+            "speed": 2,
             "lightColor": "62A0FCFF",
             "lightOpacity": 0.7,
             "lightRadius": 12,
