@@ -209,7 +209,6 @@
         "type": "BasicBulletType",
         "sprite": "missile-large",
         "removeAfterPierce": false,
-        
         "height": 63,
         "hitColor": "62A0FCFF",
         "splashDamage": 450,
@@ -226,6 +225,61 @@
         "lightColor": "62A0FCFF",
         "lightOpacity": 0.7,
         "lightRadius": 12,
+        "hitEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 50,
+              "lifetime": 150,
+              "interp": "circleOut",
+              "offset": 30,
+              "length": 320,
+              "lightColor": "62A0FCFF",
+              "strokeFrom": 6,
+              "strokeTo": 0,
+              "lenFrom": 20,
+              "lenTo": 10,
+              "colorFrom": "62A0FCFF",
+              "colorTo": "62A0FCFF"
+            },
+            {
+              "type": "ParticleEffect",
+              "particles": 50,
+              "length": 240,
+              "baseLength": 10,
+              "lifetime": 150,
+              "lightColor": "62A0FCFF",
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "62A0FCFF",
+              "colorTo": "62A0FCFF",
+              "sizeFrom": 26,
+              "sizeTo": 0
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 30,
+              "sizeFrom": 0,
+              "sizeTo": 180,
+              "strokeFrom": 12,
+              "strokeTo": 0,
+              "colorFrom": "62A0FCFF",
+              "colorTo": "62A0FCFF"
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 60,
+              "sizeFrom": 0,
+              "sizeTo": 120,
+              "strokeFrom": 24,
+              "strokeTo": 0,
+              "colorFrom": "62A0FCFF",
+              "colorTo": "62A0FCFF"
+            }
+          ]
+        },
         "shootEffect": {
           "type": "multiEffect",
           "effects": [
