@@ -343,8 +343,8 @@
       "layerOffset": 1,
       "shootY": 140,
       "recoil": 3,
-      "inaccuracy": 0,
-      "reload": 150,
+      "inaccuracy": 10,
+      "reload": 200,
       "shootSound": "shootConquer",
       "parts": [
         {
@@ -361,9 +361,10 @@
       ],
   "shoot": {
     "type": "ShootAlternate",
-    "barrels": 3,
-    "spread": 5,
-    "shots": 3
+    "barrels": 1,
+    "spread": 0,
+    "shotDelay": 10,
+    "shots": 5
   },
       "bullet": {
         "type": "BasicBulletType",
