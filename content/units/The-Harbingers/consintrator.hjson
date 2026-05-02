@@ -8,6 +8,7 @@ envDisabled: 0
 legMoveSpace: 0.9
 legPairOffset: 2
 fogRadius: 0
+lightRadius: 75,
 hovering: false
 faceTarget: true
 targetPriority: -2

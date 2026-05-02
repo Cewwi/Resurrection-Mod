@@ -12,6 +12,7 @@
   "fogRadius": 25,
   "legContinuousMove": true,
   "hovering": false,
+  "lightRadius": 125,
   "faceTarget": true,
   "targetPriority": -1,
   "name": "Ram",
