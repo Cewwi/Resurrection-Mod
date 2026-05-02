@@ -4,7 +4,7 @@
   "name": "Blast",
   "description": "Fires 2 bullets in quick succession.",
   "ammoPerShot": 1,
-  "reload": 40,
+  "reload": 15,
   "range": 232,
   "outlineColor": "0C0D1BFF",
   "recoil": 2,
@@ -36,7 +36,7 @@
       "type": "BasicBulletType",
       "speed": 10,
       "lifetime": 28,
-      "width": 13,
+      "width": 10,
       "hitSize": 7,
       "damage": 25,
       "height": 24,
@@ -47,12 +47,66 @@
       "trailColor": "d1efff",
       "backColor": "d1efff",
       "hitColor": "d1efff",
-      "frontColor": "4b42ca",
+      "frontColor": "d1efff",
       "trailWidth": 2.1,
       "trailLength": 4,
       "hitEffect": "hitBulletColor",
       "despawnEffect": "hitBulletColor",
-      "buildingDamageMultiplier": 0.5
+      "buildingDamageMultiplier": 0.5,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "speed": 6,
+          "damage": 15,
+          "width": 10,
+          "hitSize": 6,
+          "height": 21,
+          "pierce": true,
+          "lifetime": 35,
+          "pierceBuilding": true,
+          "hitColor": "d1efff",
+          "backColor": "d1efff",
+          "trailColor": "d1efff",
+          "frontColor": "d1efff",
+          "trailWidth": 2.1,
+          "trailLength": 5,
+          "hitEffect": [
+            {
+              "type": "WaveEffect",
+              "colorFrom": "d1efff",
+              "colorTo": "d1efff",
+              "sizeTo": 4,
+              "strokeFrom": 4,
+              "lifetime": 10
+            }
+          ],
+          "despawnEffect": [
+            {
+              "type": "WaveEffect",
+              "colorFrom": "d1efff",
+              "colorTo": "d1efff",
+              "sizeTo": 4,
+              "strokeFrom": 4,
+              "lifetime": 10
+            }
+          ],
+          "buildingDamageMultiplier": 0.3,
+          "homingPower": 0.2
+        },
+        "fragBullets": 3,
+        "fragVelocityMin": 0.5,
+        "fragVelocityMax": 1.5,
+        "fragLifeMin": 0.5,
+        "intervalBullet": {
+          "type": "LightningBulletType",
+          "lightningColor": "F7E97EFF",
+          "lightningLength": 8,
+          "lightningDamage": 60,
+          "hitSound": "spark",
+          "lifetime": 1
+        },
+        "bulletInterval": 2,
+        "intervalRandomSpread": 360,
+        "intervalSpread": 300
     }
   },
   "research": {
