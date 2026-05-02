@@ -3,7 +3,7 @@ type: GenericCrafter
 name: Ti-Synthisizer
 description: Produces Thaxium.
 size: 4
-craftTime: 70
+craftTime: 150
 consumes: {
   items: [
     Ordanium/1
