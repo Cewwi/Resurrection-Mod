@@ -15,12 +15,12 @@
   "shootY": -1,
   "shootCone": 3,
   "requirements": [
-    "Ordanium/50",
-    "Tronite/100"
+    "Ordanium/75",
+    "static-crystal/25"
   ],
   "size": 4,
-  "health": 900,
-  "armor": 10,
+  "health": 1600,
+  "armor": 13,
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "Korroda-"
@@ -30,15 +30,14 @@
     "liquid": "water",
     "amount": 0.1
   },
-  "shootSound": "shootAlt",
   "ammoTypes": {
-    "Tronite": {
+    "static-crystal": {
       "type": "BasicBulletType",
       "speed": 10,
       "lifetime": 28,
       "width": 10,
       "hitSize": 7,
-      "damage": 25,
+      "damage": 75,
       "height": 24,
       "shootEffect": "shootBig",
       "shootSound": "shootStell",
@@ -56,7 +55,7 @@
         "fragBullet": {
           "type": "BasicBulletType",
           "speed": 6,
-          "damage": 15,
+          "damage": 45,
           "width": 10,
           "hitSize": 6,
           "height": 21,
@@ -95,19 +94,7 @@
         "fragBullets": 3,
         "fragVelocityMin": 0.5,
         "fragVelocityMax": 1.5,
-        "fragLifeMin": 0.5,
-        "intervalBullet": {
-          "type": "LightningBulletType",
-          "lightningColor": "d1efff",
-          "lightningLength": 6,
-          "lightningDamage": 10,
-          "hitSound": "spark",
-          "lifetime": 1
-        },
-        "bulletInterval": 2,
-        "intervalBullets": 3,
-        "intervalRandomSpread": 360,
-        "intervalSpread": 300
+        "fragLifeMin": 0.5
     }
   },
   "research": {

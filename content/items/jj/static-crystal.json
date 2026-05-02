@@ -2,7 +2,7 @@
     "name": "Static Crystal",
     "description": "Bustling with energy.",
     "hardness": 2,
-    "cost": 8.5,
+    "cost": 1,
     "alwaysUnlocked": false,
     "explosiveness": 0.2,
     "charge": 1,
