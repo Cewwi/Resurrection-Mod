@@ -1,0 +1,42 @@
+{
+  "researchCostMultiplier": 0.5,
+  "type": "UnitAssembler",
+  "name": "Theta Assembler",
+  "description": "Creates Powerful Harbinger units from payloads.",
+  "size": 12,
+  "category": "units",
+  "droneType": "assembly-drone",
+  "dronesCreated": 4,
+  "droneConstructTime": 80,
+  "research": "TitanMech-Assembler",
+  "requirements": [
+    "Gavolite/3000",
+    "Thaxon-Steel/3000",
+    "Thoralius/1000",
+    "carborundum/1500",
+    "Tronite/500",
+    "Thaxium/750"
+  ],
+  "plans": [
+    {
+      "type": "AssemblerUnitPlan",
+      "unit": "annihilate",
+      "requirements": [
+        "cataclysm-Large-Ordanium-wall/95",
+        "cataclysm-large-quartz-wall/95",
+        "cataclysm-Friction/8",
+        "cataclysm-spear/12",
+        "cataclysm-lance/8"
+      ],
+      "time": 71000
+    }
+  ],
+  "squareSprite": false,
+  "consumes": {
+    "power": 5,
+    "liquids": [
+      "Thaxus/0.8"
+    ]
+  },
+  "areaSize": 28
+}
