@@ -2,15 +2,15 @@
 ![image](https://github.com/user-attachments/assets/0f258876-8f09-4f1b-a133-24deb8526349)
 
 
-The Harbingers: A long lost time of peace between the factions. The factions looked to it as a time of peace and glory among tronoe. Sadly, during many miscommunications and boarder disputes, the faction split into 3 distinct parts that fled to different corners of tronoe. This was the start of the era of a mass arms race.
+The Harbingers: A long lost time of peace between the factions. The factions looked to it as a time of peace and glory among tronoe. Sadly, due the different outlooks for the Harbingers future, the faction split into 3 distinct parts that fled to different corners of tronoe. This was the start of the era of a mass arms race.
 
 
-Fractured Crystal: This faction learned to harness the radiating energies from crystals deep within the crystal cavers. With this near unlimited power source, the Fractured Crystal Created highly powerful factions and devastate fortresses. One Specifically was created as a very advanced ai hive mine know as Cultivation Core. This core was hardcoded with the task of creating the perfect weapons for the Fractured Crystal's armada. Though, in a devastating war against the Magmians, before their Citadel was breached, the core was sent deep below the crust of tronoe, with a new directive: [ANNIHILATE THEM ALL]. 
+Korroda: This faction learned to harness the radiating energies from crystals deep within the crystal cavers. With this near unlimited power source, the Fractured Crystal Created highly powerful factions and devastate fortresses. One Specifically was created as a very advanced ai hive mine know as Cultivation Core. This core was hardcoded with the task of creating the perfect weapons for the Fractured Crystal's armada. Though, in a devastating war against the Magmians, before their Citadel was breached, the core was sent deep below the crust of tronoe, with a new directive: [ANNIHILATE THEM ALL]. 
 
 
 Hadean: Harnessing the power of Tronoe's large lava oceans, this faction was able to make many types of self sustaining power facilities, which led to massive fortresses that had spread miles across lava lakes to satisfy this faction's extreme power demands. Many of Hadean's fortresses are now derelict due to a devastating war that drove the factions off the surface for Tronoe. Although not as powerful as they were in the past, they are still a powerful threat to any.
 
 
-Overgrowth Wardens: Mass producer of basic tech and the main supplier of the Magmians and Fractured Crystal. This faction was always experimenting with different substances and alloys to try acquire the most out of anything they could get their hands on. Soon, they started working on more ambitious projects, such as The Earth Mover, the M.P.S, and the Genesis Wormhole. The M.P.S and Earth Mover was a crushing success. The same cant be said about Project Omega. This critical failure lead to the demise of the Overgrowth wardens, and marked the end of a great crusade. Though Project Omega still remains functional after all this time. What it's made of will always be a mystery, but maybe you can use it to get to other planets...if you can find it.
+Overgrowth: Mass producer of advanced tech and the main supplier of the Magmians and Fractured Crystal. This faction was always experimenting with different substances and alloys to try acquire the most out of anything they could get their hands on. The overgrowth have been long gone, and most of their schematics have been lost to time...
 
-Discord Link:
+Discord Link: (Not avalable at this time)

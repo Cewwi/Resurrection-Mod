@@ -26,6 +26,11 @@
 "tankMoveSound": "tankMoveHeavy",
 "rotateSpeed": 1.75,
 "alwaysUnlocked": false,
+  "immunities": [
+    "tarred",
+    "slow",
+    "wet"
+  ],
 "weapons": [
     {
       "name": "spear-cannon",

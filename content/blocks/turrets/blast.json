@@ -8,23 +8,21 @@
   "range": 232,
   "outlineColor": "0C0D1BFF",
   "recoil": 2,
-  "shake": 1,
+  "shake": 2,
   "inaccuracy": 1,
   "category": "turret",
   "targetUnderBlocks": false,
   "shootY": -1,
   "shootCone": 3,
-  "research": "Cavern-core",
-  "shake": 2,
   "requirements": [
-  "Ordanium/50",
-  "Tronite/100",
-  ]
+    "Ordanium/50",
+    "Tronite/100"
+  ],
   "shoot": {
     "type": "ShootAlternate",
     "barrels": 2,
     "spread": 0,
-    "shotDelay": 10
+    "shotDelay": 10,
     "shots": 2
   },
   "size": 2,
@@ -33,61 +31,61 @@
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "Quartz-"
-},
-    "coolant": {
+  },
+  "coolant": {
     "type": "ConsumeLiquid",
     "liquid": "Thaxus",
     "amount": 0.1
   },
-"shootSound": "shootAlt",
+  "shootSound": "shootAlt",
   "ammoTypes": {
-"Tronite": {
-"type": "BasicBulletType",
-  "speed": 10,
-  "lifetime": 28,
-  "width": 13,
-  "hitSize": 7,
-  "damage": 25,
-  "height": 24,
-  "shootEffect": "shootBig",
-  "smokeEffect": "shootBigSmoke",
-  "pierce": false,
-  "trailColor": "E5E5E5FF",
-  "backColor": "E5E5E5FF",
-  "hitColor": "E5E5E5FF",
-  "frontColor": "FFFFFF"
-  "trailWidth": 2.1
-  "trailLength": 4
-  "hitEffect": "hitBulletColor"
-  "despawnEffect": "hitBulletColor",
-  "buildingDamageMultiplier": 0.5
-}
+    "Tronite": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "lifetime": 28,
+      "width": 13,
+      "hitSize": 7,
+      "damage": 25,
+      "height": 24,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "pierce": false,
+      "trailColor": "E5E5E5FF",
+      "backColor": "E5E5E5FF",
+      "hitColor": "E5E5E5FF",
+      "frontColor": "FFFFFF",
+      "trailWidth": 2.1,
+      "trailLength": 4,
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "buildingDamageMultiplier": 0.5
+    },
     "Ordanium": {
-"type": "BasicBulletType",
-  "speed": 10,
-  "lifetime": 28,
-  "width": 13,
-  "hitSize": 7,
-  "damage": 20,
-  "height": 24,
-  "shootEffect": "shootBig",
-  "smokeEffect": "shootBigSmoke",
-  "ammoMultiplier": 2,
-  "pierceCap": 3,
-  "pierce": true,
-  "pierceBuilding": false,
-  "trailColor": "444759",
-  "backColor": "5f6372",
-  "hitColor": "5f6372",
-  "frontColor": "FFFFFF"
-  "trailWidth": 2.1
-  "trailLength": 5
-  "hitEffect": "hitBulletColor"
-  "despawnEffect": "hitBulletColor",
-  "buildingDamageMultiplier": 0.7
-}
-}
-"research": {
-"parent": "Cavern-core",
-}
+      "type": "BasicBulletType",
+      "speed": 10,
+      "lifetime": 28,
+      "width": 13,
+      "hitSize": 7,
+      "damage": 20,
+      "height": 24,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": 2,
+      "pierceCap": 3,
+      "pierce": true,
+      "pierceBuilding": false,
+      "trailColor": "444759",
+      "backColor": "5f6372",
+      "hitColor": "5f6372",
+      "frontColor": "FFFFFF",
+      "trailWidth": 2.1,
+      "trailLength": 5,
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "buildingDamageMultiplier": 0.7
+    }
+  },
+  "research": {
+    "parent": "Quartz-core"
+  }
 }

@@ -27,6 +27,11 @@
 "tankMoveSound": "tankMoveHeavy",
 "rotateSpeed": 1,
 "alwaysUnlocked": false,
+  "immunities": [
+    "tarred",
+    "slow",
+    "wet"
+  ],
 "weapons": [
     {
 "name": "thorn-cannon",
