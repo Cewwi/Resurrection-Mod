@@ -6,6 +6,7 @@
 "squareShape": true,
 "type": "tank",
 "treadFrames": 18,
+"layer": 109,
 "treadPullOffset": 5,
 "omniMovement": false,
 "outlineColor": "0C0D1BFF",
