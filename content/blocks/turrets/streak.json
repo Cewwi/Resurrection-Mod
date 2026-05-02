@@ -5,14 +5,14 @@
   "description": "Fires 2 bullets in quick succession.",
   "ammoPerShot": 1,
   "reload": 15,
-  "range": 232,
+  "range": 392,
   "outlineColor": "0C0D1BFF",
   "recoil": 2,
   "shake": 2,
   "inaccuracy": 1,
   "category": "turret",
   "targetUnderBlocks": false,
-  "shootY": -1,
+  "shootY": 3,
   "shootCone": 3,
   "requirements": [
     "Ordanium/75",
@@ -33,7 +33,7 @@
   "ammoTypes": {
     "static-crystal": {
       "type": "BasicBulletType",
-      "speed": 10,
+      "speed": 14,
       "lifetime": 28,
       "width": 10,
       "hitSize": 7,
@@ -54,10 +54,10 @@
       "buildingDamageMultiplier": 0.5,
         "fragBullet": {
           "type": "BasicBulletType",
-          "intervalBullets": 6,
-          "bulletInterval": 2,
-          "intervalRandomSpread": 360,
-          "intervalSpread": 300,
+          "fragBullets": 3,
+          "fragVelocityMin": 0.5,
+          "fragVelocityMax": 1,
+          "fragLifeMin": 0.5,
           "speed": 3,
           "damage": 45,
           "width": 10,
@@ -66,10 +66,10 @@
           "pierce": true,
           "lifetime": 35,
           "pierceBuilding": true,
-          "intervalBullet": {
+          "fragBullet": {
           "type": "LightningBulletType",
           "lightningColor": "d1efff",
-          "lightningLength": 12,
+          "lightningLength": 6,
           "lightningDamage": 10,
           "hitSound": "spark",
           "lifetime": 1
