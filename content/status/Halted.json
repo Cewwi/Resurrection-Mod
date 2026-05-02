@@ -1,0 +1,21 @@
+{
+  "description": "You were shook down to your core.",
+  "name": "Shell Shocked",
+  "reloadMultiplier": 0.8,
+  "speedMultiplier": 0.3,
+  "damage": 0.5,
+  "effect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 25,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 15,
+    "lenTo": 5,
+    "strokeFrom": 6,
+    "strokeTo": 0,
+    "colorFrom": "62A0FCFF",
+    "colorTo": "62A0FCFF"
+  }
+}
