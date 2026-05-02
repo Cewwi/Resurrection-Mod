@@ -1,13 +1,13 @@
 
 type: GenericCrafter
 name: Ti-Synthisizer
-description: Produces Ti-6Al-4V.
-size: 5
-craftTime: 30
+description: Produces Thaxium.
+size: 4
+craftTime: 70
 consumes: {
   items: [
-    Thoralius/1
-    Thaxon/2
+    Ordanium/1
+    Thaxon/1
   ]
 power: 4
 }
@@ -28,8 +28,7 @@ drawers: [
     color: 62A0FCFF
     alpha: 0.3
     sides: 4
-    blending: additive
-    particleSize: 5
+    particleSize: 3
     reverse: true
     particleRad: 20
     particles: 30
@@ -42,10 +41,9 @@ drawers: [
     color: 62A0FCFF
     alpha: 0.3
     reverse: true
-    blending: additive
-    particleSize: 6
+    particleSize: 4
     particleSides: 4
-    particleRad: 14
+    particleRad: 8
     particles: 30
     fadeMargin: 1
     rotateScl: 30
@@ -58,14 +56,14 @@ drawers: [
 ]
 }
 outputItems: [
-   Thaxium/2
+   Thaxium/4
 ]
 category: crafting
 research: Quartz-Generator
 requirements: [
-Thaxium/200
-Thoralius/150
-Argentium-silver/50
+Thaxon/200
+Tronite/150
+Ordanium/50
 carborundum/50
 ]
 itemCapacity: 20

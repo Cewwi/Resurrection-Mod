@@ -6,8 +6,8 @@ size: 4
 craftTime: 100
 consumes: {
   items: [
-    Ordanium/1
-    Thaxon/1
+    Thoralius/1
+    Thaxium/1
     Tronite/2
   ]
    liquids: [
@@ -72,7 +72,7 @@ outputItems: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-Thaxon/200
+Thaxium/200
 Thoralius/100
 Silver/150
 carborundum/250
