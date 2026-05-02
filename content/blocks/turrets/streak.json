@@ -54,7 +54,11 @@
       "buildingDamageMultiplier": 0.5,
         "fragBullet": {
           "type": "BasicBulletType",
-          "speed": 6,
+          "intervalBullets": 6,
+          "bulletInterval": 2,
+          "intervalRandomSpread": 360,
+          "intervalSpread": 300,
+          "speed": 3,
           "damage": 45,
           "width": 10,
           "hitSize": 6,
@@ -62,6 +66,14 @@
           "pierce": true,
           "lifetime": 35,
           "pierceBuilding": true,
+          "intervalBullet": {
+          "type": "LightningBulletType",
+          "lightningColor": "d1efff",
+          "lightningLength": 12,
+          "lightningDamage": 10,
+          "hitSound": "spark",
+          "lifetime": 1
+          },
           "hitColor": "d1efff",
           "backColor": "d1efff",
           "trailColor": "d1efff",
@@ -93,7 +105,7 @@
         },
         "fragBullets": 3,
         "fragVelocityMin": 0.5,
-        "fragVelocityMax": 1.5,
+        "fragVelocityMax": 1,
         "fragLifeMin": 0.5
     }
   },
