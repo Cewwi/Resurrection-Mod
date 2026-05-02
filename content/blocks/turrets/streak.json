@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "coolantMultiplier": 10,
-  "name": "Blast",
+  "name": "Streak",
   "description": "Fires bullets that frag on impact. It's frag bullets home and shoot lightning upon death.",
   "ammoPerShot": 1,
   "reload": 25,
@@ -15,9 +15,9 @@
   "shootY": 3,
   "shootCone": 3,
   "requirements": [
-    "Ordanium/75",
-    "carborundum/50",
-    "static-crystal/25"
+    "Ordanium/350",
+    "carborundum/250",
+    "static-crystal/325"
   ],
   "size": 4,
   "health": 1600,
@@ -38,7 +38,7 @@
       "lifetime": 28,
       "width": 10,
       "hitSize": 7,
-      "damage": 45,
+      "damage": 65,
       "height": 24,
       "shootEffect": "shootBig",
       "shootSound": "shootBreach",
@@ -61,7 +61,7 @@
           "fragVelocityMax": 1,
           "fragLifeMin": 0.5,
           "speed": 3,
-          "damage": 20,
+          "damage": 25,
           "width": 10,
           "hitSize": 6,
           "fragOnHit": false,
