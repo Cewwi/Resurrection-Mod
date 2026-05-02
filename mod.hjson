@@ -6,7 +6,7 @@ Adds Tronoe, a cave planet set after a war that drove it's faction's off it's su
 
 Drop a star in the project's repo.
 '''
-version: "[#ffc100]0[]"
+version: "[#ffc100]0.1[]"
 minGameVersion: "154"
 hideBrowser: false
 hidden: false
