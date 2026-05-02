@@ -2,7 +2,7 @@
   "type": "ItemTurret",
   "coolantMultiplier": 10,
   "name": "Blast",
-  "description": "Fires 2 bullets in quick succession.",
+  "description": "Fires bullets that frag on impact. It's frag bullets home and shoot lightning upon death.",
   "ammoPerShot": 1,
   "reload": 25,
   "range": 392,
@@ -52,6 +52,7 @@
       "trailLength": 4,
       "hitEffect": "hitBulletColor",
       "despawnEffect": "hitBulletColor",
+      "fragOnHit": false,
       "buildingDamageMultiplier": 0.5,
         "fragBullet": {
           "type": "BasicBulletType",
@@ -61,8 +62,9 @@
           "fragLifeMin": 0.5,
           "speed": 3,
           "damage": 20,
-          "width": 20,
+          "width": 10,
           "hitSize": 6,
+          "fragOnHit": false,
           "height": 21,
           "pierce": true,
           "lifetime": 35,
@@ -71,7 +73,6 @@
           "type": "LightningBulletType",
           "lightningColor": "d1efff",
           "lightningLength": 6,
-          "damage": 10,
           "hitSound": "shootArc",
           "lifetime": 1
           },
@@ -102,7 +103,7 @@
             }
           ],
           "buildingDamageMultiplier": 0.3,
-          "homingPower": 0.2
+          "homingPower": 0.1
         },
         "fragBullets": 3,
         "fragVelocityMin": 0.5,
