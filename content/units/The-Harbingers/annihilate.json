@@ -27,6 +27,21 @@
 "tankMoveSound": "tankMoveHeavy",
 "rotateSpeed": 0.6,
 "alwaysUnlocked": false,
+  "immunities": [
+    "tarred",
+    "melting",
+    "corroded",
+    "freezing",
+    "blasted",
+    "slow",
+    "wet",
+    "muddy",
+    "sapped",
+    "disarmed",
+    "shocked",
+    "electrified",
+    "spore-slowed"
+  ],
 "weapons": [
 {
 "name": "lance-cannon",
