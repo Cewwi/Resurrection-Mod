@@ -98,13 +98,14 @@
         "fragLifeMin": 0.5,
         "intervalBullet": {
           "type": "LightningBulletType",
-          "lightningColor": "F7E97EFF",
-          "lightningLength": 8,
-          "lightningDamage": 60,
+          "lightningColor": "d1efff",
+          "lightningLength": 6,
+          "lightningDamage": 10,
           "hitSound": "spark",
           "lifetime": 1
         },
         "bulletInterval": 2,
+        "intervalBullets": 3,
         "intervalRandomSpread": 360,
         "intervalSpread": 300
     }
