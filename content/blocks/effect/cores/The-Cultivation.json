@@ -5,13 +5,31 @@
   "details": "Once constructed, the core shook the very layers of tronoe. As for the New Order, there was no longer hope for their survival. with one last act of desperation, they sent their brightest to the world of Nevorix. After The Harbingers fell to large scale rebellions, the core was sent to a remote location deep within the forth layer of tronoe, never to be seen again.",
   "health": 1200000,
   "squareSprite": false,
-  "size": 15,
+  "size": 16,
   "armor": 75,
   "itemCapacity": 7500000,
   "unitCapModifier": 250,
   "researchCostMultiplier": 2,
   "requiresCoreZone": true,
   "unitType": "shatter-point",
+  "abilities": [
+    {
+      "type": "EnergyFieldAbility",
+      "color": "77bfc0",
+      "maxTargets": 25,
+      "damage": 25,
+      "healPercent": 2,
+      "x": 0,
+      "y": 0,
+      "range": 1500,
+      "sectors": 4,
+      "rotateSpeed": -5,
+      "hitBuildings": true,
+      "sectorRad": 0.10,
+      "effectRadius": 15,
+      "reload": 50
+    }
+  ],
   "requirements": [
     "carborundum/5000",
     "Gavolite/8500",
