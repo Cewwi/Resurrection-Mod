@@ -51,7 +51,9 @@
       "color": "77bfc0",
       "colorTo": "77bfc0",
       "outline": false
-    },
+    }
+  ], 
+  "abilities": [
     {
       "type": "EnergyFieldAbility",
       "color": "77bfc0",
