@@ -18,7 +18,7 @@
   "legContinuousMove": true,
   "faceTarget": true,
   "name": "Shatter Point",
-  "description": "[#77bfc0]Shatter Point[], a large quadruped mech able to fire stunning bolts of energy at enemy targets. Due to it's unique design, this mech is able to walk on water for larger periods of time.",
+  "description": "[#77bfc0]Shatter Point[], a large quadruped mech able to fire stunning bolts of energy at enemy targets. Due to it's unique design, this mech is able to walk on water for longer periods of time.",
   "details": "Made to effeciently cross large bodies of water with consistant speed. They are sent to small remote underground islands to harvest more resources, as they have construction capabilities.",
   "health": 450000,
   "armor": 25,
@@ -51,6 +51,21 @@
       "color": "77bfc0",
       "colorTo": "77bfc0",
       "outline": false
+    },
+    {
+      "type": "EnergyFieldAbility",
+      "color": "77bfc0",
+      "maxTargets": 20,
+      "damage": 10,
+      "healPercent": 0,
+      "y": -35,
+      "range": 10,
+      "sectors": 3,
+      "rotateSpeed": 5,
+      "hitBuildings": false,
+      "sectorRad": 0.25,
+      "effectRadius": 20,
+      "reload": 50
     }
   ],
   "weapons": [
