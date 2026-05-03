@@ -11,7 +11,7 @@
   "itemCapacity": 40,
   "hasPower": false,
   "hasLiquids": true,
-  "hardnessDrillMultiplier": 10,
+  "hardnessDrillMultiplier": 14,
   "expanded": true,
   "researchCostMultiplier": 5,
  "requirements": [

@@ -31,9 +31,9 @@
   },
   "ammoTypes": {
     "Tronite": {
-      "damage": 75,
+      "damage": 220,
       "width": 25,
-      "ammoMultiplier": 3,
+      "ammoMultiplier": 2,
       "pierce": "true",
       "pierceCap": 2,
       "type": "ShrapnelBulletType",
@@ -57,11 +57,11 @@
       }
     },
     "Ordanium": {
-      "damage": 80,
+      "damage": 180,
       "width": 25,
-      "ammoMultiplier": 5,
+      "ammoMultiplier": 2,
       "pierce": "true",
-      "pierceCap": 3,
+      "pierceCap": 4,
       "type": "ShrapnelBulletType",
       "lifetime": 18,
       "length": 160,
@@ -83,9 +83,9 @@
       }
     },
     "Thaxon": {
-      "damage": 150,
+      "damage": 250,
       "width": 30,
-      "ammoMultiplier": 5,
+      "ammoMultiplier": 2,
       "pierce": "true",
       "type": "ShrapnelBulletType",
       "lifetime": 20,

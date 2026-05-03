@@ -104,7 +104,7 @@
   "ammoTypes": {
 "Thaxon": {
   "collideTerrain": false,
-      "damage": 500,
+      "damage": 1200,
       "width": 30,
       "ammoMultiplier": 5,
       "pierce": "true",
