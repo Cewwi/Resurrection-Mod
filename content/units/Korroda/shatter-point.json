@@ -6,7 +6,7 @@
   "legExtension": -33.5,
   "legForwardScl": 0.2,
   "envDisabled": 0,
-  "legBaseOffset": 15,
+  "legBaseOffset": 25,
   "legMoveSpace": 0.9,
   "legPairOffset": 2,
   "fogRadius": 30,
@@ -26,7 +26,7 @@
   "drag": 0.4,
   "outlineColor": "12131f",
   "alwaysUnlocked": false,
-  "rotateSpeed": 1.75,
+  "rotateSpeed": 2.75,
   "parts": [
     {
       "type": "RegionPart",
