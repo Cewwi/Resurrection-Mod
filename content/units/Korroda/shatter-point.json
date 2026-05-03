@@ -10,7 +10,7 @@
   "legMoveSpace": 0.9,
   "legPairOffset": 2,
   "fogRadius": 30,
-  "lightRadius": 300,
+  "lightRadius": 500,
   "legSplashDamage": 220,
   "legSplashRange": 80,
   "lightColor": "77bfc0",
@@ -90,180 +90,8 @@
   "weapons": [
     {
       "name": "small-Korroda-gun1",
-      "x": 14,
-      "y": -12,
-      "rotateSpeed": 1.5,
-      "mirror": true,
-      "rotate": true,
-      "shootY": 8,
-      "cooldownTime": 120,
-      "inaccuracy": 2,
-      "rotationLimit": 120,
-      "reload": 5,
-      "shootSound": "shootStell",
-      "parts": [
-    {
-      "type": "RegionPart",
-      "suffix": "-glow",
-      "layer": -1,
-      "mirror": false,
-      "blending": "additive",
-      "color": "77bfc0",
-      "colorTo": "77bfc0",
-      "outline": false
-    }
-      ],
-      "bullet": {
-        "type": "BasicBulletType",
-        "removeAfterPierce": false,
-        "ammoMultiplier": 2,
-        "height": 12,
-        "width": 6.5,
-        "pierce": false,
-        "lifetime": 53,
-        "damage": 165,
-        "speed": 8.5,
-        "lightColor": "77bfc0",
-        "trailEffect": {
-            "type": "ParticleEffect",
-            "particles": 1,
-            "length": 1,
-            "baseLength": 1,
-            "buildingDamageMultiplier": 0,
-            "lifetime": 75,
-            "interp": "circleOut",
-            "cone": 360,
-            "lightOpacity": 0.7,
-            "lightRadius": 12,
-            "offset": 0,
-            "lightColor": "77bfc0",
-            "colorFrom": "77bfc0",
-            "colorTo": "3b5b85",
-            "sizeFrom": 2,
-            "sizeTo": 0
-        },
-        "hitEffect": {
-          "type": "multiEffect",
-          "effects": [
-            {
-              "type": "ParticleEffect",
-              "particles": 6,
-              "length": 25,
-              "baseLength": 10,
-              "lifetime": 25,
-              "lightColor": "77bfc0",
-              "interp": "circleOut",
-              "cone": 360,
-              "colorFrom": "77bfc0",
-              "colorTo": "3b5b85",
-              "sizeFrom": 6,
-              "sizeTo": 0
-            },
-            {
-              "type": "WaveEffect",
-              "lifetime": 30,
-              "sizeFrom": 0,
-              "sizeTo": 15,
-              "strokeFrom": 8,
-              "strokeTo": 0,
-              "colorFrom": "77bfc0",
-              "colorTo": "3b5b85"
-            }
-          ]
-        },
-        "despawnEffect": {
-          "type": "multiEffect",
-          "effects": [
-            {
-              "type": "ParticleEffect",
-              "particles": 6,
-              "length": 25,
-              "baseLength": 10,
-              "lifetime": 25,
-              "lightColor": "77bfc0",
-              "interp": "circleOut",
-              "cone": 360,
-              "colorFrom": "77bfc0",
-              "colorTo": "3b5b85",
-              "sizeFrom": 6,
-              "sizeTo": 0
-            },
-            {
-              "type": "WaveEffect",
-              "lifetime": 30,
-              "sizeFrom": 0,
-              "sizeTo": 15,
-              "strokeFrom": 8,
-              "strokeTo": 0,
-              "colorFrom": "77bfc0",
-              "colorTo": "3b5b85"
-            }
-          ]
-        },
-        "lightOpacity": 0.7,
-        "lightRadius": 12,
-        "trailColor": "77bfc0",
-        "trailLength": 30,
-        "trailWidth": 1.25,
-      "fragOnHit": false,
-      "buildingDamageMultiplier": 0.5,
-        "fragBullet": {
-          "type": "BasicBulletType",
-          "fragBullets": 3,
-          "fragVelocityMin": 0.5,
-          "fragVelocityMax": 1,
-          "fragLifeMin": 0.5,
-          "speed": 3,
-          "damage": 55,
-          "width": 10,
-          "hitSize": 6,
-          "fragOnHit": false,
-          "height": 21,
-          "pierce": true,
-          "lifetime": 35,
-          "pierceBuilding": true,
-          "hitColor": "77bfc0",
-          "backColor": "77bfc0",
-          "trailColor": "77bfc0",
-          "frontColor": "77bfc0",
-          "trailWidth": 2.1,
-          "trailLength": 5,
-          "hitEffect": [
-            {
-              "type": "WaveEffect",
-              "colorFrom": "77bfc0",
-              "colorTo": "77bfc0",
-              "sizeTo": 4,
-              "strokeFrom": 4,
-              "lifetime": 10
-            }
-          ],
-          "despawnEffect": [
-            {
-              "type": "WaveEffect",
-              "colorFrom": "77bfc0",
-              "colorTo": "77bfc0",
-              "sizeTo": 4,
-              "strokeFrom": 4,
-              "lifetime": 10
-            }
-          ],
-          "buildingDamageMultiplier": 0,
-          "homingPower": 0.3
-        },
-        "fragBullets": 2,
-        "fragVelocityMin": 0.5,
-        "fragVelocityMax": 1,
-        "fragLifeMin": 0.5,
-        "trailChance": 3,
-        "frontColor": "ffffff",
-        "backColor": "77bfc0"
-      }
-    },
-    {
-      "name": "small-Korroda-gun1",
-      "x": -25,
-      "y": 12,
+      "x": -20,
+      "y": 6,
       "rotateSpeed": 1.5,
       "mirror": true,
       "rotate": true,
@@ -432,6 +260,11 @@
         "backColor": "77bfc0"
       }
     },
+
+
+
+
+    
     {
       "x": 50,
       "y": -22,
@@ -581,7 +414,7 @@
           ]
         },
         "lightOpacity": 0.7,
-        "lightRadius": 12,
+        "lightRadius": 45,
         "trailColor": "77bfc0",
         "trailLength": 10,
         "trailWidth": 1.5,
