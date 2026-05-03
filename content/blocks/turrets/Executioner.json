@@ -6,7 +6,7 @@
   "ammoPerShot": 2,
   "reload": 45,
   "range": 720,
-  "outlineColor": "0C0D1BFF",
+  "outlineColor": "12131f",
   "recoil": 3,
   "inaccuracy": 0,
   "category": "turret",

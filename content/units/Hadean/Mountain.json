@@ -7,9 +7,9 @@
   "health": 57000,
   "armor": 9,
   "hitSize": 25,
-  "outlineColor": "0C0D1BFF",
+  "outlineColor": "12131f",
   "rotateSpeed": 2,
-  "mechLegColor": "0C0D1BFF",
+  "mechLegColor": "12131f",
   "immunities": [
     "melting",
     "freezing",

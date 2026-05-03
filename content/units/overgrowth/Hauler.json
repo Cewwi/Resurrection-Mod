@@ -4,7 +4,7 @@
   "description": "Can carry items. Hover unit, cannot fly.",
   "shadowElevation": 0.3,
   "drag": 0.06,
-  "outlineColor": "0C0D1BFF",
+  "outlineColor": "12131f",
   "controller": "minerAI",
   "playerControllable": true,
   "speed": 5,

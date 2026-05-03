@@ -10,7 +10,7 @@ type: naval
   waveTrailX: 6
   trailScl: 1.5
   faceTarget: false
-  outlineColor: 0C0D1BFF
+  outlineColor: 12131f
   range: 100
  immunities: [
     melting

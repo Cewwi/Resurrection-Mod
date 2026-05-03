@@ -4,7 +4,7 @@
   "description": "Advanced support unit. It can build, mine and repair. Hover unit, cannot fly.",
   "shadowElevation": 0.3,
   "drag": 0.06,
-  "outlineColor": "0C0D1BFF",
+  "outlineColor": "12131f",
   "controller": "DefenderAI",
   "speed": 1,
   "rotateSpeed": 2,

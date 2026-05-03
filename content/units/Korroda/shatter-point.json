@@ -11,6 +11,8 @@
   "legPairOffset": 2,
   "fogRadius": 30,
   "lightRadius": 300,
+  "legSplashDamage": 120,
+  "legSplashRange": 20,
   "lightColor": "77bfc0",
   "hovering": false,
   "legContinuousMove": true,
@@ -27,6 +29,11 @@
   "outlineColor": "12131f",
   "alwaysUnlocked": false,
   "rotateSpeed": 2.75,
+  "immunities": [
+    "shocked",
+    "disarmed",
+    "electrified"
+  ],
   "parts": [
     {
       "type": "RegionPart",

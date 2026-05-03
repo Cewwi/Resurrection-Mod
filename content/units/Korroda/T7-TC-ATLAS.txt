@@ -29,7 +29,7 @@
 }
 ],
 "omniMovement": false,
-"outlineColor": "0C0D1BFF",
+"outlineColor": "12131f",
 "speed": 0.35,
 "hitSize": 70,
 "health": 250000,

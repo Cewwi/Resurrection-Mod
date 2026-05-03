@@ -4,7 +4,7 @@
   "description": "Basic support unit. It can build and repair. Hover unit, cannot fly.",
   "shadowElevation": 0.3,
   "drag": 0.06,
-  "outlineColor": "0C0D1BFF",
+  "outlineColor": "12131f",
   "controller": "RepairAI",
   "speed": 1.25,
   "rotateSpeed": 4,
