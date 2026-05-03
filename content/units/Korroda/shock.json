@@ -21,7 +21,7 @@
   "health": 2500,
   "armor": 8,
   "speed": 0.85,
-  "hitSize": 58,
+  "hitSize": 18,
   "drag": 0.4,
   "stepSound": "walkerStepSmall",
   "outlineColor": "12131f",
