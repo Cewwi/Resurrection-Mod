@@ -18,21 +18,24 @@
   "legContinuousMove": true,
   "faceTarget": true,
   "name": "Shatter Point",
-  "description": "An expensive, heavily armored, hexapod unit. Fires a burst of 3 rounds which fire shrapnel on hit and death.",
-  "details": "These Machines tend to wander off by themselfs if not plugged into a larger network.",
+  "description": "[77bfc0]Shatter Point[], a large quadruped mech able to fire stunning bolts of energy at enemy targets. Due to it's unique design, this mech is able to walk on water for larger periods of time.",
+  "details": "Made to.",
   "health": 450000,
   "armor": 25,
-  "speed": 1.5,
+  "speed": 0.65,
   "hitSize": 58,
   "groundLayer": 87,
   "drag": 0.4,
   "outlineColor": "12131f",
   "alwaysUnlocked": false,
   "rotateSpeed": 2.75,
+  "floorMultiplier": 0,
   "immunities": [
     "shocked",
     "disarmed",
-    "electrified"
+    "electrified",
+    "wet",
+    "muddy"
   ],
   "parts": [
     {
