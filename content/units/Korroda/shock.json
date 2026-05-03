@@ -52,54 +52,20 @@
       "colorTo": "77bfc0",
       "outline": false
     }
-  ], 
-  "abilities": [
-    {
-      "type": "EnergyFieldAbility",
-      "color": "77bfc0",
-      "maxTargets": 5,
-      "damage": 25,
-      "healPercent": 0.5,
-      "x": -50,
-      "y": -22,
-      "range": 230,
-      "sectors": 2,
-      "rotateSpeed": 5,
-      "hitBuildings": false,
-      "sectorRad": 0.25,
-      "effectRadius": 15,
-      "reload": 50
-    },
-    {
-      "type": "EnergyFieldAbility",
-      "color": "77bfc0",
-      "maxTargets": 5,
-      "damage": 25,
-      "healPercent": 0.5,
-      "x": 50,
-      "y": -22,
-      "range": 230,
-      "sectors": 2,
-      "rotateSpeed": -5,
-      "hitBuildings": false,
-      "sectorRad": 0.25,
-      "effectRadius": 15,
-      "reload": 50
-    }
   ],
   "weapons": [
     {
       "name": "small-Korroda-gun1",
-      "x": -20,
+      "x": 0,
       "y": 6,
       "rotateSpeed": 1.5,
-      "mirror": true,
+      "mirror": false,
       "rotate": true,
       "shootY": 8,
       "cooldownTime": 120,
       "inaccuracy": 2,
       "rotationLimit": 120,
-      "reload": 5,
+      "reload": 10,
       "shootSound": "shootStell",
   "shoot": {
     "type": "ShootSpread",
@@ -126,7 +92,7 @@
         "width": 6.5,
         "pierce": false,
         "lifetime": 53,
-        "damage": 165,
+        "damage": 45,
         "speed": 8.5,
         "lightColor": "77bfc0",
         "trailEffect": {
