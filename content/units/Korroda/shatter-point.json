@@ -18,11 +18,11 @@
   "legContinuousMove": true,
   "faceTarget": true,
   "name": "Shatter Point",
-  "description": "[#77bfc0]Shatter Point[], a large quadruped mech able to fire stunning bolts of energy at enemy targets. Due to it's unique design, this mech is able to walk on water for longer periods of time.",
+  "description": "[#77bfc0]Shatter Point[], a large quadruped mech able to fire stunning bolts of energy at enemy targets. Due to it's unique design, this mech is able to walk on water for longer periods of time. This core unit must be defending something big.",
   "details": "Made to effeciently cross large bodies of water with consistant speed. They are sent to small remote underground islands to harvest more resources, as they have construction capabilities.",
-  "health": 92500,
+  "health": 42500,
   "armor": 25,
-  "speed": 0.65,
+  "speed": 0.85,
   "hitSize": 58,
   "groundLayer": 87,
   "drag": 0.4,
@@ -129,6 +129,7 @@
             "particles": 1,
             "length": 1,
             "baseLength": 1,
+            "buildingDamageMultiplier": 0,
             "lifetime": 75,
             "interp": "circleOut",
             "cone": 360,
@@ -247,7 +248,7 @@
               "lifetime": 10
             }
           ],
-          "buildingDamageMultiplier": 0.3,
+          "buildingDamageMultiplier": 0,
           "homingPower": 0.3
         },
         "fragBullets": 2,
@@ -288,6 +289,7 @@
         "type": "BasicBulletType",
         "removeAfterPierce": false,
         "ammoMultiplier": 2,
+        "buildingDamageMultiplier": 0,
         "height": 12,
         "width": 6.5,
         "pierce": false,
@@ -376,7 +378,6 @@
         "trailLength": 10,
         "trailWidth": 1.25,
       "fragOnHit": false,
-      "buildingDamageMultiplier": 0.5,
         "fragBullet": {
           "type": "BasicBulletType",
           "fragBullets": 3,
@@ -419,7 +420,7 @@
               "lifetime": 10
             }
           ],
-          "buildingDamageMultiplier": 0.3,
+          "buildingDamageMultiplier": 0,
           "homingPower": 0.3
         },
         "fragBullets": 2,
@@ -455,6 +456,7 @@
         "pierce": true,
         "pierceCap": 6,
         "lifetime": 53,
+        "buildingDamageMultiplier": 0.0000000001,
         "damage": 850,
         "speed": 18.5,
         "lightColor": "77bfc0",
@@ -583,7 +585,6 @@
         "trailColor": "77bfc0",
         "trailLength": 10,
         "trailWidth": 1.5,
-        "buildingDamageMultiplier": 0.5,
         "frontColor": "ffffff",
         "backColor": "77bfc0"
       }
