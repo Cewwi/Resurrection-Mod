@@ -1,7 +1,7 @@
 {
   "type": "legs",
   "legCount": 4,
-  "legLength": 120,
+  "legLength": 100,
   "legSpeed": 0.5,
   "legExtension": -33.5,
   "legForwardScl": 0.2,
@@ -22,7 +22,7 @@
   "hitSize": 17,
   "groundLayer": 75,
   "drag": 0.4,
-  "outlineColor": "0C0D1BFF",
+  "outlineColor": "12131f",
   "alwaysUnlocked": false,
   "parts": [
     {
@@ -31,7 +31,7 @@
       "layer": -1,
       "mirror": false,
       "blending": "additive",
-      "color": "d2eadd",
+      "color": "77bfc0",
       "colorTo": "77bfc0",
       "outline": false
     }
