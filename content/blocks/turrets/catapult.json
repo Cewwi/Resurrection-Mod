@@ -14,8 +14,8 @@
   "coolantMultiplier": 10,
   "shoot": {
     "type": "ShootSpread",
-    "spread": 15,
-    "shots": 1
+    "spread": 5,
+    "shots": 2
   },
   "shootSound": "shootFuse",
   "ammoPerShot": 2,
@@ -31,7 +31,7 @@
   },
   "ammoTypes": {
     "Tronite": {
-      "damage": 100,
+      "damage": 75,
       "width": 25,
       "ammoMultiplier": 3,
       "pierce": "true",
