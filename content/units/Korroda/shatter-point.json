@@ -54,8 +54,8 @@
   "weapons": [
     {
       "name": "small-Korroda-gun1",
-      "x": 12,
-      "y": 3,
+      "x": 14,
+      "y": -1,
       "rotateSpeed": 1.5,
       "mirror": true,
       "rotate": true,
@@ -63,7 +63,7 @@
       "cooldownTime": 120,
       "inaccuracy": 2,
       "rotationLimit": 120,
-      "reload": 15,
+      "reload": 5,
       "shootSound": "shootStell",
       "parts": [
     {
@@ -85,7 +85,7 @@
         "width": 6.5,
         "pierce": false,
         "lifetime": 53,
-        "damage": 65,
+        "damage": 165,
         "speed": 8.5,
         "lightColor": "77bfc0",
         "trailEffect": {
@@ -138,7 +138,57 @@
         "lightRadius": 12,
         "trailColor": "77bfc0",
         "trailLength": 30,
-        "trailWidth": 1.25
+        "trailWidth": 1.25,
+      "fragOnHit": false,
+      "buildingDamageMultiplier": 0.5,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "fragBullets": 3,
+          "fragVelocityMin": 0.5,
+          "fragVelocityMax": 1,
+          "fragLifeMin": 0.5,
+          "speed": 3,
+          "damage": 55,
+          "width": 10,
+          "hitSize": 6,
+          "fragOnHit": false,
+          "height": 21,
+          "pierce": true,
+          "lifetime": 35,
+          "pierceBuilding": true,
+          "hitColor": "d1efff",
+          "backColor": "d1efff",
+          "trailColor": "d1efff",
+          "frontColor": "d1efff",
+          "trailWidth": 2.1,
+          "trailLength": 5,
+          "hitEffect": [
+            {
+              "type": "WaveEffect",
+              "colorFrom": "d1efff",
+              "colorTo": "d1efff",
+              "sizeTo": 4,
+              "strokeFrom": 4,
+              "lifetime": 10
+            }
+          ],
+          "despawnEffect": [
+            {
+              "type": "WaveEffect",
+              "colorFrom": "d1efff",
+              "colorTo": "d1efff",
+              "sizeTo": 4,
+              "strokeFrom": 4,
+              "lifetime": 10
+            }
+          ],
+          "buildingDamageMultiplier": 0.3,
+          "homingPower": 0.3
+        },
+        "fragBullets": 2,
+        "fragVelocityMin": 0.5,
+        "fragVelocityMax": 1,
+        "fragLifeMin": 0.5
       }
     }
   ]
