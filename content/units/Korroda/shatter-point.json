@@ -57,13 +57,30 @@
     {
       "type": "EnergyFieldAbility",
       "color": "77bfc0",
-      "maxTargets": 20,
+      "maxTargets": 5,
       "damage": 25,
       "healPercent": 0.5,
-      "y": -35,
+      "y": -30,
+      "x": -50,
       "range": 30,
       "sectors": 2,
       "rotateSpeed": 5,
+      "hitBuildings": false,
+      "sectorRad": 0.25,
+      "effectRadius": 15,
+      "reload": 50
+    },
+    {
+      "type": "EnergyFieldAbility",
+      "color": "77bfc0",
+      "maxTargets": 5,
+      "damage": 25,
+      "healPercent": 0.5,
+      "y": -30,
+      "x": 50,
+      "range": 30,
+      "sectors": 2,
+      "rotateSpeed": -5,
       "hitBuildings": false,
       "sectorRad": 0.25,
       "effectRadius": 15,
@@ -278,6 +295,200 @@
         "damage": 165,
         "speed": 8.5,
         "lightColor": "77bfc0",
+        "trailEffect": {
+            "type": "ParticleEffect",
+            "particles": 1,
+            "length": 1,
+            "baseLength": 1,
+            "lifetime": 75,
+            "interp": "circleOut",
+            "cone": 360,
+            "lightOpacity": 0.7,
+            "lightRadius": 12,
+            "offset": 0,
+            "lightColor": "77bfc0",
+            "colorFrom": "77bfc0",
+            "colorTo": "3b5b85",
+            "sizeFrom": 2,
+            "sizeTo": 0
+        },
+        "hitEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 6,
+              "length": 25,
+              "baseLength": 10,
+              "lifetime": 25,
+              "lightColor": "77bfc0",
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "77bfc0",
+              "colorTo": "3b5b85",
+              "sizeFrom": 6,
+              "sizeTo": 0
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 30,
+              "sizeFrom": 0,
+              "sizeTo": 15,
+              "strokeFrom": 8,
+              "strokeTo": 0,
+              "colorFrom": "77bfc0",
+              "colorTo": "3b5b85"
+            }
+          ]
+        },
+        "despawnEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 6,
+              "length": 25,
+              "baseLength": 10,
+              "lifetime": 25,
+              "lightColor": "77bfc0",
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "77bfc0",
+              "colorTo": "3b5b85",
+              "sizeFrom": 6,
+              "sizeTo": 0
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 30,
+              "sizeFrom": 0,
+              "sizeTo": 15,
+              "strokeFrom": 8,
+              "strokeTo": 0,
+              "colorFrom": "77bfc0",
+              "colorTo": "3b5b85"
+            }
+          ]
+        },
+        "lightOpacity": 0.7,
+        "lightRadius": 12,
+        "trailColor": "77bfc0",
+        "trailLength": 30,
+        "trailWidth": 1.25,
+      "fragOnHit": false,
+      "buildingDamageMultiplier": 0.5,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "fragBullets": 3,
+          "fragVelocityMin": 0.5,
+          "fragVelocityMax": 1,
+          "fragLifeMin": 0.5,
+          "speed": 3,
+          "damage": 55,
+          "width": 10,
+          "hitSize": 6,
+          "fragOnHit": false,
+          "height": 21,
+          "pierce": true,
+          "lifetime": 35,
+          "pierceBuilding": true,
+          "hitColor": "77bfc0",
+          "backColor": "77bfc0",
+          "trailColor": "77bfc0",
+          "frontColor": "77bfc0",
+          "trailWidth": 2.1,
+          "trailLength": 5,
+          "hitEffect": [
+            {
+              "type": "WaveEffect",
+              "colorFrom": "77bfc0",
+              "colorTo": "77bfc0",
+              "sizeTo": 4,
+              "strokeFrom": 4,
+              "lifetime": 10
+            }
+          ],
+          "despawnEffect": [
+            {
+              "type": "WaveEffect",
+              "colorFrom": "77bfc0",
+              "colorTo": "77bfc0",
+              "sizeTo": 4,
+              "strokeFrom": 4,
+              "lifetime": 10
+            }
+          ],
+          "buildingDamageMultiplier": 0.3,
+          "homingPower": 0.3
+        },
+        "fragBullets": 2,
+        "fragVelocityMin": 0.5,
+        "fragVelocityMax": 1,
+        "fragLifeMin": 0.5,
+        "trailChance": 3,
+        "frontColor": "ffffff",
+        "backColor": "77bfc0"
+      }
+    },
+    {
+      "x": 50,
+      "y": -30,
+      "mirror": true,
+      "rotate": true,
+      "shootY": 8,
+      "cooldownTime": 120,
+      "inaccuracy": 2,
+      "rotationLimit": 180,
+      "reload": 125,
+      "shootSound": "shootForeshadow",
+  "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 1,
+    "spread": 0,
+    "shotDelay": 10,
+    "shots": 3
+  },
+      "bullet": {
+        "type": "BasicBulletType",
+        "removeAfterPierce": false,
+        "ammoMultiplier": 2,
+        "height": 12,
+        "width": 6.5,
+        "pierce": false,
+        "lifetime": 53,
+        "damage": 2065,
+        "speed": 8.5,
+        "lightColor": "77bfc0",
+        "shootEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "WaveEffect",
+              "lifetime": 80,
+              "sizeFrom": 0,
+              "sizeTo": 60,
+              "strokeFrom": 12,
+              "strokeTo": 0,
+              "colorFrom": "77bfc0",
+              "colorTo": "77bfc0"
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 50,
+              "length": 50,
+              "lifetime": 40,
+              "lightColor": "77bfc0",
+              "cone": 360,
+              "colorFrom": "77bfc0",
+              "colorTo": "77bfc0",
+              "lenFrom": 20,
+              "lenTo": 6,
+              "strokeFrom": 6,
+              "strokeTo": 0
+            }
+          ]
+        },
         "trailEffect": {
             "type": "ParticleEffect",
             "particles": 1,
