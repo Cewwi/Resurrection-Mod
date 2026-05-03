@@ -52,5 +52,94 @@
     }
   ],
   "weapons": [
+    {
+      "name": "small-Korroda-gun1",
+      "x": 12,
+      "y": 3,
+      "rotateSpeed": 1.5,
+      "mirror": true,
+      "rotate": true,
+      "shootY": 4,
+      "cooldownTime": 120,
+      "inaccuracy": 2,
+      "rotationLimit": 120,
+      "reload": 15,
+      "shootSound": "shootStell",
+      "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": false,
+      "blending": "additive",
+      "color": "77bfc0",
+      "colorTo": "77bfc0",
+      "outline": false
+    }
+      ],
+      "bullet": {
+        "type": "BasicBulletType",
+        "removeAfterPierce": false,
+        "ammoMultiplier": 2,
+        "height": 12,
+        "width": 6.5,
+        "pierce": false,
+        "lifetime": 53,
+        "damage": 65,
+        "speed": 8.5,
+        "lightColor": "77bfc0",
+        "trailEffect": {
+            "type": "ParticleEffect",
+            "particles": 1,
+            "length": 1,
+            "baseLength": 1,
+            "lifetime": 75,
+            "interp": "circleOut",
+            "cone": 360,
+            "lightOpacity": 0.7,
+            "lightRadius": 12,
+            "offset": 0,
+            "lightColor": "77bfc0",
+            "colorFrom": "77bfc0",
+            "colorTo": "3b5b85",
+            "sizeFrom": 2,
+            "sizeTo": 0
+        },
+        "hitEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 12,
+              "length": 15,
+              "baseLength": 10,
+              "lifetime": 18,
+              "lightColor": "77bfc0",
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "77bfc0",
+              "colorTo": "3b5b85",
+              "sizeFrom": 4,
+              "sizeTo": 0
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 10,
+              "sizeFrom": 0,
+              "sizeTo": 10,
+              "strokeFrom": 6,
+              "strokeTo": 0,
+              "colorFrom": "77bfc0",
+              "colorTo": "3b5b85"
+            }
+          ]
+        },
+        "lightOpacity": 0.7,
+        "lightRadius": 12,
+        "trailColor": "77bfc0",
+        "trailLength": 30,
+        "trailWidth": 1.25
+      }
+    }
   ]
 }
