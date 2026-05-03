@@ -435,10 +435,8 @@
       "y": -22,
       "mirror": true,
       "rotate": true,
-      "shootY": 8,
-      "cooldownTime": 120,
+      "shootY": 0,
       "inaccuracy": 2,
-      "rotationLimit": 180,
       "reload": 125,
       "shootSound": "shootForeshadow",
   "shoot": {
@@ -450,9 +448,7 @@
   },
       "bullet": {
         "type": "BasicBulletType",
-        "sprite": "casing",
         "removeAfterPierce": false,
-        "ammoMultiplier": 2,
         "height": 30,
         "width": 3,
         "pierce": false,
@@ -476,8 +472,8 @@
             {
               "type": "ParticleEffect",
               "line": true,
-              "particles": 50,
-              "length": 50,
+              "particles": 25,
+              "length": 120,
               "lifetime": 20,
               "lightColor": "77bfc0",
               "cone": 360,
@@ -485,7 +481,7 @@
               "colorTo": "77bfc0",
               "lenFrom": 20,
               "lenTo": 6,
-              "strokeFrom": 6,
+              "strokeFrom": 3,
               "strokeTo": 0
             }
           ]
@@ -495,24 +491,40 @@
           "effects": [
             {
               "type": "ParticleEffect",
-              "particles": 6,
-              "length": 25,
+              "particles": 12,
+              "length": 50,
               "baseLength": 10,
-              "lifetime": 25,
+              "lifetime": 45,
               "lightColor": "77bfc0",
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "77bfc0",
               "colorTo": "3b5b85",
-              "sizeFrom": 6,
+              "sizeFrom": 8,
               "sizeTo": 0
             },
             {
-              "type": "WaveEffect",
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 12,
               "lifetime": 30,
+              "interp": "circleOut",
+              "offset": 5,
+              "length": 120,
+              "lightColor": "77bfc0",
+              "strokeFrom": 6,
+              "strokeTo": 0,
+              "lenFrom": 20,
+              "lenTo": 5,
+              "colorFrom": "77bfc0",
+              "colorTo": "3b5b85"
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 25,
               "sizeFrom": 0,
-              "sizeTo": 15,
-              "strokeFrom": 8,
+              "sizeTo": 45,
+              "strokeFrom": 25,
               "strokeTo": 0,
               "colorFrom": "77bfc0",
               "colorTo": "3b5b85"
