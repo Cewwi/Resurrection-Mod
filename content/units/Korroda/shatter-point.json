@@ -10,6 +10,8 @@
   "legMoveSpace": 0.9,
   "legPairOffset": 2,
   "fogRadius": 30,
+  "lightRadius": 250,
+  "lightColor": "77bfc0",
   "hovering": false,
   "legContinuousMove": true,
   "faceTarget": true,
