@@ -89,6 +89,48 @@
   ],
   "weapons": [
     {
+      "type": "RepairBeamWeapon",
+      "x": 50,
+      "y": -22,
+      "shootY": 0,
+      "reload": 20,
+      "rotate": false,
+      "beamWidth": 0.4,
+      "controllable": false,
+      "autoTarget": true,
+      "mirror": false,
+      "repairSpeed": 0.3,
+      "fractionRepairSpeed": 0.2,
+      "targetBuildings": true,
+      "laserColor": "77bfc0",
+      "healColor": "77bfc0",
+      "bullet": {
+        "maxRange": 40,
+        "speed": 3
+      }
+    },
+    {
+      "type": "RepairBeamWeapon",
+      "x": -50,
+      "y": -22,
+      "shootY": 0,
+      "reload": 20,
+      "rotate": false,
+      "beamWidth": 0.4,
+      "controllable": false,
+      "autoTarget": true,
+      "mirror": false,
+      "repairSpeed": 0.3,
+      "fractionRepairSpeed": 0.2,
+      "targetBuildings": true,
+      "laserColor": "77bfc0",
+      "healColor": "77bfc0",
+      "bullet": {
+        "maxRange": 40,
+        "speed": 3
+      }
+    },
+    {
       "name": "small-Korroda-gun1",
       "x": -20,
       "y": 6,
