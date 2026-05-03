@@ -1,9 +1,9 @@
 {
   "type": "legs",
   "legCount": 4,
-  "legLength": 80,
+  "legLength": 120,
   "legSpeed": 0.5,
-  "legExtension": -13.5,
+  "legExtension": -33.5,
   "legForwardScl": 0.2,
   "envDisabled": 0,
   "legBaseOffset": 5,
@@ -24,6 +24,18 @@
   "drag": 0.4,
   "outlineColor": "0C0D1BFF",
   "alwaysUnlocked": false,
+  "parts": [
+    {
+      "type": "RegionPart",
+      "suffix": "-glow",
+      "layer": -1,
+      "mirror": false,
+      "blending": "additive",
+      "color": "d2eadd",
+      "colorTo": "77bfc0",
+      "outline": false
+    }
+  ],
   "weapons": [
   ]
 }
