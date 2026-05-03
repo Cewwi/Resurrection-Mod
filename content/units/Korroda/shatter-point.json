@@ -26,8 +26,10 @@
   "hitSize": 58,
   "groundLayer": 87,
   "drag": 0.4,
+  "stepSound": "walkerStep",
   "outlineColor": "12131f",
   "alwaysUnlocked": false,
+  "stepSoundVolume": 1.5,
   "rotateSpeed": 2.75,
   "floorMultiplier": 0,
   "immunities": [
