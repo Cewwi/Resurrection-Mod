@@ -7,6 +7,7 @@
   "layer": 112,
   "solid": true,
   "instantDeconstruct": false,
+  "placeableOn": false,
   "lobesMax": "5",
   "lobesMin": "5",
   "emitLight": true,
