@@ -1,35 +1,18 @@
 {
   "localizedName": "Core: [#77bfc0]Cultivation[]",
   "type": "CoreBlock",
-  "description": "[#77bfc0]Being the single place the Cultivation resides, this core is heavily armored[]",
-  "details": "Once constructed, the core shook the very layers of tronoe. As for the New Order, there was no longer hope for their survival. with one last act of desperation, they sent their brightest to the world of Nevorix. After The Harbingers fell to large scale rebellions, the core was sent to a remote location deep within the forth layer of tronoe, never to be seen again.",
+  "description": "This core, alongside it's unit, was creating from the brilliant mind of [#77bfc0]Korroda Xavier[]. [#77bfc0]Xavier[] was a smart man, responsible for the creation of most of Tronoe's larger units, such as the annihilate. When the war for Tronoe’s future begun, he was tasked with creation a machine capable of pushing their production to maximum efficiency, removing any obstructions. At first he refused. He knew such a thing had a chance to factor in their race as an obstruction, even if he specifically told it not to. But in fear of execution he reluctantly created their near flawless schematics. He gave his last warnings, left without a trace. He gotten threats many times before, but this was his breaking point. They were foolish, nieve not to heed his warnings. They brought their annihilation upon themselves.",
+  "details": "This core, alongside it's unit, was creating from the brilliant mind of [#77bfc0]Korroda Xavier[]. [#77bfc0]Xavier[] was a smart man, responsible for the creation of most of Tronoe's larger units, such as the annihilate. When the war for Tronoe’s future begun, he was tasked with creation a machine capable of pushing their production to maximum efficiency, removing any obstructions. At first he refused. He knew such a thing had a chance to factor in their race as an obstruction, even if he specifically told it not to. But in fear of execution he reluctantly created their near flawless schematics. He gave his last warnings, left without a trace. He gotten threats many times before, but this was his breaking point. They were foolish, nieve not to heed his warnings. They brought their annihilation upon themselves.",
   "health": 1200000,
   "squareSprite": false,
   "size": 16,
   "armor": 75,
   "itemCapacity": 7500000,
   "unitCapModifier": 250,
+  "lightColor": "77bfc0",
   "researchCostMultiplier": 2,
   "requiresCoreZone": true,
   "unitType": "shatter-point",
-  "abilities": [
-    {
-      "type": "EnergyFieldAbility",
-      "color": "77bfc0",
-      "maxTargets": 25,
-      "damage": 25,
-      "healPercent": 2,
-      "x": 0,
-      "y": 0,
-      "range": 1500,
-      "sectors": 4,
-      "rotateSpeed": -5,
-      "hitBuildings": true,
-      "sectorRad": 0.10,
-      "effectRadius": 15,
-      "reload": 50
-    }
-  ],
   "requirements": [
     "carborundum/5000",
     "Gavolite/8500",
