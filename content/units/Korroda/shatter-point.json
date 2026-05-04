@@ -16,6 +16,7 @@
   "lightColor": "77bfc0",
   "hovering": true,
   "legContinuousMove": true,
+  "groundLayer": "85",
   "faceTarget": true,
   "name": "Shatter Point",
   "description": "[#77bfc0]Shatter Point[], a large quadruped mech able to fire stunning bolts of energy at enemy targets. Due to it's unique design, this mech is able to walk on water for longer periods of time. This core unit must be defending something big.",
