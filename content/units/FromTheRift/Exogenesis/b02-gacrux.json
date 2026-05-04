@@ -12,6 +12,7 @@
   "hitSize": 12,
   "armor": 3,
   "itemCapacity": 10,
+  "lightColor": "A9D8FFFF",
   "engineOffset": 10.5,
   "outlineColor": "36363c",
   "range": 180,
@@ -26,7 +27,7 @@
       "x": 0,
       "y": 0,
       "mirror": false,
-      "shootSound": "laser",
+      "shootSound": "shootLancer",
       "reload": 40,
       "bullet": {
         "hitEffect": {
