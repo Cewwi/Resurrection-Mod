@@ -1,6 +1,6 @@
 {
   "type": "Floor",
-  "name": "Statastone Floor",
+  "name": "Growth Floor",
   "variants": 3,
   "walkSound ": "stepMud"
 }
