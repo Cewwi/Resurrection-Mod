@@ -25,7 +25,7 @@
   "armor": 25,
   "speed": 2.25,
   "hitSize": 58,
-  "mineRange": 120,
+  "mineRange": 180,
   "layer": 115,
   "drag": 0.8,
   "stepSoundVolume": 1.5,
