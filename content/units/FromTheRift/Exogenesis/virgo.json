@@ -1,7 +1,7 @@
 {
   "name": "Virgo",
   "groundLayer": 75,
-  "description": "UNIT INDENTIFICATION: [#3192ff]EXOGENESIS[]   Shoots plasma flames which mess with power blocks and fires energy missiles. Uses a massive shield.",
+  "description": "UNIT INDENTIFICATION: [#3192ff]EXOGENESIS[]                                     Shoots plasma flames which mess with power blocks and fires energy missiles. Uses a massive shield.",
   "details": "Another machine that emerged from the rift. The ones who constructed it go by 'Gemini deviation'. It seems to have been used as heavy support unit until it arrived here.",
   "singleTarget": true,
   "drawShields": false,
