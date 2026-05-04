@@ -30,6 +30,8 @@
   "visualElevation": 0.65,
   "allowLegStep": true,
   "hovering": true,
+  "stepSoundVolume": 1.5,
+  "stepSound": "walkerStep",
   "immunities": [
     "burning",
     "melting",
@@ -57,7 +59,7 @@
       "shootCone": 25,
       "shootY": 10,
       "reload": 6,
-      "shootSound": "flame",
+      "shootSound": "shootFlame",
       "bullet": {
         "type": "EmpBulletType",
         "sprite": "circle-bullet",
@@ -227,7 +229,7 @@
       "shootY": 0,
       "inaccuracy": 6,
       "shotDelay": 1,
-      "shootSound": "missile",
+      "shootSound": "shootMissile",
       "bullet": {
         "keepVelocity": false,
         "type": "MissileBulletType",
