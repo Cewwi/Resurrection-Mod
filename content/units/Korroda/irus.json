@@ -16,12 +16,12 @@
   ],
   "weapons": [
     {
-      "name": "irus-Cannon",
+      "name": "irus-cannon",
       "y": 0,
-      "x": 5,
+      "x": 15,
       "top": false,
-      "shooty": 5,
-      "reload": 5,
+      "shooty": 15,
+      "reload": 15,
       "rotateSpeed": 1.5,
       "mirror": true,
       "alternate": true,
