@@ -15,7 +15,7 @@
       "name": "Voltage-cannon",
       "y": 0,
       "x": 5,
-      "shooty": 3,
+      "shootY": 3,
       "reload": 24,
       "alternate": true,
       "mirror": true,

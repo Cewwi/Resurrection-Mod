@@ -15,7 +15,7 @@
       "name": "Surge-catipult",
       "y": -2,
       "x": 0,
-      "shooty": 4,
+      "shootY": 4,
       "reload": 40,
       "alternate": false,
       "mirror": false,

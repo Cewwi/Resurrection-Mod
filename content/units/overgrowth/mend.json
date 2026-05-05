@@ -47,7 +47,7 @@
       "name": "Warden-T2-weapon",
       "x": 7,
       "y": 0,
-      "shooty": 12,
+      "shootY": 12,
       "reload": 60,
       "alternate": true,
       "mirror": true,

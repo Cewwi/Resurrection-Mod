@@ -601,7 +601,7 @@
   "name": "T7-TC-ATLAS-MISSILE-SILO",
     "x": "20",
     "y": "15",
-    "shooty": "10",
+    "shootY": "10",
     "top": true,
     "reload": "250",
     "alternate": "true",

@@ -37,7 +37,7 @@ weapons: [
    {
     x: 0
     y: 0
-    shooty: 0
+    shootY: 0
     reload: 30
     alternate: false
     mirror: false

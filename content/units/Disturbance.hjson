@@ -112,7 +112,7 @@ weapons: [
    {
     x: 10
     y: 3
-    shooty: 8
+    shootY: 8
     reload: 200
     alternate: false
     mirror: true
