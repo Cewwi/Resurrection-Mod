@@ -41,7 +41,7 @@
         "pierce": false,
         "lifetime": 53,
         "damage": 35,
-        "speed": 8.5,
+        "speed": 4.5,
         "lightColor": "77bfc0",
         "trailEffect": {
             "type": "ParticleEffect",
