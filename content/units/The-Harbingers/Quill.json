@@ -11,7 +11,7 @@
 "lightRadius": 100,
 "speed": 0.75,
 "hitSize": 10,
-"health": 575,
+"health": 975,
 "fogRadius": 20,
 "crushDamage": 0.2,
 "drownTimeMultiplier": 2,

@@ -1,92 +1,46 @@
 {
-  "type": "legs",
-  "legCount": 4,
-  "legLength": 43,
-  "legSpeed": 0.5,
-  "legExtension": -11.5,
-  "legForwardScl": 0.2,
-  "envDisabled": 0,
-  "legBaseOffset": 5,
-  "legMoveSpace": 0.9,
-  "legPairOffset": 2,
-  "fogRadius": 35,
-  "lightRadius": 150,
-  "lightColor": "77bfc0",
-  "hovering": true,
-  "legContinuousMove": true,
-  "faceTarget": true,
-  "name": "Shock",
-  "description": "Fires a burst of 3 homing bolts. Unaffected by liquid drag",
-  "details": "I call it a rug.",
-  "health": 2500,
-  "armor": 8,
-  "speed": 1.2,
-  "layerOffset": -0.00001,
-  "hitSize": 18,
-  "drag": 0.4,
-  "stepSound": "walkerStepSmall",
+  "type": "mech",
+  "name": "Irus",
+  "description": "Fires piercing bolts.",
+  "speed": 1.6,
+  "flying": false,
+  "health": 750,
+  "armor": 5,
+  "hitSize": 25,
   "outlineColor": "12131f",
-  "alwaysUnlocked": false,
-  "stepSoundVolume": 0.75,
-  "rotateSpeed": 2.75,
-  "floorMultiplier": 0,
+  "rotateSpeed": 2,
+  "mechLegColor": "12131f",
   "immunities": [
     "shocked",
-    "electrified",
-    "wet"
-  ],
-  "parts": [
-    {
-      "type": "RegionPart",
-      "suffix": "-glow",
-      "layer": -1,
-      "mirror": false,
-      "blending": "additive",
-      "color": "77bfc0",
-      "colorTo": "77bfc0",
-      "outline": false
-    }
+    "electrified"
   ],
   "weapons": [
     {
-      "name": "small-Korroda-gun1",
-      "x": 0,
-      "y": -6,
-      "rotateSpeed": 2.5,
-      "mirror": false,
-      "rotate": true,
-      "shootY": 8,
-      "cooldownTime": 120,
-      "inaccuracy": 10,
-      "rotationLimit": 200,
-      "reload": 10,
+      "name": "irus-Cannon",
+      "y": 0,
+      "x": 5,
+      "top": false,
+      "shooty": 5,
+      "reload": 5,
+      "rotateSpeed": 1.5,
+      "mirror": true,
+      "alternate": true,
+      "cooldownTime": 90,
+      "rotationLimit": 25,
+      "rotate": true, 
+      "inaccuracy": 2,
       "shootSound": "shootStell",
-  "shoot": {
-    "type": "ShootSpread",
-    "spread": 25,
-    "shots": 3
-  },
-      "parts": [
-    {
-      "type": "RegionPart",
-      "suffix": "-glow",
-      "layer": -1,
-      "mirror": false,
-      "blending": "additive",
-      "color": "77bfc0",
-      "colorTo": "77bfc0",
-      "outline": false
-    }
-      ],
-      "bullet": {
+       "bullet": {
         "type": "BasicBulletType",
         "removeAfterPierce": false,
+        "ammoMultiplier": 2,
+        "buildingDamageMultiplier": 0,
         "height": 12,
         "width": 6.5,
         "pierce": false,
-        "lifetime": 85,
-        "damage": 25,
-        "speed": 3.5,
+        "lifetime": 53,
+        "damage": 35,
+        "speed": 8.5,
         "lightColor": "77bfc0",
         "trailEffect": {
             "type": "ParticleEffect",
@@ -168,12 +122,61 @@
         "trailColor": "77bfc0",
         "trailLength": 10,
         "trailWidth": 1.25,
-        "homingPower": 0.01,
-        "homingRange": 370,
+      "fragOnHit": false,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "fragBullets": 3,
+          "fragVelocityMin": 0.5,
+          "fragVelocityMax": 1,
+          "fragLifeMin": 0.5,
+          "speed": 3,
+          "damage": 15,
+          "width": 10,
+          "hitSize": 6,
+          "fragOnHit": false,
+          "height": 21,
+          "pierce": true,
+          "lifetime": 35,
+          "pierceBuilding": true,
+          "hitColor": "77bfc0",
+          "backColor": "77bfc0",
+          "lightColor": "77bfc0",
+          "trailColor": "77bfc0",
+          "frontColor": "77bfc0",
+          "trailWidth": 2.1,
+          "trailLength": 5,
+          "hitEffect": [
+            {
+              "type": "WaveEffect",
+              "colorFrom": "77bfc0",
+              "colorTo": "77bfc0",
+              "sizeTo": 4,
+              "strokeFrom": 4,
+              "lifetime": 10
+            }
+          ],
+          "despawnEffect": [
+            {
+              "type": "WaveEffect",
+              "colorFrom": "77bfc0",
+              "colorTo": "77bfc0",
+              "sizeTo": 4,
+              "strokeFrom": 4,
+              "lifetime": 10
+            }
+          ],
+          "buildingDamageMultiplier": 0,
+          "homingPower": 0.3
+        },
+        "fragBullets": 2,
+        "fragVelocityMin": 0.5,
+        "fragVelocityMax": 1,
+        "fragLifeMin": 0.5,
         "trailChance": 3,
         "frontColor": "ffffff",
         "backColor": "77bfc0"
       }
     }
-  ]
+  ],
+  "researchCostMultiplier": 2.5
 }
