@@ -34,8 +34,6 @@
        "bullet": {
         "type": "BasicBulletType",
         "removeAfterPierce": false,
-        "ammoMultiplier": 2,
-        "buildingDamageMultiplier": 0,
         "height": 12,
         "width": 6.5,
         "pierce": false,
@@ -168,11 +166,13 @@
               "lifetime": 10
             }
           ],
-          "buildingDamageMultiplier": 0,
+          "buildingDamageMultiplier": 0.5,
           "homingPower": 0.3
         },
         "fragBullets": 2,
         "fragVelocityMin": 0.5,
+        "homingPower": 0.01,
+        "homingRange": 370,
         "fragVelocityMax": 1,
         "fragLifeMin": 0.5,
         "trailChance": 3,
