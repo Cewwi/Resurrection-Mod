@@ -1,11 +1,11 @@
 type: Wall
 name: Large Ordanium Wall
-description: Stronger than a Quartz wall, but takes longer to make.
+description: Protects structures from incoming fire.
 size: 2
 health: 4800
 squareSprite: false
 requirements: [
-  Ordanium/48
+  Ordanium/32
 ]
 research: Ordanium-wall
 category: defense

@@ -1,0 +1,14 @@
+{
+  "type": "Wall",
+  "name": "Huge Tronian Quartz wall",
+  "description": "Protects structures from incoming fire",
+  "size": 3,
+  "health": 8550,
+  "squareSprite": true,
+  "requirements": [
+    "Tronite/54"
+  ],
+  "research": "large-quartz-wall",
+  "category": "defense",
+  "researchCostMultiplier": 2.5
+}

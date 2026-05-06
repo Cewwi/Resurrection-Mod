@@ -1,0 +1,14 @@
+{
+  "type": "Wall",
+  "name": "Huge Ordanium Quartz wall",
+  "description": "Protects structures from incoming fire",
+  "size": 3,
+  "health": 10800,
+  "squareSprite": true,
+  "requirements": [
+    "Tronite/72"
+  ],
+  "research": "T-quartz-wall",
+  "category": "defense",
+  "researchCostMultiplier": 2.5
+}
