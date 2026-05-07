@@ -1,7 +1,7 @@
 {
   "type": "Wall",
   "name": "Thaxon Steel Wall",
-  "description": "Protects structures from incoming fire",
+  "description": "Protects structures from incoming fire. Extremely Tough",
   "size": 1,
   "health": 2500,
   "squareSprite": true,
