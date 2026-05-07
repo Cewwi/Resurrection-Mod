@@ -1,0 +1,15 @@
+{
+  "type": "Wall",
+  "name": "Large Thaxon Steel Wall",
+  "description": "Protects structures from incoming fire",
+  "size": 2,
+  "health": 10000,
+  "squareSprite": true,
+  "requirements": [
+    "Thaxon-Steel/32",
+    "Tronian/48"
+  ],
+  "research": "huge-quartz-wall",
+  "category": "defense",
+  "researchCostMultiplier": 2.5
+}
